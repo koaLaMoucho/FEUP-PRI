@@ -1,4 +1,5 @@
 import csv
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,7 +17,7 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
     writer.writerow(["Episode Number", "Episode Title", "Air Date", "Short Summary", "Long Summary", "Characters", "Fruits"])
 
     
-    for episode_num in range(1, 6):
+    for episode_num in range(284, 287):
         url = f"https://onepiece.fandom.com/wiki/Episode_{episode_num}"
         driver.get(url)
         
@@ -69,16 +70,23 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
             ep_fruits = []
             current_element = ep_long_sum_start
 
+            # Regex pattern to match "*blank* *blank* no Mi" and "*blank* *blank* no Mi, Model: *blank*"
+            fruit_pattern = r'(\w+\s\w+\sno\sMi(?:,\sModel:\s\w+)?)'
+
             # Collect paragraphs until end_header is reached
             while current_element is not None and current_element != end_header:
                 if current_element.tag_name == 'p':
-                    paragraphs.append(current_element.text)
+                    paragraph_text = current_element.text
+                    paragraphs.append(paragraph_text)
 
-                    # a_tags = current_element_short.find_elements(By.TAG_NAME, 'a')
-        
-                    # for a_tag in a_tags:
-                        
-                        # ep_fruits += [a_tag.text for a_tag in a_tags if "no Mi" in a_tag.text]
+                    # Find all matching fruits in the paragraph
+                    fruits_in_paragraph = re.findall(fruit_pattern, paragraph_text)
+                    ep_fruits.extend(fruits_in_paragraph)
+
+                    # teste
+                    if fruits_in_paragraph:
+                        print(f"Fruits found in paragraph: {fruits_in_paragraph}")
+
                 try:
                     current_element = current_element.find_element(By.XPATH, 'following-sibling::*[1]')
                 except Exception:
@@ -108,8 +116,7 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
 
 
             # Write the extracted data to the CSV file
-            writer.writerow([ep_num, ep_title, ep_air_date, ep_short_sum, ep_long_sum, ", ".join(ep_characters)])
-            # , ", ".join(ep_fruits)
+            writer.writerow([ep_num, ep_title, ep_air_date, ep_short_sum, ep_long_sum, ", ".join(ep_characters), ", ".join(ep_fruits)])
 
             print(f"Episode {episode_num} data written to CSV")
 
