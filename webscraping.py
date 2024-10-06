@@ -17,7 +17,7 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
     writer.writerow(["Episode Number", "Episode Title", "Air Date", "Short Summary", "Long Summary", "Characters", "Fruits"])
 
     
-    for episode_num in range(792, 1120):
+    for episode_num in range(1, 1121):
         url = f"https://onepiece.fandom.com/wiki/Episode_{episode_num}"
         driver.get(url)
         
