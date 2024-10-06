@@ -17,7 +17,7 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
     writer.writerow(["Episode Number", "Episode Title", "Air Date", "Short Summary", "Long Summary", "Characters", "Fruits"])
 
     
-    for episode_num in range(284, 287):
+    for episode_num in range(792, 1120):
         url = f"https://onepiece.fandom.com/wiki/Episode_{episode_num}"
         driver.get(url)
         
@@ -81,6 +81,7 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
 
                     # Find all matching fruits in the paragraph
                     fruits_in_paragraph = re.findall(fruit_pattern, paragraph_text)
+                    fruits_in_paragraph = [fruit.replace(",", "") for fruit in fruits_in_paragraph]
                     ep_fruits.extend(fruits_in_paragraph)
 
                     # teste
