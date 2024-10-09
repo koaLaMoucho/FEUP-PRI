@@ -1,11 +1,12 @@
 import csv
 import re
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
+"""
 driver = webdriver.Chrome()
 csv_file = "onepiece_episodes.csv"
 cookies_accepted = False
@@ -126,3 +127,64 @@ with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
 
 
 driver.quit()
+"""
+# Initialize the WebDriver
+driver = webdriver.Chrome()
+
+# CSV file to save the ratings
+all_ratings = []
+
+# Loop through pages with offsets in increments of 100 (until offset 1100)
+for offset in range(0, 1200, 100):
+    # Navigate to the target URL with the current offset
+    url = f'https://myanimelist.net/anime/21/One_Piece/episode?offset={offset}'
+    print(f"Scraping {url}")
+    driver.get(url)
+    
+    try:
+        # Wait until the table is present
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, '//table'))
+        )
+
+        # Find all `td` elements with class `episode-poll ac nowrap scored`
+        rating_elements = driver.find_elements(By.XPATH, '//td[contains(@class, "episode-poll")]//div[@class="average"]//span[@class="value"]')
+        
+       
+        # Loop through all the ratings and extract the text
+        for index, rating_element in enumerate(rating_elements, start=offset+1):
+            rating = rating_element.text
+            all_ratings.append((index, rating))
+            print(f"Episode {index}: Rating {rating}")
+            
+        # Small sleep to avoid overwhelming the server
+        time.sleep(2)
+        
+    except Exception as e:
+        print(f"Error while extracting ratings for offset {offset}: {e}")
+
+# Close the WebDriver
+driver.quit()
+
+
+print(all_ratings)
+
+csv_file = "onepiece_allepisodes.csv"
+updated_csv_file = "onepiece_allepisodes_with_ratings.csv"
+# Print all the ratings
+with open(csv_file, mode='r', encoding='utf-8') as infile, open(updated_csv_file, mode='w', newline='', encoding='utf-8') as outfile:
+    reader = csv.reader(infile)
+    writer = csv.writer(outfile)
+    
+    # Read and write the header with the new "Rating" column
+    header = next(reader)
+    header.append("Rating")
+    writer.writerow(header)
+    
+    # Write the rest of the data along with the ratings
+    for i, row in enumerate(reader):
+        if i < len(all_ratings):
+            row.append(all_ratings[i][1])  # Append the rating to the row
+        else:
+            row.append("")  # In case there are more rows than ratings
+        writer.writerow(row)
