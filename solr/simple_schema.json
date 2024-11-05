@@ -1,0 +1,87 @@
+{
+    "add-field-type": [
+      {
+        "name": "text_general",
+        "class": "solr.TextField",
+        "indexAnalyzer": {
+          "tokenizer": {
+            "class": "solr.StandardTokenizerFactory"
+          },
+          "filters": [
+            { "class": "solr.LowerCaseFilterFactory" },
+            { "class": "solr.StopFilterFactory", "ignoreCase": true }, 
+            { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true }
+          ]
+        },
+        "queryAnalyzer": {
+          "tokenizer": {
+            "class": "solr.StandardTokenizerFactory"
+          },
+          "filters": [
+            { "class": "solr.LowerCaseFilterFactory" },
+            { "class": "solr.StopFilterFactory", "ignoreCase": true },
+            { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true }
+          ]
+        }
+      },
+      {
+        "name": "date",
+        "class": "solr.DatePointField"
+      },
+      {
+        "name": "float",
+        "class": "solr.FloatPointField"
+      },
+      {
+        "name": "string",
+        "class": "solr.StrField",
+        "sortMissingLast": true,
+        "omitNorms": true
+      }
+    ],
+    "add-field": [
+      {
+        "name": "id",
+        "type": "string",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "title",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "air_date",
+        "type": "date",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "short_summary",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "long_summary",
+        "type": "text_general",
+        "indexed": true,
+        "stored": false
+      },
+      {
+        "name": "characters",
+        "type": "text_general",
+        "multiValued": true,
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "rating",
+        "type": "float",
+        "indexed": false,
+        "stored": true
+      }
+    ]
+  }
