@@ -1,0 +1,53 @@
+{
+    
+    "add-field-type": [
+        {
+            "name":"textfield",
+            "class":"solr.TextField"
+        }],
+        "add-field":[{
+        "name": "episode_id",
+        "type": "textfield",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "title",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "air_date",
+        "type": "string",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "short_summary",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "long_summary",
+        "type": "text_general",
+        "indexed": true,
+        "stored": false
+      },
+      {
+        "name": "characters",
+        "type": "text_general",
+        "multiValued": true,
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "rating",
+        "type": "string",
+        "indexed": true,
+        "stored": true
+      }
+    ]
+  }
+  
