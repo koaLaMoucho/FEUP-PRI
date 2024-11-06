@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema name="one-piece" version="1.6">
+  <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+  <field name="title" type="string" indexed="true" stored="true" multiValued="true" />
+  <field name="air_date" type="date" indexed="true" stored="true" multiValued="false" />
+  <field name="short_summary" type="text_general" indexed="true" stored="true" multiValued="false" />
+  <field name="characters" type="string" indexed="true" stored="true" multiValued="true" />
+  <field name="fruits" type="string" indexed="true" stored="true" multiValued="true" />
+  <field name="rating" type="float" indexed="true" stored="true" multiValued="false" />
+
+  <uniqueKey>id</uniqueKey>
+
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+  <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="date" class="solr.DatePointField" docValues="true" />
+  <fieldType name="float" class="solr.FloatPointField" docValues="true"/>
+</schema>
