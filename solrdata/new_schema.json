@@ -1,0 +1,79 @@
+{
+	"add-field-type": [
+		{
+			"name": "comma_delimited",
+			"class": "solr.TextField",
+			"positionIncrementGap": "100",
+			"analyzer": {
+				"tokenizer": {
+					"class": "solr.PatternTokenizerFactory",
+					"pattern": ","
+				},
+				"filters": [
+					{ "class": "solr.SynonymFilterFactory", "synonyms": "synonyms.txt", "expand": "true", "ignoreCase": "true" },
+					{ "class": "solr.StopFilterFactory", "words": "stopwords.txt", "ignoreCase": "true" },
+					{ "class": "solr.LowerCaseFilterFactory" },
+					{ "class": "solr.EdgeNGramFilterFactory", "minGramSize": "3", "maxGramSize": "15" },
+					{ "class": "solr.PorterStemFilterFactory" },
+					{ "class": "solr.ShingleFilterFactory", "minShingleSize": "2", "maxShingleSize": "3", "outputUnigrams": "true", "outputUnigramsIfNoShingles": "true"},
+					{ "class": "solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt", "expand": "true", "ignoreCase": "true"}
+				]
+			}
+		},
+		{
+			"name": "date",
+			"class": "solr.TrieDateField"
+		},
+		{
+			"name": "float",
+			"class": "solr.TrieFloatField"
+		}
+	],
+	"add-field": [
+		{
+			"name": "title",
+			"type": "text_general",
+			"indexed": true,
+			"stored": true,
+			"multiValued": false
+		},
+		{
+			"name": "air_date",
+			"type": "text_general",
+			"indexed": true,
+			"stored": true
+		},
+		{
+			"name": "short_summary",
+			"type": "text_general",
+			"indexed": true,
+			"stored": true
+		},
+		{
+			"name": "long_summary",
+			"type": "text_general",
+			"indexed": true,
+			"stored": true
+		},
+		{
+			"name": "characters",
+			"type": "comma_delimited",
+			"indexed": true,
+			"stored": true,
+			"multiValued": true
+		},
+		{
+			"name": "fruits",
+			"type": "comma_delimited",
+			"indexed": true,
+			"stored": true,
+			"multiValued": true
+		},
+		{
+			"name": "rating",
+			"type": "float",
+			"indexed": true,
+			"stored": true
+		}
+	]
+}
