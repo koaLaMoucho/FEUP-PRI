@@ -1,0 +1,17 @@
+{
+    "query": "title:(Zoro^2 fights) OR short_summary:(Zoro^2 fights) OR long_summary:(Zoro^2 fights) OR characters:(Zoro^2 fights) OR air_date:(Zoro^2 fights) OR fruits:(Zoro^2 fights)",
+    "fields": "*,score",
+    "params": {
+        "defType": "edismax",
+        "q.op": "AND",
+        "sort": "score desc",
+        "fl": "*,score",
+        "qf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
+        "pf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
+        "ps": 2,
+        "rows": 40
+    }
+}
+
+
+

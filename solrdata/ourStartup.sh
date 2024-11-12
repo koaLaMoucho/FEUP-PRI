@@ -16,12 +16,12 @@ docker exec meic_solr cp /data/my_synonyms.txt /var/solr/data/priProj/conf/
 
 # Schema definition via API
 # Entrar no cd solrData
-#curl -X POST -H 'Content-type:application/json' --data-binary "@./onePieceSchema.json" http://localhost:8983/solr/priProj/schema
-curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.json" http://localhost:8983/solr/priProj/schema
+curl -X POST -H 'Content-type:application/json' --data-binary "@./onePieceSchema.json" http://localhost:8983/solr/priProj/schema
+#curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.json" http://localhost:8983/solr/priProj/schema
 
 #sair do cd solrData
 # Populate collection using mapped path inside container.
-docker exec -it meic_solr bin/post -c priProj /data/data_test.json
+docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json
 
 
 ## unrelated commands
@@ -31,3 +31,6 @@ docker exec -it meic_solr bin/post -c priProj /data/data_test.json
 
 # get information about the field type
 # curl -X GET http://localhost:8983/solr/courses/schema/fieldtypes/<fieldType>
+
+#correr querys
+# # ./06-evaluation/scripts/query_solr.py --query solrdata/config/query1.json --uri http://localhost:8983/solr --collection priProj > solrdata/config/query1_results.json
