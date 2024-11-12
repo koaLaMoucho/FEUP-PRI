@@ -2,7 +2,7 @@
 # u might need to run "sed -i -e 's/\r$//' ourStartup.sh" to remove windows line endings and execute the script
 
 # This script expects a container started with the following command.
-#docker run -p 8983:8983 --name meic_solr -v ${PWD}:/data -d solr:9 solr-precreate priProj
+# docker run -p 8983:8983 --name meic_solr -v ${PWD}:/data -d solr:9 solr-precreate priProj
 
 # command to delete a collection
 docker exec meic_solr bin/solr delete -c priProj
@@ -10,6 +10,8 @@ docker exec meic_solr bin/solr delete -c priProj
 # command to create a collection
 docker exec meic_solr bin/solr create -c "priProj"
 
+# add synonyms file to solr config folder to be retrieved by schema
+# the first path depends on what folder is mounted to the container
 docker exec meic_solr cp /data/my_synonyms.txt /var/solr/data/priProj/conf/
 
 # Schema definition via API
@@ -20,3 +22,12 @@ curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.jso
 #sair do cd solrData
 # Populate collection using mapped path inside container.
 docker exec -it meic_solr bin/post -c priProj /data/data_test.json
+
+
+## unrelated commands
+
+# get the details of a field
+# curl -X GET http://localhost:8983/solr/courses/schema/fields/title
+
+# get information about the field type
+# curl -X GET http://localhost:8983/solr/courses/schema/fieldtypes/<fieldType>
