@@ -12,7 +12,8 @@ docker exec meic_solr bin/solr create -c "priProj"
 # Schema definition via API
 # Entrar no cd solrData
 curl -X POST -H 'Content-type:application/json' --data-binary "@./onePieceSchema.json" http://localhost:8983/solr/priProj/schema
-# curl -X POST -H 'Content-type:application/xml' --data-binary "@./one_piece_schema.xml" http://localhost:8983/solr/priProj/schema
+#curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.json" http://localhost:8983/solr/priProj/schema
+
 
 #sair do cd solrData
 # Populate collection using mapped path inside container.
