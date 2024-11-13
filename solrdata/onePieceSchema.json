@@ -45,7 +45,7 @@
       "name": "long_summary",
       "type": "text_general",
       "indexed": true,
-      "stored": false
+      "stored": true
     },
     {
       "name": "characters",

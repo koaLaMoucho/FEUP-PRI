@@ -47,7 +47,8 @@
 			{
 			  "class": "solr.SynonymGraphFilterFactory",
 			  "synonyms": "my_synonyms.txt",
-			  "ignoreCase": "true"
+			  "ignoreCase": "true",
+			  "expand": "false"
 			},
 			{
 			  "class": "solr.StopFilterFactory"
@@ -60,7 +61,7 @@
 			},
 			{
 			  "class": "solr.EdgeNGramFilterFactory",
-			  "minGramSize": "3",
+			  "minGramSize": "5",
 			  "maxGramSize": "15"
 			},
 			{
