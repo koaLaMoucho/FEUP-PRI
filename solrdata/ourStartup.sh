@@ -31,3 +31,18 @@ docker exec -it meic_solr bin/post -c priProj /data/data_test.json
 
 # get information about the field type
 # curl -X GET http://localhost:8983/solr/courses/schema/fieldtypes/<fieldType>
+
+# get query response
+# python ./scripts/query_solr.py --query config/query_sys1.json --uri http://localhost:8983/solr --collection courses > config/query_sys1_response.json
+# convert it to TREC 
+# cat config/query_sys1_response.json | python ./scripts/solr2trec.py > results_sys1_trec.txt
+# or do a single command to get the query response and convert it to TREC
+# python ./scripts/query_solr.py --query config/query_sys1.json --uri http://localhost:8983/solr --collection courses | python ./scripts/solr2trec.py > results_sys1_trec.txt
+# 
+
+# convert qrels to TREc
+# cat config/qrels.txt | ./scripts/qrels2trec.py > qrels_trec.txt
+
+# get evaluation
+# trec_eval qrels_trec.txt results_sys1_trec.txt
+

@@ -46,7 +46,7 @@
 			},
 			{
 			  "class": "solr.SynonymGraphFilterFactory",
-			  "synonyms": "synonyms.txt",
+			  "synonyms": "my_synonyms.txt",
 			  "ignoreCase": "true"
 			},
 			{
