@@ -1,5 +1,5 @@
 {
-    "query": "Zoro^4 fights",
+    "query": "Straw Hat crew new location",
     "fields": "*,score",
     "params": {
         "defType": "edismax",
@@ -8,11 +8,8 @@
         "fl": "*,score",
         "qf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
         "pf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
-        "ps": 2,
-        "qs":2,
+        "ps": 3,
+        "qs": 3,
         "rows": 40
     }
 }
-
-
-
