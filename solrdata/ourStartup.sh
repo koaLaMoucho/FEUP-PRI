@@ -34,15 +34,26 @@ docker exec -it meic_solr bin/post -c priProj /data/data_test.json
 
 # get query response
 # python ./scripts/query_solr.py --query config/query_sys1.json --uri http://localhost:8983/solr --collection courses > config/query_sys1_response.json
+
+
 # convert it to TREC 
 # cat config/query_sys1_response.json | python ./scripts/solr2trec.py > results_sys1_trec.txt
+# from the git root folder
+# cat ./solrdata/config/query5_results_basic.json | python ./06-evaluation/scripts/solr2trec.py > ./solrdata/config/temp/results5_basic_trec.txt
+
 # or do a single command to get the query response and convert it to TREC
 # python ./scripts/query_solr.py --query config/query_sys1.json --uri http://localhost:8983/solr --collection courses | python ./scripts/solr2trec.py > results_sys1_trec.txt
 # 
 
 # convert qrels to TREc
 # cat config/qrels.txt | ./scripts/qrels2trec.py > qrels_trec.txt
+# from the git root folder
+# cat ./solrdata/config/query5_rel.txt | python ./06-evaluation/scripts/qrels2trec.py > ./solrdata/config/temp/query5_trec.txt
 
 # get evaluation
+# must be run in a linux environment
 # trec_eval qrels_trec.txt results_sys1_trec.txt
+
+# plot the  Precision-Recall curve
+# cat results_sys1_trec.txt | ./scripts/plot_pr.py --qrels qrels_trec.txt --output prec_rec_sys1.png
 

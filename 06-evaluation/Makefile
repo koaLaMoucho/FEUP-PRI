@@ -45,4 +45,4 @@ trec_eval:
 
 .PHONY: test
 test:
-	python -m unittest discover -s test -p 'test_*.py'
+	python3 -m unittest discover -s test -p 'test_*.py'
