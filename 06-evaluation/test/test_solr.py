@@ -2,7 +2,7 @@ import unittest
 
 import requests
 
-URI = "http://localhost:8983/solr/courses/select"
+URI = "http://localhost:8983/solr/priProj/select"
 
 
 class TestSolr(unittest.TestCase):
@@ -12,6 +12,7 @@ class TestSolr(unittest.TestCase):
         data = {"q": "*:*"}
 
         self.response = requests.post(URI, data=data, headers=headers)
+        #print(self.response.json())
 
     def test_up(self):
         """
@@ -23,7 +24,7 @@ class TestSolr(unittest.TestCase):
         """
         Test if Solr is populated
         """
-        self.assertGreater(len(self.response.json()["response"]["docs"]), 0)
+        self.assertGreater(len(self.response.json()['response']["docs"]), 0)
 
 
 if __name__ == "__main__":
