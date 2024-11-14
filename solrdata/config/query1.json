@@ -1,5 +1,5 @@
 {
-    "query": "Zoro^4 fights",
+    "query": "Zoro is fighting",
     "fields": "*,score",
     "params": {
         "defType": "edismax",
