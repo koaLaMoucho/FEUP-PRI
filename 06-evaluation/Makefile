@@ -45,4 +45,10 @@ trec_eval:
 
 .PHONY: test
 test:
-	python3 -m unittest discover -s test -p 'test_*.py'
+	python -m unittest discover -s test -p 'test_*.py'
+
+run_eval_1:
+	python ./scripts/query_solr.py --query $(QUERY) --collection priProj > $(DEST)/result_1.json
+	cat $(DEST)/result_1.json | python ./scripts/solr2trec.py > $(DEST)/result_1.trec
+	cat $(QRELS) | python ./scripts/qrels2trec.py > $(DEST)/qrels.trec
+	trec_eval $(DEST)/qrels.trec $(DEST)/result_1.trec > $(DEST)/eval_1.txt
