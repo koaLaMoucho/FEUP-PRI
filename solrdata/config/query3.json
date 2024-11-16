@@ -1,5 +1,5 @@
 {
-    "query": "Straw Hat crew~3 OR Straw Hat reunion~4 OR crew reunites~2",
+    "query": "Straw Hat crew reunion",
     "fields": "*,score",
     "params": {
         "defType": "edismax",

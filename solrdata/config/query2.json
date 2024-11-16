@@ -1,5 +1,5 @@
 {
-    "query": "Alabasta~",
+    "query": "pirate ship",
     "fields": "*,score",
     "params": {
         "defType": "edismax",

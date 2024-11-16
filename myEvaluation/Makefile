@@ -72,6 +72,7 @@ run_eval_complex:
 	@cat ./output/result$(QUERY_NUM)_complex.json | python ./scripts/solr2trec.py > ./output/result$(QUERY_NUM)_complex.trec
 	@cat ./config/qrels$(QUERY_NUM).txt | python ./scripts/qrels2trec.py > ./output/qrels$(QUERY_NUM).trec
 	@trec_eval ./output/qrels$(QUERY_NUM).trec ./output/result$(QUERY_NUM)_complex.trec > ./output/eval_$(QUERY_NUM)_complex.txt
+	@cat ./output/result$(QUERY_NUM)_complex.trec | python ./scripts/plot_pr.py --qrels ./output/qrels$(QUERY_NUM).trec --output ./output/prec_rec_q$(QUERY_NUM)_complex.png
 
 run_eval_simple:
 	@if [ -z "$(QUERY_NUM)" ]; then \
@@ -82,6 +83,7 @@ run_eval_simple:
 	@cat ./output/result$(QUERY_NUM)_simple.json | python ./scripts/solr2trec.py > ./output/result$(QUERY_NUM)_simple.trec
 	@cat ./config/qrels$(QUERY_NUM).txt | python ./scripts/qrels2trec.py > ./output/qrels$(QUERY_NUM).trec
 	@trec_eval ./output/qrels$(QUERY_NUM).trec ./output/result$(QUERY_NUM)_simple.trec > ./output/eval_$(QUERY_NUM)_simple.txt
+	@cat ./output/result$(QUERY_NUM)_simple.trec | python ./scripts/plot_pr.py --qrels ./output/qrels$(QUERY_NUM).trec --output ./output/prec_rec_q$(QUERY_NUM)_simple.png
 
 
 run_all_eval:
