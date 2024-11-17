@@ -6,10 +6,7 @@
         "q.op": "AND",
         "sort": "score desc",
         "fl": "*,score",
-        "qf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
-        "pf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
-        "ps": 2,
-        "qs":2,
+        "qf": "title^1 short_summary^1 long_summary^1 characters^1 air_date^1 fruits^1",
         "rows": 40
     }
 }
