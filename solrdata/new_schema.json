@@ -29,6 +29,13 @@
 		}
 	  },
 	  {
+		  "name": "courseVector",
+		  "class": "solr.DenseVectorField",
+		  "vectorDimension": 384,
+		  "similarityFunction": "cosine",
+		  "knnAlgorithm": "hnsw"
+	  },
+	  {
 		"name": "mytext",
 		"class": "solr.TextField",
 		"positionIncrementGap": "100",
@@ -120,6 +127,12 @@
 		"type": "text_general",
 		"indexed": false,
 		"stored": true
+	  },
+	  {
+		  "name": "vector",
+		  "type": "courseVector",
+		  "indexed": true,
+		  "stored": true
 	  }
 	]
 }

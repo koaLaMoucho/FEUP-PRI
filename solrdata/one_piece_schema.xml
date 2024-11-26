@@ -7,6 +7,7 @@
   <field name="characters" type="string" indexed="true" stored="true" multiValued="true" />
   <field name="fruits" type="string" indexed="true" stored="true" multiValued="true" />
   <field name="rating" type="float" indexed="true" stored="true" multiValued="false" />
+  <field name="vector" type="knnVector" dimension="768" />
 
   <uniqueKey>id</uniqueKey>
 
