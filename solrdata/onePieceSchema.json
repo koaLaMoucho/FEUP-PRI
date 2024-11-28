@@ -19,7 +19,15 @@
     {
       "name": "textfield",
       "class": "solr.TextField"
-    }
+    },
+    {
+      "name": "onePieceVector",
+      "class": "solr.DenseVectorField",
+      "vectorDimension": 384,
+      "similarityFunction": "cosine",
+      "knnAlgorithm": "hnsw"
+  }
+
   ],
   "add-field": [
     
@@ -66,6 +74,12 @@
       "type": "mystring",
       "indexed": true,
       "stored": true
+    },
+    {
+        "name": "vector",
+        "type": "onePieceVector",
+        "indexed": true,
+        "stored": true
     }
   ]
 }

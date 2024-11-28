@@ -57,3 +57,6 @@ docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json
 # plot the  Precision-Recall curve
 # cat results_sys1_trec.txt | ./scripts/plot_pr.py --qrels qrels_trec.txt --output prec_rec_sys1.png
 
+
+curl -X POST -H 'Content-type:application/json' --data-binary "@./semantic_one_piece.json" http://localhost:8983/solr/semantic_one_piece/schema
+
