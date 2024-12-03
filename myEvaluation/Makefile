@@ -11,6 +11,9 @@ help:
 	@echo "populate   : populate Solr using docker/data/data.json."
 	@echo "trec_eval  : download trec_eval source code and compile it."
 	@echo "test       : run unit tests."
+	@echo "run_eval_complex QUERY_NUM=<number> : run evaluation for complex schema and query number <number>."
+	@echo "run_eval_simple QUERY_NUM=<number> : run evaluation for simple schema and query number <number>."
+	@echo "run_all_eval : run evaluation for all queries."
 
 .PHONY: style
 style:
