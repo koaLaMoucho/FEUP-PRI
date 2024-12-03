@@ -23,4 +23,4 @@ if __name__ == "__main__":
         document["vector"] = get_embedding(combined_text)
 
     # Output updated JSON to STDOUT
-    json.dump(data, sys.stdout, indent=4, ensure_ascii=False)
+    json.dump(data, sys.stdout, ensure_ascii=True)

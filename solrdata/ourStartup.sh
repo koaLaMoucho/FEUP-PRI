@@ -16,12 +16,12 @@ docker exec meic_solr cp /data/my_synonyms.txt /var/solr/data/priProj/conf/
 
 # Schema definition via API
 # Entrar no cd solrData
-curl -X POST -H 'Content-type:application/json' --data-binary "@./onePieceSchema.json" http://localhost:8983/solr/priProj/schema
-#curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.json" http://localhost:8983/solr/priProj/schema
+#curl -X POST -H 'Content-type:application/json' --data-binary "@./onePieceSchema.json" http://localhost:8983/solr/priProj/schema
+curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.json" http://localhost:8983/solr/priProj/schema
 
 #sair do cd solrData
 # Populate collection using mapped path inside container.
-docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json
+docker exec -it meic_solr bin/post -c priProj /data/semantic_courses.json
 
 
 ## unrelated commands
@@ -56,7 +56,4 @@ docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json
 
 # plot the  Precision-Recall curve
 # cat results_sys1_trec.txt | ./scripts/plot_pr.py --qrels qrels_trec.txt --output prec_rec_sys1.png
-
-
-curl -X POST -H 'Content-type:application/json' --data-binary "@./semantic_one_piece.json" http://localhost:8983/solr/semantic_one_piece/schema
 
