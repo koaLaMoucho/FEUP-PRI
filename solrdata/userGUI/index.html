@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch All Solr Documents</title>
+    <title>Fetch Solr Documents</title>
 </head>
 <body>
-    <h1>Solr Documents</h1>
+    <h1>Search Solr Documents</h1>
     <div>
-        <button onclick="fetchAllDocuments()">Fetch All Documents</button>
+        <input type="text" id="query-input" placeholder="Enter query (e.g., title:luffy)">
+        <button onclick="fetchDocuments()">Fetch Documents</button>
     </div>
+    <section id="documents-container">
+        <!-- The fetched documents will be displayed here -->
+    </section>
+    
     <script>
-        async function fetchAllDocuments() {
+        async function fetchDocuments() {
             try {
-                // Send request to the FastAPI backend to fetch all documents
+                const query = document.getElementById("query-input").value || "*:*"; // Default to all documents if no query entered
+
+                // Send request to the FastAPI backend to fetch filtered documents based on the query
                 const response = await fetch("http://localhost:8000/search", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        q: "*:*", // Query parameter for all documents
+                        q: query, // Use the query entered by the user
                     }),
                 });
 
@@ -30,8 +37,27 @@
 
                 const data = await response.json();
 
-                // Log the results to the console
-                console.log("All Documents:", data);
+                // Log the results to the console (optional)
+                console.log("Filtered Documents:", data);
+
+                // Clear any previous documents from the container
+                const container = document.getElementById("documents-container");
+                container.innerHTML = ""; // Clear previous results
+
+                // Loop through the documents and create <p> elements for each
+                const docs = data.response.docs; // Assuming the Solr response structure has `response.docs` as an array of documents
+                docs.forEach(doc => {
+                    // Create a <p> element for each document
+                    const para = document.createElement("p");
+
+                    // Display only 'id' and 'title' from the document
+                    const documentText = `ID: ${doc.id}, Title: ${doc.title.join(', ')}`;
+                    para.textContent = documentText; // Set the text content of the <p> element
+
+                    // Append the <p> to the container
+                    container.appendChild(para);
+                });
+
             } catch (error) {
                 console.error("Error fetching documents:", error);
             }

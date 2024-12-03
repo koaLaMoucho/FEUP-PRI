@@ -8,14 +8,14 @@ app = FastAPI()
 # Enable CORS to allow frontend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace "*" with the frontend URL in production (e.g., "http://localhost:5500")
+    allow_origins=["*"],  # Allow all origins for now
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Model for the search query (though we're not using it for all documents)
+# Model for the search query
 class SolrQuery(BaseModel):
-    q: str = "*:*"  # This means "match everything"
+    q: str
     q_op: str = "OR"
     core: str = "priProj"
 
@@ -23,18 +23,16 @@ class SolrQuery(BaseModel):
 async def search_solr(query: SolrQuery):
     """
     Endpoint to send search requests to Solr.
-    Returns all documents in the core if no specific query is provided.
     """
     try:
         # Construct the Solr request URL
         solr_uri = f"http://localhost:8983/solr/{query.core}/select"
         
-        # Build the query parameters to get all documents
+        # Build the query parameters
         query_params = {
-            "q": query.q,  # Default to "*:*" to fetch all documents
+            "q": query.q,
             "q.op": query.q_op,
             "wt": "json",  # Specify response format as JSON
-            "rows": 1000  # Adjust the number of rows returned (optional)
         }
 
         # Send the GET request to Solr
