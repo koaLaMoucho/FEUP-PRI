@@ -1,0 +1,1491 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 15,
+    "params": {
+      "json": "{\"query\": \"pirate ship\", \"fields\": \"*,score\", \"params\": {\"defType\": \"edismax\", \"q.op\": \"AND\", \"sort\": \"score desc\", \"fl\": \"*,score\", \"qf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"pf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"ps\": 2, \"qs\": 2, \"rows\": 40}}"
+    }
+  },
+  "response": {
+    "numFound": 174,
+    "start": 0,
+    "maxScore": 46.386917,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "Episode 196",
+        "title": [
+          "Emergency Official Announcement! Notorious Pirate Ship Infiltration!"
+        ],
+        "air_date": "June 20, 2004",
+        "short_summary": [
+          "The Marines are convinced the Going Merry is a ghost ship after it crashes inside their fortress from above. The crew members are scattered around the premises."
+        ],
+        "characters": [
+          "Jonathan",
+          "Mekao",
+          "Drake",
+          "Shinpachi",
+          "Billy",
+          "Jessica",
+          "Tom",
+          "Tony Tony Chopper",
+          "Roronoa Zoro",
+          "Nami",
+          "Sanji",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Nico Robin"
+        ],
+        "rating": "4.4",
+        "long_summary": [
+          "To open Marines are heard singing 'I don't know but I've been told' while patrolling on a bridge. One of them says that he has heard a rumor about how other marines think that their base has gotten soft because they haven't seen action. Another vehemently argued that that is not true.\nMeanwhile a damaged marine warship was being fixed at a dock where workers were complaining that the ship would take a week to fix while another states that they had 3 days. In the background Mekao is seen drinking, muttering that in the old days people used to treat their ships with respect. He then gasped and dropped his bottle as he saw the Going Merry falling from the sky and shouted for everyone to look.\nThe ship is shown falling and Marines sounded the alarm saying that they are under attack from the sky. The Marines then get to their stations and then see the Going Merry and associate it with the Straw Hat Pirates.\nA lower ranking marine then goes and tells Lt. Commander Drake that pirates have invaded. He asks where Comm. Jonathan is, to which he replies he doesn't know.\nJonathan was then shown fishing Usopps's sniper goggles out of the water as he stared at the Going Merry while the Marines tell the Straw hats that resistance is futile and they can't escape.\nIn the kitchen, two cooks were talking about the commotion outside and get slapped with a ladle by the head chef Jessica who yelled at them for wasting time that they could be spent on preparing food for the soldiers at the base.\nJonathan was then shown walking into his office where Drake was waiting for him. Drake asked where he had been as Jonathan threw his fishing rod and hat into Drake's arms saying he didn't catch anything. Drake begins to tell him if he is absent all the time it causes problems, but was stopped by Jonathan. A marine comes to report that all the eyewitnesses claim they saw a ghost and that the ship must be a ghost ship. Drake berated the marine to report something of significance and to only come back with something useful.\nThe Marines started investigating the ship and Jonathan noticed odd things for a 'ghost ship' such as the tea being set out and the books being well kept. Then a marine informs him of treasure that they had found on board. A south bird makes its eerie noise to which Jonathan tells people to calm down as it is just a silly looking bird, to which the bird attacks him and flies away. He told his men to keep up the good work and to continue investigating the 'ghost ship'.\nJonathan, walking with other higher ranked marines, begins to connect the dots about the coffee flavor and color being similar to Jaya coffee, the gold on the ship and the legend of a gold city on Jaya, along with the South Bird saying that its not a ghost ship and that the other men were 'too green' to deal with the situation so he kept up the ghost ship idea. Drake offered to start a searching party which Jonathan immediately shuts down and says to begin searching at first light and warned them to check everyone as they could camouflage themselves to look like marines.\nChopper is shown hiding behind a tree wondering where everyone is. Zoro surfaces in the water and dodges an oncoming ship, while Nami is shown hiding her waver in a field of tall grass. Sanji, hiding in a tree, hopes that Nami and Robin are okay when a patrolling marine shoots at him, claiming he saw a light. As they walk away Sanji got mad saying he can't even smoke in peace to himself. Luffy is seen trying to pick a passage that will lead him to meat wishing he had Chopper with him to smell it for him. Usopp and Robin are shown together as Usopp finds his googles. Robin uses her Devil Fruit to spy on the marines who are talking about the ship being a ghost ship and how the gold must be cursed.\nJonathan, reclining in his office, is seen thinking about who is on board and what jobs they have.\nChopper, to get away from Marines, throws trash out a window to distract them. Nami is wondering where they landed and Robin tells Usopp the main priority is to find out how to escape. Luffy is then shown literally shadowing a marine while Sanji thinks about how stupid he is being and how he never takes things seriously.\nTo end Jonathan is shown wondering why the Straw Hats are at the base and that he will just have to wait and see."
+        ],
+        "_version_": 1817439266101264384,
+        "_root_": "Episode 196",
+        "score": 46.386917
+      },
+      {
+        "id": "Episode 233",
+        "title": [
+          "The Pirate Kidnapping Incident and the Pirate Ship Waits for Death!"
+        ],
+        "air_date": "May 22, 2005",
+        "short_summary": [
+          "Luffy refuses to believe that Galley-La Company cannot repair the Going Merry. The two soon realize that not only is Usopp missing now, but that the two briefcases that were returned to them are empty! Nami decides to head to the Franky House and finds Usopp on the way in a pitiful state. As she heads back to the ship for help, Usopp goes to the Franky House himself."
+        ],
+        "long_summary": [
+          "The episode starts off with Sanji and Chopper sailing back to the merry after failing to find Robin. Sanji questions if Robin not returning has something to do with what Aokiji told them about Robin. They agree if she's ok she will eventually turn up at the Going Merry.\nThe episode shifts to Luffy and Nami who learn that the Merry is irreparable. Luffy and Nami refuse to accept it but they are informed that the \"keel\" of the ship has been damaged too bad to be repaired. (The keel is the bottom part of the boat; it holds the boat together and is basically its backbone.) Luffy and Nami ask if they can build an exact replica, but the carpenters say it's impossible because of the differences in wood type and material across islands. They will need an entirely new ship.\nGovernment officials show up to talk to Iceberg while Nami and Luffy hide. While carrying the suitcases Luffy realizes two are lighter. They open them up and see that 200 million beri is gone. Luffy swears to find the money and runs off in an unknown direction. Nami meanwhile asks where the Franky hideout is and heads in that direction.\nOne the way to the Franky hideout, Nami finds Usopp. It appears he has been beaten up and left on the sidewalk. He cries that he is the one responsible for letting the money slip away and is worried about facing the crew after screwing up. Nami tells him the hideout isn't far away and tells him to stay put. She has to return the money to the Merry first before getting Usopp help. The scene cuts to the Franky family celebrating such a big heist. As they celebrate the door blows up, and behind it is Usopp with his sling shot."
+        ],
+        "characters": [
+          "Sanji",
+          "Tony Tony Chopper",
+          "Nico Robin (flashback)",
+          "Disguised Man (flashback)",
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Nami",
+          "Kaku",
+          "Paulie",
+          "Rob Lucci",
+          "Hattori",
+          "Kalifa",
+          "Iceburg",
+          "Tyrannosaurus",
+          "Kaya (flashback)",
+          "Merry (flashback)",
+          "Peepley Lulu",
+          "Corgi",
+          "Usopp",
+          "Kop",
+          "Kiev",
+          "Zambai",
+          "Tamagon",
+          "Schollzo",
+          "Franky",
+          "Mozu",
+          "Kiwi",
+          "Kairiki Destroyers"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266129575936,
+        "_root_": "Episode 233",
+        "score": 41.71618
+      },
+      {
+        "id": "Episode 203",
+        "title": [
+          "The Missing Pirate Ship! 2nd Round Assault on the Fortress"
+        ],
+        "air_date": "September 19, 2004",
+        "short_summary": [
+          "The crew disguises the Going Merry as a Marine ship so they can get their treasure back. With the gold, they decide they\u2019ll hire a shipwright."
+        ],
+        "characters": [
+          "Drake",
+          "Monkey D. Luffy",
+          "Nami",
+          "Roronoa Zoro",
+          "Usopp",
+          "Sanji",
+          "Tony Tony Chopper",
+          "Nico Robin",
+          "Jonathan",
+          "Shepherd",
+          "Shinpachi",
+          "Jessica",
+          "Billy",
+          "Tom",
+          "Merry (flashback)",
+          "Bell-m\u00e8re (flashback)"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439266108604417,
+        "_root_": "Episode 203",
+        "score": 40.105026
+      },
+      {
+        "id": "Episode 235",
+        "title": [
+          "Quarrel in the Moonlight! The Pirate Ship Trembles in Sadness!"
+        ],
+        "air_date": "June 12, 2005",
+        "short_summary": [
+          "Once they are back on the ship, Luffy has to finally tell Usopp that the Going Merry can no longer be repaired and that he has chosen to get a new ship. Usopp believes that Luffy has abandoned the dignity of their ship and says he is leaving the crew. He then challenges Luffy to a duel for the Going Merry."
+        ],
+        "long_summary": [
+          "The episode begins with Usopp waking up after he was beaten unconsious by the Franky Family. It is also noted that Nico Robin has not yet returned to the ship.\nHe is informed by Luffy that the stolen money probably can not be retrieved and that the crew has decided to buy a new ship instead of repairing the Going Merry. Usopp is enraged by this, which prompts Luffy to clarify that it is impossible to repair the Merry with the damage she has sustained. Usopp refuses to accept this and thinks that Luffy has abandoned the Merry. The two get into a fight which eventually prompts Usopp to leave the crew. This was not only due to the current situation, but a culmination of Usopp's insecurity that he was too weak to be a part of the Straw Hat Pirates. This ends with Usopp challenging Luffy to a duel for the rights to the Merry.\nLater that night, Nami tries to dissuade Luffy from fighting with Usopp. This is unsuccessful and Luffy still wishes to fight Usopp. Chopper tries to heal Usopp, but he also refuses. Later, Usopp and Luffy meet for the fight."
+        ],
+        "characters": [
+          "Tony Tony Chopper",
+          "Monkey D. Luffy",
+          "Nami",
+          "Sanji",
+          "Roronoa Zoro",
+          "Usopp",
+          "Kaya (flashback)",
+          "Merry (flashback)",
+          "Karoo (flashback)",
+          "Iceburg",
+          "Nico Robin (wanted poster)",
+          "Matsuge (flashback)",
+          "Enel (flashback)",
+          "Nefertari Vivi (flashback)",
+          "Nefertari Cobra (flashback)",
+          "Igaram (flashback)",
+          "Chaka (flashback)",
+          "Johnny (flashback)",
+          "Yosaku (flashback)"
+        ],
+        "rating": "4.8",
+        "_version_": 1817439266130624513,
+        "_root_": "Episode 235",
+        "score": 40.105026
+      },
+      {
+        "id": "Episode 136",
+        "title": [
+          "Zenny of Goat Island and the Pirate Ship in the Mountains!"
+        ],
+        "air_date": "December 8, 2002",
+        "short_summary": [
+          "After escaping from several Marine ships, the Straw Hat Pirates land on an uncharted island and meet an old man named Zenny. Chopper finds out that, because of his bad heart, Zenny probably only has three days to live."
+        ],
+        "long_summary": [
+          "The Straw Hat Pirates are being chased by the Marines and are trying to avoid them, as they are constantly firing cannonballs towards their ship. With the Straw Hat Pirates being low on food supplies, they are all starving, wondering if they are going to starve to death. A huge fog appears, which Nami believes can be used to their advantage to escape from the Marines. The Marine ships starts crashing into each other as they are hitting the barely visible rocks on the surface which just appeared after the fog. Chief Petty Officer Minchey orders his men to turn back because of the danger for the Marines. As the Straw Hat Pirates pass the thick fog and the rocks they see an uncharted island, hoping to find food on it. An old man is sighted with his binocular, counting the Straw Hat Pirates as six humans and an animal.\nAs the Straw Hat Pirates walk up from the shore, they spot a young goat, directly clarifying it as food. As they try to hunt it down, Nami stops them, stating that it shouldn't be eaten. Suddenly, a mob of angry full-grown goats have surrounded the Straw Hat Pirates. When the goats start attacking, Zoro brings out his sword, indicating that he will kill them but Chopper tells him not to due to the fact that they aren't bad, thanks to his ability to speak with animals. Chopper is trying to reason with the goats and finds out that someone ordered the goats to attack. Suddenly, an old man falls out of a tree pointing out the now transformed Chopper as a monster. They found out that this is the man who ordered the goats to attack.\nThe old man passes out, from the fear of being cut by Zoro's blade as he is trying to free him from the branches that he has gotten stuck in. They take him to his shed, where Chopper is getting him treated. As the old man is craving them to repay him for what they have done, Luffy finally says to help him out. On Zoro's hunt for food he finds a strange pirate ship, which he later in the evening tells the rest of the Straw Hat Pirates about after he returned with fruits as food. They all go to the ship to investigate it further. Nami states that he was once a pirate who is trying to escape the island with that pirate ship, which is more of a wreck than a ship. She also believes he has a hidden treasure somewhere on the island.\nMeanwhile, at Marine Captain Moore's base, Captain Moore tells Minchey to organize a landing party and to locate and eliminate the Straw Hat Pirates. On the island, Chopper find out that the old man has less than three days to live, due to a disease. Therefore, the next day, Sanji is making him a big dinner because of the few days he has left so that he can enjoy his last moments. At the Marine Base, they find out that the old man's name is Zenny and that he was washed ashore on the island 20 years ago with his believed huge treasure."
+        ],
+        "characters": [
+          "Minchey",
+          "Nami",
+          "Usopp",
+          "Monkey D. Luffy",
+          "Nico Robin",
+          "Tony Tony Chopper",
+          "Roronoa Zoro",
+          "Sanji",
+          "Zenny",
+          "Moore"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439266011086848,
+        "_root_": "Episode 136",
+        "score": 38.37283
+      },
+      {
+        "id": "Episode 207",
+        "title": [
+          "Long Ring Long Land's Big Adventure!"
+        ],
+        "air_date": "October 31, 2004",
+        "short_summary": [
+          "The Straw Hat Pirates come across a mysterious pirate ship, after trying to escape a giant wave. Soon, they arrive on an island inhabited by strange animals. Going Merry is captured by the Foxy Pirates."
+        ],
+        "long_summary": [
+          "After escaping from G-8 the Straw Hat Pirates land in the sea softly and continue their voyage. In Mock Town, Donquixote Doflamingo perches from a column and uses his powers on Bellamy and Sarquiss as punishment for being defeated by Luffy prior to his journey to Skypiea. Bellamy begs Doflamingo to give him another chance, but Doflamingo concludes that Bellamy and his crew are obsolete to him and uses his puppetry to force Sarquiss to slash Bellamy, although he survives. In the seas the Straw Hats notice a ship lacking its sails without its captain or navigator. The ship then sails into a giant wave which destroys the ship. The crew then come across Long Ring Long Land, however it is too plain for their (particularly Sanji's) tastes. Luffy, Usopp and Chopper immediately de-board and start to act childish as usual and explore the island. The trio see long animals and come across two tall bamboos whose top couldn't be seen. Suddenly the bamboos start moving and one hits Luffy. Luffy gets excited and breaks the bamboo. Then falls an old man named Tonjit who has a horse named Shelly. Tonjit says that he made the world's tallest stilts and after going up, he couldn't come down for 10 years due to fear. Tonjit explains that due to expanse grassland, everyone here is relaxed making them long. After roaming around Long Ring Long Land the damaged Going Merry is seized by another ship as its captain confronts the crew and challenges them to a Davy Back Fight."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Nico Robin",
+          "Nami",
+          "Sanji",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Bellamy",
+          "Sarquiss",
+          "Bellamy Pirates",
+          "Muret",
+          "Rivers",
+          "Eddy",
+          "Lily",
+          "Ross",
+          "Donquixote Doflamingo",
+          "Hewitt",
+          "Shelly",
+          "Tonjit",
+          "Foxy (unclearly seen)",
+          "Porche (silhouette)",
+          "Hamburg (silhouette)"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439266110701568,
+        "_root_": "Episode 207",
+        "score": 17.792198
+      },
+      {
+        "id": "Episode 137",
+        "title": [
+          "How's That for Profit? Money Lender Zenny's Ambition!"
+        ],
+        "air_date": "December 15, 2002",
+        "short_summary": [
+          "The Straw Hat Pirates help Zenny out, hoping to make his last days good ones. They learn about Zenny's past as a money lender and his dream of becoming a pirate, but Zoro realizes that Zenny has outlived Chopper's predictions. The Straw Hats decide that after helping him finish his pirate ship, they will leave the island."
+        ],
+        "long_summary": [
+          "The Straw Hat Pirates are busy repairing the wrecked ship and Zoro is busy chopping down trees by axe. The chopped wood is then being passed on by goats to each other towards Chopper. While carrying the chopped wood, Zenny makes exclamations about the slow work of the Straw Hat crew. To calm him, Nami makes Zenny sit on a chair and Robin offers a shoulder massage. Sanji asks him about why the ship is on the top of the mountain to which he says that this ship is his coffin. The Straw Hats are astonished and ask him if it is too early to have a coffin. He replies by saying he will be needing a coffin anyway eventually. Sanji asks him why his coffin is a pirate ship and Zenny starts dozing off, but the Straw Hat Pirates think that he has died and start shouting to which Nami points them to be quiet as he is only dozing off.\nAt a Marine base, Marines learn that both the Straw Hats and Zenny are at the same island. Keeping in mind the bounties of Luffy and Zoro, Sergeant Minchey suggests a plan to assure victory.\nAt the island, Zenny is playing chess with Nami and he is getting all the services from massages to delicious cheese. Luffy, Usopp, and Zoro return with caught fish for dinner and assure Zenny of any services he asks for. Zenny exclaims how he is living a paradise. Zoro thinks about it and says that he should have died by now as three days have already passed. The Straw Hats think of leaving the island as Zenny seems in better health than when they arrived.\nNami keeps on losing to Zenny in chess and in the hope of getting details about the treasure, she bets everything including the ship. Consequently, they owe him service for 10 more years to get their ship back. Usopp suggests bolting out but Luffy refuses, saying a bet is a promise and he will not break any promises. During all the ruckus going on about leaving, Robin checkmates Zenny and wins the ship back. Being delighted on meeting such joyful prates, Zenny decides to have a party.\nAt the party, Nami tries to get the old man drunk to learn about the true location of the treasure to which he jokes about the goats being his real treasure. Later, he says he was a money lender to pirates and was known as the money lender Zenny. This revelation came as a surprise to Usopp as pirates don't usually return the money they take. He talks about how the pirates were not returning the loaned money, so he always went face to face with them to get his money back.\nRecalling his past, Zenny was on a ship and was asking for his money back or else he would sink the ship by bombing it.\nAfter talking about his past, he talks about his dream of becoming the Pirate King and how his ship got destroyed by pirates 20 years ago causing him to drift to this island. He thought of building a ship but wasn't able to bring the wood beside the sea, so he built his ship on the mountains. By the time he had completed the ship, he had gotten too old to sail the Grand Line. However, Luffy suggests that no one is too old to become the Pirate King.\nThe Marines are on their way and are thinking of luring the Straw Hat Pirates out of the island while Zenny is thinking about what Luffy said to him.\nWhen morning comes, Chopper exclaims about seeing the Marine ship and the Straw Hats start running to the shore and are confronted by Sergeant Minchey. He says he came with only one ship just to inspect the island and Zenny and the Straw Hat Pirates should leave immediately as other Marines might come for them. In reality, a huge Marine fleet is hiding in the fog behind them so that they can attack the pirates when they leave. The Straw Hats easily look through this trick and get ready to attack but are stopped as Usopp is captured and are asked to drop their weapons. They do as they are told, and the Marines now try to shoot at them and at the same time, Zenny unloads his ship from the mountain top."
+        ],
+        "characters": [
+          "Usopp",
+          "Roronoa Zoro",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Zenny",
+          "Nami",
+          "Nico Robin",
+          "Monkey D. Luffy",
+          "Minchey",
+          "Moore"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439266013184000,
+        "_root_": "Episode 137",
+        "score": 16.982784
+      },
+      {
+        "id": "Episode 499",
+        "title": [
+          "The Battle Against the Big Tiger! Who Will Be the Captain?!"
+        ],
+        "air_date": "May 22, 2011",
+        "short_summary": [
+          "Ace, Sabo, and Luffy help Naguri make a pirate ship. The three brothers challenge the tiger they encountered in the previous episodes. They defeat the tiger and say good-bye to Naguri. The episode ends with Bluejam ordering his crew to tell Sabo's father that they have found Sabo."
+        ],
+        "long_summary": [
+          "Ace and Sabo get chased by the tiger because Ace attacked the tiger. It had been a week since Ace and Sabo have seen Luffy when they reunite. Naguri has a flashback to his loss to Gol D. Roger, which angers Ace due to his bad history surrounding his father, which triggers him to attack Naguri. After a quick battle between Ace and Naguri, Luffy, Ace, and Sabo train while they help make the pirate ship for Naguri. Once the long training is done with, it is time for them to fight the big tiger. Ace and Sabo fail to defeat it at first, and Luffy is about to get killed by the tiger when Ace and Sabo stop its paw. They all decide that they must work together to defeat it.\nSabo distracts the tiger while Luffy makes a slingshot with his gomu gomu no mi powers. Sabo gets the tiger to run toward the slingshot, and Ace crouches into the slingshot load; Luffy lets go and performs a \"Gomu Gomu No Rocket\". Ace is able to defeat the tiger. In the end, Ace decides all three of them helped to defeat the tiger, so no one is officially the captain. Naguri then heads out to sea. The episode ends with Bluejam telling his crewmates to tell Sabo's father that they found him."
+        ],
+        "characters": [
+          "Portgas D. Ace (flashback)",
+          "Sabo (flashback)",
+          "Monkey D. Luffy (flashback)",
+          "Naguri (flashback)",
+          "Gol D. Roger (flashback)",
+          "Bluejam (flashback)"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439266439954434,
+        "_root_": "Episode 499",
+        "score": 16.346916
+      },
+      {
+        "id": "Episode 328",
+        "title": [
+          "The Dream Sinking in the New World! The Pirate of Despair, Puzzle"
+        ],
+        "air_date": "October 28, 2007",
+        "short_summary": [
+          "Trapped by moving icebergs, the Straw Hats try to figure a way out avoiding numerous dangers as the Bounty Hunters draw closer. The captain of the Phoenix Pirates, Puzzle awakens after Chopper's treatment only to reveal some harsh realities on the awaiting crew. The Thousand Sunny is trapped by ice by three of the assassins. However, it escapes using the Coup de Burst. Zoro, as usual, is lost after severing a blocking iceberg in half and in an iceberg attack, the rope attached to the Phoenix Pirate ship is severed leaving behind Luffy and Chopper. Their pirate flag is then stolen by a little girl's flying fish."
+        ],
+        "characters": [
+          "Usopp",
+          "Nico Robin",
+          "Roronoa Zoro",
+          "Franky",
+          "Nami",
+          "Sanji",
+          "Monkey D. Luffy",
+          "Jiro",
+          "Tony Tony Chopper",
+          "Puzzle",
+          "Vigaro (flashback)",
+          "Stansen",
+          "Race",
+          "Troff",
+          "Lago",
+          "Guyle",
+          "Sutton",
+          "Basil",
+          "Brindo",
+          "Salchow",
+          "Arbell",
+          "Hockera",
+          "Lil",
+          "Campacino",
+          "Accino"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439266257502209,
+        "_root_": "Episode 328",
+        "score": 16.239052
+      },
+      {
+        "id": "Episode 327",
+        "title": [
+          "Sunny in a Pinch! Roar, Secret Superspeed Mecha"
+        ],
+        "air_date": "October 21, 2007",
+        "short_summary": [
+          "The Straw Hats find themselves surrounded by a fleet of Marine ships, which is actually a trap. They escape using the Soldier Dock System, with the tattered pirate ship in tow. Chopper is told by Jiro about their past of being the Phoenix Pirates under Puzzle. The Accino Family pledges to collect the Straw Hats' total bounty of 600,000,000 as a gift for their \"papa\"."
+        ],
+        "characters": [
+          "Stansen",
+          "Troff",
+          "Race",
+          "Lago",
+          "Guyle",
+          "Sutton",
+          "Basil",
+          "Sanji",
+          "Franky",
+          "Nico Robin",
+          "Roronoa Zoro",
+          "Nami",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Salchow",
+          "Tony Tony Chopper",
+          "Jiro",
+          "Puzzle",
+          "Campacino",
+          "Arbell",
+          "Lil",
+          "Brindo",
+          "Hockera",
+          "Accino"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439266257502208,
+        "_root_": "Episode 327",
+        "score": 14.861141
+      },
+      {
+        "id": "Episode 1",
+        "title": [
+          "I'm Luffy! The Man Who Will Become the Pirate King!"
+        ],
+        "air_date": "October 20, 1999",
+        "short_summary": [
+          "Luffy is found floating at sea by a cruise ship. After repelling an invasion by the Alvida Pirates, he meets a new ally, their chore boy Koby."
+        ],
+        "long_summary": [
+          "Luffy is cast at sea in a barrel. Sailors on a passing cruise ship retrieve the barrel, but the ship is attacked with cannon fire by a nearby pirate ship, led by Alvida. The barrel is sent rolling into the kitchen. Once the cruise ship's sails have been destroyed, the Alvida Pirates board the ship to plunder its goods, and Alvida also forces one of her chore boys, Koby, to board the ship. Meanwhile, a girl takes advantage of the opportunity and sneaks aboard the Alvida Pirates' ship to steal its treasures.\nKoby and other pirates notice the barrel in the kitchen and find Luffy inside, who was sleeping. After Luffy defeats the hostile pirates, he goes with Koby to the pantry to eat the stored food. Luffy explains that he set sail to begin his pirating career, but his dinghy was destroyed by a whirlpool and he was left trapped at sea in a barrel. Koby explains that he was riding on a rowboat, but was kidnapped by the Alvida Pirates and forced to become a chore boy. He explains his desires to escape the Alvida Pirates some day and join the Marines.\nAlvida is informed of Luffy's presence, and, out of suspicion that he could be a bounty hunter, confronts him and Koby in the pantry. This triggers a battle on the ship, but Luffy defeats the pirates. Although Alvida is armed with a large spiked club, her attacks are rendered ineffective, as Luffy ate a Devil Fruit, granting him a superhuman ability that gives his body rubber-like properties. Using a Gomu Gomu no Pistol attack, Luffy defeats Alvida, sending her flying off the ship and into the sea.\nHaving concluded the battle, Luffy boards a dinghy with Koby to continue his travels, catching a glimpse of the female burglar who was also departing the ship on her own dinghy. Luffy aims towards the Grand Line to search for the One Piece treasure but first looks to recruit the infamous Pirate Hunter Roronoa Zoro into his crew."
+        ],
+        "characters": [
+          "Nami",
+          "Alvida",
+          "Koby",
+          "Heppoko",
+          "Peppoko",
+          "Poppoko",
+          "Monkey D. Luffy",
+          "Roronoa Zoro"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439265818148864,
+        "_root_": "Episode 1",
+        "score": 14.732758
+      },
+      {
+        "id": "Episode 141",
+        "title": [
+          "A Longing for Home! The Inescapable Pirate Graveyard!"
+        ],
+        "air_date": "January 19, 2003",
+        "short_summary": [
+          "Henzo, his friends, and the others try to find a way out of the ship graveyard. Meanwhile, the Mayor and his men let the information about the Rainbow Mist slip to the remaining Straw Hat Pirates still on Ruluka."
+        ],
+        "long_summary": [
+          "The episode starts with a scene in which the Pumpkin Pirates went swimming when suddenly Rapanui Pasqua told them that the treasure of the island is on the top of the rock where their flag stands. When all of them swam very quickly, Henzo was left behind trying to tell them to wait. Rapanui Pasqua turned back and shouted he can't because he is an adult. Henzo's body suddenly turned to the present old appearance he has and the background went hallucinating until Henzo woke up and realized it was all just a dream. Nico Robin saw him awake and figured out that he was dreaming about his friends because he was shouting their names while asleep.\nMeanwhile, Luffy and the others are on the outside and Zoro asked Luffy if they are travelling in the right direction. They soon realized they once again passed a statue that they already passed a while ago, they thought they were travelling in circles but in shooting a cannon made all of them realize the space was distorted. Luffy obviously didn't know what it meant so he dared to test it by flying forward to the sky and then came falling back from behind the ship. Luffy told them he gets it and said that it was a \"Mystery Mist\", obviously not understanding it himself. None of the crew knew how to get out of Ape's Concert, so Robin suggested to ask a boy hiding behind some wreckage, how they might get out by going to the Pumpkin Pirates hideout.\nIn a Marine ship wreckage, Ian is seen eating in a prison cell with Rongo and Akibi talking to him about how to get out of Ape's Concert as well. Ian tries to convince them that he knows how to get out of Ape's Concert but they should give him the key to his cell first. Isoka knew he was lying and reminded the two how cruel he was to them by forcing them to let him be their leader when previously a Sea King was attacking them he was so afraid that he threw Rongo to fight it. Nearly eaten, Rongo was rescued by Rapanui and after the attack, Ian boasts that they wouldn't be alive if it weren't for him. Their ship got lost because the Sea King smelled the food they kept and they were left on a small boat. In the Marine ship, the buzzer rang and Isoka asked Rapanui what's the danger. Rapanui saw a pirate ship and managed to see Pukau thinking he is being held hostage.\nRapanui immediately went to rescue him and threatened Luffy and the others by swaying his sword until Zoro threw it out. Pukau told Rapanui that he was not a hostage and that they just asked him where their secret hideout is. Rapanui wouldn't believe when Usopp went out holding plates of food attracting both Luffy and Pukau until all of them except Rapanui started eating. In an attempt to offer food, Henzo was denied by Rapanui because he doesn't believe in adults who suddenly appear. Henzo asked for forgiveness because he worked hard to find them but now they are of different ages. Henzo's Den Den Mushi started ringing but Luffy grabbed it and answered it receiving Wetton's voice. On the other side, Sanji grabbed the Den Den Mushi from Wetton and asked if it was Luffy. Upon discovering they talked to each other, Henzo knew the Rainbow Mist and the Outside World wass connected.\nHenzo got the phone back and when Rapanui heard Wetton's name he told Henzo that he was not the true Henzo they knew. He said that true Pumpkin Pirates don't work for Wetton. When Nami, Chopper and Sanji decided to go to the Rainbow Mist, Wetton forbid it and said they must pay 10,000,000 beli to be able to be permitted. They didn't want to pay so Wetton told them they would instead work hard labor in the Rainbow tower until their deaths. Nami asked for the safety device and Lake, gullible enough, gave it up and they started running. While Sanji wished that it would be a romantic getaway, Nami's desire for the treasures made her eyes turn into Beli symbol. The 2 prepared to fight when suddenly a Sea King appeared before them and Nami  screamed \"What?\" ending the episode."
+        ],
+        "characters": [
+          "Akibi",
+          "Isoka",
+          "Rongo",
+          "Pukau",
+          "Rapanui Pasqua",
+          "Henzo",
+          "Nico Robin",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Roronoa Zoro",
+          "Ian",
+          "Wetton",
+          "Lake",
+          "Tony Tony Chopper",
+          "Nami",
+          "Sanji",
+          "Flip"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439266018426880,
+        "_root_": "Episode 141",
+        "score": 14.64073
+      },
+      {
+        "id": "Episode 324",
+        "title": [
+          "Circling Bounties! The Hometowns Dance as the Ship Advances!"
+        ],
+        "air_date": "September 16, 2007",
+        "short_summary": [
+          "The Thousand Sunny finally gets its name and the Straw Hat Pirates make their getaway from Vice Admiral Garp as their hometowns get word of their new bounties."
+        ],
+        "characters": [
+          "Monkey D. Garp",
+          "Koby",
+          "Helmeppo",
+          "Aokiji",
+          "Zambai",
+          "Roronoa Zoro",
+          "Franky",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Nami",
+          "Sanji",
+          "Paulie",
+          "Tilestone",
+          "Peepley Lulu",
+          "Iceburg",
+          "Nico Robin",
+          "Chimney",
+          "Gonbe",
+          "Kokoro",
+          "Yokozuna",
+          "Kashii",
+          "Oimo",
+          "Mozu",
+          "Kiwi",
+          "Kairiki Destroyers",
+          "Sodom",
+          "Gomorrah",
+          "Smoker",
+          "Tashigi",
+          "Zeff",
+          "Carne",
+          "Patty",
+          "Woop Slap",
+          "Makino",
+          "Kaya",
+          "Piiman",
+          "Tamanegi",
+          "Ninjin",
+          "Koushirou",
+          "Nojiko",
+          "Genzo",
+          "Bell-m\u00e8re (grave)",
+          "Kureha",
+          "Dalton",
+          "Igaram",
+          "Nefertari Cobra",
+          "Chaka",
+          "Pell",
+          "Nefertari Vivi",
+          "Karoo",
+          "Monkey D. Dragon",
+          "Terry Gilteo"
+        ],
+        "rating": "4.7",
+        "long_summary": [
+          "Usopp is finally reconciled with the Straw Hat Pirates and has been pulled on-board their new ship. But they remain under attack from Vice Admiral Garp. Franky orders Zoro to furl up the sails so he can fire up a secret escape mechanism.\nBut before they get underway, Franky insists they name the ship first. Luffy comes up with a bunch of odd, unsuitable animal combinations. Franky says the name should be based on the masthead, which is shaped vaguely like a lion's head, though most at Galley-La Company \"mistook\" it for a sunflower. Iceburg and Franky agreed that it was suitable for the future ship of the Pirate King. Iceburg is inspired, envisioning a ship that can brightly cross a thousand seas like the Sun. He therefore suggested the name Thousand Sunny. The crew ignores Franky's lion-based name idea and go with Iceburg's idea instead.\nFranky goes below deck to power up his escape device, remarking that Water 7 will disappear from view momentarily. Luffy calls out to his grandfather and says they are leaving now. He says his goodbye to Koby, but still doesn't know Helmeppo's name. He whacks away one last cannonball from Garp telling him it's no use which infuriates Garp who has to be held back by Helmeppo. Luffy then proclaims his thanks to Iceburg, Galley-La and the Franky Family, but he's too far away for them to hear him. Garp then gets out a comically-enormous cannonball and swings it at the Thousand Sunny. Just as the crew think they're all going to die, Franky's \"Miracle Emergency Acceleration Device\" fires: Coup de Burst! Powered by three barrels of cola, the Thousand Sunny launches into the air suddenly, getting away.\nEveryone on Garp's ship is surprised, even Aokiji. Garp almost looks pleased at his grandson's escape, and starts laughing remarking \"Not bad Luffy.\" As the Straw Hats sail off in the sky, Usopp remembers the flying sensation from when the Going Merry flew up the Knock Up Stream to Skypiea. Franky boasts that the soul of the Going Merry lives on in the Thousand Sunny. There's not a thing that Merry could do that the new ship cannot. Back at Water 7, Oimo and Kashii are seen assisting the rebuilding process. The Franky Family frets a bit because they're out of food, but Iceburg comes to their aid, giving them jobs at Galley-La. Word begins to spread about the new bounties for the Straw Hats. Smoker gets the new wanted posters from Tashigi after a pirate bust. He says other pirates will start to defer to the Straw Hats now, and vows he will crush Luffy when they reach the New World.\nOn the Baratie, Zeff immediately recognizes the terrible composite sketch made of Sanji. His former fellow chefs all laugh at it. Regardless, his poster replaces Luffy's at the center of the restaurant, and they use it as a selling point, that the restaurant is Sanji's home. Back at Foosha Village, the villagers once more rejoice at Luffy's growing infamy. Woop Slap is again annoyed by the raucous partying. Makino likes his crew, especially his \"cute pet\". Woop Slap is annoyed that an enemy of the World Government came from Foosha, and wonders what Garp is doing about it. He also wonders if Dadan knows about Luffy's recent actions. At Syrup Village, the Usopp Pirates and Kaya instantly recognize Sogeking as Usopp. The rest of the village doesn't believe it, however. Kaya goes back to her medical studies so she can be ready if Usopp needs to be healed if/when he returns. The boys say they'll beat Usopp up if he ever hurts Kaya.\nAt Shimotsuki Village, Koushirou admits to his pupils that he taught Zoro how to fight, but swears he didn't teach Zoro how to be a pirate. Now all the kids want to be pirates in addition to great fighters. He doesn't mind too much, as long as Zoro keeps kendo at his heart. At Cocoyashi Village, Genzo is irate at Nami's wanted poster, yet has it blown up behind his desk. Nojiko sates him by pointing out Nami's expression, saying it's proof that Luffy has indeed not taken away her smile. At the Sakura Kingdom, Dalton calls Dr. Kureha down from her castle, and shows her the latest wanted posters for the Straw Hats. Dalton is certain the Marines are mistaken about Chopper's measly 50 bounty. Dr. Kureha is just happy that she gets to see him again.\nAt Arabasta, Igaram, Chaka, Pell and King Cobra are shocked that Nico Robin, \"Miss All Sunday\" of Baroque Works, is now affiliated with the Straw Hats. They are concerned that Vivi will not take this news well, but she already knows, and doesn't care. She trusts Luffy's decisions even if nobody ever understands his motives. Yet again, they are surprised by the princess' maturity. At Baltigo, a yet-unseen island on the Grand Line, the Revolutionary Army discusses a successful coup at Centaurea in South Blue. Their leader, \"Revolutionary\" Dragon, sees the stack of wanted posters for the Straw Hats. It's noted that the Marines made the entire crew wanted due to the events at Enies Lobby. His associates mention Luffy's relation to Garp, apparently unaware of their leader's relation to both men. Dragon believes his son's exploits will get more people to question the World Government, and welcomes the day when they will finally meet. Back on the Thousand Sunny, the Straw Hats celebrate the returns of Usopp and Robin; their new shipwright, Franky; and their new ship."
+        ],
+        "_version_": 1817439266251210752,
+        "_root_": "Episode 324",
+        "score": 13.879514
+      },
+      {
+        "id": "Episode 452",
+        "title": [
+          "The Destination is Marine Headquarters\nThe Ship Sets Out to Rescue Ace!"
+        ],
+        "air_date": "May 23, 2010",
+        "short_summary": [
+          "Shiryu saves Blackbeard and his crew by giving them antidotes to Magellan's poison before taking the opportunity to join with them. The prisoners celebrate their escape, but some, such as Buggy, are upset to learn from a Marine officer calling on a Den Den Mushi that they are on their way to Marine Headquarters, and that the Gates of Justice to Marine Headquarters will not open for pirates. During the conversation, the officer reveals Buggy's past in the Roger Pirates and connections to Shanks, causing the prisoners to rally behind him. While some of the escapees are concerned that Buggy will start a mutiny, Buggy manages to convince the prisoners to go with them to Marine Headquarters in the hopes of defeating Whitebeard and standing on top of the pirate world. Meanwhile, the ship carrying Ace reaches Marine Headquarters."
+        ],
+        "long_summary": [
+          "On Level 4, Shiryu saves Blackbeard and his crew by giving them antidotes to Magellan's poison and joins the Blackbeard Pirates.\nThe Impel Down escapees continue their journey aboard the stolen Marine ship. Buggy and the prisoners celebrate their escape while the Newkama patiently wait for Inazuma's recovery as advised by Ivankov. Meanwhile, Luffy and Mr. 3 look across the ocean while crying and talking about Mr. 2. A few other Newkama join their sentiment. Buggy approaches them and encourages them to celebrate their freedom. He tactlessly suggests that they could make it a funeral for Mr. 2 which earns him a punch from Luffy, the latter stating that they aren't sure if Mr. 2's had died. They banter before Luffy punches Buggy once more and climbs towards the helm where Jinbe is steering.\nThe fishman thanks Luffy for giving him a chance to save Ace. Buggy follows Luffy and they continue quarreling while Jinbe formally introduces himself to Luffy, mentioning that he is currently a Warlord of the Sea who is ready to resign from the position. He confidently announces that they should unleash Hell at the Marine headquarters and save Ace so Mr. 2's effort will not be wasted. Both Buggy and Luffy scream and fall from surprise upon hearing the statement. The prisoners and the Newkama approach upon hearing their exclamation. Luffy announces his surprise from the fact that Jinbe is a Warlord which prompts the said Warlord to apologize for the delayed introduction. Meanwhile, Buggy is mortified upon hearing that their destination is the Marine headquarters. Jinbe confirms this while Crocodile explains that the ship is currently riding the government-exclusive Tarai Current and their only possible destinations are Enies Lobby or the Marine Headquarters. He reveals that the only reason they escaped is to join the impending war. Both Buggy and Mr. 3 clutch Jinbe, asking him to stop the ship while the prisoners cry out in despair. An okama states that everyone from Newkama land knew about this. Out of nowhere, they hear the sound of a Den Den Mushi ringing which piques everyone's attention. They locate it inside the ship's mast and Luffy picks it up. The Marine officer on the line announces that they have identified the two main perpetrators for the break-out: Luffy and Buggy. The escapees are surprised that Buggy gets priority over the Warlord of the Sea. The Marine continues speaking, revealing Buggy's past as a crew member of the Roger Pirates as well as his connection to Shanks. The Marine officer states that they have yet to find a reason but concludes that he must have the same goal as Luffy: to save Ace. Trying to discourage the escapees from continuing, he adds that the Gates of Justice to Marine Headquarters will not open for pirates so there would be no escape. Luffy angrily declares that he will save Ace before slamming down the receiver."
+        ],
+        "characters": [
+          "Shiryu",
+          "Jesus Burgess",
+          "Van Augur",
+          "Laffitte",
+          "Doc Q",
+          "Stronger",
+          "Marshall D. Teach",
+          "Buggy",
+          "Emporio Ivankov",
+          "Inazuma (K.O.)",
+          "Tsunokkov",
+          "Usakkov",
+          "Galdino",
+          "Monkey D. Luffy",
+          "Bon Kurei (fantasy)",
+          "Jinbe",
+          "Crocodile",
+          "Arlong (flashback)",
+          "Pandaman",
+          "Sengoku",
+          "Kizaru (image; shadowed)",
+          "Aokiji (image; shadowed)",
+          "Akainu (image; shadowed)",
+          "Boa Hancock (image; shadowed)",
+          "Donquixote Doflamingo (image; shadowed)",
+          "Bartholomew Kuma (image; shadowed)",
+          "Dracule Mihawk (image; shadowed)",
+          "Gecko Moria (image; shadowed)",
+          "Edward Newgate (image; shadowed)",
+          "Marco (image; shadowed)",
+          "Haruta (image; shadowed)",
+          "Vista (image; shadowed)",
+          "Atmos (image; shadowed)",
+          "Blenheim (image; shadowed)",
+          "Curiel (image; shadowed)",
+          "Blamenco (image; shadowed)",
+          "Jozu (image; shadowed)",
+          "Namur (image; shadowed)",
+          "Izou (image; shadowed)",
+          "Daz Bonez",
+          "Silvers Rayleigh (flashback)",
+          "Onigumo",
+          "Portgas D. Ace"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266386477056,
+        "_root_": "Episode 452",
+        "score": 13.821808
+      },
+      {
+        "id": "Episode 497",
+        "title": [
+          "Leaving the Dadan Family!? The Secret Base is Complete!"
+        ],
+        "air_date": "May 8, 2011",
+        "short_summary": [
+          "Luffy, Ace, and Sabo were going about their usual mischief until Garp turned up and attacked them for still wanting to be pirates. The brothers decided that they would have to run, or Garp would kill them the next day. During the night, they ran and ended up sleeping under a tree. In the morning, they decided to build a hideout, so they went to the Gray Terminal to get some materials. Once completed, their hideout looked like a pirate ship."
+        ],
+        "characters": [
+          "Curly Dadan (flashback)",
+          "Pochi (flashback)",
+          "Dogra (flashback)",
+          "Magra (flashback)",
+          "Sabo (flashback)",
+          "Portgas D. Ace (flashback)",
+          "Monkey D. Luffy (flashback)",
+          "Woop Slap (flashback)",
+          "Makino (flashback)",
+          "Monkey D. Garp (flashback)",
+          "Bluejam (imagination)",
+          "Porchemy (imagination)"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266439954432,
+        "_root_": "Episode 497",
+        "score": 13.62295
+      },
+      {
+        "id": "Episode 634",
+        "title": [
+          "The Pirate Prince Cavendish"
+        ],
+        "air_date": "February 23, 2014",
+        "short_summary": [
+          "The famous beautiful pirate Cavendish makes an entrance, and proceeds to explain to Luffy (not realizing his identity) the rules of entertainment in the Colosseum, the nature and appeal of bloodsport, his past as a world-shaking pirate and lastly, his intent to kill The Eleven Supernovas for stealing his spotlight two years ago.\nWhile Luffy stares in awe at a great bronze statue of a warrior, a gladiator, Rebecca, arrives and explains to him the legend of Kyros the Undefeated who disappeared from battle for 20 years. The announcer then calls out that the Block A battle royale is over and that the champion is a large man with a paper bag over his head. To the spectacle of the entire Colosseum, the man removes the bag and reveals himself to be Jesus Burgess, the captain of the first ship of the Blackbeard Pirates, who gestures and cheers over the broken bodies of his defeated opponents.\nMeanwhile, the Thunder Soldier takes Franky to a private place so they can discuss Franky's 'job'. While the Marines notice that there are several competitors in the competition, the blind man is revealed to be the Admiral, Fujitora. Just then, Luffy is confronted by none other than Bellamy the Hyena."
+        ],
+        "long_summary": [
+          "As Cavendish attempts to talk to Lucy, he is ignored due to Lucy's attention to him focusing on the weight limit. Luffy then asks why is everyone almost naked, to which the prince explains that the spectators want to see blood and that in the arena you can see humanity's true colors exposed.\nThe prince then asks Luffy who he is. Luffy tells him his real name and exclaims that he is going to be the Pirate King, drawing attention from the crowd. However, they see that his name tag states Lucy and assume he mispronounced his own name. The prince laughs and says that if he really was Luffy, he would take his head here and now, because when he came to the New World about three years ago he made a big name for himself but his fame was overshadowed by the Battle of Marineford, the Eleven Supernovas and the Blackbeard Pirates. Thus, he carries a grudge against any who is in \"the Worst Generation\".\nHe then is ignored again by Luffy, who notices a statue and his resemblance to it in his armor. Rebecca, a female gladiator, tells Luffy that it is a statue of Kyros, the mightiest gladiator in the history of the Corrida Colosseum, stating that he won 3000 consecutive matches and that he only took a single blow throughout them all, but that he retired 20 years ago and that no one knows his true identity. She wonders if he truly existed and how the bronze statue appeared one day out of the blue. She then declares her intention of winning the Mera Mera no Mi and killing Doflamingo. The announcer proclaims that the first block battle royale is over and the winner is revealed to be Jesus Burgess, the captain of the first ship of Blackbeard's crew.\nSeeing this, Franky begins to rethink if Luffy would have an easy time in the tournament and realizes he is in for a struggle. Thunder Soldier then takes Franky to a private place so they can discuss Franky's 'job'.\nAn unknown Marine starts to panic, stating that they need reinforcements because the competitors' power surpassed his expectations. The adviser of the Barto Club, the Missionary Gambia, gets on the bad side of Vice Admiral Maynard, who is there undercover as a competitor, and gets taken out. At this point we see Bartolomeo watching from the shadows.\nIt is time for the Block B battle royal and the announcer shouts that it is time to let the athletes in. The blind man and a young Marine leave the Colosseum and discuss what they plan to do about the current situation. It is then that the blind man wears his admiral coat and is revealed to be the famous Marine Admiral Fujitora. Before Block B starts, Luffy is confronted by Bellamy."
+        ],
+        "characters": [
+          "Cavendish",
+          "Monkey D. Luffy",
+          "Edward Newgate (flashback)",
+          "Kuzan (flashback)",
+          "Sakazuki (flashback)",
+          "Borsalino (flashback)",
+          "Sengoku (flashback",
+          "unclearly seen)",
+          "Trafalgar Law (image)",
+          "Eustass Kid (image)",
+          "Basil Hawkins (image)",
+          "Scratchmen Apoo (image)",
+          "Killer (image)",
+          "Jewelry Bonney (image)",
+          "X Drake (image)",
+          "Capone Bege (image)",
+          "Urouge (image)",
+          "Usopp (Luffy's bounty poster)",
+          "Maynard",
+          "Rebecca",
+          "Jesus Burgess",
+          "Gatz",
+          "Franky",
+          "Issho",
+          "Thunder Soldier",
+          "Gambia",
+          "Bartolomeo (not fully seen)",
+          "Bellamy"
+        ],
+        "fruits": [
+          "Mera Mera no Mi"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266624503808,
+        "_root_": "Episode 634",
+        "score": 13.109602
+      },
+      {
+        "id": "Episode 343",
+        "title": [
+          "His Name is Moria! Trap of the Great Shadow-Stealing Pirate"
+        ],
+        "air_date": "February 17, 2008",
+        "short_summary": [
+          "After beating the zombies, the Straw Hat Pirates learn that one of the Seven Warlords of the Sea, Gecko Moria, has been stealing people's shadows and using them to revive zombies. After they leave, Absalom rallies the zombies together for the Night Attack, while the ghosts from before return to their master, a Gothic-style Ghost Princess Perona. Gecko Moria himself, a massive, giant-like man, is awoken. The Straw Hats come to the realization that Thriller Bark is not an island, but rather, a massive ship."
+        ],
+        "long_summary": [
+          "Luffy questions the zombie groups intentions. They inform him they are hanging out in the graveyard. He then interrogates on where Nami, Chopper and Usopp might be, but they refuse to talk. As the Straw Hat captain is about to hit them, the zombie admit they didn't harm them. The Straw Hat group begins to beat them up and begin to check Dr. Hogback's home. A person carrying a torch approaches the beaten zombies.\nWhile walking through the forest, Zoro and Sanji get into another argument when another zombie comes in awe of their power. This zombie informs the group of a major threat who stole the zombie shadows, Gecko Moria the most terrifying on the island. This catches Robin's ears as his bounty's much higher than Luffy's and one of the Seven Warlords of the Sea. The old zombie also warns that Gecko Moria will also be after the Straw Hat Pirate's shadows and when the sunlight hits them, they will be vaporized. Luffy picks up his lantern and accepts the challenge. Just then, more zombies without shadows appear to encourage the group.\nMeanwhile, Ryuma knocks Nami, Usopp and Chopper into Dr. Hogback's lab, surprising and angering the scientist. The three pirates try to apologize, and Hogbacks warns that the \"night raid\" will commence and anyone walking after midnight will be killed. The invisible man spots the buried zombies and plucks them out of the ground. He then begins the awakening of the Zombie Soldiers and they rise again. Absalom reveals himself and the soldiers chant his name. They then call him a pervert and Absalom calls for silence. The ghosts creeping through the forest gather to Kumacy and a girl's chambers, forming Perona up.\nAs more zombies race to inform Moria, one of the short zombies Nin wakes their boss up. The three little zombies tell of the Straw Hat's progress thus far. Luffy and his party spot rain pouring down and they spot a pirate sail. The old zombie then warns that Thriller Bark has a sail and is actually a very large pirate ship. The back of the mast is also the home of Gecko Moria. Absalom then begins the order to hunt down the pirates at the stroke of midnight. Perona prepares for battle and Moria announces that Thriller Bark will give nightmares. Meanwhile, Luffy begins to head inside."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Sanji",
+          "Roronoa Zoro",
+          "Franky",
+          "Nico Robin",
+          "Spoil",
+          "Dracule Mihawk (fantasy)",
+          "Bartholomew Kuma (fantasy)",
+          "Donquixote Doflamingo (fantasy)",
+          "Brook (flashback)",
+          "Nami",
+          "Tony Tony Chopper",
+          "Usopp",
+          "Victoria Cindry",
+          "Hogback",
+          "Ryuma",
+          "Absalom",
+          "Kumashi",
+          "Perona",
+          "Gyoro",
+          "Nin",
+          "and Bao",
+          "Gecko Moria",
+          "Hippo Gentleman"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439266270085120,
+        "_root_": "Episode 343",
+        "score": 13.053163
+      },
+      {
+        "id": "Episode 379",
+        "title": [
+          "Brook's Past - Sad Farewell to the Cheerful Crew"
+        ],
+        "air_date": "November 30, 2008",
+        "short_summary": [
+          "Brook recalls his past, when the whale Laboon started following his pirate ship and befriended the crew. When the crew headed toward the Grand Line, they had no choice but to leave Laboon behind because the danger the sea would present to a young whale like him, but Laboon followed them over Reverse Mountain anyway. Brook and his captain convince Laboon to stay behind, promising that after they traveled through the entire Grand Line and he grew strong enough to follow them, they would come back and bring him on their adventures. Unfortunately, they were unable to fulfill their promise."
+        ],
+        "characters": [
+          "Brook",
+          "Yorki (flashback)",
+          "Laboon (flashback)",
+          "Pandaman (flashback)",
+          "Monkey D. Luffy",
+          "Mizuta Madaisuki (flashback)",
+          "Crocus (flashback)"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266303639552,
+        "_root_": "Episode 379",
+        "score": 12.575216
+      },
+      {
+        "id": "Episode 23",
+        "title": [
+          "Protect Baratie! The Great Pirate: Zeff the Red Leg"
+        ],
+        "air_date": "May 3, 2000",
+        "short_summary": [
+          "Krieg's failed venture in the Grand Line is revealed. However, he is attacked by the notorious Grand Line warrior Hawk-Eyes. Meanwhile, Nami defects from the crew, taking the ship with her."
+        ],
+        "long_summary": [
+          "Zeff criticizes Krieg for his failed entry into the Grand Line. Krieg recognizes Zeff as a former pirate known for fighting only with his legs, but notes that he had since retired from piracy after losing one of his legs. Believing he only lacked the knowledge needed to traverse the Grand Line, Krieg demands Zeff's old logbook to help him return to the sea. He returns to his ship to give the food to his crew, warning the staff to vacate before he returned.\nGin apologizes on Krieg's behalf, unaware of his plans to betray the Baratie. He explains that the Krieg Pirates' entire armada was defeated by a single man, whom they believe to be the world-famous warrior known as Hawk-Eyes. Of the fifty ships with five thousand crew members, only the flagship containing one hundred warriors survived the attack, partially thanks to a storm which carried it back to East Blue.\nKrieg gives the food to his people, where he explains his intentions to scrap the flagship, seize the Baratie, and return to the Grand Line. He shoots a crew member just for protesting this decision. However, before they are able to initiate their attack, the ship is sliced in half with a single slice, revealing that Hawk-Eyes had followed the Krieg Pirates to the Baratie. The ship sinks and its crew members fall into the sea. They also find Johnny and Yosaku floating in the sea, who reveal that Nami has defected from the crew, taking the ship with her."
+        ],
+        "characters": [
+          "Zeff",
+          "Don Krieg",
+          "Gin",
+          "Patty",
+          "Carne",
+          "Sanji",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Usopp",
+          "Johnny",
+          "Yosaku",
+          "Nami",
+          "Dracule Mihawk"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439265842266113,
+        "_root_": "Episode 23",
+        "score": 12.573447
+      },
+      {
+        "id": "Episode 557",
+        "title": [
+          "Iron Pirate! Entry of General Franky"
+        ],
+        "air_date": "July 29, 2012",
+        "short_summary": [
+          "In Gyoncorde Plaza, the battle between the New Fish-Man Pirates and the Straw Hat Pirates continues, with the Straw Hats having gained the upper hand. Seeing this, Daruma decides to join the fight, targeting the Brachio Tank V and collapsing the ground underneath it. Upon Franky also driving the Kurosai FR-U IV into the same sinkhole, he decides to reveal that he can 'dock' both new vehicles onto his body, turning him into the General Franky, much to the delight of Usopp, Chopper and Luffy.\nIt is revealed that Hody has been forcing Surume to follow his commands by threatening to kill his brother at the North Pole if he does not do as he says, and commands Surume to crush Shirahoshi. Surume originally obeys, before Luffy instead offers to save his brother, and heads towards Hody to fight him. Ikaros Much and Dosun attempt to intercept Luffy, but are blocked by Zoro and Sanji, leaving Luffy to land a blow on Hody. Meanwhile, the giant ship Noah came into full view of the island, shocking the citizens and King Neptune the most as it's on a direct collision course with Fish-Man Island."
+        ],
+        "long_summary": [
+          "Daruma begins digging underground. Hyouzou is disorientated and Zeo reminds him that he is in Gyoncorde Plaza. Hyouzou notices Zoro and Brook and comments that the Straw Hat Pirates has good swordsmen before being on the move, killing his own subordinates in the process. The enemies run away at the sight of the Brachio Tank V and Chopper says that they should use this opportunity to attack their officers. Daruma appears right in front of them and Chopper commands Usopp to fire. As Usopp prepares to fire, Daruma leaps into the ground and disappears. They keep at this for a while as Nami looks on, bored. The vehicle rattles and tilts before tumbling into the ground, with Chopper realizing it is a sink hole. Daruma tells them that it is his special attack, Daruma Drop, as he had dug a web of tunnels underground just by using his fangs. Franky sees their predicament and rushes over. As Daruma prepares to create another sink hole to trap Franky, Franky speed past him on Kurosai FR-U IV and realizes too late that Chopper and Usopp had fell into a sink hole.\nFranky kicks them out but Nami and Chopper is indignant at his actions. Franky explains that the machine is going to turn into a single-seater. Both vehicles undergo a transformation and Franky docks with it, becoming General Franky. Usopp, Chopper and Luffy marvels at his new look while Nami just stares at it. Franky executes some of his new move, taking down numerous enemies. Someone sneaks up behind Nami, calling her weak and brought his sword down, but Nami blocks it successfully with her weapon, Sorcery Clima-Tact, and uses Gust Sword to knock back her opponent. Since Usopp is now on the battlefield, he has to fight but he says that he is not afraid because he has changed and uses Pop Green, Bamboo Javelin on his enemies.\nDaruma is making sink holes all over the plaza but senses that there is someone else digging. Daruma gets thrown out of the ground and the culprit is revealed to be Chopper, in his Horn Point. Luffy is amazed that Chopper can turn into a stag beetle now and Chopper corrects him and states that he has strengthen his transformation and now, only need the Rumble Ball for one transformation.\nHody calls out to the kraken and compliments it on gaining the Straw Hat Pirates\u2019 trust so easily and orders it to squeeze Shirahoshi to death. Hody reminds the kraken that he knows its brother's location in the North Pole and can travel there to kill him easily. Surume starts squeezing Shirahoshi but Luffy says that he understands how it feels, and tells it to let Luffy save its brother too because they are friends. While Luffy walks towards Hody, Dosun, and Ikaros tells the others that they are not match for Luffy and to let them take care of him. As Dosun and Ikaros moves in to strike Luffy, Zoro and Sanji interfere, saying that they will not let them hinder Luffy. As the other fish-men charge towards Luffy, he uses Gear 2 and disappears, managing to bypass the fish-men and lands a kick on Hody, saying that he is full of fight.\nWhile cheering them on, the citizens spot something that is approaching them. Neptune is shocked at the sight of it, and identifies it as the Ship of Promise, Noah."
+        ],
+        "characters": [
+          "Daruma",
+          "Surume",
+          "Zeo",
+          "Hyouzou",
+          "Roronoa Zoro",
+          "Brook",
+          "Tony Tony Chopper",
+          "Usopp",
+          "Nami",
+          "Pappag",
+          "Franky",
+          "Pandaman",
+          "Monkey D. Luffy",
+          "Nico Robin",
+          "Haredas (flashback)",
+          "Heracles (flashback)",
+          "Dosun",
+          "Ikaros Much",
+          "Shirahoshi",
+          "Hody Jones",
+          "Jinbe",
+          "Hoe",
+          "Neptune"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266507063296,
+        "_root_": "Episode 557",
+        "score": 11.965249
+      },
+      {
+        "id": "Episode 410",
+        "title": [
+          "Everyone's Drunk on Love! Pirate Empress Hancock"
+        ],
+        "air_date": "July 19, 2009",
+        "short_summary": [
+          "Luffy decides to leave the island, reunite with his crew and defeat the enemies who had overpowered them earlier, and is determined to borrow a ship. Marguerite then realizes that she cannot afford to be friendly with Luffy, and attacks him, forcing him to flee. A few kilometers from the island, Boa Hancock - the Snake Princess and one of the Shichibukai - meets with a Marine vessel commanded by Vice-Admiral Momonga, who informs her of Portgas D. Ace's upcoming execution and the likelihood of Whitebeard intervening. He orders her to join the fight against Whitebeard's forces or risk losing her status as a Shichibukai and having the treaty between Kuja and the World Government nullified. Hancock refuses and, using her Mero Mero no Mi powers, turns his men to stone and leaves."
+        ],
+        "long_summary": [
+          "On Amazon Lily, Luffy sets himself back into shape and reminds Marguerite he needs to meet up with his crew. She thinks of how men look and when Luffy asks for help taking the womanly vest off, Marguerite is confused, but nonetheless removes it. As Luffy prepares to leave, he hopes his crew are still alive and that's all that matters. He also thinks of the horror that Kuma put him through and prepares to get stronger. He almost hand-walks off the island, but then asks for a ship. Marguerite reminds him the island is on a Calm Belt. As such, sailors will not make it to the island. Her leader's flagship, the Yuda is charioted by two large snakes. Luffy insists on making a raft to make it to Sabaody Archipelago, but it breaks beneath his weight. This prompts Marguerite to get him out of the water. She begins to think that men will sink like rocks. Angered, Marguerite worries she'll become attached to Luffy and fires some arrows, which the Straw Hat captain dodges. He realizes the arrows can be powerful enough to pierce rock. Marguerite points out the arrows are imbued with Haki. Just then, Kikyo and the others give chase. Sweet Pea informs Marguerite that the leader will be coming soon. Meanwhile, a group of Kuja pirates argue with some marines over a dead sea king. The agreement between the Kuja and the World Government forbids the Marines from going within 3 kilometers of the island. Momonga tells of how he encountered the Sea King and how he was impatient with meeting the woman pirate. The marines bullets were anemic against the Sea King, but then Momonga breached the monster's mouth and killed it from the inside out with an x-shaped opening.\nMomonga then grows more impatient and demands Boa Hancock's presence. Some of the pirates tell him to leave. Momonga then points out that Hancock is to attend the public execution of Portgas D. Ace and will not take no for an answer. If rejected, Hancock will be stripped of her title as Shichibukai, leaving the Kuja as ordinary pirates. Suddenly, footsteps are heard within the Yuda. Boa Hancock comes out to the deck complaining about a kitten blocking her way. One of the Kuja takes responsibility for her crime. Momonga then advises the guard be kept up as Hancock can be very frightening and beautiful. Meanwhile, Luffy continues fleeing from the Kuja warriors wishing Nami were with him. Desperate, Luffy climbs a tree and hops through the jungle. Kikyo then becomes determined to kill Luffy before Hancock arrives. The young Straw Hat captain almost climbs a rock wall, but is knocked into the jungle by an arrow. Hancock and her sisters stand before Momonga,, but refuse to go to war with Momonga, wanting to retain her status. She also demands the cargo from Momonga's ship. The vice-admiral tries to defy her, but the marines begin to comply. With the execution one week away at Marineford, Whitebeard will try to rescue Ace. The entire Marine Headquarters would need every moment to prepare.\nThe Kuja leader still refuses to give in and one of the marines had an accident, being turned into stone. The marines learned that one of their ships had an entire crew turned to stone with loving looks on their faces. Sandersonia and Marigold point out how their sister gets her way. No matter what anyone does, Hancock says she is beautiful. The Kuja and Marines cheer, then Hancock fires a Love Love Mellow, shooting energetic hearts at the aroused Marines, turning them into statues. Momonga is horrified and angered with a knife in his hand. He also says one is not zero. The Kuja enjoy their loot and Hancock sets course for Amazon Lily. Determined, Momonga then orders that if she does not come back in two days, she will be stripped of her title. Hancock then dares him to do what he likes."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Marguerite",
+          "Sentomaru (flashback)",
+          "Kizaru (flashback)",
+          "Roronoa Zoro (flashback)",
+          "Bartholomew Kuma (flashback)",
+          "Kikyo",
+          "Sweet Pea",
+          "Aphelandra",
+          "Ran",
+          "Momonga",
+          "Blue Fan",
+          "Cosmos",
+          "Daisy",
+          "Rindo",
+          "Boa Hancock",
+          "Nami (flashback)",
+          "Usopp (flashback)",
+          "Bacura",
+          "Salome",
+          "Boa Marigold",
+          "Boa Sandersonia",
+          "Portgas D. Ace (fantasy)"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439266339291136,
+        "_root_": "Episode 410",
+        "score": 11.890301
+      },
+      {
+        "id": "Episode 627",
+        "title": [
+          "Luffy Dies at Sea!? The Pirate Alliance Comes Apart"
+        ],
+        "air_date": "January 5, 2014",
+        "short_summary": [
+          "Breed reveals that he plans to turn every human into an animal through the artificial Devil Fruit. Breed commands Luffy and Law to fight each other in a stadium-like place, while Dugong begs him to make them stop. Breed accepts his offer and makes Dugong fight Luffy and Law instead. Luffy and Law fall into the ocean after getting punched off the ship by the Kung-Fu Dugong."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Trafalgar Law",
+          "Breed",
+          "Tony Tony Chopper",
+          "Caesar Clown"
+        ],
+        "rating": "3.7",
+        "_version_": 1817439266609823744,
+        "_root_": "Episode 627",
+        "score": 11.782068
+      },
+      {
+        "id": "Episode 400",
+        "title": [
+          "Roger and Rayleigh - The Pirate King and His Right Hand"
+        ],
+        "air_date": "May 10, 2009",
+        "short_summary": [
+          "Upon arriving back at Shakky's Bar, Silvers Rayleigh reveals to the Straw Hats that he was the first mate of the legendary Gol D. Roger and also reveals the truth about his crew's dismissal. Thus, they leave soon after with a bit of Rayleigh's Vivre Card for each of them, and he tells them to come back in three days when their ship will be ready. Meanwhile, Admiral Kizaru arrives at the Archipelago."
+        ],
+        "characters": [
+          "Peterman (K.O.)",
+          "Duval",
+          "Sanji",
+          "Monkey D. Luffy",
+          "Camie",
+          "Roronoa Zoro",
+          "Silvers Rayleigh",
+          "Hatchan",
+          "Nami",
+          "Franky",
+          "Pappag",
+          "Tony Tony Chopper",
+          "Usopp",
+          "Nico Robin",
+          "Brook",
+          "Motobaro",
+          "Shakuyaku",
+          "Crocus (flashback)",
+          "Laboon (flashback)",
+          "Gol D. Roger (flashback)",
+          "Anjo (flashback)",
+          "Buggy (flashback)",
+          "Shanks (flashback)",
+          "Clover (flashback)",
+          "Nico Olvia (flashback)",
+          "Kizaru"
+        ],
+        "rating": "4.7",
+        "long_summary": [
+          "The Heart Pirates are still fighting off the remaining Marines at the auction house, tearing through them to escape. However, they come across the Kid Pirates, most of whom are already wounded due to Kuma. The Shichibukai immediately identifies and attacks Law, but Law manages to dodge the attack. With the Marines starting to close in from behind, Kid and Law, despite their mutual dislike of each other, tell Kuma they are leaving and prepare to face him. In Grove 8, Peterman has been thrashed by the Straw Hats and the Rosy Life Riders for his earlier abduction of Camie. After giving back Camie's backpack, they depart promising to aid them 'till they leave the island. The Straw Hats then head back to Shakky's Bar to treat Hachi's gun wound.\nAs they do so, they talk with Rayleigh where he reveals his relation to Gol D. Roger, much to their surprise (Hachi apparently knew this too, but did not tell them since they just needed a coater). Rayleigh also reveals how he met Hachi (the Fish-Man had saved Rayleigh's life when he was a kid, and they had remained friends 'till Hachi joined Arlong's crew, then named the Sun Pirates). Sanji then questions how he could still be alive if Roger's crew was captured, to which Rayleigh reveals that Roger actually turned himself in. The government just made it seem that way to show their strength to the public. Rayleigh goes on to tell them the reason why. It was because four years before he was executed, Roger was diagnosed with an incurable disease. His crew, however, had come across Crocus at the entrance of the Grand Line and asked him to join them on Roger's final journey to keep his disease in check.\nFinally, after three years, they had managed to conquer the Grand Line. This surprises the Straw Hats, Brook especially, since Crocus did reveal to them he was a pirate doctor for a time. Rayleigh even tells them that the reason Crocus joined was to find a certain pirate crew, which the Straw Hats figure must have been the Rumbar Pirates, bringing tears to Brook's eyes sockets. Rayleigh continues, stating that after they conquered the sea, Roger was dubbed the Pirate King. However, the title was meaningless since he was about to die. But Roger enjoyed it anyway, as he was a man who loved doing everything in grand style. Eventually, Roger disbanded his crew who silently went their separate ways, fates unknown.\nOne year later, Roger turned himself in to the Marines who decided to make a public execution of him to throw fear into pirates around the world. However, Roger had other plans; his last words to Rayleigh being \"I ain't gonna die, partner\". On the fateful day of his execution, Roger made his famous speech to the world which, in turn, created the current age of piracy. The Straw Hats are astonished by the story. Rayleigh then tells the group about Shanks and Buggy's apprenticeship aboard Roger's ship, the former of which ran into Rayleigh ten years earlier and told Rayleigh about Luffy, claiming that he had met a kid that said the same things as their captain did.\nThe story suddenly shifts to a harbor at Grove 27, where a pirate crew is about to set off. Before they can do so, they spot a ship on the horizon that suddenly fires a cannonball with a person actually standing on top of it. The ball lands in the harbor amidst the pirates and the figure, revealed to be Kizaru, awaits orders from his Den Den Mushi.\nBack at Shakky's Bar, Rayleigh congratulates Luffy for making it this far into the Grand Line and offers to do the coating job for free, much to the Straw Hats' pleasure. Robin then asks him about the Void Century, telling Rayleigh about a note written by Roger in the Poneglyph in Skypiea. Rayleigh replies that the Roger Pirates did indeed find out the whole history, though he advises her to continue looking for it on her own. Rayleigh says that maybe she could reach different conclusions than those that they reached. Still, he offers to reveal it to her but Robin politely turns him down, agreeing with his earlier advice. Rayleigh also reveals that Roger could not decipher everything like the genius Clover or the other scholars from Ohara. Roger just \"could hear the voice of all things\". Usopp then asks Robin if she would want to let an opportunity like this get away and starts to question Rayleigh about One Piece. Luffy stops him however, demanding that the mystery of the treasure remain hidden since countless pirates were risking their lives just to search for it. He then threatens to quit being a pirate if any of the crew asked Rayleigh about it, stating \"I DON'T WANT TO GO ON A BORING ADVENTURE LIKE THAT!!!\".\nUsopp apologizes for his actions before Rayleigh asks Luffy if he can really conquer the Grand Line. Luffy replies that he does not really intend to conquer it, only that the person with the most freedom in the ocean would be the Pirate King, which brings a smile to Rayleigh and Shakky's faces. Rayleigh then tells the crew he will have their ship coated in three days which, until then, the crew will have to avoid trouble. Thus, the Straw Hats decide their best bet is to split up and draw attention away from the shop. Shakky gives each member a Vivre Card so they can find their way back to Rayleigh once the coating is finished and Rayleigh decides to move the Thousand Sunny to a safer location. With that, they bid Hachi, Camie, Pappag, and Shakky farewell for the time being and head back into the groves. Luffy suggests to hide in the theme park though the others (save for Chopper and Brook) reject this idea.\nHowever, the Marines are already hot on the heels of the Straw Hat Pirates. At Grove 27, a warship approaches, causing a panic. As it prepares to make landfall, it fires off a round of cannonballs. Riding atop one, Admiral Kizaru descends on the grove in a frightening explosion and terrifies all the nearby pirates of the lawless area in the vicinity by his arrival. Kizaru announces his arrival on the Sabaody Archipelago back to Marine Headquarters through a Black Den Den Mushi on his wrist and requests a response."
+        ],
+        "_version_": 1817439266327756800,
+        "_root_": "Episode 400",
+        "score": 11.324325
+      },
+      {
+        "id": "Episode 646",
+        "title": [
+          "The Legendary Pirate - Don Chinjao!"
+        ],
+        "air_date": "May 25, 2014",
+        "short_summary": [
+          "The competition at Block C of the Corrida Colosseum is winding down as Lucy squares off against Jean the Bandit while others like Kelly Funk, Chinjao, and Ideo start to easily take out other competitors. Kelly Funk's power is revealed but is easily defeated by Sai who prepares to face off against Ideo. Outside of Dressrosa, the Straw Hat Pirates are still dealing with Giolla and the Donquixote Pirates, and back in the Colosseum, the final two of Block C are Lucy and Chinjao, who had just clashed with Haki."
+        ],
+        "characters": [
+          "Kelly Funk",
+          "Boo (K.O.)",
+          "Sai",
+          "Ideo",
+          "Chinjao",
+          "Monkey D. Luffy",
+          "Jean Ango",
+          "Gatz",
+          "Bobby Funk (flashback)",
+          "Nami",
+          "Momonosuke",
+          "Giolla",
+          "Brook",
+          "Tony Tony Chopper",
+          "Buggy (flashback)",
+          "Jinbe (flashback)",
+          "Crocodile (flashback)",
+          "Tibany (flashback)",
+          "Emporio Ivankov (flashback)",
+          "Shiryu (flashback)",
+          "Bartolomeo",
+          "Cavendish",
+          "Rebecca",
+          "Diamante"
+        ],
+        "fruits": [
+          "Jake Jake no Mi",
+          "Ato Ato no Mi",
+          "Mera Mera no Mi"
+        ],
+        "rating": "4.6",
+        "long_summary": [
+          "At the Corrida Colosseum, Gatz is heard announcing how Kelly Funk easily took down Boo with his sudden increase in strength. Sai is seen kneeling down to his fallen comarde while Ideo is seen taking out opponents with his explosive punches. Don Chinjao knocks away opponents in a fit of anger while Luffy (as Lucy) is trying to get his helmet back from Jean the Bandit. Chinjao is still chasing after Luffy wanting to get revenge on Garp's grandson and Jean overhears this now knowing Lucy is indeed \"Straw Hat Luffy\". Luffy still chases after Jean and Jean says that he is a bandit and he never returns anything he steals. Luffy almost loses his beard and Jean tries to uncover Luffy more now knowing who Luffy is. Jean starts to attack Luffy by throwing weapons at him but Luffy dodges them all. However, Luffy loses sight of Jean and Jean is seen thinking to himself on how he will win by collecting all of the weapons in the colosseum.\nNumerous of competitors are seen getting knocked out of the arena and it turns out to be by Kelly Funk who is using a barrage of punches to send them flying (Rarara Rambo). Gatz wonders where Bobby went and is surprised to see that Kelly has both increased in size and power. A competitor on the ground remembers what happened and a brief flashback is shown where Bobby actually puts on Kelly as a jacket. Kelly then reveals that he ate the Jake Jake no Mi making him a Jacket Human and is able to put his body on the much stronger Bobby to make himself stronger. This was shown how Kelly easily took down Boo. Sai then confronts Kelly saying even though he thinks of Boo as a weaker individual, he is still his subordinate. Kelly attempts to attack Sai with his Rarara Rambo move again but Sai blocks each punch and easily takes down Kelly with a vicious kick. The entire crowd is shocked but pleased at what just happened. Suddenly, Sai is confronted by Ideo who is eager to fight against the strongest man in the colosseum and the two begin to clash.\nJust outside Dressrosa, Nami with Momonosuke is seen driving away from Donquixote Pirates on their submarine. Giolla, still on the Thousand Sunny still tells the Straw Hat Pirates to give up. She says that thanks to her Ato Ato no Mi power, she has turned their ship into a work of art and is not able to leave Dressrosa.  Giolla demands them to hand over Momonosuke but, meanwhile, the other Donquixote Pirates wonder where Brook and Chopper went to. Brook and Chopper suddenly appear next to the Donquixote Pirates on their own submarine. Suddenly, weather eggs appear from the sea and hover high above and Nami uses Thunder Breed Tempo to completely destroy the Donquixote Pirates' submarine angering Giolla. Nami then says that no matter how bad the suitation is, they will never leave the Thousand Sunny behind. Nami then tells Brook and Chopper to fight but they both comment they cannot fight in their current form and Brook calls out to Luffy. Back at the Corrida Colosseum, Luffy is seen to be in shocked as Jean the Bandit as collected a large mass of weapons. Jean then challenges Luffy to a battle.\nLuffy, knowing he cannot do anything else to hide his identity from Jean, attempts to get his helmet back but Jean tosses weapons at him that miss Luffy but hits the other competitors. Jean continues to toss weapons at Luffy while thanking Luffy for helping him make so much money over the past two years. Luffy (who is dodging all of the weapon throws) is confused by Jean's claims and Jean says he managed to turn over almost all of the prisoners that broke out of Impel Down. Jean says he still intends on turning in Buggy, Jinbe, Crocodile, Ivankov, and Shiryu, intending to make a name for himself. Luffy wonders how Jinbe and Ivankov are doing while Jean continues saying he'll even turn over those that escaped from Level 6 of Impel Down. Jean is surprised that he hasn't managed to hit Luffy yet and continues to throw weapons, this time, with his eyes close. However, when he runs out of weapons, it turns out that some of them got stuck to Chinjao. Jean is horrified at what just happended and an angry Chinjao takes out Jean with a headbutt, eliminating him from the competiton (with Luffy taking back his helmet before Jean was knocked away).\nMeanwhile, Ideo and Sai are seen clashing and are evenly matched. Gatz and the crowd are excited to see two warriors battling it out on equal terms. Chinjao is seen finally confronting Luffy, wanting to exact his revenge on Garp by killing his grandson. Luffy still is confused at Chinjao's claims but Chinjao says that killing Garp will be too easy on him and to kill someone he loves will be even greater. Cavendish is seen yelling about not being able to compete in Block C in order to kill Luffy while Bartolomeo looks on. Luffy, seeing no other choice, enters Gear 2 and prepares to fight Chinjao. Luffy says that even if it's not a personal matter, he has to win the tournment so that he will win the Mera Mera no Mi as he does not want anyone else to have Ace's Devil Fruit. Both Luffy and Chinjao charge in, harden their arms with Armament Haki and clash. The force of the punches are so great that it emits a shockwave, knocking away all of the competitors and some of the crowd members. Diamante comments on Luffy and Chinjao are both Haki users and Gatz announces that they are the final two of Block C."
+        ],
+        "_version_": 1817439266667495424,
+        "_root_": "Episode 646",
+        "score": 11.322847
+      },
+      {
+        "id": "Episode 22",
+        "title": [
+          "The Greatest Pirate Fleet: Captain Don Krieg"
+        ],
+        "air_date": "April 26, 2000",
+        "short_summary": [
+          "Gin returns to the Baratie with his also-starving captain Don Krieg to whom Sanji once more gives food. However, Krieg betrays the cook once he regains his energy and attacks the Baratie, despite the cook's best efforts to stop him."
+        ],
+        "long_summary": [
+          "Sanji attempts to charm Nami, treating her with a fruit macedonia, which gets him into an argument with Zeff. However, fog arrives, and the customers notice the arrival of Krieg's fleet. Fearing Krieg's reputation, the patrons immediately flee the restaurant.\nKrieg enters the Baratie with Gin, begging for food and promising not to attack the ship if fed. Against the wishes of Patty and all the other staff, Sanji agrees to feed him, giving Krieg a bowl of rice. Krieg hungrily eats the food, but staying true to his reputation, once he finishes his food, he betrays the Baratie, launching an invasion. Having a damaged ship and a hundred starving subordinates, he demands the staff to feed all of his crew members, then vacate the Baratie so he could take the ship for himself.\nSanji attempts to comply with Krieg's demands, but the other staff restrain him, refusing to give up the ship. Patty shoots him with Shokuatari Meatball, but his golden armour leaves him completely unharmed by the explosive. In response, gun barrels emerge from the armour, and he opens fire at the kitchen staff. At this point, Zeff decides to submit to Krieg, giving him food for his crew members."
+        ],
+        "characters": [
+          "Zeff",
+          "Sanji",
+          "Roronoa Zoro",
+          "Nami",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Don Krieg",
+          "Carne",
+          "Patty",
+          "Gin"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265842266112,
+        "_root_": "Episode 22",
+        "score": 11.213098
+      },
+      {
+        "id": "Episode 595",
+        "title": [
+          "Capture Master - The Pirate Alliance's Operation Begins!"
+        ],
+        "air_date": "May 12, 2013",
+        "short_summary": [
+          "Zoro, Sanji, and Brook are trying to find the samurai and remember what happened to them. They had been knocked out by the Yeti Cool Brothers, who used a gas that makes people drunk. The Yeti Cool Brothers then try to make them fall into a pit of spikes but Zoro cut the spikes before he passed out. Caesar's hazmat subordinates attack them but fail thanks to Sanji. They find the samurai's head and legs frozen and unfroze him. He then explains that he couldn't swim because of his magic and said that it felt like his torso was underwater. They see Smiley far away.\nMeanwhile, Caesar Clown explains that Smiley is a chemical experiment that caused the explosion in Punk Hazard.\nLaw and Chopper are heading to the lab, using Law's room ability to move faster. They then see the G-5 Marines attempting to break inside lab and Luffy, Franky and Nico Robin arriving out of nowhere, surprising the Marines and Caesar's subordinates."
+        ],
+        "characters": [
+          "Roronoa Zoro",
+          "Brook",
+          "Sanji (in Nami's body)",
+          "Yeti Cool Brothers (flashback)",
+          "Kin'emon",
+          "Smiley (shadowed",
+          "imagination)",
+          "Caesar Clown",
+          "Monet",
+          "Sind (sleeping)",
+          "Konbu (sleeping)",
+          "Uzu (sleeping",
+          "not fully seen)",
+          "Franky",
+          "Monkey D. Luffy",
+          "Nami (in Sanji's body)",
+          "Nico Robin",
+          "Usopp",
+          "Smoker (in Tashigi's body)",
+          "Tashigi (in Smoker's body)",
+          "Trafalgar Law",
+          "Tony Tony Chopper"
+        ],
+        "rating": "4.5",
+        "long_summary": [
+          "Sanji's group is recovering from the fall and the effects of the KYP gas. Sanji wonders if the samurai is alright. Zoro argues that Sanji wanted to take the shortcut, but the cook fires back that they all agreed to go. Brook remembers the shadows he saw before they fell unconscious. Zoro argues that no one was there while Sanji disagrees. There is a flashback to an hour ago, when the group finds the footprints. Brook calls Zoro and Sanji over to look at the giant footprints. He thinks they might belong to the legendary yeti. Zoro and Sanji tell him to not be ridiculous. Brook gets excited, stating that beyond here lies the dream of man as all three imagine what the yeti looks like. They follow the footprints to the edge of a cliff, turn around, and see two large shadows and hear the sound of guns getting cocked. The Yeti Cool Brothers shoot them with the KYP bullets. Rock explains that the gas can put even the heaviest drinker into a complete stupor. He also tells them about section F-16, home of the icicle pincushion. They blast the tip of the cliff off with their rifles, sending the inebriated pirates with it. Zoro, in his last moments of consciousness, manages to cut the plateau containing the icicles, saving himself and the others.\nIn area F-16, a collection team discovers the three unconscious bodies. Sanji grabs the leg of one of the soldiers, surprising him. He surprises the soldiers even further by completely defeating the whole group. He realizes that he has to be careful, as Nami's body is far more delicate than his own. He then punches Zoro and Brook in the head to wake them up. Sanji asks Brook if he thinks the samurai is nearby. Brook says he remembers seeing the torso around here. The crew steps on a body unconscious in the snow; first Sanji, then Brook, and then Zoro notices the body and realizes it is the samurai. He is completely frozen. Sanji stomps on the Samurai's head, breaking the ice. The samurai gasps for air. He tells them that he suddenly became paralyzed. He says he is not cold, but Sanji calls him out on his lie. He explains that his ability prevents him from swimming and right now it feels like his torso is under water. Zoro and Brook reason that the torso fell in the salt water lake. Zoro concludes that if he can still feel it, then the sharks have not eaten the torso yet. Sanji realizes they do not have much time and they need to recover the samurai's torso. The samurai is surprised by this kind of kindness coming from pirates. Sanji tells him it is strictly out of responsibility and the second their body issues are taken care of, he is going to fight and beat the samurai to a pulp. The samurai then thanks Sanji. Sanji remarks that he is finally showing some gratitude and maybe everyone should get frozen once.\nThey then see a group in the distance. It is the Centaur Patrol Unit. They are running from the monster that appeared at the lake. Zoro asks what they are talking about. The centaurs then notice the pirates, angry that they lost, but keep moving. Zoro then looks toward the lake, and does not seem to remember the enormous mountain currently there.\nThe scene changes to inside the lab. Caesar Clown is talking about how Slime is the same thing that caused the massive explosion four years ago. Everyone thinks Caesar purified the toxic gas, but Caesar reveals that he simply condensed it and, not wanting to be wasteful, compressed it into Slime. He goes on to say that just because people forget a tragedy does not mean it is gone. In fact, it was sitting in the palm of Caesar's hand all this time.\nOutside the front of the lab, the G-5 Marines are stealing a ship. Tashigi tries to hold off some enemies, but accidentally transforms into smoke and cannot control it. Smoker tells her to get out of the way and asks if the door barring their escape is open. A soldier responds that the enemy is in the lab and the door will not move. This irritates Smoker, as it would all be easier if he were in his own body.\nBehind the lab, Law and Chopper warp into one of Law's Rooms. Law explains where they are and where Caesar and Monet are. He tells Chopper to investigate the drugs while he works on a way to get Caesar and Monet out of the building. Chopper asks why Law could not just capture them since they trust Law so much, making infiltration easy for him. Law tells Chopper he has a certain problem that prevents him from capturing them so easily. The Straw Hats need to capture Caesar as quickly as possible and Law will do the rest. Law then hears screaming. Tashigi looks up to see something flying toward them, thinking it to be a huge bomb. It turns out to be Luffy, Robin, and Franky. Luffy and Franky crash into the bow of the destroyed Marine ship. Robin avoids the impact by using Wing. Robin lands delicately while Franky punches his way out of the wrecked ship. Luffy then shouts for \"Master\" to get outside so they can beat him up and kidnap him. Franky comments on how good of a shortcut they took while Robin reminds them they are supposed to be secretive. Law is irritated by Luffy's conspicuous entrance, while Smoker and the rest of G-5 are surprised to see him."
+        ],
+        "_version_": 1817439266564734976,
+        "_root_": "Episode 595",
+        "score": 10.739541
+      },
+      {
+        "id": "Episode 11",
+        "title": [
+          "Revealing the Conspiracy! The Pirate Caretaker, Captain Kuro!"
+        ],
+        "air_date": "January 26, 2000",
+        "short_summary": [
+          "Zoro and Nami rescue Luffy and learn about Kuro's malicious intentions. Meanwhile, Usopp attempts to alert the townspeople about the incoming threat, but the people do not believe him. The crew decide to work with Usopp to battle the Black Cat Pirates themselves."
+        ],
+        "long_summary": [
+          "Nami and Zoro head to the cliff to look for Luffy. They discover Luffy at the base of the cliff, and they head to the bottom of the cliff to wake him up unharmed. Luffy reveals to them Klahadore's malicious intents.\nUsopp runs to the village to alert others about the incoming attack, but the townspeople refuse to believe him, contrasting him to Klahadore whom they trust more. The townspeople chase Usopp out of the town. Usopp then goes to Kaya's mansion to warn her about the danger, but she also does not believe him, believing it to be an unusually cruel joke.\nUsopp attempts to escort Kaya out of the building, but is faced against the mansion guards. Although Usopp fights the guards, Kaya refuses to leave, hitting Usopp across the face. One of Kaya's butlers, Merry, shoots Usopp in the arm, and the townspeople continue to pursue him.\nMeanwhile, Kuro meets with his crew at their ship stationed at the island. He orders them to destroy the entire village the next day.\nThe crew, Usopp and the children meet at the outskirts of the village. The children express their disappointment in Usopp for lying as they leave. The crew agree to fight alongside Usopp to defend Syrup Village from the Black Cat Pirates."
+        ],
+        "characters": [
+          "Jango",
+          "Kuro",
+          "Usopp",
+          "Monkey D. Luffy",
+          "Nami",
+          "Roronoa Zoro",
+          "Kaya",
+          "Ninjin",
+          "Tamanegi",
+          "Piiman",
+          "Merry"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439265828634625,
+        "_root_": "Episode 11",
+        "score": 10.2491045
+      },
+      {
+        "id": "Episode 2",
+        "title": [
+          "The Great Swordsman Appears! Pirate Hunter Roronoa Zoro"
+        ],
+        "air_date": "November 17, 1999",
+        "short_summary": [
+          "Luffy and Koby find Zoro captured in Shells Town's Marine base, with the Marines intending to execute him. Luffy and Koby work together to retrieve Zoro's katanas, as well as confront the tyrannical Marine Captain Morgan and his son Helmeppo."
+        ],
+        "long_summary": [
+          "Luffy and Koby arrive at Shells Town, a town where a Marine base is stationed. They find their target, Roronoa Zoro, crucified at the base. A small girl, Rika, sneaks into the base to offer Zoro onigiri, but she is stopped by Helmeppo, a snobbish man who destroys the onigiri. However, Zoro later eats the dirt-stained rice.\nOutside the Marine base, Rika reveals that the town was run by a tyrannical Captain Morgan, who allowed his son, Helmeppo, to regularly abuse his citizens. One day, Helmeppo brought a hostile wolf into a bar which attacked the customers and ate their food. When Zoro attacked Helmeppo for his cruelty, Helmeppo threatened to execute all customers in the bar unless Zoro turned himself into the Marines, where he would be crucified for one month.\nLater, Helmeppo reveals that he intended to execute Zoro, violating the deal he had struck with him. Luffy assaults him for his dishonesty, then heads towards the Marine base to locate Zoro's confiscated katanas. As Morgan orders his men to erect a large statue of himself on the base's rooftop, Luffy launches himself towards the rooftop, accidentally destroying the statue in the process. Luffy grabs Helmeppo and flees, searching the building and locating the katanas. Meanwhile, the girl who robbed the Alvida Pirates' ship also infiltrates the Marine base to steal its goods.\nMeanwhile, Koby attempts to free Zoro from the cross, but is spotted by Morgan, who orders his men to open fire on them both. They are stopped by Luffy, who deflects the bullets with his rubber body."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Koby",
+          "Roronoa Zoro",
+          "Rika",
+          "Helmeppo",
+          "Soro",
+          "Ririka",
+          "Nami",
+          "Morgan",
+          "Kuina (flashback)",
+          "Rokkaku",
+          "Ukkari"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265822343168,
+        "_root_": "Episode 2",
+        "score": 10.193306
+      },
+      {
+        "id": "Episode 64",
+        "title": [
+          "A Pirate-Loving Town? Arrival at Whisky Peak"
+        ],
+        "air_date": "April 15, 2001",
+        "short_summary": [
+          "Luffy and his crew arrive at Whisky Peak, a town of pirate-lovers who hold them a feast. Things get fun when everyone has a chance to enjoy themselves. Nami and Zoro are getting into a drinking contest to win some money, while Luffy is eating to the fullest. Sanji has the company of several beautiful women, and Usopp lies to make people admire him. Zoro then learns the truth about the people of Whisky Peak."
+        ],
+        "long_summary": [
+          "The Straw Hat Pirates travel along with Miss Wednesday and Mr. 9 in the Going Merry to get them to Whisky Peak. Nami is surprised by the weather condition on the Grand Line because it changes randomly and drastically. She tells the crew that they are heading in the wrong direction and the crew follow her orders so they can get to Whisky Peak. The Straw Hat Pirates arrive at their destination, while Miss Wednesday and Mr. 9 get off the ship and start swimming immediately after they see Whisky Peak. Nami says that it is impossible to get off the island unless the Log Pose settles down. The people of the island welcome the Straw Hat Pirates, for which Straw Hat Pirates are surprised to witness a town of pirate-lovers.\nThe Straw Hat Pirates enjoy themselves with the people in the town. Nami is encouraged to participate in a drinking contest for a reward from Igaram. Zoro also joins Nami in a drinking contest. Sanji gets in the company of beautiful women and Usopp lies to people about his adventures for which people get impressed. Luffy eats to his satisfaction. Nami wins the contest by defeating the last contestant.\nAfter the party is over, Igaram reveals that the Straw Hats must be captured alive, so they can get the reward without the 30% reduction that they will get if they kill the Straw Hats. Zoro appears on top of a building in front of the bounty hunters and reveals that he knew that they were pretending to be pirate-lovers. Igaram and the others are surprised and say that Zoro must be killed. Zoro suddenly disappears instantly and everybody gets surprised."
+        ],
+        "characters": [
+          "Nami",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Sanji",
+          "Mr. 9",
+          "Miss Wednesday",
+          "Roronoa Zoro",
+          "Pandaman (image)",
+          "Mr. Beans",
+          "Miss Catharine",
+          "Igaram",
+          "Mr. 13",
+          "Miss Friday",
+          "Miss Monday",
+          "Mr. Shimizu"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439265889452032,
+        "_root_": "Episode 64",
+        "score": 10.158891
+      },
+      {
+        "id": "Episode 626",
+        "title": [
+          "Caesar Goes Missing! The Pirate Alliance Makes a Sortie"
+        ],
+        "air_date": "December 22, 2013",
+        "short_summary": [
+          "Smooth seas stretch out before the Straw Hats as they leave Punk Hazard far behind\u2014but while they fear Doflamingo's return and prepare to face him, another foe lies in wait, whose powers could be their downfall!"
+        ],
+        "long_summary": [
+          "The Thousand Sunny is still in the water as a massive sea creature arises from the waters, carrying Breed. As the rest of the ship's residents sleep, Usopp, Franky, and Chopper keep on the lookout for Doflamingo, when all of a sudden, Breed and his army of Sea Lapahns attack the Thousand Sunny and everyone on board. In response, the Straw Hats and everyone else begin fighting off the Sea Laphans when Breed suddenly calls off the attack, revealing himself atop the Thousand Sunny.\nWith Breed having kidnapped Caesar, Luffy attacks him, but he is stopped by a Kung Fu Dugong using a Armament Haki-infused fist. Breed escapes with Caesar, while Law tries to use his abilities to stop him. When Law tries to use Room, he is interrupted by Sea Lapahns rocking the boat. When everyone turns around, they see a massive ship the size of an island, with Sanji noticing a Jolly Roger resembling Breed. Law, Luffy and Chopper decide to board the Shark Submerge III to go after Breed.\nAs they leave, Chopper askes Luffy if he recognizes the Sea Lapahns, noting they look identical to the Lapahns back on Drum Island. Law asks Chopper if that's why he joined them, proceeding to call him a tanuki. Chopper begins yelling at Law, but Law notices the Sea Lapahns entering Breed's ship. The pirates step out of the Shark Submerge III and into Breed's ship, with Law warning Luffy to be careful. Just then, Luffy decides to yell to Law that it's not as dark where he is. Law, Luffy and Chopper head towards the middle of the ship, but they are suddenly attacked by Sea Laphans, an Octopus Boxer, and other sea creatures.\nThey successfully fight off the sea creatures when the Kung Fu Dugong from earlier arrives and attempts to attack Luffy. Luffy defeats the Dugong, when the Dugong remembers losing to Luffy in a fight while in the Arabasta Kingdom. Excited, he jumps towards Luffy and begins hugging him. Meanwhile, Caesar is seen locked in a cage with Seastone handcuffs. He asks if anyone can free him as Breed enters the room. Caesar recognizes him and asks if he can be set free to see Doflamingo. However, Breed just tells him to stop whining and calls him worthless scum, causing Caesar to realize that Breed is not working under Doflamingo. Breed explains his plan to make a kingdom full of pets and that he needs Caesar's help to do it. However, Caesar refuses to help Breed, and Breed uses his ability on the scientist.\nElsewhere, Luffy is catching up with his Kung Fu Dugong friend and training him. As leader of the Sea Animal Pirates, the Dugong apologizes to Luffy for attacking him and explains his journey since leaving Arabasta. He explains that after arriving in the New World, Breed enslaved his crew. Suddenly, Breed began speaking into the intercom, commanding them to fall in line. Panicked, the Dugong tells them to run away quickly.\nWhen Breed arrives and scolds the Dugong for not listening to him, he sees the Straw Hats and Law and explains that he is a pirate. He attacks Chopper with a green substance that, upon hitting him, transforms into a collar. Breed then commands Chopper to attack Luffy and Law, and Chopper eats a Rumble Ball, transforming into Monster Point. Powered up, he attacks his former allies, distracting them and allowing Breed to collar them as well."
+        ],
+        "characters": [
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Brook",
+          "Kin'emon",
+          "Nami",
+          "Momonosuke",
+          "Nico Robin",
+          "Caesar Clown",
+          "Trafalgar Law",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Franky",
+          "Breed",
+          "Sanji",
+          "Nefertari Vivi (flashback)"
+        ],
+        "rating": "3.9",
+        "_version_": 1817439266608775168,
+        "_root_": "Episode 626",
+        "score": 10.132137
+      },
+      {
+        "id": "Episode 170",
+        "title": [
+          "Fierce Sky Battle! Pirate Zoro vs Fighter Braham"
+        ],
+        "air_date": "October 19, 2003",
+        "short_summary": [
+          "Zoro fights the Shandia warrior Braham and defeats him with Ittoryu (One Sword Style) 36 Pound Cannon technique. Luffy and Wyper have begun their battle and Chopper has arrived at the ruins. Meanwhile, Enel visits the Going Merry and knocks out Sanji."
+        ],
+        "long_summary": [
+          "Chopper was running around scared and Robin is seen in what appears to be the ruins. Zoro is seen talking to himself about his Flying Blade attack and he tried it out on a bird attempting to attack him, but he said the attack wasn't ready, thus searching for another thing to test this attack on. Chopper, running scared, is actually being chased by the Divine Soldiers, but they encounter a Shandia and ignore Chopper and fight one another. Robin, still at the ruins, is approached by a Divine Soldier who tells her to go this route leading to God's shrine. Robin, upset at the Divine Soldier for breaking some part of the ruins, defeats him.\nZoro, still making his way through the forest, is attacked by a Shandia warrior and Zoro punches him, knocking him out. In that moment, Braham defeats a Divine Soldier and proceeds to fight Zoro. Zoro initially tried to ignore the fight since Braham was not a priest. However, when Braham's attacks continued, Zoro prepared to fight him saying that he is glad Braham is not a second-rate flunkie. The Shandia and the Divine Soldiers are now engaged in battle and so are Braham and Zoro. Zoro was initially having problems fighting Braham because of the Jet Skis and Flash Guns that Braham has, thus making it a long-range battle. As the battle continues, Zoro decides to try his new technique. With Ittoryu - Sanjuroku Pound Ho, Zoro was able to defeat Braham and commented to himself about accepting the survival game.\nChopper, wailing about being left by the others, finds himself at the ruins and congratulates himself on being smart. Meanwhile, Gedatsu was in the same area and Chopper did not notice him. Luffy and Wyper continue their face-off and Wyper was shooting cannons at Luffy which Luffy rebounded using his Gomu Gomu no Mi abilities. Enel has visited the Straw Hats' ship and Sanji attempted at attacking but was defeated by Enel's Goro Goro no Mi abilities. Enel stated he had come without the intention of fighting and referred to Sanji as a foolish man. Gan Fall asked what his purpose of visit was, but Enel just told him it's been a long time since they met, and said that that is a cold-hearted way of greeting him."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Wyper",
+          "Tony Tony Chopper",
+          "Nico Robin",
+          "Roronoa Zoro",
+          "Braham",
+          "Gedatsu",
+          "Usopp",
+          "Nami",
+          "Sanji",
+          "Gan Fall",
+          "Pierre",
+          "Enel"
+        ],
+        "fruits": [
+          "Gomu Gomu no Mi",
+          "Goro Goro no Mi"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439266055127040,
+        "_root_": "Episode 170",
+        "score": 10.066984
+      },
+      {
+        "id": "Episode 12",
+        "title": [
+          "Battle! The Blackcat Pirate Crew. Battle on the Slope!"
+        ],
+        "air_date": "February 2, 2000",
+        "short_summary": [
+          "The crew prepare for the incoming attack by defending the southern coast, but the enemy pirates instead enter from the north. They arrive just in time to face the attack, and they fight to prevent the Black Cat Pirates from entering the village."
+        ],
+        "long_summary": [
+          "The crew prepare for the incoming attack. As the only entrance to the village is a single sloped path at the island's south end, they stand guard at the pathway to prevent the Black Cat Pirates from entering. They cover the slope with slippery oil to prevent them from walking up the path.\nKuro, still disguised as Klahadore, returns to Kaya's mansion, where Kaya is already asleep and Merry tending to his duties. Kuro finds a gift Kaya got for him, a pair of glasses custom-made for him so they would not slip off his nose. Kuro destroys the pair of glasses, revealing his true self to Merry. Revealing a set of long blades attached to his fingers like cat claws, he slices Merry down before heading to Kaya's bedroom to watch her sleep.\nMorning arrives and as planned, the Black Cat Pirates led by Jango dock at the island. However, Usopp forgets that there is a second entrance to the village at the island's north end, through which the Black Cat Pirates decided to use instead. Nami, Luffy and Usopp rush to the north end, whereas Zoro is trapped by the south entrace's slippery slope. As Zoro continues to struggle to climb the slope, Luffy gets lost while attempting to reach the north coast.\nArriving at the north end and using his slingshot, Usopp strikes down many of the advancing Black Cat Pirates. Usopp attempts to bribe the pirates away using the treasures on the crew's ship, but Nami arrives and stops them. Undeterred, the Black Pirates continue their advances onto the island, and Nami and Usopp are unable to stop them. However, Luffy and Zoro arrive just in time to stop them.\nKuro notices his crew is late entering the village. He decides to personally head down to the north coast, vowing to kill his entire crew if his plan were to go wrong."
+        ],
+        "characters": [
+          "Usopp",
+          "Kaya",
+          "Merry",
+          "Nami",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Kuro",
+          "Jango",
+          "Ninjin",
+          "Piiman",
+          "Tamanegi"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265829683200,
+        "_root_": "Episode 12",
+        "score": 9.69895
+      },
+      {
+        "id": "Episode 31",
+        "title": [
+          "The Most Wicked Man of East Blue, Fish-Man Pirate Arlong"
+        ],
+        "air_date": "July 12, 2000",
+        "short_summary": [
+          "The crew arrive at Arlong Park, base of the fish-man and Grand Line pirate Arlong. Zoro is captured by Arlong Pirates, and discovers Nami is one of Arlong's officers."
+        ],
+        "long_summary": [
+          "While at sea, Yosaku reveals Nami's destination: Arlong Park, the base of the most notorious pirate in the East Blue, Arlong. Yosaku suspects Nami is after Arlong's bounty and warns of the dangers that lie ahead since Arlong is a fish-man originating from the Grand Line, so his strength surpasses even that of Krieg. Arlong had previously worked with Jinbe of the Seven Warlords of the Sea, seven government-sanctioned pirates such as Mihawk. Yosaku, Luffy and Sanji go to the galley for lunch.\nNami arrives at Arlong Park, where Arlong makes a bribery with a corrupt Marine officer. She reaches the base and beats a child attempting to eliminate Arlong.\nArriving at the island, Zoro prepares to invade the base, but Usopp and Johnny stop him, tying him with rope and sailing around the island. However, the ship is spotted by resident fish-men. Usopp and Johnny abandon ship, but Zoro is unable to escape the ship, and he is captured by Arlong Pirates. Zoro is interrogated by Arlong, where Arlong claims that fish-men are far superior to humans, as they possess greater strength and can breathe underwater. Nami confronts Zoro, revealing she is an officer and cartographer serving under Arlong.\nJohnny and Usopp arrive onshore at Gosa Village, only to find the entire village had been destroyed, and all houses had been flipped upside-down. A resident fish-man explains that the village was destroyed by the Arlong Pirates' sea monster, Momoo, for protesting against Arlong's reign. Revealing himself to be an Arlong Pirate, he attempts to capture Usopp, but is rescued by a human resident, Nojiko, who diverts the pirate away. They then visit Nojiko's house."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Sanji",
+          "Yosaku",
+          "Dracule Mihawk (silhouette)",
+          "Nami",
+          "Nezumi",
+          "Arlong",
+          "Chew",
+          "Kuroobi",
+          "Hatchan",
+          "Chabo",
+          "Roronoa Zoro",
+          "Johnny",
+          "Usopp",
+          "Nojiko",
+          "Momoo"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265849606144,
+        "_root_": "Episode 31",
+        "score": 9.438657
+      },
+      {
+        "id": "Episode 151",
+        "title": [
+          "The 100,000,000 Man!\nThe World's Highest Authority and the Pirate Blackbeard"
+        ],
+        "air_date": "April 20, 2003",
+        "short_summary": [
+          "Luffy makes his mark when he challenges Bellamy to get Cricket's gold back as machinations on the other side of the world are set in motion. As a new face makes the Straw Hat captain their target, the World Government tries to prevent the meeting of two major powers."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Bellamy",
+          "Jobo",
+          "Sarquiss",
+          "Eddy",
+          "Muret",
+          "Rivers",
+          "Hewitt",
+          "Ross",
+          "Usopp",
+          "Masira",
+          "Shoujou",
+          "Mont Blanc Cricket",
+          "Tony Tony Chopper",
+          "Roronoa Zoro",
+          "Nami",
+          "Lily",
+          "Mani",
+          "Dracule Mihawk",
+          "Jaygarcia Saturn",
+          "Marcus Mars",
+          "Topman Warcury",
+          "Ethanbaron V. Nusjuro",
+          "Shepherd Ju Peter",
+          "Donquixote Doflamingo",
+          "Bartholomew Kuma",
+          "Stainless",
+          "Mozambia",
+          "Cancer",
+          "Tsuru",
+          "Sengoku",
+          "Laffitte",
+          "Edward Newgate",
+          "Rockstar",
+          "Jozu",
+          "Marco",
+          "Tate",
+          "Shanks",
+          "Lucky Roux",
+          "Benn Beckman",
+          "Yasopp",
+          "Marshall D. Teach",
+          "Doc Q",
+          "Stronger",
+          "Jesus Burgess",
+          "Van Augur"
+        ],
+        "rating": "4.8",
+        "long_summary": [
+          "Bellamy laughs at Luffy's demand that he give back Mont Blanc Cricket's gold. After their last encounter in Mock Town, he doubts Luffy even knows how to throw a punch. Sarquiss still believes the bounty poster for Luffy with his new 100,000,000 bounty is a fake. He questions if the old one for 30,000,000 is also real as he watches Luffy's fight with Bellamy. Bellamy breaks off the roof they are on and springs at Luffy with Spring Snipe, but Luffy jumps out of the way. The Bellamy Pirates sit back to \"watch the show\". Bellamy manages to hit Luffy when he's falling from the rooftops, and smashes him into the boardwalks. Luffy gets up as if nothing has happened, but Bellamy is still unimpressed with his effort.\nWanting to finish it, Bellamy begins springing off all the nearby buildings around Luffy with his Spring Hopper technique, all the while mocking Luffy for being among the pirates who chased dreams. Angered, Luffy cracks his knuckles, recalling Bellamy asking if he even knew how to throw a punch. As Bellamy springs toward him to finish him off, Luffy punches downward, striking Bellamy down through the boardwalks so hard he leaves an imprint of his fist in the now-unconscious pirate's head. Sarquiss urges Bellamy to get up, thinking Bellamy was fooling around. But it turns out the drunkard that found Luffy's new wanted poster was right about Luffy's notoriety. With Bellamy's blood dripping from his fist, Luffy demands Cricket's gold back, and the town's people scatters in a panic after learning Luffy and Zoro's bounties are real.\nBack at Cricket's camp, all of his associates are back to work retrofitting the Going Merry thanks to Chopper's care. Nami berates Zoro for not going with Luffy to challenge Bellamy, even though he was beaten up earlier too. He does not take kindly to her insults, and Usopp tries to cool them down as they start beating on the ship in their argument. Back in Mock Town, Luffy sacks up Cricket's gold. With Bellamy still laying in the broken boardwalk, Sarquiss tries to challenge Luffy, but is held back by the others. When asked where he is going, Luffy raises his fist, still covered in Bellamy's blood causing Sarquiss to fall to the ground in fear. Luffy then points upward and tells them, \"The sky!\"\nDrifting in the ocean, Dracule Mihawk gets Luffy and Zoro's new posters. He is pleased to see that they can now shake the World Government with their defeat of Crocodile.\nMeanwhile, at Mary Geoise, the Five Elders\u2014the de facto rulers of the world\u2014find out from a Marine that \"Red Hair\" is trying to get in contact with \"Whitebeard\" via messenger. They determine that the two meeting is too dangerous, and they must find a successor for the defeated Crocodile among the Seven Warlords of the Sea quickly to maintain balance between \"the powers\". They also admit that they cannot keep Luffy unchecked. Indeed, a meeting of the remaining Warlords of the Sea has been ordered. Two arrive: Donquixote Doflamingo and Bartholomew Kuma, both of whom had massive bounties before becoming privateers. When he arrives, Doflamingo toys with two of the present Marines, using his powers to make them fight each other out of sheer boredom. He is told to stand down by the Fleet Admiral of the Marines, Sengoku, who is impressed that even two of the remaining six Warlords of the Sea showed up. Doflamingo said he only came because his \"island business\" was running so well he was bored of it. Shortly after, they are joined by Mihawk, making it three Warlords. He says he was merely an onlooker in these proceedings, as he's interested in the pirates responsible for Crocodile's defeat.\nShortly after, a foreign voice joins in, and the room is invaded by a tall, lanky man with tap shoes. One of the Marines present identifies him as Laffitte, a former peace officer from West Blue who was chased from his country for his cruel methods. He says he is here to recommend someone to replace Crocodile.\nSomewhere on the seas, a captain receives a letter from Shanks. His men insult the messenger, Rockstar, a relative newcomer to the Red Hair Pirates who has a 94,000,000 bounty. The intended recipient of the message, Whitebeard, rips up Shanks' letter. The captain appears to be ill, as he has nurses all around and is connected to several IVs and an oxygen line. He tells Rockstar that if Shanks wants to send a message, he should deliver it personally, and bring good booze along with it. Rockstar alerts Shanks by Den Den Mushi. Shanks apologizes for putting Rockstar through all that, and tells his men to get ready to set sail to meet Whitebeard.\nAt Mary Geoise, Laffitte recommends his captain, Marshall D. Teach, to replace Crocodile as a Warlord. Sengoku does not even know who this pirate is, but Lafitte tells him that his crew, the Blackbeard Pirates, are hatching a plan to make their names known.\nIn Mock Town, while the citizens were talking about Bellamy's defeat, Teach looks at Luffy's reward poster, and comments on it. Then Sarquiss runs into him and tells him to get out, so Teach buries his head into the ground. Then, he declares that he does not intend to capture weaklings, but one man out of 100,000,000, so he and his companions begin to leave the city, while discussing Laffitte and fate.\nLuffy, however, is already on his way to the other side of Jaya with Cricket's gold."
+        ],
+        "_version_": 1817439266036252672,
+        "_root_": "Episode 151",
+        "score": 8.569402
+      },
+      {
+        "id": "Episode 144",
+        "title": [
+          "The Log is Taken! Salvage King, Masira!"
+        ],
+        "air_date": "February 9, 2003",
+        "short_summary": [
+          "Nami's Log Pose begins to point to the sky, after that, a big ship falls from sky and the crew finds a map of an island named 'Skypiea' on a 200-year-old ship. Meanwhile, Masira and his crew appear to salvage the ship and think the Straw Hat Pirates are trying to steal their salvage. Nami thinks that it would be easier for them if Masira's salvage crew salvages the ship for them. Luffy, Sanji, and Zoro continue to search the ship for clues while the salvage crew works to bring up the wreck. Eventually a giant sea turtle appears and eats the entire wreckage with everyone inside."
+        ],
+        "long_summary": [
+          "The Straw Hat Pirates notice some debris falling from the sky, initially thinking it was rain. Suddenly, an entire wrecked ship falls from the sky causing huge waves rocking the Going Merry after almost hitting it. When the seas have calmed down the Crew tries to figure out how a ship could fall from the sky. Nami then notices that her log pose is pointing towards the sky, thinking that it is broken. Robin suggests that the log pose isn't broken but is merely registering an island with strong magnetic pull further suggesting that it must be pointing towards Sky Island.\nThe Straw Hats are both in disbelief and excitement. Robin explains that Sky Island isn't exactly just an island in a sky, but rather, an entire ocean. Luffy tells them to set their course towards Sky Island but Sanji points out that they can't actually fly. Robin goes on to admit that her knowledge about the island is based solely on word of mouth and that she has never actually seen it. Nami thinks that the whole thing is made up and insists that their log pose is simply broken. Robin then argues that instead of trying to fix something that isn't broken, they should try to find a way to get to Sky Island. She further says that in the Grand Line, one must not doubt their log pose no matter how crazy things get, stating that this is the most steadfast, unbreakable rule in the Grand Line.\nRobin proceeds to study the skull of one of the sailors from the ship that just fell from the sky while Luffy and Usopp investigate the wreckage. After piecing together the skull, Robin sees that it has been punctured from an ancient medical procedure called craterization and deduces that the man must have been dead for at least 200 years. She further deduces that the ship must be St. Briss, an exploration ship from the South Blue.\nMeanwhile, as the ship is sinking, Luffy starts drowning. After being pulled up, he announces that he found a map of Skypiea within the wreckage. Nami inspects the map and remains skeptical since it could be a fake treasure map, further pointing out that even if it were real, the map doesn't show them how to get to the Sky Island. In order to get more information on how to get to Sky Island, Nami proposes that they salvage the ship that has now sunk to the bottom of the ocean. Sanji, Zoro, and Luffy volunteer to go, using special barrels attached to the Merry designed by Usopp which allows them to breathe underwater.\nWhile the trio is descending towards the shipwreck, a pirate ship arrives to where the ship has sunk. The captain of the ship introduces himself as Masira, Captain of the Masira Pirates and declares that the sunken ship is now the property of the King of All Salvagers. He orders his crew to raise the ship. Masira notices the presence of the Straw Hats and warns them about stealing \"his ship\" since, according to him, all ships that sink in the area are his property. The Straw Hats decide not to tell Masira that they have already sent a team to the shipwreck and also decide not to stop him from raising the ship. Nami uses her charms to avoid suspicion from Masira and he starts to try to impress her.\nAs Masira's crew is setting the cradle to raise the sunken ship, they ascend beaten up and unable to talk. However, Masira still does not suspect The Straw Hats. Underwater, Luffy, Zoro, and Sanji have made it to the wreckage and start to explore, during which time, Masira is able to set the cradle and starts raising the ship. The St. Briss starts to fill up with air and ascends but the Masira Pirates start to encounter problems caused by Luffy's group. Masira decides to investigate this himself and swims under. He finds the trio inside and asks them what they were doing in his territory. Instead of answering, Luffy simply states that he (Masira) looks like a monkey, which Masira takes as a compliment thereby losing aggression towards the group. While they are exchanging pleasantries, a gigantic turtle suddenly eats the St. Briss and surfaces beside the Going Merry."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Nami",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Nico Robin",
+          "Roronoa Zoro",
+          "Masira"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439266023669760,
+        "_root_": "Episode 144",
+        "score": 7.908346
+      },
+      {
+        "id": "Episode 80",
+        "title": [
+          "A Doctorless Island? Adventure in the Country Without a Name!"
+        ],
+        "air_date": "September 9, 2001",
+        "short_summary": [
+          "The Straw Hat Pirates manage to gain the trust of the people that attacked them, and are taken to the village, except for Zoro and Karoo, who guard the ship. Luffy and Sanji must take Nami to the island's sole doctor who lives on a mountain-top. Vivi and Usopp discover from Dalton, the past of the island and about the pirate Wapol."
+        ],
+        "long_summary": [
+          "After Vivi has been shot by a villager on Drum Island, Luffy enrages and prepares to attack the inhabitants. Vivi quickly hugs Luffy and tells him he is not qualified to be a captain because not everything need to be resolved with fighting. Karoo is watching over Nami. Luffy calms down and apologies to the people on the island. Dalton empathizes with the crew and orders them to follow him. Vivi smiles to Luffy because the people understood and Luffy compliments her.\nUsopp, Vivi, Sanji (carrying Nami), and Luffy are following Dalton and the inhabitants of the island when they encounter a hiking bear and Usopp tells everyone to play dead. Everyone in there simply passes along the hiking bear after bowing. In the Going Merry, Zoro comments how his legs are fully healed now. Later, he is seen without a shirt talking about training while Karoo is amazed.\nDalton introduces Bighorn to the visitors and tells to everyone that whoever is not a guard can return to his house. Negikuma Maria asks how things went after she heard there were pirates. Dalton invites the visitors to his house and tells them to use a bed, after that, Nami is seen laying on it while Vivi covers her. Dalton introduces himself as the captain of the security squad of the island. He feels like he has seen Vivi before, but Vivi (nervously) answers by telling him is probably just his imagination. She changes topic by asking him to tell them more about the witch, since Nami's temperature is around 42 \u00b0C. Dalton talks to the visitors about the Drum Rockies and how on the top of the tallest mountain is the Drum Castle, where there is no longer a king, but is where Kureha lives. Luffy decides to wake up Nami because he is going to climb the mountain while carrying her. After hearing him, Nami agrees with the idea.\nAfter Sanji decides he is coming too and everything is set, Dalton advice the two to climb the mountain by the \"other\" side because there are lapahns in the main course. After Luffy and Sanji have departed, Usopp and Vivi watch them leaving and stay outside. Dalton, after seeing their concern, decides to join them. He then talks about the country and how they were known as an advance medical nation because the skilled doctors that inhabited in there. It turns out that the country was attacked by 5 pirates months ago. The captain of the crew called himself \"Blackbeard\". Some people thought that the country being destroyed was better for its sake, as it contributed to the destruction of the Drum Kingdom and his king, Wapol. Luffy and Sanji are seeing running through the slope of the mountain while they are chatting, but a lapahn keeps attacking them because they keep dodging his attacks. Sanji gets annoyed at this and kicks him, sending him flying.\nSanji and Luffy encounter a big herd of lapahns. Dalton keeps talking about the past situation of the kingdom. The Bliking is seen and Chess is on top while he sights Drum Island and notifies the captain of the Bliking Pirates."
+        ],
+        "characters": [
+          "Nefertari Vivi",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Usopp",
+          "Sanji",
+          "Karoo",
+          "Nami",
+          "Dalton",
+          "Negikuma Maria",
+          "Kureha",
+          "Blackbeard Pirates (flashback and shadowed)",
+          "Wapol",
+          "Chess"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439265917763584,
+        "_root_": "Episode 80",
+        "score": 7.603338
+      },
+      {
+        "id": "Episode 411",
+        "title": [
+          "The Secret Hidden on Their Backs\nLuffy Encounters the Snake Princess"
+        ],
+        "air_date": "August 2, 2009",
+        "short_summary": [
+          "Boa Hancock's ship reaches Amazon Lily and she returns to her palace. Elder Nyon, a former ruler of the island, urges Hancock to answer the summons in order to keep the treaty that protects her people, but Hancock refuses and throws her out a window. Hancock goes to take a bath, and some of the villagers discuss a legend that states that Hancock and her sisters defeated a Gorgon, but received eyes that turn anyone who looks at them to stone. Luffy continues to search for someone from who can lend him a ship but falls into the bath. He sees a symbol on Hancock's back that surprises him. Luffy is not affected by Hancock's beauty and does not turn into stone."
+        ],
+        "long_summary": [
+          "The Yuda arrives at Amazon Lily and the Kuja celebrate the Snake Princess's return. One of the younger girls hopes to join the Kuja when she grows. The Gorgon Sisters lead their troupe off the ship. Sandersonia and Marigold are surprised that the Kuja missed their leader for so long.\nAs a Monkey Carriage is prepared, Hancock believes everything on the island is sign. The Kuja look over their haul while Ran's gift is heading for the castle. She meets with Granny Nyon and had procured a newspaper from a government ship.\nAt the castle, Hancock walks through pleased to be home. She receives a ring, but then throws it away thinking it will spoil her image. Enishida also presents a statue of her master. She feels the statue, but shatters it as it was made from mud and clay. Hancock also learns the defenders were absent, because they were chasing a wild beast racing through the jungle.\nLuffy flies through the jungle and Kikyo fires another arrow at him. Sweet Pea thinks they got him, but the pirate was snagged away by a fish.\nHancock sits on her makeshift snake throne and asks for sake. Nyon walks in and demands an audience but forgot \"please\". Nyon tells of how a central government ship had arrived and want her presence lest she loses her title. However, Hancock is afraid. Without her title, Amazon Lily will be at the mercy of other pirates and the government.\nWhile Nyon is old, she shows Hancock a crystal ball thinking of her future. The Snake Princess then sees her fortune; She is to leave immediately. Angered, Hancock has Nyon thrown out as her reign as Gloriosa was scuppered years ago. At first, Hancock seems to agree with the Government terms, but doesn't and tosses Nyon out the window. She then demands the glass be cleared out.\nNyon lands in a courtyard, but is shown to still be a feisty Kuja. Hancock then announces she needs to bathe. This also interrupts the Kuja's daily lifestyle. As Hancock is bathing, no one is to go inside the castle. One of the Kuja, Ran meets with the eight year old girl and tells of the Gorgon Sister' secret.\nHancock strips naked while Ran tells her story. The Gorgon was a horrifying monster. If anyone gazed on it, they would become statues. Just then, Hancock and her sisters killed the monster. As it died, the monster's death cursed the sisters with monstrous eyes that will petrify and kill anyone who looks upon them. That's why ordinary people must not dare glare at them leaving the castle under heavy guard.\nHancock bathes while the fish carries Luffy around and tosses him further into the jungle. He spots a group of snakes and screams, attracting the Kuja warriors to his location. He runs up the rock wall, knocking the snakes off him. Luffy makes it back to town and ponders his next move.\nHe learns the Kuja have a pirate ship and hopes to borrow it. Without Nami, he hopes to ask for a ride in their ship back to Sabaody. He decides to ask someone in a large building thinking of important people. As the Kuja defenders race back, Luffy breaks part of the castle, and lands in bathwater. As it is shallow, Luffy seems safe, but then sees Hancock, naked in the bath as well. He spots something on her back, with the Snake Princess angered."
+        ],
+        "characters": [
+          "Blue Fan",
+          "Ran",
+          "Cosmos",
+          "Daisy",
+          "Rindo",
+          "Boa Hancock",
+          "Salome",
+          "Boa Marigold",
+          "Boa Sandersonia",
+          "Nyon",
+          "Enishida",
+          "Monkey D. Luffy",
+          "Sweet Pea",
+          "Marguerite",
+          "Kikyo",
+          "Aphelandra",
+          "Momonga",
+          "Bacura"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439266340339712,
+        "_root_": "Episode 411",
+        "score": 7.0896626
+      },
+      {
+        "id": "Episode 54",
+        "title": [
+          "Foreboding of a New Adventure! The Puzzling Girl, Apis"
+        ],
+        "air_date": "January 17, 2001",
+        "short_summary": [
+          "On a stormy night, a girl named Apis escapes from the Marines and arrives at Straw Hat Pirates' ship, but the girl upon learning that they are pirates, begins to hide some of the reasons why she is wanted by the Marines. As the Straw Hats escape from the Marines, they get caught in the Calm Belt."
+        ],
+        "long_summary": [
+          "A little girl on one of the Marines ships break free from her room after incapacitating one of her Marine guards. As the Marines begin to search the ship, the little girl makes it onto the deck and after climbing up the mast, accidentally opens up the ship's sail, causing it to tilt sideways. She then jumps on to a life boat to escape.\nBack onboard the Going Merry, Luffy asks Nami if they reached the Grand Line yet when she tells him its only been two days. Usopp then spots a flock of birds off their starboard side and Luffy stretches his hand out to grab what he thinks will be a fish. The crew are all surprised when he pulls in a girl instead and accidentally knocks Zoro off the edge of the boat. The girl is unconscious but wakes up when she smells Sanji's cooking. After learning that she is on a pirate ship, she freaks out and refuses to eat any food given to her.\nLater that night as her stomach growls, it drives her to sneak into the kitchen and later witnessing Luffy getting caught in a giant mousetrap set by Sanji to prevent people from stealing from the kitchen. As the rest of the crew is woken up, the girl steals some of Luffy's food and Nami reassures her that they are not evil. The next morning after Luffy raises the anchor, the girl proceeds to make breakfast for everyone but accidentally uses the wrong spice so everything comes out too spicy. The girl introduces herself as Apis and that her home is on Warship Island. Upon questioning why she was being held by the Marines, she refuses to answer and Sanji supports her, telling everyone that it's her business.\nAboard the Marine ship, the Marines spot the Straw Hats' ship and upon realizing that the missing girl is probably aboard it, they get ready to attack. Usopp tells the others about the approaching Marine fleet as they open attack on the Going Merry. The Straw Hats' ship manages to escape on a gust of wind heading south as the Marines begin to follow. The Marines then stop when they learn that the Straw Hats' ship is heading into the Calm Belt. As the Straw Hats celebrate their victory, Nami asks Zoro what is wrong when he asks her why it seems like they are not moving. Nami then screams, exclaiming that they have entered the Calm Belt."
+        ],
+        "characters": [
+          "Apis",
+          "Nelson Royale",
+          "Eric",
+          "Monkey D. Luffy",
+          "Nami",
+          "Sanji",
+          "Usopp",
+          "Roronoa Zoro"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265872674816,
+        "_root_": "Episode 54",
+        "score": 6.8220935
+      },
+      {
+        "id": "Episode 10",
+        "title": [
+          "The World's Strongest Weirdo! Jango the Hypnotist!"
+        ],
+        "air_date": "January 19, 2000",
+        "short_summary": [
+          "Klahadore confronts the crew and Usopp, expelling them from the mansion. However, they discover that Klahadore, whose real name is Kuro, is a pirate captain working with a hypnotist to assassinate Kaya."
+        ],
+        "long_summary": [
+          "Klahadore confronts the crew, refusing their request for a ship. Redirecting his rage at Usopp, he insults Usopp for his pirate father, calling him a barbaric, lowly criminal. Usopp angrily attacks Klahadore. In response, Klahadore expels Usopp and the crew from the front yard, ordering them to never return.\nKaya remains in her bedroom and cries, and Klahadore enters to console her. He explains his past and the reasoning behind his protection of her. After being expelled from the ship he was working on, he was left derelict in Syrup Village. Kaya's father kindly accepted him into his mansion, and he dedicated himself to servitude for Kaya's family. After Kaya's parents passed away, Klahadore decided to become her guardian and protect her from harm, including Usopp, whom he considers to be a bad influence on her. Kaya forgives Klahadore for his harsh handling of the situation.\nZoro and Nami remain on the outskirts of town with the children. One of the children discovers the strange moonwalking man and alerts the others. The man introduces himself as a hypnotist. He demonstrates his skills by hypnotizing the children with a chakram on a string, causing the children to fall asleep. However, he accidentally hypnotizes himself, causing him to fall asleep as well.\nUsopp and Luffy sit on a cliff, where they discuss Usopp's father, Yasopp. However, they find Klahadore, who is privately meeting with the hypnotist, Jango, at the base of the cliff. To their horror, they find that Klahadore was really Captain Kuro of the Black Cat Pirates. Kuro and Jango intended to assassinate Kaya to inherit her wealth, as Jango could hypnotize Kaya into changing her will. They reveal that Kuro escaped Marine pursuit by sending a lookalike of him to the Marines for execution. Jango reveals that the Black Cat Pirates' ship was stationed at the island, ready to invade the village.\nKuro and Jango spot Luffy and Usopp overhearing their conversation. Jango hypnotizes Luffy asleep, causing him to fall headfirst off the cliff. They decide not to pursue Usopp, knowing the townspeople would not believe him if he spoke out. Usopp flees toward the village."
+        ],
+        "characters": [
+          "Usopp",
+          "Kaya",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Tamanegi",
+          "Piiman",
+          "Ninjin",
+          "Nami",
+          "Kuro",
+          "Jango",
+          "Mansion's Guards",
+          "Nugire Yainu (flashback)"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439265828634624,
+        "_root_": "Episode 10",
+        "score": 6.648128
+      },
+      {
+        "id": "Episode 138",
+        "title": [
+          "Where the Island's Treasure Lies! Zenny Pirates Full Charge!"
+        ],
+        "air_date": "December 22, 2002",
+        "short_summary": [
+          "Zenny decides to follow his dream and become a pirate, despite his age. He helps the Straw Hat Pirates out of trouble with the Marines, and then they part ways."
+        ],
+        "long_summary": [
+          "Zenny spots a fleet of Marine ships and realizes that a trap has been set up against the Straw Hats. Zenny decides to \u201csail down\u201d the mountain using his ship to help them. Zenny sees that he is now at sea and he declares that he has officially become a pirate.\nWhile the Marines are distracted, the Straw Hats head towards the Going Merry. A Marine sees this and asks Minchey to inform their captain that the pirates are up to something. Minchey shoots at him and reminds him they cannot tell their captain what\u2019s going on if they wanted to steal the old man\u2019s treasure.\nZenny realizes that the chief petty officer has been paying off his men so they can go on his side projects and mocks him. He challenges him that if he wanted his treasure, he would have to take it himself. Zenny then sends his goats to attack the Marine ship and chaos ensues.\nThe chaos proves to be too much for Zenny and he experiences chest pains. Minchey kicks him and grills him about the treasure\u2019s location. Zenny confesses that he is broke and that he has no treasure. Minchey doesn\u2019t believe him and decides to just search the whole island instead of waiting for the old man to tell him the treasure\u2019s location.\nBefore Minchey can kill Zenny, Robin throws an abacus at Minchey and the goats trample him. The Going Merry reaches Zenny and Chopper rushes to give him medical attention. With Minchey captured and everybody safe, Nami asks Zenny about his treasure. Zenny reveals that he exchanged all his treasure for cash. He was attacked by pirates and ended up marooned on the island. When he came to, the goats had eaten all his cash and left him with nothing which is why he considers the goats his treasure.\nThey then send Minchey flying back to the Marine fleet. Moore strips him of his rank and calls him a disgrace. He then calls Luffy and tells him that he has no interest in capturing Zenny. And that while he wants to capture the Straw Hats, he also wants to pay a debt of honor for delivering up a disgraced member of his fleet. He allows them to choose where they will fight. Luffy accepts and heads out to meet the Marine fleet. He then unintentionally leads the fleet to a foggy reef area which causes the Marine ships to sink.\nZenny goes back to the island to repair his ship and decides to sail off to sea after the repairs. The Straw Hats have set up Zenny\u2019s supplies and medicine so he will be able to head out when he is ready. Zenny decides that his age will not stop him from becoming a pirate and that he will go on adventures so long as he is able to.\nAs the crew worry about him, Luffy assures them that the old timer will be fine and Zoro agrees as he thinks while Zenny did have a weak heart, he had plenty of guts to make up for it."
+        ],
+        "characters": [
+          "Zenny",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Nami",
+          "Sanji",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Minchey",
+          "Moore",
+          "Nico Robin"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439266014232576,
+        "_root_": "Episode 138",
+        "score": 6.623007
+      }
+    ]
+  }
+}
