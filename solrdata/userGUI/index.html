@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Fetch Solr Documents</title>
 </head>
 <body>
-    <h1>Search Solr Documents</h1>
+    <h1>Episode List</h1>
     <div>
         <input type="text" id="query-input" placeholder="Enter query (e.g., title:luffy)">
-        <button onclick="fetchDocuments()">Fetch Documents</button>
+        <button onclick="fetchDocuments()">Fetch Episodes</button>
     </div>
-    <pre id="response-output" style="background-color: #f4f4f4; padding: 1em;"></pre>
+    <div id="episode-list" style="margin-top: 20px;">
+        <!-- Episode buttons will be added here -->
+    </div>
 
     <script>
         async function fetchDocuments() {
-            const queryInput = document.getElementById('query-input').value;
-            const output = document.getElementById('response-output');
-            output.textContent = "Fetching...";
+            const queryInput = document.getElementById('query-input').value.toLowerCase();
+            const episodeListContainer = document.getElementById('episode-list');
+            episodeListContainer.innerHTML = "Loading...";
 
             try {
+                // Commented server-side fetch for testing purposes
+                /*
                 const response = await fetch('http://127.0.0.1:5000/fetch_documents', {
                     method: 'POST',
                     headers: {
@@ -27,16 +32,39 @@
                     },
                     body: JSON.stringify({ query: queryInput }),
                 });
+                */
 
+                // Fetch data locally from the JSON file for testing purposes
+                const response = await fetch('./testdata.json'); // Load from local file
                 if (!response.ok) {
-                    throw new Error(`Error: ${response.statusText}`);
+                    throw new Error('Failed to load episode data');
                 }
-                console.log(response)
 
                 const data = await response.json();
-                output.textContent = JSON.stringify(data, null, 2);
+
+                // Filter the data based on the query input
+                const filteredData = data.filter(episode =>
+                    episode.title.toLowerCase().includes(queryInput)
+                );
+
+                if (filteredData.length === 0) {
+                    episodeListContainer.innerHTML = "<p>No episodes found.</p>";
+                    return;
+                }
+
+                // Create buttons for each episode
+                episodeListContainer.innerHTML = '';
+                filteredData.forEach(episode => {
+                    const button = document.createElement('button');
+                    button.textContent = `${episode.id} - ${episode.title}`;
+                    button.style.margin = '5px';
+                    button.onclick = () => {
+                        window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
+                    };
+                    episodeListContainer.appendChild(button);
+                });
             } catch (error) {
-                output.textContent = `Error fetching documents: ${error.message}`;
+                episodeListContainer.innerHTML = `<p>Error: ${error.message}</p>`;
             }
         }
     </script>
