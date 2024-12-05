@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    align-content: center;
 }
 
 /* Body and main background */
@@ -13,6 +12,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 0 20px;
+    text-align: center; /* Center-align the entire content */
 }
 
 /* Header section */
@@ -41,7 +41,6 @@ h1 {
     margin: 20px auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 10px;
 }
 
@@ -63,7 +62,7 @@ h1 {
 button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ff6600;
+    background-color: #ff9900;
     color: white;
     border: none;
     border-radius: 5px;
@@ -84,28 +83,32 @@ button:hover {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align episode list content */
 }
 
 .episode {
-    padding: 20px;
-    border-bottom: 1px solid #e2e2e2;
+    margin: 10px 0; /* Spacing between episodes */
+    display: block; /* Ensures each episode is on a new line */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
-    
-}
-
-.episode:last-child {
-    border-bottom: none;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .episode:hover {
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
     transform: scale(1.02);
 }
 
 /* Episode title links */
 h2 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin: 0;
+    font-weight: bold;
 }
 
 h2 a {
@@ -118,23 +121,50 @@ h2 a:hover {
     color: #ff6600;
 }
 
-/* Text styling */
-p {
-    font-size: 1rem;
+/* Additional inline details */
+.episode-details {
+    font-size: 0.9rem;
     color: #555;
+    margin-top: 5px;
 }
 
-strong {
-    color: #333;
-}
-
-/* Footer (if needed for future use) */
+/* Footer Styling */
 footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
     background-color: #f4f4f4;
+    padding: 10px 20px;
     border-top: 1px solid #ddd;
     color: #777;
     font-size: 0.9rem;
+    text-align: center; /* Fallback alignment for small screens */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    text-align: left;
+    flex: 1; /* Left section occupies one side */
+}
+
+.footer-right {
+    text-align: right;
+    flex: 1; /* Right section occupies the other side */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center; /* Center-aligns on small screens */
+    }
+
+    .footer-left,
+    .footer-right {
+        margin: 5px 0; /* Adds spacing between lines on mobile */
+    }
 }

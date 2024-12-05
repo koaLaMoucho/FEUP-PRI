@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height */
+    min-height: 100vh; /* Full height */
     flex-direction: column;
 }
 
@@ -53,6 +53,7 @@ body {
     max-width: 900px;
     margin: 30px auto;
     width: 100%;
+    text-align: center; /* Center the details */
     position: relative;
 }
 
@@ -61,7 +62,6 @@ body {
     font-size: 2.5em;
     color: #2c3e50; /* Matching title color from header */
     margin-bottom: 20px;
-    text-align: center; /* Center the title */
 }
 
 /* Text styling for paragraph elements */
@@ -90,27 +90,34 @@ a:hover {
     color: #1abc9c; /* Green hover effect for links */
 }
 
-/* Back button style (optional, in case you want to provide a way to return to episode list) */
-.back-btn {
-    background-color: #3498db; /* Blue button */
-    color: white;
+/* Stylized Back Button */
+#back-button {
+    position: fixed; /* Place at the top-left corner */
+    top: 20px;
+    left: 20px;
     padding: 10px 20px;
+    background-color: #3498db; /* Blue button color */
+    color: white; /* White text for contrast */
     border: none;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Readable font size */
+    font-weight: bold;
     cursor: pointer;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
-    display: block;
-    width: 100%;
-    max-width: 200px; /* Limit button width */
-    margin: 20px auto;
-    text-align: center; /* Center button text */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover and click effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    z-index: 15; /* Ensure it's above other elements */
 }
 
-.back-btn:hover {
-    background-color: #2980b9; /* Darker blue when hovering */
+#back-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight enlargement on hover */
 }
+
+#back-button:active {
+    transform: scale(0.95); /* Slight compression on click */
+}
+
 
 /* Footer Styling */
 footer {
@@ -139,9 +146,5 @@ footer {
     /* Text styling for smaller screens */
     .episode-detail p {
         font-size: 1em;
-    }
-
-    .back-btn {
-        width: 100%;
     }
 }

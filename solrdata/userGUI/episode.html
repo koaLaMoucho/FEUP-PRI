@@ -9,6 +9,8 @@
 <body>
     <header>
         <div class="header-container">
+            <button id="back-button" onclick="history.back()">← Back</button>
+
             <h1>Episode Details</h1>
         </div>
     </header>
@@ -73,6 +75,10 @@
             `;
         } else {
             document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
+        }
+
+        function goBack() {
+            window.history.back();
         }
     </script>
 </body>
