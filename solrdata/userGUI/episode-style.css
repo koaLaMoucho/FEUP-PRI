@@ -1,0 +1,147 @@
+/* General reset for padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff9900;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header-container h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Space below the header */
+body {
+    padding-top: 100px; /* Create space below fixed header */
+}
+
+/* Episode Detail Section */
+.episode-detail {
+    background-color: #ffffff; /* White background for the episode detail */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    width: 100%;
+    position: relative;
+}
+
+/* Title of the episode */
+.episode-detail h2 {
+    font-size: 2.5em;
+    color: #2c3e50; /* Matching title color from header */
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+}
+
+/* Text styling for paragraph elements */
+.episode-detail p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555; /* Slightly lighter color for body text */
+    line-height: 1.6;
+}
+
+/* Bold for section headers */
+.episode-detail p strong {
+    font-weight: bold;
+    color: #2c3e50; /* Consistent with header and episode title */
+}
+
+/* Links Styling */
+a {
+    color: #3498db; /* Blue for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1abc9c; /* Green hover effect for links */
+}
+
+/* Back button style (optional, in case you want to provide a way to return to episode list) */
+.back-btn {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    max-width: 200px; /* Limit button width */
+    margin: 20px auto;
+    text-align: center; /* Center button text */
+}
+
+.back-btn:hover {
+    background-color: #2980b9; /* Darker blue when hovering */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ff7e5f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Episode Detail Section */
+    .episode-detail {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .episode-detail h2 {
+        font-size: 2rem;
+    }
+
+    /* Text styling for smaller screens */
+    .episode-detail p {
+        font-size: 1em;
+    }
+
+    .back-btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,1659 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 15,
+    "params": {
+      "json": "{\"query\": \"Zoro fights\", \"fields\": \"*,score\", \"params\": {\"defType\": \"edismax\", \"q.op\": \"AND\", \"sort\": \"score desc\", \"fl\": \"*,score\", \"qf\": \"title^1 short_summary^1 long_summary^1 characters^1 air_date^1 fruits^1\", \"rows\": 40}}"
+    }
+  },
+  "response": {
+    "numFound": 70,
+    "start": 0,
+    "maxScore": 4.10894,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "Episode 933",
+        "title": [
+          "Gyukimaru! Zoro Fights a Duel on Oihagi Bridge"
+        ],
+        "air_date": "July 19, 2020",
+        "short_summary": [
+          "The Sumo Inferno continues and Queen sends in the Gifters after Luffy defeats the Pleasures.\nAt the Oihagi Bridge, Zoro clashes with Gyukimaru to get Shusui back. Their fight is interrupted when a woman and Toko arrive seeking help as they were chased by an assassin known as Kamazo. Zoro then decides to fight the assassin to protect the woman and the girl."
+        ],
+        "long_summary": [
+          "Big Mom rides to Udon where she and Tama express their love for red bean soup. Chopper fears that Big Mom will return to her normal self if she finds out that there was no red bean soup.\nHowever, Queen enjoys several bowls of the soup, revealing there was plenty of soup at Udon. Luffy continues to defeat the Pleasures with ease, so Queen decides to bring out the Gifters. Luffy is put against Batman, with advanced hearing, flight and a bow and arrow, and Gazelleman, with super speed. Despite this, Luffy defeats them relatively swiftly with Haki-imbued punches. Still, Luffy is disappointed that he could not defeat them without touching them like Rayleigh did.\nAt the bridge of Ringo, the sword thief, identified as Gyukimaru, battles against Zoro. He becomes angry when Zoro states that he met Ryuma. Gyukimaru explains Ryuma's significance. Several nobles in the past attempted to take over Wano Country but Ryuma was a formidable samurai who prevented them from doing so.\nTheir duel is interrupted by Komurasaki, who somehow survived Kyoshiro's attack, but is running away from an assassin, Hitokiri Kamazo, the slasher previously mentioned in the news. Kamazo intends to kill Toko for laughing and Komurasaki for disrespecting the shogun. Zoro helps Komurasaki in exchange for sake and food.\nZoro and Kamazo begin fighting, and the duel reaches a standstill as they seem equally matched. Zoro removes his outer garment, ready to fight harder."
+        ],
+        "characters": [
+          "Kouzuki Momonosuke",
+          "Charlotte Linlin",
+          "Napoleon",
+          "O-Kiku",
+          "Tony Tony Chopper",
+          "Tama",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "O-Tsuru (flashback)",
+          "Queen",
+          "Hyougoro",
+          "Babanuki",
+          "Kawamatsu (silhouette)",
+          "Kaidou (fantasy) (dragon form)",
+          "Nokotti",
+          "Silvers Rayleigh (flashback)",
+          "Daifugo",
+          "Batman",
+          "Gazelleman",
+          "Gyukimaru",
+          "Shimotsuki Ryuma (fantasy)",
+          "Brook (fantasy)",
+          "Kouzuki Hiyori",
+          "Toko",
+          "Kamazo"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439267732848640,
+        "_root_": "Episode 933",
+        "score": 4.10894
+      },
+      {
+        "id": "Episode 935",
+        "title": [
+          "Zoro, Stunned - The Shocking Identity of the Mysterious Woman!"
+        ],
+        "air_date": "August 2, 2020",
+        "short_summary": [
+          "Luffy continues trying to use an advanced Armament Haki technique as he and Hyougoro are confronted by Alpacaman and Madilloman.\nAfter the battle with Kamazo, Zoro's wound is treated by the woman he saved. During their conversation, the woman revealed herself to be Momonosuke's sister, Hiyori."
+        ],
+        "long_summary": [
+          "Luffy and Hyougoro are placed against Alpacaman and Madilloman, an armadillo SMILE fruit user. Hyougoro fights against Alpacaman, where Luffy uses Haki to predict Alpacaman's movements and tell Hyougoro what moves to make in response. Meanwhile, Luffy fights against Madilloman and attempts to defeat him without touching him, but struggles to do so, attacking him with regular Haki.\nMadilloman and Alpacaman use a combination technique to take down Luffy. However, this still fails as Luffy knocks them both back, sending them crashing into a wall. He is disappointed that he still couldn't beat them without touching them.\nThe rebels with the crescent tattoos are gathered in a giant prison to be publicly shamed. Among the prisoners are a few Heart Pirates, including Bepo.\nKomurasaki and Toko take Zoro to a cottage for his wounds to be treated. Zoro tries to leave to pursue the sword thief, but Komurasaki stops him because his wounds have not healed. She explains to him that she angered Orochi so an assassin, Kamazo, was sent to kill her. Finally, she reveals that she is Momonosuke's long-lost sister, Hiyori."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Hyougoro",
+          "Queen",
+          "Kawamatsu (silhouette)",
+          "Alpacaman",
+          "Madilloman",
+          "Fukurokuju",
+          "Kakunoshin",
+          "Tabuhachiro",
+          "Kojuro",
+          "Kurozumi Orochi (fantasy)",
+          "Hidayu",
+          "Jujiro",
+          "Penguin",
+          "Bepo",
+          "Shachi",
+          "Kaidou (flashback)",
+          "Roronoa Zoro",
+          "Kouzuki Hiyori",
+          "Toko",
+          "Gyukimaru (flashback)",
+          "Kamazo (flashback)"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439267733897217,
+        "_root_": "Episode 935",
+        "score": 3.7572737
+      },
+      {
+        "id": "Episode 377",
+        "title": [
+          "My Crewmate's Pain is My Pain, Zoro Fights Prepared to Die"
+        ],
+        "air_date": "November 16, 2008",
+        "short_summary": [
+          "Zoro tries to fight for Luffy since he lies helplessly on the ground. Through Zoro's efforts, Kuma offers a deal to him. He tells him that he can take all of Luffy's pain away, but has to implant it in Zoro. Zoro agrees to this deal when Kuma says he could die from all of this pain. Kuma takes all of Luffy's pain away from him, gives a small portion to Zoro, then Zoro jumps into Luffy's pain (bubble)."
+        ],
+        "long_summary": [
+          "After the devastating power of Kuma's Ursus Shock, everyone of the Straw Hat Pirates and the Rolling Pirates are knocked out. Kuma then takes this time to try and capture Luffy who is still worn out from his fight with Moria earlier. However, just as Kuma picks up Luffy, he is suddenly attacked by Zoro who slashes at him with Ittoryu Iai: Shishi Sonson. This attack manages to damage Kuma but Zoro is shocked to see cybernetic parts under Kuma. Zoro says he should've known that Kuma is a cyborg like Franky and Kuma fires a laser from his mouth that misses Zoro directly but the shockwave sends him flying.\nZoro is shocked to see that Kuma is able to fire a laser from his mouth and Kuma explains that he is a Pacifista. He continues on saying that a Pacifista is a creation designed to work for the World Government and says that he, himself, was created by the infamous Dr. Vegapunk. Zoro replies saying that Kuma has a major advantage being a Pacifista with Devil Fruit powers. Zoro also says that his body has given up on him but, not wanting to give up his captain's head, offers up his own life to Kuma. Zoro says his bounty may not be as high as Luffy's, but he is willing to give up his dream to become the world's greatest swordsmen in exchange. A surprised Kuma looks on how Zoro is willingly to give up his life and dream to make his captain's dream come true. Suddenly, Sanji gets up and offers up his life instead. However, Zoro, who already made up his mind, knocks Sanji out.\nZoro turns his attention back to Kuma who throws his swords in front of him and asks Kuma to show some honor. Kuma, after thinking for a while, agrees to Zoro's plea, saying that it wouldn't be honorable for him to still attack Luffy. Kuma, picking up Luffy, tells Zoro that he will spare Luffy but not before Zoro takes Luffy's place by experiencing all the pain he has endured during his time on Thriller Bark. Kuma then uses his powers to repel all the pain out of Luffy into a large, red mass of air. Kuma says that Zoro must take all of Luffy's pain if he really does want to take his place saying that the experience will kill Zoro as he is close to death. Kuma sends over a sample to Zoro and Zoro suffers intense pain from that small sample. Zoro falls to the ground but barely manages to make it back to his feet. Zoro then sticks his arms into the giant mass of pain. Kuma then remarks on Dragon having a good son.\nLater, the Straw Hats and the Rolling Pirates all regain consciousness. Franky is surprised to see Luffy acting well, who tells the crew that his body feels as good as new. As the other Straw Hats wonder why, Sanji runs off toward Zoro's direction. He reaches Zoro and asks what happened to the Warlord, but notices blood everywhere. Sanji asks Zoro what happened, and Zoro, who is covered head to toe in blood, says that nothing happened."
+        ],
+        "characters": [
+          "Bartholomew Kuma",
+          "Lola",
+          "Risky Brothers",
+          "Spoil (K.O.)",
+          "Franky",
+          "Brook",
+          "Nami",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Vegapunk (fantasy)",
+          "Sanji",
+          "Usopp",
+          "Nico Robin",
+          "Tony Tony Chopper"
+        ],
+        "rating": "4.9",
+        "_version_": 1817439266302590976,
+        "_root_": "Episode 377",
+        "score": 3.576526
+      },
+      {
+        "id": "Episode 170",
+        "title": [
+          "Fierce Sky Battle! Pirate Zoro vs Fighter Braham"
+        ],
+        "air_date": "October 19, 2003",
+        "short_summary": [
+          "Zoro fights the Shandia warrior Braham and defeats him with Ittoryu (One Sword Style) 36 Pound Cannon technique. Luffy and Wyper have begun their battle and Chopper has arrived at the ruins. Meanwhile, Enel visits the Going Merry and knocks out Sanji."
+        ],
+        "long_summary": [
+          "Chopper was running around scared and Robin is seen in what appears to be the ruins. Zoro is seen talking to himself about his Flying Blade attack and he tried it out on a bird attempting to attack him, but he said the attack wasn't ready, thus searching for another thing to test this attack on. Chopper, running scared, is actually being chased by the Divine Soldiers, but they encounter a Shandia and ignore Chopper and fight one another. Robin, still at the ruins, is approached by a Divine Soldier who tells her to go this route leading to God's shrine. Robin, upset at the Divine Soldier for breaking some part of the ruins, defeats him.\nZoro, still making his way through the forest, is attacked by a Shandia warrior and Zoro punches him, knocking him out. In that moment, Braham defeats a Divine Soldier and proceeds to fight Zoro. Zoro initially tried to ignore the fight since Braham was not a priest. However, when Braham's attacks continued, Zoro prepared to fight him saying that he is glad Braham is not a second-rate flunkie. The Shandia and the Divine Soldiers are now engaged in battle and so are Braham and Zoro. Zoro was initially having problems fighting Braham because of the Jet Skis and Flash Guns that Braham has, thus making it a long-range battle. As the battle continues, Zoro decides to try his new technique. With Ittoryu - Sanjuroku Pound Ho, Zoro was able to defeat Braham and commented to himself about accepting the survival game.\nChopper, wailing about being left by the others, finds himself at the ruins and congratulates himself on being smart. Meanwhile, Gedatsu was in the same area and Chopper did not notice him. Luffy and Wyper continue their face-off and Wyper was shooting cannons at Luffy which Luffy rebounded using his Gomu Gomu no Mi abilities. Enel has visited the Straw Hats' ship and Sanji attempted at attacking but was defeated by Enel's Goro Goro no Mi abilities. Enel stated he had come without the intention of fighting and referred to Sanji as a foolish man. Gan Fall asked what his purpose of visit was, but Enel just told him it's been a long time since they met, and said that that is a cold-hearted way of greeting him."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Wyper",
+          "Tony Tony Chopper",
+          "Nico Robin",
+          "Roronoa Zoro",
+          "Braham",
+          "Gedatsu",
+          "Usopp",
+          "Nami",
+          "Sanji",
+          "Gan Fall",
+          "Pierre",
+          "Enel"
+        ],
+        "fruits": [
+          "Gomu Gomu no Mi",
+          "Goro Goro no Mi"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439266055127040,
+        "_root_": "Episode 170",
+        "score": 3.4861798
+      },
+      {
+        "id": "Episode 58",
+        "title": [
+          "Duel in the Ruins! Strained Zoro vs Eric!"
+        ],
+        "air_date": "February 21, 2001",
+        "short_summary": [
+          "Zoro is left fighting with Eric while Luffy and the other Straw Hat Pirates run to the ship in order to get to Lost Island, but only find more problems."
+        ],
+        "long_summary": [
+          "The Straw Hat Pirates reach the top of the mountain and the dome-shaped building. The ground beneath them crumbles, leaving them in an underground area. Luffy notices a piece of collapsed ceiling that features a painting of a Sennenryu. At first, Apis believes that the Dragon's Nest was located on this island, but upon further inspection of the ceiling paintings, Nami deduces that the Dragon's Nest was located back at Warship Island, but sank into the sea. They are convinced that the island was actually the royal court mentioned in Bokuden's story.\nApis asks Ryu where the Dragon's Nest was. After watching a flock of birds flying in the building, Ryu finally remembers that the Dragon's Nest was indeed located east of the summit at Warship Island.\nEric appears. It is revealed he had been listening to the Straw Hat Pirates' conversation and now knows where the Dragon's Nest is. Luffy attempts to break out of the building, successfully breaking a hole into the wall. However, Eric leaps into the building and fights Zoro, while the rest of the Straw Hat Pirates, along with Ryu and Apis, escape and ride on Ryu's cart.\nAfter battling Zoro, Eric flees the building to chase Ryu. Zoro chases Eric.\nEric tries to leap off a building onto the cart, but is struck on the legs with a stick that Zoro threw. Eric finally agrees to battle Zoro. Meanwhile, the cart finally lands near the Going Merry. Luffy extends his arm, grabs Zoro, and pulls him to the ship. They set sail as Eric swears that he will not let the Straw Hat Pirates escape.\nThe Going Merry emerges out of the invisible barrier, much to the surprise of the Marines. Eric boards the Marine ship, and Lieutenant Commander Hardy commands the fleet to chase after the Going Merry.\nThe Straw Hat Pirates continue to sail towards Warship Island, only to be caught by Nelson Royale and his fleet. Nelson commands his ships to fan out, connecting the ships with chains and making an impenetrable barrier to block the Going Merry. So, the Straw Hat Pirates decide to board the ships, kick the Marines out, and cut the chains."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Usopp",
+          "Roronoa Zoro",
+          "Nami",
+          "Sanji",
+          "Apis",
+          "Ryu",
+          "Eric",
+          "Nelson Royale"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439265878966272,
+        "_root_": "Episode 58",
+        "score": 3.1712146
+      },
+      {
+        "id": "Episode 942",
+        "title": [
+          "The Straw Hats Step In! An Uproarious Deadly Battle at the Execution Ground!"
+        ],
+        "air_date": "September 20, 2020",
+        "short_summary": [
+          "Zoro and Sanji manage to save Toko. The swordsman directly attacks Orochi, who is protected by Kyoshiro, while Sanji fights against X Drake.\nFranky saves Zoro and manages to recover Yasuie's body and the rest of the Straw Hat Pirates joins the fight.\nAt Udon, Luffy is assisting to his crewmembers' fights when two prisoners arrive: Kid and Kamazo, who turns out to be Killer."
+        ],
+        "long_summary": [
+          "The samurai start fighting Zoro and Sanji, who fight them off easily. Zoro then sends a flying slash towards Orochi, but Kyoshiro deflects the attack. Kyoshiro decides to battle against Zoro while Orochi rides back to the castle. X Drake then transforms into his allosaurus form and attacks Sanji. The firing squad also fires their rifles at Zoro and Sanji, but Franky blocks the bullets with his cyborg body. Franky takes Yasuie's body away. Usopp, Robin and Nami also fight at his side.\nThe Straw Hats decide to finish up their battle on the execution ground. Zoro battles with Kyoshiro, Sanji battles with Drake, and Usopp, Robin, Franky, and Nami deal with the other soldiers.\nLuffy cheers from the sumo ring in Udon. Just then, Queen gets the news that some criminals have arrived. Kamazo, who failed to assassinate Komurasaki, and Kid, who surrendered after his escape, enter the prison. Kid immediately recognized Kamazo as his own crewmate, Killer. Killer was somehow forced to eat a SMILE fruit and therefore can only express happiness.\nAngered for Kid, Luffy calls out Queen, resuming the sumo match."
+        ],
+        "characters": [
+          "Shimotsuki Yasuie (corpse & flashback)",
+          "Sanji",
+          "Roronoa Zoro",
+          "Toko",
+          "Daikoku",
+          "Kurozumi Orochi",
+          "Usopp",
+          "Franky",
+          "Nico Robin",
+          "Gama Pyonnosuke",
+          "Nami",
+          "Shinobu",
+          "Kanjuro",
+          "Monkey D. Luffy",
+          "Hyougoro",
+          "Kouzuki Hiyori",
+          "Brook",
+          "X Drake",
+          "Basil Hawkins",
+          "Hoisassa",
+          "Kyoshiro",
+          "Kuni (flashback)",
+          "Kaku (flashback)",
+          "Suke (flashback)",
+          "Tabuhachiro",
+          "Kakunoshin",
+          "Kojuro",
+          "Queen",
+          "Babanuki",
+          "Killer",
+          "Eustass Kid",
+          "Trafalgar D. Water Law (flashback)",
+          "Heat (flashback)"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439267741237249,
+        "_root_": "Episode 942",
+        "score": 3.163844
+      },
+      {
+        "id": "Episode 1028",
+        "title": [
+          "Surpass the Emperor of the Sea - Luffy Strikes Back with an Iron Fist"
+        ],
+        "air_date": "August 7, 2022",
+        "short_summary": [
+          "The Worst Generation and Emperors scatter across Onigashima, preparing for new fights. Kid prepares to battle Big Mom, Killer fights Hawkins, and Luffy fights Kaidou. Meanwhile, Nami, Tama, and Usopp return to the Live Floor, chased by Page One."
+        ],
+        "long_summary": [
+          "Luffy's declaration angers Kaidou. At the same time, Big Mom takes out a fragment of her soul and gives it to the thundercloud above, creating a new homie to replace Zeus. As her first technique, this new homie fires a powerful lightning bolt at Kid and Killer, hitting them at near point-blank range and shaking the entire island.\nMeanwhile, Nami, Tama, and Usopp attempt to return to the Live Floor on Komachiyo while Page One chases them. Page One transforms into his hybrid form and leaps onto Komachiyo's back, but Komachiyo begins to speed up, running into a wall at full speed and ramming Page One into it.\nKid and Killer emerge from the rubble somewhere inside the castle. Big Mom is on the floor directly below them, still in pursuit of Kid. Suddenly, they are attacked by Hawkins, and Kid becomes enraged that Hawkins abandoned Kid in favour of Kaidou. Kid decides to advance while Killer battles Hawkins. Hawkins uses Goma no So, transforming into a scarecrow-like figure.\nBack on the roof, Luffy notices that Kaidou had the rare power of Supreme King Haki. He also remembers Hyougoro's lessons on Internal Destruction Armament Haki, where one directs their Haki into the target, damaging the target internally. With this, Luffy strikes Kaidou's stomach without touching him, then unleashes a powerful uppercut knocking Kaidou over. With this, Luffy tells Law and Zoro to head downstairs while he battles Kaidou on his own."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Kaidou",
+          "Charlotte Linlin",
+          "Napoleon",
+          "Prometheus",
+          "Eustass Kid",
+          "Killer",
+          "Hera",
+          "Usopp",
+          "Nami",
+          "Komachiyo",
+          "Tama",
+          "Page One",
+          "Basil Hawkins",
+          "Scratchmen Apoo (flashback & fantasy)",
+          "Trafalgar D. Water Law",
+          "Roronoa Zoro",
+          "Hyougoro (fantasy)",
+          "Kin'emon (flashback)",
+          "Crocodile (flashback",
+          "shadow)"
+        ],
+        "rating": "4.6",
+        "_version_": 1817439267818831872,
+        "_root_": "Episode 1028",
+        "score": 3.0681639
+      },
+      {
+        "id": "Episode 898",
+        "title": [
+          "The Headliner! Hawkins the Magician Appears"
+        ],
+        "air_date": "August 18, 2019",
+        "short_summary": [
+          "Luffy and Zoro fight against Basil Hawkins' men. Hawkins eventually steps in and displays his powers to them. Komachiyo grabs Luffy and Zoro and runs from the battle, but Hawkins pursues them."
+        ],
+        "long_summary": [
+          "Luffy and Zoro encounters Basil Hawkins, who had become one of Kaidou's officers. They begin fighting, with Luffy now armed with a katana. Luffy and Zoro decimate Hawkins' troops.\nA giant lizard attacks Luffy. Luffy takes the animal lizard and throws it at Hawkins, who impales the animal with a straw sword. Zoro attacks Hawkins with a flying slash, but one of Hawkins' subordinates mysteriously ends up getting slashed instead of him.\nHawkins explains his Devil Fruit power; he has straw dolls hidden inside his body which each represent one of his soldiers. Whenever he is attacked, he simply transfers the damage to one of his dolls, and in turn damaging the person the doll represents while leaving Hawkins unharmed. Hawkins suggests playing a \"game,\" summoning a giant straw monster floating above him.\nHawkins draws a tarot card from his deck. He ends up drawing the \"Reverse Fool\" card, making his own subordinates fight each other.\nKomachiyo suddenly enters into the battlefield and takes away Zoro and Luffy, running away from the battle, while Luffy fights off the chasing soldiers. However, Hawkins draws his second card, the \"Reverse Hierophant\" card. This makes Hawkins' straw monster chase after Komachiyo, Zoro and Luffy."
+        ],
+        "characters": [
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Basil Hawkins",
+          "Komachiyo",
+          "Tama",
+          "Portgas D. Ace (flashback)"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439267695099904,
+        "_root_": "Episode 898",
+        "score": 2.8876605
+      },
+      {
+        "id": "Episode 297",
+        "title": [
+          "Hunter Sanji Appears? Elegy to the Lying Wolf"
+        ],
+        "air_date": "February 11, 2007",
+        "short_summary": [
+          "Sogeking gets beaten up by Jabra and is saved at the last second by Sanji, who then fights Jabra. While Zoro and Kaku continue their fight, Franky tries to catch up with Robin."
+        ],
+        "long_summary": [
+          "Franky manages to get Tony Tony Chopper out of the sea and has completely returned back to normal. Chopper, who is unconscious, gets the water blown out of him by Franky. As he is doing so, he is interrupted by Chimney and Gonbe who lets him know that they know how to get to the Gates of Justice. They head over to the gates, finding Kokoro there. Kokoro informs them that Chopper is okay, but still unconscious After realizing that Nico Robin is still in danger, Franky runs off.\nRoronoa Zoro continues fighting Kaku after being freed from his handcuffs. Usopp and Nami watch without knowing Jabra was with them watching Zoro and Kaku fight. Usopp, offers to fight Jabra, but Jabra declines and drops the key for Usopp to take. Usopp, falling for his tricks tries to pick up the key but is blown away by an attack from Jabra. Nami runs over to the injured Usopp and sees if he is alright. Usopp tries to attack Jabra, and it seems to have hit him, but Jabra appears right behind Usopp, strikes him, and hits him with a barrage-like attack. Nami runs towards them trying to help, but is blown out by Jabra. He threatens to kill Usopp and almost succeeds, but is then kicked away by Sanji, sending him flying towards the wall. Sanji then informs the others that the Gates of Justice were opening.\nThe fight between Rob Lucci and Monkey D. Luffy continues, with Luffy being frustrated he cannot get past Lucci. Luffy is thrown at crates when trying to attack Lucci who but blocks all of his attacks. Luffy confidently stands back up, despite being exhausted. Robin is dragged up the stairs by Spandam by her hair, who wants to get Robin to the Gates of Justice as quickly has possible, before anyone caches up to him. Franky continues running down the hall to the Gates of Justice, hoping that both of the keys he has will free Robin before she gets to the Gates of Justice. Behind them, Chimney follows him painting arrows down the hall. Gonbe, Kokoro, and Chopper follow them with Chopper tied to Kokoro's back. The fight between Zoro and Kaku intensifies with both of them blowing consecutive attacks at each other. Marines, desperately trying to get off Enies Lobby, fill up the Puffing Tom and the rest have to find another way out. The Franky Family gets freed by Paulie, and try to escape. The Marine Battleships depart for Enies Lobby. Sanji gets ready to fight Jabra to get his key. Sanji also encouraged Usopp to get Robin back."
+        ],
+        "characters": [
+          "Nico Robin",
+          "Spandam",
+          "Funkfreed",
+          "Franky",
+          "Tony Tony Chopper (K.O.)",
+          "Chimney",
+          "Gonbe",
+          "Kokoro",
+          "Nami",
+          "Kaku",
+          "Jabra",
+          "Roronoa Zoro",
+          "Sogeking",
+          "Sanji",
+          "Hattori",
+          "Monkey D. Luffy",
+          "Rob Lucci",
+          "Paulie",
+          "Kalifa (flashback)",
+          "Oimo",
+          "Kashii",
+          "Zambai",
+          "Peepley Lulu",
+          "Tilestone"
+        ],
+        "rating": "4.6",
+        "_version_": 1817439266218704898,
+        "_root_": "Episode 297",
+        "score": 2.8600323
+      },
+      {
+        "id": "Episode 906",
+        "title": [
+          "Duel - The Magician and the Surgeon of Death!"
+        ],
+        "air_date": "October 13, 2019",
+        "short_summary": [
+          "After defeating Holed'em, Luffy grabs Tama and flees the scene. During the escape, they encounter Speed and Tama tames her. They then catch up to Zoro, Kiku, and Komachiyo as the latter three were fleeing with the stolen food cart.\nMeanwhile, Law fights Hawkins but their battle is interrupted when the food cart passes by them. After jumping on the food cart, Law reprimands Zoro for his group's actions."
+        ],
+        "long_summary": [
+          "Luffy defeats Holed'em, sending him crashing to the ground, then takes Tama and flees. Zoro, Kiku and Komachiyo also flee on Speed's food cart. Speed sends soldiers to chase after them.\nLuffy gets cornered by angry citizens, but easily defeats them. He hops onto Speed's back, mistaking her for a real horse. Although Speed is hostile to Luffy, Tama uses her Devil Fruit ability, creates a mochi, and feeds it to Speed, taming her. Speed immediately begins following Tama's commands, running away and helping them escape. Luffy finds Zoro's cart and hops on, but leaves to deal with \"the most important thing.\"\nMeanwhile, Law confronts Hawkins in the street, disguised with a gladiator helmet. Law declares a battle, and Hawkins immediately recognizes Law based on his \"Room\" move and hand tattoos. Law attacks Hawkins, but Hawkins redirects the damage to other subordinates.\nLaw fiercely fights against Hawkins. However, Hawkin receives a call saying that Luffy had defeated Holed'em and Jack has been notified. Then, Zoro's food cart arrives and Law hops on. Law berates Zoro for viciously provoking a fight with Kaidou's men."
+        ],
+        "characters": [
+          "Tama",
+          "Monkey D. Luffy",
+          "Holed'em",
+          "Kamijiro",
+          "Speed",
+          "Komachiyo",
+          "Roronoa Zoro",
+          "O-Kiku",
+          "Portgas D. Ace (fantasy)",
+          "Basil Hawkins",
+          "Trafalgar D. Water Law",
+          "Kaidou (fantasy)"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439267710828544,
+        "_root_": "Episode 906",
+        "score": 2.7925344
+      },
+      {
+        "id": "Episode 1007",
+        "title": [
+          "Zoro's Pursuit! Ice Oni Tag"
+        ],
+        "air_date": "January 23, 2022",
+        "short_summary": [
+          "Yamato fights Sasaki and the Beasts Pirates Armored Division to protect Momonosuke. Meanwhile, Zoro tries to get rid of the Gifters who have turned into Ice Oni, but Queen starts a horrible game which involves the antibody for the virus."
+        ],
+        "long_summary": [
+          "The Ice Oni virus spreads throughout the live floor, affecting several people. Queen performs a short sadistic rap about the miseries of the victims. Omasa considers killing himself to prevent himself from becoming an oni, but Hyougoro dissuades him, reminding him of how the Udon prisoners were cured of the Mummy virus by the Straw Hats. However, still needing \"excitement,\" Queen fires another round of Excite Bullets into the crowd.\nThe Straw Hats are now cornered by infected oni. Chopper deduces that Queen must have created an antibody to cure the virus, so he must acquire it from him to develop a cure. Queen announces that the virus will kill its victims in an hour at most. Apoo tries to escape the live floor but he finds that the gates are locked.\nQueen introduces a game he calls \"Ice Oni Tag\"; he gives a vial containing the only sample of the antibody to Apoo. The people must fight desperately for the antibody or else they would inevitably become infected themselves. The Straw Hats must win this game and acquire the sample to cure everyone. Queen performs an alternate version of his funk dance, with sadistic lyrics celebrating the bloodsport. He then begins the game, and Apoo is chased by the crowd for the vial.\nOn the rooftop, Inuarashi and Nekomamushi attack Kaidou but they are struck down with his spiked club, and they lose their Sulong forms.\nIn the right brain tower, Yamato decides to aid Shinobu. He reveals that he attended Oden's execution and heard Shinobu's speech. Sasaki's forces bombard Yamato with cannons, but he endures the barrage. Apologizing for not saving Momonosuke from the burning castle twenty years ago, Yamato introduces himself as Oden."
+        ],
+        "characters": [
+          "Tony Tony Chopper",
+          "Queen",
+          "Omasa",
+          "Hyougoro",
+          "Monkey D. Luffy (flashback)",
+          "Tsunagoro",
+          "Scratchmen Apoo",
+          "Roronoa Zoro",
+          "Nico Robin",
+          "Brook",
+          "Hotei",
+          "Kojuro",
+          "Hatsume",
+          "Jigoku Benten",
+          "X Drake",
+          "Kaidou",
+          "Izou",
+          "Kikunojo",
+          "Inuarashi",
+          "Kin'emon",
+          "Kawamatsu",
+          "Ashura Doji",
+          "Denjiro",
+          "Raizo",
+          "Nekomamushi",
+          "Yamato",
+          "Shinobu",
+          "Kouzuki Momonosuke",
+          "Scorpionlady",
+          "Bisley",
+          "Saitank",
+          "Nokokuwa Police",
+          "Caucasusman",
+          "Sasaki",
+          "Kouzuki Oden (flashback)",
+          "Kurozumi Kanjuro (flashback)",
+          "Hana (flashback)"
+        ],
+        "rating": "3.9",
+        "_version_": 1817439267801006080,
+        "_root_": "Episode 1007",
+        "score": 2.7283523
+      },
+      {
+        "id": "Episode 899",
+        "title": [
+          "Defeat is Inevitable - The Strawman's Fierce Attack!"
+        ],
+        "air_date": "August 25, 2019",
+        "short_summary": [
+          "As Komachiyo flees with Luffy, Zoro, and the ill Tama, Hawkins pursues them with the straw entity. Zoro defends against the straw entity's attacks and eventually defeats it. After the group escapes from Hawkins, Tsuru, who had been hiding inside Komachiyo's tail, reveals herself and invites the group to her teahouse in Okobore Town, where she can help Tama."
+        ],
+        "long_summary": [
+          "Hawkins draws the \"Reverse Hierophant\" card, sending the straw monster to chase after Komachiyo, armed with a spiked bat. Zoro fights off the monster's attacks. He deals hits to the monster, but Hawkins redirects the damage to his subordinates. The monster then starts shooting nails at Zoro, causing minor wounds, then strikes down on Komachiyo. However, Zoro ends up cutting off the monster's hand. He finishes off the monster with the \"Nigiri: Toro Samon\" move, cutting the monster into two before it disintegrates.\nAlthough the monster was destroyed, Hawkins is unharmed, redirecting the damage to a subordinate. He draws a third tarot card, choosing the \"Hierophant\" card. He predicts that someone will help guide Luffy and Zoro to safety.\nLuffy and Zoro successfully escape Hawkins but Tama's fever worsens, and Komachiyo approaches a fork in the road. A woman appears, having been hiding in Komachiyo's tail the whole time. She explains that she is the one that Zoro previously saved from pirate assailants. She guides Komachiyo to Okobore Town, where they could go to her teahouse and brew a cure for Tama's condition.\nAt the teahouse, one of the waitresses is harassed by Urashima, a professional sumo wrestler. Komachiyo arrives, they enter the teahouse, and Zoro scares off Urashima. Inside the teahouse, Luffy grinds the herbs and Tsuru brews the tea. Unbeknownst to them, Luffy is secretly watched from afar by Bepo and other Heart Pirates. They go to Law, who is resting in a tent.\nMeanwhile, in Onigashima, Kaido rests with rage in his eyes."
+        ],
+        "characters": [
+          "Basil Hawkins",
+          "Monkey D. Luffy",
+          "Tama",
+          "Roronoa Zoro",
+          "Komachiyo",
+          "Tsuru",
+          "Kiku",
+          "Urashima",
+          "Shachi",
+          "Penguin",
+          "Bepo",
+          "Trafalgar D. Water Law",
+          "Kaidou"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439267696148480,
+        "_root_": "Episode 899",
+        "score": 2.6993413
+      },
+      {
+        "id": "Episode 948",
+        "title": [
+          "Start Fighting Back! Luffy and the Red Scabbard Samurai!"
+        ],
+        "air_date": "November 1, 2020",
+        "short_summary": [
+          "Raizo retrieves the keys to Kawamatsu's cell as well as his sword. The ninja later gives them to him, and Kawamatsu frees himself. After Raizo, Kawamatsu, and Kikunojo reunite, they joined up with Luffy and Hyougoro in fighting the Beasts Pirates. However, the Beasts Pirates continue infecting prisoners with Excite Bullets."
+        ],
+        "long_summary": [
+          "Raizo sneaks through the executive tower in search of Kawamatsu's sword and keys to his cuffs. He finds them, but is caught by Solitaire, whose spider SMILE fruit allows her to use six swords. However, Raizo uses his Jujutsu to create shadow forms of himself. Solitaire fought off the clones allowing the real Raizo to get away.\nIn his cell, Kawamatsu fights off the guards attempting to kill him by spitting fish bones. Just then, Raizo jumps out the tower window and passes the key and sword to him. He unlocks his cuffs and uses his unique swordfighting style, the Kappa Style. The prisoners immediately recognize them as the Nine Red Scabbards and are shocked to see that they are still alive after twenty years.\nBabanuki orders his men to attack them, but they are easily fought off. Then, they start firing Excite Bullets at the prisoners, infecting many of them.\nZoro and Hiyori walk through a leafy forest but are followed by a mysterious flute player. Suddenly, the man shoots a blowdart at them. Zoro detects and hits the dart with his sword, then fights off the assailant. They believe he is Fukurokuju's assassin.\nQueen's ship takes Big Mom to Onigashima. Despite the tranquilizer shots, Big Mom wakes up briefly, asking for red bean soup, then falls back asleep.\nBack at Udon, Kid attempts to get out of his cuffs. Raizo throws them the keys, but Kid, only having one hand, asks Killer to help him unlock the cuffs. However, Killer just lies on the floor, laughing."
+        ],
+        "characters": [
+          "Raizo",
+          "Solitaire",
+          "Kawamatsu",
+          "Kikunojo",
+          "Babanuki",
+          "Daifugo",
+          "Hanji",
+          "Monkey D. Luffy",
+          "Hareji",
+          "Zangirimaru",
+          "Tony Tony Chopper",
+          "Hyougoro",
+          "Roronoa Zoro",
+          "Kouzuki Hiyori",
+          "Charlotte Linlin",
+          "Napoleon",
+          "Queen",
+          "Eustass Kid",
+          "Killer"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439267744382976,
+        "_root_": "Episode 948",
+        "score": 2.6457696
+      },
+      {
+        "id": "Episode 750",
+        "title": [
+          "A Desperate Situation - Luffy Fights a Battle in Extreme Heat"
+        ],
+        "air_date": "July 17, 2016",
+        "short_summary": [
+          "Luffy easily overwhelms Bill in battle and sends him down the underground mine. However, Bill eats massive amounts of ore and returns as a giant, releasing large amounts of molten ore that severely damages Silver Mine. Luffy and Bartolomeo manage to defeat Bill, and they and the members of the Silver Pirate Alliance escape as Silver Mine sinks into the ocean. As the Straw Hats and Barto Club set off for Zou, a powerful man known as Gild Tesoro receives the report of Bill's death."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Desire",
+          "Bartolomeo",
+          "Bill",
+          "Aveyron (flashback)",
+          "Peseta (flashback)",
+          "Tanaka",
+          "Gild Tesoro",
+          "Franky",
+          "Usopp",
+          "Roronoa Zoro",
+          "Kin'emon",
+          "Trafalgar D. Water Law",
+          "Gambia",
+          "Kanjuro",
+          "Nico Robin",
+          "Koala",
+          "Hack"
+        ],
+        "rating": "4.0",
+        "long_summary": [
+          "Luffy, Bartolomeo, and Desire confront Bill, who mocks their dreams of reaching the top of the New World as childish. Bill reveals to Desire that he used everyone in his Silver Pirate Alliance to give him wealth so that he could live the most luxurious life in the world, and questions whether she really intends to defeat him and if she really believes she is stronger than him. Bill taunts Desire, and she starts rushing at him in anger, but Luffy suddenly flies in front of her with Gear 2 activated and punches Bill into a cliff face. Bill gets back up, and Desire attempts to help Luffy, but Bartolomeo tells her to leave the fight to Luffy. Bill expresses his disgust for Luffy as he pulls two swords out of his chest, but Luffy shatters them in their clash. Bill then pulls out an axe, but Luffy dodges its strikes and kicks Bill in the chest before punching him into another cliff face. Bill gets back up, and realized just how strong a person with a 500,000,000 bounty really is. Right then, a Silver Pirate Alliance Battle Boat squadron arrives at the scene, and Bill tricks them into thinking Desire brought the Straw Hats here to betray them while Desire attempts to tell them the truth about Bill. The Silver Pirate Alliance members attack Luffy, Bartolomeo, and Desire as Bill prepares to kill them all with a bazooka. However, Luffy uses Supreme King Haki to knock out the pirates and their battle boats, leaving Bill alone and shocked. Luffy sees where Bill is, and Bill fires a cannonball at him, but Luffy shatters it as he punches Bill into the underground mine.\nBill lands deep underground, and Tanaka suddenly arrives at his location. Tanaka expresses disappointment that Bill was defeated by a mere pirate, and says that the Monster of the New World will discard him for such a failure. Bill remembers how the Monster of the New World brought him and his crew down to their knees with the power of money, and frantically begins eating lots of ore in an attempt to salvage his fate. Tanaka notes the large amount of ore Bill is consuming, but decides to leave things up to him as he departs. Meanwhile, Luffy, Bartolomeo, and Desire run to the shore when they are suddenly passed by several Silver Pirate Alliance members. To their shock, the ground underneath them begins erupting with molten ore. Meanwhile, at the Going Luffy-senpai, the Straw Hats and Barto Club continue fighting off the Silver Pirate Alliance as Zoro and Kin'emon return and help them. The pirates wonder why Luffy and Bartolomeo are taking so long, and they notice that Silver Mine is beginning to melt away.\nOn Silver Mine, Luffy, Bartolomeo, and Desire are approached by Bill, who is incredibly large and exuding molten ore from his skin. The trio decides to retreat, but Bill shoots out several waves of molten ore at them, which Bartolomeo manages to block with a barrier. However, the trio struggles to dodge the flow of ore, and Desire accidentally falls into a chasm, but Bartolomeo catches her. Desire wonders why he is helping her instead of Luffy, and Bartolomeo replies that he would never forsake a friend, although Desire replies that he did that to her. Bill prepares to attack Luffy with molten ore, but Bartolomeo manages to pull Desire up in time for him to put a barrier in front of Luffy. The two of them prepare to defeat Bill, and Bartolomeo creates a barrier hand to push the molten ore back at Bill. Bill then appears before them coated in silver, and he says that their dreams are not enough to help them survive the New World as he creates a ball of molten ore in the air. As Bill prepares to hurl it at the trio, Luffy rushes at him and hits him with Gomu Gomu no Grizzly Magnum, breaking through the ball of ore and sending Bill flying into his palace.\nBartolomeo is excited to have seen Luffy fight, but Desire notes that the molten ore Bill created is still there and is eating away at the island. At the coast, the Silver Pirate Alliance and the Sweet Pirates get everyone onto a large ship as they prepare to escape the island's destruction. The Sweet Pirates worry about Desire, but are forced to set sail. Meanwhile, the Straw Hats and Barto Club are worried about Luffy and Bartolomeo, but Zoro is confident that they are all right since Luffy's vivre card is fine. Right then, Luffy, Bartolomeo, and Desire come riding in on Desire's Battle Boat. Inside Silver Mine, molten ore pours into the fortress as the entire island sinks into the ocean. As dusk falls, the Sweet Pirates board the Going Luffy-senpai, and Desire thanks Luffy and Bartolomeo for taking care of her. Bartolomeo and his crew ask if she and her crewmates want to join the Barto Club, but Desire declines, wanting to pursue their dreams separately and not wanting to serve Luffy. The Sweet Pirates then head out to sea as the Going Luffy-senpai's sails are unfurled and the Straw Hats and Barto Club prepare to head to Zou.\nLater in the night, a Revolutionary Army ship draws near to Gran Tesoro. Koala notes that the Monster of the New World resides there, and his power is equal to that of the World Nobles. Inside Gran Tesoro, Tanaka arrives and reports to the Monster of the New World, a man named Gild Tesoro. Tanaka reports that Bill sank along with Silver Mine, but Tesoro is fine as he already had his fun with Bill and now was time for the real entertainment to start."
+        ],
+        "_version_": 1817439267056517120,
+        "_root_": "Episode 750",
+        "score": 2.6261842
+      },
+      {
+        "id": "Episode 11",
+        "title": [
+          "Revealing the Conspiracy! The Pirate Caretaker, Captain Kuro!"
+        ],
+        "air_date": "January 26, 2000",
+        "short_summary": [
+          "Zoro and Nami rescue Luffy and learn about Kuro's malicious intentions. Meanwhile, Usopp attempts to alert the townspeople about the incoming threat, but the people do not believe him. The crew decide to work with Usopp to battle the Black Cat Pirates themselves."
+        ],
+        "long_summary": [
+          "Nami and Zoro head to the cliff to look for Luffy. They discover Luffy at the base of the cliff, and they head to the bottom of the cliff to wake him up unharmed. Luffy reveals to them Klahadore's malicious intents.\nUsopp runs to the village to alert others about the incoming attack, but the townspeople refuse to believe him, contrasting him to Klahadore whom they trust more. The townspeople chase Usopp out of the town. Usopp then goes to Kaya's mansion to warn her about the danger, but she also does not believe him, believing it to be an unusually cruel joke.\nUsopp attempts to escort Kaya out of the building, but is faced against the mansion guards. Although Usopp fights the guards, Kaya refuses to leave, hitting Usopp across the face. One of Kaya's butlers, Merry, shoots Usopp in the arm, and the townspeople continue to pursue him.\nMeanwhile, Kuro meets with his crew at their ship stationed at the island. He orders them to destroy the entire village the next day.\nThe crew, Usopp and the children meet at the outskirts of the village. The children express their disappointment in Usopp for lying as they leave. The crew agree to fight alongside Usopp to defend Syrup Village from the Black Cat Pirates."
+        ],
+        "characters": [
+          "Jango",
+          "Kuro",
+          "Usopp",
+          "Monkey D. Luffy",
+          "Nami",
+          "Roronoa Zoro",
+          "Kaya",
+          "Ninjin",
+          "Tamanegi",
+          "Piiman",
+          "Merry"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439265828634625,
+        "_root_": "Episode 11",
+        "score": 2.600485
+      },
+      {
+        "id": "Episode 362",
+        "title": [
+          "Slashes Dancing on the Roof! Finale - Zoro vs. Ryuma"
+        ],
+        "air_date": "July 13, 2008",
+        "short_summary": [
+          "Zoro duels Ryuma in Hogback's lab, while Franky guards over the injured Brook. Neither Zoro, nor Ryuma, can gain any advantage over the other, as they keep matching the other's attack. Their attacks quickly destroy the lab, forcing them to escape the room and continue their fierce duel on the roof. As Brook watches on, he comes to the conclusion that Ryuma was never taking their fights seriously. After an intense sword fight, during which the entire roof collapses to the ground below, Zoro finally defeats Ryuma using a technique which sets him ablaze. Zoro lands hard on the lip of the roof below. Ryuma manages to land on a higher ledge. Ryuma staggers slightly, then acknowledges his defeat at Zoro's hands. Sheathing Shusui, Ryuma throws it to Zoro. Ryuma collapses in a gout of flames, and Brook's shadow is finally returned to him, to his great joy. Zoro acknowledges Ryuma's skill as a swordsman and says he wishes he could have met Ryuma before he died. He also agrees to forget the outcome of their fight. "
+        ],
+        "long_summary": [
+          "At Hogback's lab, 5 minutes earlier, Ryuma mocks how Zoro intends to take the Shusui sword from him. Zoro points out how he has carried three swords, one of which being a broken sword. The swordsman prepares to fight using two swords. Ryuma revels at the challenge Zoro is presenting and blocks a hard attack. Ryuma then uses Aubade Coup Droit, shooting bullets of air out of his sword. It would seem to be a draw, as the lab is about to cave-in. Brook knows that in Ryuma's former life, he was still a fearsome samurai.\nRyuma then thrusts his sword at Zoro with Prelude Au Fer to break his swords, with the latter retaliating with a Flash. It doesn't get through. He then uses a Demon Magma Bear, but the attack is also blocked. The zombie samurai then uses a Gavotte Bond en Avant, launching an intense thrust at his foe with Zoro using a Sword style Rashomon, dashing past each other. Ryuma takes the hit and the lab's structure begins to weaken.\nFranky hopes to take Brook to safety, while Zoro and Ryuma continue their fight using a 72-Caliber Phoenix and Polka Remise respectively on one another. Franky then fires a Weapons Left to make a safe exit. On the rooftop, the Straw Hat swordsman and the zombie samurai appear to be evenly matched even with limited movement. The two continue to swing their swords with Zoro about to lose his footing. Breathing heavily, Zoro worries that his swords will break if he keeps it up. Suddenly, a part of the roof is blasted. Zoro almost lands a Soaring Dragon and the skeleton uses an Arrow Notch Slash, wounding Zoro greatly. Just then, Ryuma is lit on fire.\nWith Zoro lying on the ground, Ryuma admits defeat. He passes Shusui onto his opponent as the sword has had a long history of owners. Zoro catches the sword and Ryuma believes he feels shame in his failure. Zoro wishes they could have met in the era when Ryuma was alive. Just then, Brook's shadow finally returns to its rightful owner, allowing Brook to walk around in broad daylight and he makes another skeletal joke. As Ryuma cremates, Zoro wants to pretend the fight never happened.\nUsopp runs down a hallway and hopes to inform his friends of his victory over Perona and dodges a group of Wild Zombies using an empty picture frame.\nElsewhere, a group of armored zombies are told by Hildon that the downed zombies were meant to restrain Oars. Just then, Oars arrives and the bat-like zombie orders a retreat. However, the zombie warriors try to charge at the giant zombie anyway, but Oars smashes through the generals. Remembering the orders, Oars continues his march.\nLuffy is now beginning to feel tired while Moria gloats how he can be Pirate King without lifting his fingers. The Doppelman then drops onto Luffy and then slams the Straw Hat captain around. Moria warns that his backup will be arriving any moment."
+        ],
+        "characters": [
+          "Ryuma",
+          "Roronoa Zoro",
+          "Franky",
+          "Brook",
+          "Usopp",
+          "Hildon",
+          "Oars",
+          "Monkey D. Luffy",
+          "Gecko Moria"
+        ],
+        "rating": "4.6",
+        "_version_": 1817439266287910913,
+        "_root_": "Episode 362",
+        "score": 2.5789587
+      },
+      {
+        "id": "Episode 124",
+        "title": [
+          "The Nightmare Draws Near! Secret Base of the Suna Suna Clan"
+        ],
+        "air_date": "September 1, 2002",
+        "short_summary": [
+          "Luffy fights Crocodile by using the blood on his fists in order to be able to hit Crocodile. Meanwhile, Vivi finds the bomb, and calls the Straw Hat Pirates together."
+        ],
+        "long_summary": [
+          "Vivi and Usopp are together and Vivi has an idea of where the cannon is hidden. Usopp had signaled the other member of The Straw Hat Pirates (in the previous episode) with one of his sling shot bombs. But Billions from the Baroque Works had found them instead. To distract them, Usopp uses a chalkboard and drags his nails down it to make a loud noise; he grabs Vivi and runs away.\nMeanwhile, Luffy finds where Crocodile, Nefertari Cobra, and the critically injured Nico Robin is. Crocodile is upset that Luffy is still alive, no matter how many times he defeats Luffy. Cobra is baffled by who the strange boy is (Luffy). Luffy demands that Crocodile give him back Vivi's country, so Vivi can smile again. Luffy punches Crocodile twice and Crocodile is confused about how he is doing it without water. Luffy was using his blood to touch Crocodile preventing Crocodile from using his powers from the devil fruit. Crocodile takes off a covering from his hook that reveals he has poison in it.\nZoro runs to where the smoke bomb was shot by Usopp. But finds a group of Marines who were with Tashigi. They berate him for having a poor sense of direction and then give him orders on where to go to find the center of the city of Alubarna.\nVivi and Usopp are still running with Baroque Works members chasing them. Tashigi and a few Marine members attack the men chasing Vivi and Usopp. Nami and Tony Tony Chopper find Vivi and Usopp with two minutes left before the bomb kills the Royal Army and Rebel Army and everyone in the center of Alubarna. Pell is shot from the sky by a mysterious frog woman hidden in the Clock Tower who is later revealed to be working for Baroque Works.\nLuffy and Crocodile continue their fight and Luffy dodges Crocodile's attacks made by his hook. Cobra notices that Crocodile is struggling in the fight.\nVivi is looking for Pell thinking he's their only hope to reach the cannon in time. Sanji and Zoro are in the Clock Tower. With 30 seconds left, the Clock Tower opens with Mr. 7 and Miss Father's Day inside laughing."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Nefertari Vivi",
+          "Usopp",
+          "Okame (flashback)",
+          "Kebi (flashback)",
+          "Erik (flashback)",
+          "Koza (flashback)",
+          "Roronoa Zoro",
+          "Sanji",
+          "Tony Tony Chopper",
+          "Nami",
+          "Nico Robin",
+          "Crocodile",
+          "Nefertari Cobra",
+          "Karoo (flashback)",
+          "Toto (flashback)",
+          "Matsuge (flashback)",
+          "Tashigi",
+          "Smoker (flashback)",
+          "Pell",
+          "Miss Father's Day",
+          "Mr. 7"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439265985921024,
+        "_root_": "Episode 124",
+        "score": 2.5084167
+      },
+      {
+        "id": "Episode 954",
+        "title": [
+          "Its Name is Enma! Oden's Great Swords!"
+        ],
+        "air_date": "December 13, 2020",
+        "short_summary": [
+          "Kawamatsu tells the story of him and Gyukimaru, revealing that Gyukimaru was actually a fox named Onimaru. Hiyori offers the Enma to Zoro in exchange for the Shusui."
+        ],
+        "long_summary": [
+          "Zoro chases Gyukimaru, but he goes into an run-down doorway and disappears. Hiyori and Kawamatsu decide to walk together, but are attacked by another wave of bandits. Kawamatsu fights them off, and explains what happened after he lost Hiyori.\nThirteen years ago, after Hiyori ran away, he decided to leave to Ringo. Ringo was a region that was previously ruled by the daimyo Shimotsuki Ushimaru, who was with the company of a fox, Onimaru. However, when Orochi overthrew Oden, Ushimaru was killed and Ringo fell.\nKawamatsu found a mass burial site with Eternal Graves. These corpses were buried in caskets and did not decompose due to the cold. They were marked by the deceased person's sword, which was said to contain the soul of the deceased. These swords became attractive to grave robbers, but the graveyard was guarded by the fox, Onimaru.\nOnimaru was initially hostile to Kawamatsu but eventually warmed up to him. However, he became hostile again after he saw Kawamatsu taking the swords from the graves. Kawamatsu explained that the swords were to be used for the upcoming Onigashima raid. Given that the samurai in the swords will help their wielders in battle, Onimaru allowed him, helping him gather the other swords.\nTogether they would build a hideout to keep the swords, steal food from the capital to keep themselves fed, and fight off any grave robbers, taking their swords. Unfortunately, when Kawamatsu attempted to steal tofu one day, he fell into a trap and was arrested, being sent to the Udon prisoner mine.\nBack in present day, Kawamatsu goes to the place where Gyukimaru disappeared, and finds that it is the location where the swords were located. He contacts Kin'emon and tells him that he has the supply of swords needed for the army. It is revealed that Gyukimaru was the one who arranged the swords while Kawamatsu was gone, as he was actually Onimaru in his human form. He transforms back into his fox form and leaves, his duty fulfilled.\nZoro tries to take back Shusui, but Hiyori asks him to leave it. Hiyori offers him a replacement sword, the Enma. This sword belonged to Oden himself and is the only sword to have ever successfully injured Kaidou."
+        ],
+        "characters": [
+          "Roronoa Zoro",
+          "Onimaru",
+          "Kawamatsu",
+          "Kouzuki Hiyori",
+          "Shimotsuki Ushimaru (fantasy)",
+          "Ashura Doji (flashback)",
+          "Kanjuro (flashback) (partly)",
+          "Raizo (flashback) (partly)",
+          "Kin'emon",
+          "Kouzuki Toki (flashback & silhouette)",
+          "Kouzuki Momonosuke (flashback)",
+          "Kaidou (fantasy)",
+          "Queen (fantasy)",
+          "Jack (fantasy)",
+          "Who's Who (fantasy & silhouette)",
+          "Sasaki (fantasy & silhouette)",
+          "Page One (fantasy & silhouette)",
+          "King (fantasy)",
+          "Bungo (flashback)",
+          "Bongo (flashback)",
+          "Bingo (flashback)",
+          "Monkey D. Luffy (flashback)",
+          "Hareji (flashback)",
+          "Solitaire (flashback)",
+          "Daifugo (flashback)",
+          "Hyougoro (flashback)",
+          "Kouzuki Oden (fantasy)"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439267749625857,
+        "_root_": "Episode 954",
+        "score": 2.4628587
+      },
+      {
+        "id": "Episode 987",
+        "title": [
+          "His Dream Broken?! The Trap That Lures Sanji!"
+        ],
+        "air_date": "August 15, 2021",
+        "short_summary": [
+          "Kid, Killer and Zoro flee from Apoo's attacks and advance to the castle. Kin'emon's forces come across a pond on the east mountain path."
+        ],
+        "long_summary": [
+          "Kid confronts Apoo about his betrayal, but Apoo fights back, slashing Kid. Queen, shocked that Kid has also escaped from the prisoner mine, gives his men permission to kill him. They are attacked by one of the Numbers, Hatcha, a mace-wielding giant. A fired explosive arrow knocks Hatcha back, allowing Kid, Luffy and Zoro to escape to the castle while Wire and Heat hold Hatcha back. However, they are pursued by Apoo's sound attacks. Killer suggests covering their ears. This makes them immune to Apoo's attacks, since they only work if the target can hear the sound waves. Kid, Luffy and Zoro continue to advance to Kaidou's castle.\nBig Mom, who is getting ready to join the party, receives word that her family is unharmed and are on their way. The Big Mom Pirates, led by Perospero, ride up the waterfall, approaching the country.\nChopper's group with the tank joins Kin'emon's forces up the east mountain path. Kin'emon discusses the plan. The group will split into another two groups; one group will enter through the side of the Skull Dome and the other through the back. This will allow them to attack Orochi and Kaidou from two angles. Denjiro leads the southern forces, the rest of the Nine Red Scabbards are under the sea, and Robin, Jinbe, Franky and Brook infiltrate the castle in disguise. Although Nami and Carrot's group encounters enemy Beasts Pirates, they use their good looks to charm their way through.\nUnfortunately, Kin'emon's group finds that the island blueprints were out of date, and the castle has been expanded since it was made. The forces encounter a pond on the eastern mountain path. Sanji finds a pleasure hall owned by Black Maria, but finds it empty since Kaidou's subordinates have left in search of the intruders. Nami, Carrot and Shinobu decide to break away from the group to search for Momonosuke.\nApoo explains what happened to Killer. When Killer was imprisoned, Orochi offered him a chance to save his captain if he ate a SMILE fruit. Killer ate the fruit but it was defective, giving him the side effects but no ability and making him a Pleasure.\nWho's-Who decides not to intervene in the battle, instead working on tracking down Yamato before Sasaki does. He also thinks about how Queen said he would kill one of the Tobiroppo. Who's-Who mentions a certain Tobiroppo he wants to kill."
+        ],
+        "characters": [
+          "Eustass Kid",
+          "Scratchmen Apoo",
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Queen",
+          "Killer",
+          "Basil Hawkins (flashback)",
+          "Wire",
+          "Heat",
+          "Pandaman",
+          "Hatcha",
+          "Charlotte Linlin",
+          "Queen Mama Chanter",
+          "Charlotte Perospero",
+          "Kin'emon",
+          "Tony Tony Chopper",
+          "Nami",
+          "Carrot",
+          "Shinobu",
+          "Kaidou (fantasy)",
+          "Kurozumi Orochi (fantasy and flashback)",
+          "Usopp",
+          "Tabuhachiro",
+          "Kurosawa",
+          "Cho",
+          "Jibuemon",
+          "Shishilian",
+          "Concelot",
+          "Giovanni",
+          "Trafalgar D. Water Law",
+          "Raizo",
+          "Penguin",
+          "Kawamatsu",
+          "Shachi",
+          "Kikunojo",
+          "Inuarashi",
+          "Ashura Doji",
+          "Hakugan",
+          "Jean Bart",
+          "Bepo",
+          "Uni",
+          "Denjiro",
+          "Omasa",
+          "Hyougoro",
+          "Kojuro",
+          "Nico Robin",
+          "Jinbe",
+          "Franky",
+          "Brook",
+          "Sanji",
+          "Kouzuki Momonosuke (flashback)",
+          "Kurozumi Kanjuro (flashback)",
+          "Who's-Who",
+          "X Drake (fantasy)",
+          "Page One (fantasy)",
+          "Ulti (fantasy)",
+          "Black Maria (fantasy)",
+          "Sasaki (fantasy)"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439267782131712,
+        "_root_": "Episode 987",
+        "score": 2.4483433
+      },
+      {
+        "id": "Episode 429",
+        "title": [
+          "Movie-connected Special - The Decisive Battle! Luffy vs. Largo"
+        ],
+        "air_date": "December 6, 2009",
+        "short_summary": [
+          "After escaping from the net, Luffy knocks Largo far away and goes off to fight him. Nami pretends to evacuate the villagers but takes them through other tunnels to surprise the Amigo Pirates while they are fighting Zoro and Sanji. Boss saves Luffy from falling into the sea and then starts fighting him in a rematch that lasts for hours. Yoko and Nami discuss their respective pasts, before Nami brings the Straw Hats together and sets sail from the island. It is revealed that Boss was a specially created insect that had escaped from Shiki, and that he plans on using an army of similar creatures to wage war on the world."
+        ],
+        "long_summary": [
+          "After escaping from the net, Luffy knocks Largo far away and goes off to fight him. Nami pretends to evacuate the villagers but takes them through other tunnels to surprise the Amigo Pirates while they are fighting Zoro and Sanji. Luffy fights Largo but becomes trapped when he turns his entire body into a net. Luffy uses Gear Third to inflate and break out of the net before defeating Largo with Gigant Pistol, destroying his ship in the process. Boss saves Luffy from falling into the sea and then starts fighting him in a rematch that lasts for hours. Yoko and Nami discuss their respective pasts, before Nami brings the Straw Hats together and sets sail from the island. It is revealed that Boss was a specially created insect that had escaped from Shiki, and that he plans on using an army of similar creatures to wage war on the world."
+        ],
+        "characters": [
+          "Boss",
+          "Sanji",
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Largo",
+          "Corto",
+          "Mendo",
+          "Luigia",
+          "Fabre",
+          "Mitsuboshi",
+          "Yoko",
+          "Nami",
+          "Usopp",
+          "Franky",
+          "Tony Tony Chopper",
+          "Brook",
+          "Nico Robin",
+          "Ryudo (flashback)",
+          "Nojiko (flashback)",
+          "Bell-m\u00e8re (flashback)",
+          "Arlong (flashback)",
+          "Shiki",
+          "Indigo",
+          "Scarlet"
+        ],
+        "rating": "3.9",
+        "_version_": 1817439266361311233,
+        "_root_": "Episode 429",
+        "score": 2.4402382
+      },
+      {
+        "id": "Episode 1104",
+        "title": [
+          "A Desperate Situation! The Seraphim's All-out Attack!"
+        ],
+        "air_date": "May 12, 2024",
+        "short_summary": [
+          "Zoro battles Kaku to which the latter demonstrates his awakened abilities. Sanji, Franky, Lilith and Edison head out to regain control of the Seraphim as Lucci orders them to destroy the lab. However, Stussy betrays CP0, and knocks out Lucci and Kaku."
+        ],
+        "long_summary": [
+          "After entering the door, Bonney finds a large glowing paw. Vegapunk remembers how he created the paw; he was aware that Kuma's abilities allowed him to store pain in paws, but also wondered whether one's memories could also be stored in a similar way. So, before being turned into a cyborg and losing his free will, Kuma discovered a way to store his memories in the paw. In the present day, Vegapunk attempts to deceive Bonney by telling her that the paw was filled with pain, but Bonney does not believe him and recognizes the paw as Kuma's memories.\nAt the Red Line, Kuma continues climbing the mountain. However, in order to prevent him from reaching Mary Geoise, Marine forces shoot Kuma down, sending him falling back to the ground. Kuma attacks the Marines with his abilities before reattempting to climb the Red Line.\nMeanwhile, Zoro battles Kaku, but Kaku reveals his awakened Devil Fruit form, enhancing his speed and allowing him to bend his neck in previously-impossible ways. Kaku initially overwhelms Zoro with his new attacks, but Zoro, having strengthened from his battle with Kaidou, fights back. Kaku sends the Seraphim, who have also passed through the Frontier Dome, to attack the laboratory Vegapunk is hiding inside. Shaka's group watches as the building is bombarded by the Seraphim's attacks.\nSuddenly, Stussy defects against the agents, transforming herself into a bat-like form and attacking Kaku by surprise. Biting into his neck, Stussy sucks his blood, causing him to lose consciousness from blood loss. Stussy is revealed to be a clone created by MADS, modeled after former Rocks Pirate Miss Buckingham Stussy. Lucci attempts to fight against Stussy, but Stussy evades his attack with a form of Kami-e, uses Seastone lipstick to nullify his powers, then sucks his blood, causing him to also lose consciousness. She then turns to Zoro."
+        ],
+        "characters": [
+          "Jewelry Bonney",
+          "Vegapunk",
+          "Bartholomew Kuma",
+          "Roronoa Zoro",
+          "Kaku",
+          "Rob Lucci",
+          "Stussy",
+          "Brook",
+          "Hattori",
+          "Shaka",
+          "Nami",
+          "Lilith",
+          "Edison",
+          "Franky",
+          "Nico Robin",
+          "Jinbe",
+          "S-Shark",
+          "S-Bear",
+          "S-Snake",
+          "S-Hawk",
+          "Usopp",
+          "Sanji",
+          "Monkey D. Luffy (image)",
+          "Tony Tony Chopper (image)",
+          "Kaidou (flashback)"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439267893280768,
+        "_root_": "Episode 1104",
+        "score": 2.4223828
+      },
+      {
+        "id": "Episode 330",
+        "title": [
+          "The Hard Fights of the Straw Hat Crew!\nThe Pirate Soul Banking it All on the Flag!"
+        ],
+        "air_date": "November 11, 2007",
+        "short_summary": [
+          "The fights continue with Luffy, distracted due to the lost flag, has initial trouble with Brindo, but the Phoenix Pirates help capture him. Usopp has marginal success against Arbell, but is hampered by the angered Salchow. Franky, meanwhile, manages to beat Hockera at the cost of his remaining cola, but ends up iced up because of Hockera's ice hockey pucks inside the sub along with Nami. Lil accepts Robin's request to be led to Lovely Land, where Zoro is aimlessly wandering inside it."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Brindo",
+          "Race",
+          "Jiro",
+          "Troff",
+          "Tony Tony Chopper",
+          "Guyle",
+          "Basil",
+          "Lago",
+          "Sutton",
+          "Puzzle",
+          "Lil",
+          "Nico Robin",
+          "Salchow",
+          "Arbell",
+          "Usopp",
+          "Sanji",
+          "Franky",
+          "Nami",
+          "Hockera",
+          "Vigaro (flashback)",
+          "Stansen (flashback)",
+          "Accino",
+          "Campacino",
+          "Roronoa Zoro"
+        ],
+        "rating": "3.9",
+        "_version_": 1817439266257502211,
+        "_root_": "Episode 330",
+        "score": 2.3861952
+      },
+      {
+        "id": "Episode 932",
+        "title": [
+          "Dead or Alive - Queen's Sumo Inferno"
+        ],
+        "air_date": "July 12, 2020",
+        "short_summary": [
+          "At the Prisoner Mines, the Sumo Inferno begins, but Luffy easily defeated his opponents.\nMeanwhile at the Flower Capital bathhouse, Drake and Hawkins arrive to search for those associated with the Kouzuki Family. As Shinobu, Robin, and Nami are accosted by Hawkins, Sanji is revealed to be at the bathhouse as well. After a scuffle with Drake and Hawkins, Sanji escapes with Shinobu, Robin, and Nami.\nIn the Ringo region, Zoro confronts the person who took Shusui."
+        ],
+        "long_summary": [
+          "Queen laughs at Luffy for suggesting that he could defeat him. The terrifying sumo match then begins and Luffy is presented with a gang of fighters. However, Luffy defeats them effortlessly, and Queen calls out the Pleasures. Kawamatsu watches the match from his cell while Luffy beats up more pirates with minimal effort.\nMeanwhile, Hawkins raids the bathhouse that Nami's group is at, somehow knowing about the alliance's operations. He lines up all the people to check their ankles for the reverse crescent symbol, somehow knowing about the symbol. They prepare to arrest Nami, but her robe falls, revealing her breasts and knocking everyone back, including Drake.\nSanji also appears, apparently having been hiding using his raid suit. He suffers a nosebleed and crashes into a wall. Hawkins and Drake, both being from North Blue, recognize him as Stealth Black of Germa 66.\nThe guests go into a frenzied panic in fear of Germa 66. Nami's group attempts to escape during the commotion but are confronted by Hawkins and Drake. Sanji briefly fights them before picking up the others and bursting through the ceiling and flying away. They head to Ebisu Town to meet up with Usopp's group.\nIn Ringo, a thief attacks swordsmen and collects their swords. At a bridge, he is confronted by Zoro, whose sword, Shusui, has been stolen from him. The thief states that Shusui did not belong to Zoro as it was stolen from Ryuma's grave. They quickly enter battle as Zoro wants to take the thief's sword collection."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Hyougoro",
+          "Queen",
+          "Uwattsura",
+          "Nokotti",
+          "Daifugo",
+          "Babanuki (partly)",
+          "Kawamatsu (silhouette)",
+          "Nami",
+          "Shinobu",
+          "Nico Robin",
+          "X Drake",
+          "Basil Hawkins",
+          "Sanji",
+          "Penguin (fantasy)",
+          "Bepo (fantasy)",
+          "Shachi (fantasy)",
+          "Kaidou (flashback)",
+          "Silvers Rayleigh (flashback)",
+          "Gyukimaru",
+          "Roronoa Zoro"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439267731800064,
+        "_root_": "Episode 932",
+        "score": 2.3658998
+      },
+      {
+        "id": "Episode 6",
+        "title": [
+          "Desperate Situation! Beast Tamer Mohji vs. Luffy!"
+        ],
+        "air_date": "December 29, 1999",
+        "short_summary": [
+          "Luffy defends himself from Buggy's assassin, Beast Tamer Mohji and his lion Richie. Allying himself with the town's mayor as well as a dog, the Straw Hats return to Buggy's base to confront him."
+        ],
+        "long_summary": [
+          "Having warded off the Buggy Pirates, a wounded Zoro drags Luffy's cage to a local pet food shop. The mayor appears and takes Zoro into his house to nurse his wounds. Meanwhile, Luffy interacts with Chouchou, a dog defending the shop. The mayor explains that Chouchou's owner passed away from illness, so he continues to defend the deceased owner's store as a memento. Although Nami arrives with the key to Luffy's cage, Chouchou eats the key before the cage could be unlocked.\nBuggy sends his first mate, Mohji the Beast Tamer, to search for and eliminate Zoro. Riding his lion Richie, he finds Luffy still trapped in the cage. Mohji orders Richie to attack Luffy, inadvertently destroying his cage and setting him free. He then strikes Luffy into a house, destroying it.\nRichie raids the store for food and burns it to the ground as Chouchou fights in vain to defend the store. After seeing Mohji's actions, Luffy came to Chouchou's aid, defeating both Richie and Mohji before giving the dog a single box of pet food salvaged from the fire.\nMohji returns to Buggy to report his defeat. As an act of vengeance, Buggy fires a Buggy Ball into the town, destroying the mayor's house with Zoro still in it. Although Zoro was fortunately unharmed by the blast, the mayor decides to stand up to Buggy for his callous invasion of the town. Nami agrees to temporarily join forces with Luffy and Zoro and assist Boodle in confronting Buggy."
+        ],
+        "characters": [
+          "Buggy",
+          "Nami",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Richie",
+          "Mohji",
+          "Chouchou",
+          "Boodle",
+          "Hocker (flashback)"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265825488896,
+        "_root_": "Episode 6",
+        "score": 2.3226388
+      },
+      {
+        "id": "Episode 1000",
+        "title": [
+          "Overwhelming Strength! The Straw Hats Come Together"
+        ],
+        "air_date": "November 21, 2021",
+        "short_summary": [
+          "The Straw Hats reflect on their past adventures. They gather at the live floor, prepared to battle the All-Stars and the Tobiroppo."
+        ],
+        "long_summary": [
+          "Big Mom rolls out of the castle and down the entrance steps, being spotted by Perospero. Meanwhile, Sasaki's chains are broken off by his subordinates. Sasaki swears revenge on Denjiro for betraying him.\nAtop the Skull Dome, Kaidou and Jack's forces battle against the Minks. Although Jack fights off the Minks, Inuarashi and Nekomamushi take over, transforming into their Sulong forms to face him.\nInside the castle, Luffy and Zoro meet up on the platform, intending to go to the rooftop to face Kaidou. They attempt to launch through the hole in the ceiling, but they are caught by Queen's dinosaur mouth and King also appears. They are flung off the balcony, where they are faced by Jaki, one of the Numbers, on the ground below. However, Franky combines the two vehicles into the Iron Pirate, a giant robot. Operating the robot, Franky shoots down Jaki with his cannon. Unharmed by King's attack, Sanji emerges from the rubble and removes his raid suit. Although he is attacked by enemy units, Luffy and Zoro fight at his aid.\nThe Straw Hats battle against the enemy Beasts Pirates, remembering their past adventures as a crew. Despite being far stronger than most of the Beasts Pirates, the Straw Hats are still greatly outnumbered. Still, they gather and prepare to battle against the All-Stars and the Tobiroppo."
+        ],
+        "characters": [
+          "Charlotte Linlin",
+          "Charlotte Perospero",
+          "Marco",
+          "Sasaki",
+          "Napoleon (flashback)",
+          "Denjiro",
+          "Kaidou",
+          "Nangi",
+          "Jack",
+          "Ashura Doji",
+          "Kikunojo",
+          "Kawamatsu",
+          "Izou",
+          "Kin'emon",
+          "Raizo",
+          "Concelot",
+          "Shishilian",
+          "Blackback",
+          "Roddy",
+          "Giovanni",
+          "Inuarashi",
+          "Nekomamushi",
+          "Yomo",
+          "Monkey D. Luffy",
+          "Jaki",
+          "Juki",
+          "Queen",
+          "Roronoa Zoro",
+          "King",
+          "Kojuro",
+          "Hyougoro",
+          "Tsunagoro",
+          "Cho",
+          "Yatappe",
+          "Omasa",
+          "Zangirimaru",
+          "Hareji",
+          "Hanji",
+          "Franky",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Kakunoshin",
+          "Goki",
+          "Shanks (flashback)",
+          "Arlong (flashback)",
+          "Crocodile (flashback)",
+          "Rob Lucci (flashback)",
+          "Monkey D. Garp (flashback)",
+          "Portgas D. Ace (flashback)",
+          "Sakazuki (flashback)",
+          "Dracule Mihawk (flashback)",
+          "Yosaku (flashback)",
+          "Johnny (flashback)",
+          "Daz Bonez (flashback)",
+          "Shimotsuki Ryuma (flashback)",
+          "Ninjin (flashback)",
+          "Piiman (flashback)",
+          "Tamanegi (flashback)",
+          "Nami",
+          "Perona (flashback)",
+          "Hajrudin (flashback)",
+          "Hiriluk (flashback)",
+          "Nefertari Vivi (flashback)",
+          "Kumadori (flashback)",
+          "Nico Robin",
+          "Spandam (flashback)",
+          "Fukurou (flashback)",
+          "Brook",
+          "Laboon (flashback)",
+          "Pandaman (flashback)",
+          "Kalifa (flashback)",
+          "Lola (Zombie) (flashback)",
+          "Haredas (flashback)",
+          "Zeff (flashback)",
+          "Bentham (flashback)",
+          "Jinbe",
+          "Mozu and Kiwi (flashback)",
+          "Senor Pink (flashback)",
+          "Karoo (flashback)",
+          "Gonbe (flashback)",
+          "Chimney (flashback)",
+          "Kokoro (flashback)",
+          "Shirahoshi (flashback)",
+          "Pappag (flashback)",
+          "Black Maria (fantasy)",
+          "Who's-Who (fantasy)",
+          "Ulti (fantasy)"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439267793666048,
+        "_root_": "Episode 1000",
+        "score": 2.2727306
+      },
+      {
+        "id": "Episode 1036",
+        "title": [
+          "Fight Against the Dark Night - The Commander-in-Chief of Wano Country Sounds Off"
+        ],
+        "air_date": "October 16, 2022",
+        "short_summary": [
+          "Like all the other samurai, Chopper is discouraged by the news of Luffy's loss and Queen doesn\u2019t miss the chance to finish him off! Meanwhile, Kin'emon fights for his life to save Momonosuke and that motivates Momonosuke to rise up!"
+        ],
+        "long_summary": [
+          "As Luffy sinks into the ocean, Chopper continues to battle Queen, but is demotivated from his captain's defeat. Across Onigashima, various samurai and allies react to Bao Huang's announcement, with some reacting like Chopper and some refusing to believe it. Meanwhile, Onigashima approaches Wano Country proper, finally reaching the mainland.\nAs the samurai begin to give up in their fight, the Nine Red Scabbards continue to fight, stating they won't stop until they defeat Kaidou. Izou points out how they can't confirm Luffy's death, and Kawamatsu remarks that even the possibility destroyed morale. However, Sanji refuses to even consider that Luffy lost, getting angry at the samurai for thinking that they might have lost.\nBack on the Live Floor, Queen has gotten the upper hand against Chopper, and Perospero continues to bombard the samurai with arrows. They encourage everybody to give up fighting, and Queen is about to bite Chopper; however, he's stopped by Sanji. Sanji's kick is hard enough to send Queen's head spinning, causing him to intercept all of Perospero's arrows as well as send Perospero himself flying. He congratulates Chopper for holding off Queen enough for him to arrive, and tells him to continue trusting in Luffy, before handing him Zoro and telling to take care of the injured swordsman. Sanji resolves to fight Queen, and the samurai look on in awe, noting how he doesn't give up despite his captain having been defeated.\nMeanwhile, above the first floor, Kaidou easily defeats Kin'emon. Despite his injuries, Kin'emon continues to stand up and stab Kaidou, allowing Shinobu and Momonosuke time to run. As he struggles, Kin'emon thinks back to when they were sent to the present day. He thinks back to when he and Momonosuke pretended to be father and son, and encourages him to continue living. However, he is stabbed again by Kaidou, collapsing to the floor.\nAs Shinobu and Momonosuke run, he also thinks back to his time with Kin'emon. He resolves himself to tell the Ninja-Pirate-Mink-Samurai Alliance members that Luffy isn't dead, and speaks into one of the Marys, announcing it across the island. He declares that Luffy is speaking to him, and encourages the allies to continue fighting until Luffy returns to the island."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Tony Tony Chopper",
+          "Queen",
+          "Blackback",
+          "Roddy",
+          "Kakunoshin",
+          "Bao Huang (fantasy)",
+          "Hyougoro",
+          "Tsunagoro",
+          "Cho",
+          "Omasa",
+          "Yatappe",
+          "Usopp",
+          "Tama",
+          "Nami",
+          "Babanuki",
+          "Briscola",
+          "Speed (flashback)",
+          "Eustass Kid",
+          "Trafalgar D. Water Law",
+          "Kaidou",
+          "Izou",
+          "Kawamatsu",
+          "Sanji",
+          "Roronoa Zoro",
+          "Charlotte Perospero",
+          "Ukon",
+          "Marco",
+          "Kin'emon",
+          "Kouzuki Momonosuke",
+          "Shinobu",
+          "Kikunojo",
+          "Kurozumi Kanjuro",
+          "Raizo",
+          "Inuarashi (drawing) (flashback)",
+          "Denjiro (drawing) (flashback)",
+          "Ashura Doji (drawing) (flashback)",
+          "Nekomamushi (drawing) (flashback)",
+          "Kouzuki Oden (fantasy)",
+          "King",
+          "Yamato",
+          "Brook",
+          "Nico Robin",
+          "Black Maria",
+          "Sasaki",
+          "Franky",
+          "Fukurokuju",
+          "Jinbe",
+          "Who's-Who",
+          "Charlotte Linlin",
+          "Napoleon"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439267828269056,
+        "_root_": "Episode 1036",
+        "score": 2.2587695
+      },
+      {
+        "id": "Episode 59",
+        "title": [
+          "Luffy, Completely Surrounded! Admiral Nelson's Secret Plan"
+        ],
+        "air_date": "February 21, 2001",
+        "short_summary": [
+          "At last Commodore Nelson has seen through the ambitions of Eric, but takes it a little too personally and now the mystical dragon's life is in danger."
+        ],
+        "long_summary": [
+          "The Going Merry manages to dodge Nelson Royale's cannonballs. Meanwhile, Lieutenant Commander Hardy sees Nelson's ships, and decides to relax, knowing that the Going Merry will be captured. However, Eric, who wanted the Dragon's Nest to himself, decides to pursue the Going Merry himself with a rowboat.\nAfter Luffy uses the Gum Gum Balloon to bounce one of the cannonballs back to one of Nelson's boats, Nelson commands the Marines to use the Big Elimination Cannon. To combat this, Usopp fires a cannonball into the Big Elimination Cannon, causing it to explode.\nNext, Luffy uses the Gum Gum Crossing Bridge move to create a bridge, allowing for Sanji and Zoro to board the Marine ship, then launches himself onto the Marine ship. Luffy and Sanji attack the army of Marines while Zoro cuts the chains connecting the Marine ships.\nEric boards the raft holding Ryu and Apis. He connects the raft to his rowboat and sails away. He betrays Nelson Royale, however, by refusing to give the dragon to him. Angered by his betrayal, Nelson commands the Marine ships to fire at Eric's boat.\nEric fights with Apis over Ryu, and Eric throws her down. However, Ryu gets up, knocks Eric off the rowboat, and roars. Apis is happy that Ryu can move and fly, but to her horror, Ryu flies towards Nelson's ship, getting hit by several cannonballs on the way.\nEventually, Ryu finally succumbs to the cannonballs, falling into the water. Ryu tells Luffy to keep Apis safe before dying."
+        ],
+        "characters": [
+          "Nelson Royale",
+          "Eric",
+          "Usopp",
+          "Apis",
+          "Ryu",
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Nami",
+          "Sanji"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439265878966273,
+        "_root_": "Episode 59",
+        "score": 2.2088754
+      },
+      {
+        "id": "Episode 122",
+        "title": [
+          "Sand Crocodile and Water Luffy! Death Match: Round 2"
+        ],
+        "air_date": "August 18, 2002",
+        "short_summary": [
+          "Luffy fights Crocodile with more success this time by using water, but still loses the round. Meanwhile, the other Straw Hat Pirates hurry to locate the bomb before it goes off. Nico Robin forces King Cobra to take her to the tomb where the Pluton Poneglyph is hidden."
+        ],
+        "characters": [
+          "Crocodile",
+          "Nico Robin",
+          "Nefertari Cobra",
+          "Monkey D. Luffy",
+          "Usopp",
+          "Nefertari Vivi",
+          "Nami",
+          "Tony Tony Chopper",
+          "Pell",
+          "Sanji",
+          "Roronoa Zoro",
+          "Tashigi",
+          "Mashikaku"
+        ],
+        "rating": "4.5",
+        "long_summary": [
+          "With Crocodile lying on the ground, Luffy demands that he get up and fight. Crocodile laughs at this statement.\nMeanwhile, Vivi and the rest of the Straw Hats are in the Palace Square. Vivi explains that according to Crocodile, within ten minutes, a huge cannon will be fired, and once the cannon is fired, no one within a five-kilometer radius will survive, wiping out both the Rebel and Royal Army forces. Zoro tells them that they need to find the cannon and stop the cannoneer from shooting. Before they can go ahead and look for the cannon, some Baroque Works Billions find Vivi and try to bring her to Crocodile for a promotion. Sanji and Zoro volunteer to stay behind to deal with the agents while the others go ahead and split up to look for the cannon.\nCrocodile is still laughing at Luffy's statement, telling him that it will not be so easy to defeat him, since he is one of the Seven Warlords of the Sea. Luffy is unimpressed and says that if Crocodile is one of the Seven Warlords, then he is the eighth Warlord. Cobra cannot believe what he is hearing and is impressed by Luffy's confidence. He asks who Luffy is, and Miss All Sunday tells him that he is the one responsible for bringing Vivi back to Arabasta.\nEven though Luffy has figured out how to land a punch on Crocodile, the Warlord is still confident stating that even though Luffy can hit him, he can still absorb any fluid in Luffy's body. He proceeds to dehydrate Luffy's arm, which Luffy counters by drinking more water. The two continue their battle and Luffy reveals that he was planning to throw the barrel of water he was carrying to douse Crocodile in water. Crocodile predicts this move and counters it by conjuring a twister of sand, sending both Luffy and the barrel flying away. Luffy barely catches the barrel of water. Crocodile laughs at Luffy, telling him that this battle is no different from the first time they fought. Luffy proceeds to drink the whole barrel of water he was carrying and dubs himself as Water Luffy, showing a bloated stomach full of water, which shocks both Crocodile and Cobra and amuses Miss All Sunday.\nCobra attacks Luffy but Luffy squirts out water from his mouth and douses Crocodile with water, just as he planned, making the Warlord susceptible to Luffy's physical attacks. Luffy uses his Gomu Gomu no Bazooka technique and hits Crocodile directly to his stomach which sends him crashing. Crocodile is lying on the ground, not moving. Miss All Sunday removes the stakes impaling Cobra and demands that he show her the way to the Poneglyph. Cobra asks what she wants with it, but she subdues him and reiterates her demand.\nCrocodile gets up and calls Miss All Sunday by her real name, Nico Robin, telling her that she should get going now to the Poneglyphs. As Nico Robin and the King leave, Crocodile uses his Ground Secco technique which dehydrates all of their surroundings turning it to a desert wasteland. Luffy shoots water at Crocodile which he simply absorbs with his hand. He continues to suck the moisture out of ground, the effects of which are felt throughout the palace.\nWith eight minutes left until the explosion, Vivi, Pell and the rest of the Straw Hats scramble to find the cannon.\nMeanwhile, Cobra asks if Nico Robin is truly Miss All Sunday's name. He remembers that the name was known throughout the world twenty years ago. On their way to the Poneglyphs, they encounter Tashigi and a bunch of Marines. Tashigi refuses to let them pass, but Robin uses her abilities to incapacitate some of her men. Seeing the ability, a Marine recognizes who she is and tells Tashigi that twenty years ago, when she was eight years old, Robin earned a bounty of 79,000,000 for sinking six Marine ships, classifying her as a first-degree risk. After the incident, she was said to have vanished and never heard from again. After hearing about her reputation, Tashigi commands her men to go to the Palace Square to stop the explosion, deeming it useless for so many men to fight against someone with her power. She stays behind, deciding to fight her, but Robin uses her ability against Tashigi and easily defeats her.\nIn the palace, the entire lawn has turned to sand. Crocodile is able to sneak up on Luffy and grab him by the neck. Luffy spits water at Crocodile but misses and he proceeds to absorb all of the water in Luffy's body, dehydrating him. Luffy's signature straw hat is shown to be blown away by the wind. While still holding Luffy by the neck, Crocodile declares that Luffy has lost to him for the second time."
+        ],
+        "_version_": 1817439265982775296,
+        "_root_": "Episode 122",
+        "score": 2.1793454
+      },
+      {
+        "id": "Episode 95",
+        "title": [
+          "Ace and Luffy! Warm Memories and Brotherly Bonds"
+        ],
+        "air_date": "January 6, 2002",
+        "short_summary": [
+          "Ace fights Smoker while the Straw Hat Pirates run for their ship. Luffy reunites with his brother Ace, and presents him to his crew. Later, Ace takes down some Baroque Works agents."
+        ],
+        "long_summary": [
+          "Ace starts fighting Smoker while the crew is running away to the Going Merry. As they flee, Nami asks Luffy if Ace is really his brother. Luffy confirms this and tells them his name. A bifurcation is in their way and Nami tells everyone to follow her, but Luffy goes the other way, as he was watching his brother fight. The Straw Hats arrive at the ship and carry all the supplies, only to notice that Luffy is missing. Luffy is sitting on the barrel he was carrying in an alley, but he does not know where his crew went. Ace greets him from the top of a house in the alley and then comes down. They start arm wrestling on top of the barrel Luffy was sitting on, but after struggling, the barrel breaks and the water inside it scatters. They both agree that they are equally strong. Ace invites Luffy and his crew to join the Whitebeard Pirates, but Luffy declines.\nOn Smoker's ship, Mr. 11 is left alone, tied to the mast. Some Billions get on the deck and Mr. 11 asks them to untie him. They explain that as Billions, they are candidates to be promoted to Officer Agents. Mr. 11 asks them to untie him again, but they shoot him. The Billions get off the ship and someone informs them that Fire Fist Ace is in the town. One of them then comments that if they take down Ace, they will surely be promoted to Officer Agents.\nLuffy and Ace start searching for Luffy's crew, but as they walk, Billions start to surround them without being noticed. After they are gathered, everyone comes out. Luffy and Ace do not care what they say and keep walking but the Billions start a fight. After Luffy sends the leader flying with Gomu Gomu no Bazooka, one of the Billions tells his comrades not to be scared by that, and everyone keeps chasing them again. Luffy spots his ship and stretches his arms in order to reach for it. He enters the ship ramming towards Sanji and Chopper. Ace reaches the ship in his boat, but then they spot five Billions ships coming towards them. Ace tells Luffy that he can handle them, gets in his boat, and starts propelling it with the help of his flames. He then jumps over a ship and when he lands, he launches a Hiken, destroying the five ships consecutively.\nSmoker is talking to Tashigi and asks what Nefertari Vivi was doing with the Straw Hats. Tashigi proposes that perhaps she was a hostage to a major scheme, but Smoker does not think so. He thinks that is unlikely since she was getting along with the group as if she was one of them. He says that something big is going to occur and that he may know where they are heading after Luffy told him he only wanted to beat Crocodile. Usopp, Luffy, and Chopper in the Going Merry are toasting for Ace joining the Straw Hats, but Ace tells them he is not joining them. After that, he explains that he is in search for Blackbeard after he killed one of his crewmates. He also explains that he is heading to Yuba, and Nami tells him that they are going to the same place. Vivi proceeds to explain the route and after that, they toast for having a fun time together."
+        ],
+        "characters": [
+          "Portgas D. Ace",
+          "Smoker",
+          "Pandaman",
+          "Usopp",
+          "Nefertari Vivi",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Nami",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Karoo",
+          "Mr. 11",
+          "Mr. Mellow",
+          "Geronimo",
+          "Billions agents",
+          "Tashigi"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439265946075136,
+        "_root_": "Episode 95",
+        "score": 2.1585088
+      },
+      {
+        "id": "Episode 147",
+        "title": [
+          "The Pirate's Summit! The Man Who Talks of Dreams and the King of Underwater Exploration"
+        ],
+        "air_date": "March 9, 2003",
+        "short_summary": [
+          "Luffy orders Zoro not to fight back. The two of them along with Nami then meet a man outside the bar who told them that Sky Island does exist. They leave Mock Town, and get into a fight with Masira's brother Shoujou, another salvage monkey."
+        ],
+        "long_summary": [
+          "It opens in the bar where Bellamy is still hitting Luffy and Zoro and the bar customers are laughing saying the town is not for dream loving pirates like Luffy and his crew. Nami is angry that Luffy and Zoro are not fighting back since they could easily defeat those guys. After much beating, Bellamy ordered someone get Luffy and Zoro from his sight stating they are eyesores. They were kicked out of the bar. Sarquiss offered to buy Nami stating that she would not survive the new era with those guys. Nami responded saying she is too good to join a team of pansies like Bellamy's crew. They responded laughing and saying the crew is full of weaklings. Nami grabbed Luffy and was walking down the street when someone yelled out saying Sky Island exists. Nami recognized Blackbeard and he told her that Luffy and Zoro won the fight and her tongue lashing was impressive as well. He said the new era Bellamy talks about is rubbish. He went on saying that people's dreams never end and if Luffy seeks the Summit, he would find fights that fists alone would not take him to. Blackbeard left saying he hopes Luffy finds Sky Island.\nReturning to the ship, the rest of the Straw Hat crew inquired as to why Luffy and Zoro look so beat up. Nami still very angry at what occurred at the bar asked why they could not fight back. Zoro stated that she had mentioned something earlier about that and Nami, still angry, said it was in the past. Chopper asked if they found anything related to the Sky Island and Nami stated she does not care about that anymore and just mentioning about Sky Island made the whole bar mock her. Robin returned and gave Luffy a map stating that a man was outcast for talking about his dreams.\nOn their way to find the man, they came across Shoujou. Luffy voiced that Shoujou looked weird and the Shoujou pirates took offense to that however, Shoujou brushed it off. Shoujou went ahead and told Luffy that a Warlord named Crocodile has been kicked off and he (Shoujou) is awaiting his invitation to join the Warlords of the Sea. Luffy told Shoujou to move aside because they had a place to go. Shoujou became upset and said that this area was his territory and if they want to pass by, they have to pay the toll fee. On hearing that, Usopp recognized that Masira had said the same thing. Shoujou heard Masira's name and asked what about Masira. Luffy responded saying they sort off kicked him but he is probably alive. Shoujou got very angry and began to use his Havoc Sonar. However, doing this, Shoujou was destroying his ship as well as the Straw Hats'. The Straw Hats fled from the reach of his voice.\nMeanwhile, back at the bar, a customer was talking about how a beautiful and strong woman was inquiring about Mont Blanc Cricket. Another responded saying that sea territory belonged to the Saruyama brother but Cricket is known to have acquired a new gold treasure. On hearing this, Bellamy asked where the man was located and would like to meet him. He demanded to be told more."
+        ],
+        "characters": [
+          "Nami",
+          "Roronoa Zoro",
+          "Monkey D. Luffy",
+          "Sarquiss",
+          "Rivers",
+          "Ross",
+          "Bellamy",
+          "Lily",
+          "Mani",
+          "Muret",
+          "Terry",
+          "Marshall D. Teach",
+          "Shanks (flashback)",
+          "Portgas D. Ace (flashback)",
+          "Usopp",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Nico Robin",
+          "Shoujou"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439266028912640,
+        "_root_": "Episode 147",
+        "score": 2.1456013
+      },
+      {
+        "id": "Episode 255",
+        "title": [
+          "Another Sea Train? Rocketman Sortie"
+        ],
+        "air_date": "January 29, 2006",
+        "short_summary": [
+          "Sanji fights his way through another train car and finds Usopp and Franky. Seeing how determined Luffy is to save Robin, Kokoro and Iceburg lend the Straw Hats the use of another sea train, Rocketman. The Franky Family shows up, pleading with Luffy to let them help out, because they'll do anything for their leader, and Luffy agrees to let them come."
+        ],
+        "long_summary": [
+          "Luffy wants to depart right away to Enies Lobby even though the Aqua Laguna is hitting the island. He asks Paulie if there's a ship he could borrow to get them there, or better yet, a sea train. Paulie informs them that the sea train was built by a team headed by a legendary shipwright and there's nothing else like it in existence in the world and if they were to set out, they would immediately get killed so they would do better to wait until morning.\nAt that moment Nami remembers reading about Enies Lobby and the Gates of Justice - a set of large steel gates beyond which people only find despair. Enies Lobby is known as the Judicial Island and has a judicial court located on it. However, it functions as such in name only; if you're taken to Enies Lobby, you're already considered guilty. Beyond the Gates of Justice lie two locations, one is the Marine Headquarters and the other is Impel Down - an undersea prison reserved for the criminals who once ran amok in the world. Robin, who has a bounty on her head, would only suffer pain once she crossed those doors.\nPaulie tells them that they shouldn't go there because they are pirates too and would get caught. Luffy declares he is going and he would steal a ship to get there. Paulie and Luffy are about to fight, when Kokoro stops them and asks Luffy to follow her if they didn't fear death.\nSanji gets to the railcar where Franky and Usopp are tied up and after defeating all the officers inside, Sanji and Franky get into an argument that Usopp unsuccessfully tries to stop. There are several Den Den Mushi there which Sanji plans to use to call Nami. But the argument is loud enough that Captain T Bone who is in the next car is alerted and draws his sword to check the commotion.\nKokoro leads Luffy, Zoro and Chopper to the unused sea train, Rocketman. It is a sea train which wasn't used because its speed couldn't be controlled. Iceburg is already at the train and has serviced it and filled it with coal enough to last the trip. After he is thanked by Luffy, Iceburg tells him that he can thank him later if he isn't killed by the train ride.\nNami comes there bringing with her the two conductors who are carting in meat and drinks, and both Zoro and Luffy dig in and thank her. While he is eating, the Franky Family members come in and beg Luffy to be let to ride with them to go and rescue Franky. While Nami opposes, Luffy just tells them to get in; however, they would ride on king bulls and need only hold on to the train as it went.\nThe gang get on and the train is ready to depart with Kokoro piloting the Rocketman as she tells Iceburg to rest up, and that Franky would be okay, as he got hit by a Sea Train and survived. Paulie also sneaks onboard the train as it is leaving while Luffy gets on top of the train and holds on. He yells that they are going to get everything back as the train departs."
+        ],
+        "characters": [
+          "Paulie",
+          "Kokoro",
+          "Chimney",
+          "Gonbe",
+          "Monkey D. Luffy",
+          "Nami",
+          "Roronoa Zoro",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Jerry (K.O.)",
+          "Usopp",
+          "Franky",
+          "T Bone",
+          "Iceburg",
+          "Bushon",
+          "Stevie",
+          "Zambai",
+          "Kiev",
+          "Schollzo",
+          "Tamagon",
+          "Mozu",
+          "Kiwi",
+          "Kop",
+          "Kairiki Destroyers"
+        ],
+        "rating": "4.6",
+        "_version_": 1817439266167324672,
+        "_root_": "Episode 255",
+        "score": 2.109177
+      },
+      {
+        "id": "Episode 72",
+        "title": [
+          "Luffy's Anger! A Dirty Trick in a Sacred Battle"
+        ],
+        "air_date": "June 17, 2001",
+        "short_summary": [
+          "Dorry, injured by the alcohol that exploded inside him, blames the Straw Hat Pirates. Luffy states that none of his crewmates nor Brogy did it, and he is enraged that someone would pull such a dirty trick to sabotage the giants' honorable duel."
+        ],
+        "long_summary": [
+          "Usopp, who is immensely impressed with the giants' fight, decides to strive to be like them and starts calling Brogy, Master. After their fight, which, like thousands before it, ends in a draw, Dorry receives two barrels of alcohol from Brogy, which he obtained from Nami and Usopp. When Dorry later drinks it and it badly injures him from within, he accuses the Straw Hats. Left with no choice, Luffy fights the weakened giant and knocks him out. Unbeknownst to the crew and giants, the contents of one of the barrels has been rigged to explode. However, by the time of the next eruption of the center volcano, Dorry gets back up and heads into battle, knowing his chances to be low."
+        ],
+        "characters": [
+          "Brogy",
+          "Dorry",
+          "Monkey D. Luffy",
+          "Nefertari Vivi",
+          "Karoo",
+          "Usopp",
+          "Nami",
+          "Miss Valentine",
+          "Mr. 5",
+          "Roronoa Zoro",
+          "Sanji",
+          "Mr. 3",
+          "Miss Goldenweek"
+        ],
+        "rating": "4.2",
+        "_version_": 1817439265908326400,
+        "_root_": "Episode 72",
+        "score": 2.1053514
+      },
+      {
+        "id": "Episode 311",
+        "title": [
+          "Everyone Escapes! The Path to Victory is for the Pirates"
+        ],
+        "air_date": "May 27, 2007",
+        "short_summary": [
+          "With the arrival of Going Merry, the Straw Hats make their great escape from Enies Lobby. Thanks to Sanji and his clever strategy of closing the Gates of Justice, the Marines are unable to get a clear shot at Merry. The crew fights off the remaining cannon fire, and finally gives their thanks to Merry. Nico Robin finally gets revenge on Spandam by breaking his spine."
+        ],
+        "characters": [
+          "Sanji",
+          "Nami",
+          "Chimney",
+          "Gonbe",
+          "Roronoa Zoro",
+          "Usopp",
+          "Franky",
+          "Kokoro",
+          "Monkey D. Luffy",
+          "Nico Robin",
+          "Tony Tony Chopper",
+          "Spandam",
+          "Doberman",
+          "Onigumo",
+          "Paulie",
+          "Zambai",
+          "Tilestone",
+          "Peepley Lulu",
+          "Mozu",
+          "Kiwi",
+          "Oimo",
+          "Kashii",
+          "Sodom",
+          "Gomorrah",
+          "Yokozuna",
+          "Kairiki Destroyers",
+          "Aokiji"
+        ],
+        "rating": "4.7",
+        "long_summary": [
+          "The Straw Hat Pirates, Franky, Kokoro, Chimney, and Gonbe leap into the sea to find the Going Merry waiting for them. It takes a moment for the Marines of the Buster Call to realize what's happening. As the rope ladder seemingly drops on its own, Sanji and Nami climb aboard. As Zoro carries Chimney and Gonbe up with him, Franky brings Usopp, and Kokoro tosses Luffy, Robin, and Chopper aboard before climbing on, Sanji starts wondering how the Merry got here and who threw down the rope ladder. Many of the Straw Hats are choking back emotion at being back aboard their ship. Even Franky is wondering just how she got here after being dumped from his hideout by CP9. Luffy tries to thank Robin for getting him out of the tower, but a Fleur covers his mouth. Instead it is Robin who thanks everyone for saving her even when she felt she wasn't worth saving. In the emotional exchange, Chopper regains his ability to move. The Straw Hats soon organize and make plans to escape Enies Lobby.\nSpandam is livid and orders all guns on the Merry, even if it means killing Robin. Spandam justifies it (falsely) as orders from Aokiji that Robin is to be killed if she cannot be captured. But when the cannons fire, the shot miss the Merry and hit each other instead. Then, two of the ships crash into each other. Eventually, the Marines discover the reason for their loss of control: the Gates of Justice are closing, meaning the whirlpool currents are returning. Usopp then realizes this was the reason for Sanji's absence earlier. He had been in the third tower looking for the gates' operating lever. Thanks to his thinking ahead, they now have a fighting chance.\nAs the Merry speeds along, Zoro, Sanji, Robin, and Franky fend off cannonballs from the battleships. Eventually, Luffy crawls his way to the stern using his mouth and insists he join in the fight. Eventually, Zoro and Sanji decide to quiet him by stretching his body like a net and using him to catch and return a large salvo of the cannonballs. Eventually, Nami computes a course along the whirlpool currents, allowing them to outrace the cannonballs. Spandam goes into a tirade over how the mightiest force in the world can't defeat one pirate crew and capture one woman. The tirade eventually stops when the \"hands\" of Nico Robin envelop him and begin to bend him backwards. After all the physical and mental abuse he had inflicted upon her, everyone knew what was coming. With a final, cathartic, \"Clutch!\", Spandam's spine snaps in two and Robin gets her revenge. Nami then directs Franky to finish their escape. With apologies to the crew and ship, Franky fires his Coup de Vent, launching the Merry clear of the whirlpools, the Buster Call, and Enies Lobby altogether. A final Smoke Star from Usopp ensures they cannot pursue.\nMeanwhile, back at the Enies Lobby Front Gate, Zambai, Paulie, and the rest of the invasion force have boarded Puffing Tom and are starting their way back to Water 7. Lulu and Tilestone reflect on what's just happened while Mozu and Kiwi appreciatively cuddle up to Paulie in spite of his protests: resulting in a massive nosebleed from him. Everyone is in high spirits as in spite of bumps, bruises, and broken bones, they have taken on the World Government and made it out alive.\nEventually, Admiral Aokiji makes his way to Enies Lobby personally. The Buster Call is adamant in pursuing the Straw Hats, but Aokiji firmly orders everyone to stand down. There is no way to salvage the day now. The Buster Call is supposed to comprise a force equivalent to that of an entire country, yet their current situation is anything but proud and strong. Two ships are sunk, several more are severely damaged. And Enies Lobby stands a smoldering ruin: one of the great strongholds of the entire World Government destroyed. Something this catastrophic cannot be disguised or sugar-coated. The World Government has suffered a complete and utter defeat this day.\nAt his insistence, Kokoro positions Luffy at his customary position atop the Merry's figurehead. Luffy thanks Merry for coming to their rescue. He also thanks Franky for helping out. Franky has to appreciate the sheer audacity of the Straw Hats and cautions the World Government will be coming after them with a fervor now, but the Straw Hats don't care. To them, saving their friend was more important than defying the World Government and in this most important regard, they have won."
+        ],
+        "_version_": 1817439266233384960,
+        "_root_": "Episode 311",
+        "score": 2.0996997
+      },
+      {
+        "id": "Episode 113",
+        "title": [
+          "Alubarna is Crying! Fierce Fight of Captain Karoo!"
+        ],
+        "air_date": "June 2, 2002",
+        "short_summary": [
+          "Vivi's attempts to stop the rebel army are futile and she is attacked by Mr. 2, but she manages to escape. Meanwhile, the battle between Usopp and Chopper against Mr. 4 and Miss Merry Christmas begins."
+        ],
+        "long_summary": [
+          "Sanji realizes that Vivi is in trouble and that Mr. 2 had went after her. He tells Usopp to go and help Chopper at the South East Gate. But Sanji is caught in-between a fight with the Royal Army and Rebel Army. He tells both sides that he is not with either side and beats up both sides to get to Princess Vivi, telling both groups that he only fights for the ladies.\nChopper is caught in a fight with the team of Miss Merry Christmas and Mr. 4.\nMr. 2 attempts to kill Vivi, but Karoo gets up in time to get her on his back and run away, although he is not in a good condition to run fast. Karoo runs up a cliff and is unable to reach the top which is only a step away. But he remembers when Luffy told him that Vivi is the Straw Hats' friend and he flaps his wings and reaches the top. Although, Mr. 2 begins to run up the cliff too. Karoo gets hit with a stray bullet from the fighting and is no longer able to run. After falling, Karoo tells Vivi to run by signaling with his wing because Mr. 2 is getting closer. Out of nowhere two other members of the Duck Troops show up and Sanji is with them. Sanji is left to fight Mr. 2 and the two members of the Duck Troops take care of the injured Karoo.\nZoro and Nami are left with Mr. 1 and Miss Doublefinger. Nami and the ducks cheer Zoro on because they believe he is going to fight the Baroque Works members. But they walk past Zoro and go straight for Nami as they believe that the weakest opponent should be taken out first. Nami tries to talk her way out of it but realizes that they will not back down so she runs away.\nUsopp finds Chopper laying on the ground and wakes him up. Chopper tells Usopp that Miss. Merry Christmas ate the Mole Mole Fruit so she is able to go underground and that Mr. 4 is very strong. Usopp and Chopper are left to dodge the bombs that Mr. 4 continues to hit towards them."
+        ],
+        "characters": [
+          "Sanji",
+          "Usopp",
+          "Matsuge",
+          "Tony Tony Chopper",
+          "Mr. 4",
+          "Miss Merry Christmas",
+          "Mr. 2 Bon Kurei",
+          "Nefertari Vivi",
+          "Karoo",
+          "Monkey D. Luffy (flashback)",
+          "Roronoa Zoro",
+          "Nami",
+          "Portgas D. Ace (flashback)",
+          "Nefertari Cobra (flashback)",
+          "Igaram (flashback)",
+          "Ivan X",
+          "Cowboy",
+          "Mr. 1",
+          "Miss Doublefinger",
+          "Kentauros",
+          "Hikoichi",
+          "Lassoo"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439265971240960,
+        "_root_": "Episode 113",
+        "score": 2.0947106
+      },
+      {
+        "id": "Episode 181",
+        "title": [
+          "Ambitions of Fairy Vearth - The Ark, Maxim!!"
+        ],
+        "air_date": "February 15, 2004",
+        "short_summary": [
+          "Enel defeats Zoro and Wyper. Upon seeing this, Nami follows him to a cave where his ark, Ark Maxim, is. Luffy finally gets out of the python, along with Aisa, only to find out the outcome of the fight against Enel. When Aisa tells him that she knows where he is, he asks her to take him there."
+        ],
+        "long_summary": [
+          "In a flashback, the Shandia Chief is shown talking to a young Wyper and other young warriors telling them about the words inscribed on the Poneglyph and how the Shandia fought hard to protect the Poneglyph. Wyper was able to use the Seastone and Reject to attack Enel, which stopped Enel's heart. However, moments later, Enel was able to use his ability to reset the electrical waves in his heart thereby reviving himself. Enel indicated he warned Wyper initially, calling him Warrior Wyper several times which only angered Wyper who told Enel not to call his name without a reason. He told Enel that after 400 years of fighting to get to their homeland of Shandia, they are finally here and Enel is in the way. Enel commended Wyper for putting on a good fight but told him, he chose his opponent \"poorly.\" With that, Enel struck one of his drums with his staff, and got an electrical discharge of 30,000,000, which appeared in the form of a bird and attacked Wyper with Uroquois, which defeated Wyper. Zoro used the opportunity to pick up the Seastone, however, Enel attacks and also defeats Zoro using Kiten.\nEnel walked towards Nami who was the only unhurt person around and realized Wyper has got back on his feet. He questioned why Wyper still wants to fight after he's been sorely defeated. Wyper responded that he fights for his ancestors. Noting that he was hoping for a better answer, Enel struck Wyper using El Thor. With Nami left, she told Enel she would like to go with him to the Land of Dreams. Nami, taking her waver along, went along with Enel and had in mind to escape once the opportunity arises. Reaching their location, Nami was amazed by what she saw and Enel told her the flying ship is the first of its kind in the world. He told her he had used the gold from the City of Gold to build the Ark - Maxim. With the ark, he told her they would travel to a place with boundless land - Fairy Vearth.\nLuffy, Aisa and Pierre finally made it out of the snake's stomach only for Luffy to run up the ruins and yell at the top of his voice that he made it out. Aisa upon seeing their current location, came to a conclusion that where they are at could be their homeland, Shandora. Looking around, Luffy spotted his crew and ran towards them only to realize that they have been defeated, including Zoro. Luffy questioned who must have done such a deed after seeing that even Wyper, who is strong, is defeated. Aisa mentioned that it was only Enel who could do something like that. Since her Mantra was ineffective while stranded in the belly of the snake, she was unable to tell what was occurring on the outside. Just then, Robin regained consciousness and told Luffy of Enel's intention in destroying all of Skypiea. Luffy inquired about the Golden Belfry and Robin told him the possibility of Enel getting to it. Aisa then told Luffy she knows their location as she is able to \"hear\" two voices on the island of their location. Luffy then told Aisa to take him to the location of the voices."
+        ],
+        "characters": [
+          "Enel",
+          "Wyper",
+          "Braham (K.O)",
+          "Genbo (K.O)",
+          "Kamakiri (K.O)",
+          "Raki (K.O)",
+          "Shandia Chief (flashback)",
+          "Roronoa Zoro",
+          "Nami",
+          "Tony Tony Chopper (K.O)",
+          "Nico Robin",
+          "Gan Fall (K.O)",
+          "Nola (K.O)",
+          "Monkey D. Luffy",
+          "Aisa",
+          "Pierre"
+        ],
+        "rating": "4.5",
+        "_version_": 1817439266070855680,
+        "_root_": "Episode 181",
+        "score": 2.0857356
+      },
+      {
+        "id": "Episode 346",
+        "title": [
+          "Disappearing Straw Hat Crew! The Mysterious Swordsman Appears!"
+        ],
+        "air_date": "March 9, 2008",
+        "short_summary": [
+          "The three remaining Straw Hats are lured by Buhichuck into a room where they are forced to face an army of armored General Zombies, but are able to handle them until the zombies are joined by a strange swordsman named Jigoro (who appears to act and fight like Zoro) and Luffy is captured by the zombie forces. Franky and Robin are left to face against a massive monkey-spider. Meanwhile, Absalom forces Lola's anger on Nami while Perona invades the Straw Hats' ship for treasure."
+        ],
+        "long_summary": [
+          "The Straw Hats are beginning to wonder where Sanji and Zoro are. A golden knight begins walking towards Luffy's party with a Straw Hat and falls over. It is Luffy in disguise. Franky then tells of how his heart became black. Buhichuck then brings Luffy's party to a room full of tents. Then a knight dives down to hit Franky who dodges. It is a General Zombie. This knighted zombie fights with Franky and is unable to pierce him. The knight launches a cross-shaped projectile that can cut steel. The cyborg then shoots a Weapons Left at the knight. The knight gets back up and cuts through Franky then goes for Luffy and Robin, when the cyborg throws it back. Buhichuck then points out how the General Zombies can take more hits. Among them are a knight, a criminal, a samurai and also a gunslinger. The wall then closes behind Buhichuck. Then, more Zombie Generals with armor appear and give Luffy's party trouble. Robin knows that on escaping, they could be in the courtyard. The Straw Hats then begin the offensive. Meanwhile, Absalom is trying to outrun Lola who is determined to marry the zombie. Absalom shows his desire to marry Nami while the warthog zombie seeks to kill Nami.\nInuppe using Sanji's personality protects Nami, Chopper and Usopp from the animal zombies. This leaves the navigator wondering about the penguin-dog's personality. Elsewhere, Perona begins to steal the goods from the Thousand Sunny. Zoro is imprisoned in Gecko Moria's chambers and is knocked out by another slash. He lays beside an also captive Sanji. Franky uses his Strong Right on a large zombie, Robin ties up a few with the Trienta Fleurs, while Luffy bashes some. However, the zombies get back up and it would seem Luffy's party is in trouble. As the group of Zombie Generals get up, a warrior uses the 36 Caliber Phoenix to cut through several zombies. First, Luffy thinks it is Zoro, but it is actually a warrior using sabers with scars all over his body, Jigoro. This warrior declares Luffy his enemy and desires to kill the captain. Franky begins to have trouble when Robin swings to rescue her friend and they run along a catwalk. The cyborg then blows a Fresh Fire, and the zombies drench themselves with water. The archeologist uses an Once Fleurs and Slam to try and stall the zombies. As they race to the outside, they begin to learn that Luffy had gone missing. Luffy is also trapped in a casket and ferried to another part of the castle. A spider-monkey-like zombie then appears blocking the way. The two begin to feel outnumbered."
+        ],
+        "characters": [
+          "Monkey D. Luffy",
+          "Franky",
+          "Nico Robin",
+          "Buhichuck",
+          "John",
+          "Absalom",
+          "Lola",
+          "Nami",
+          "Inuppe",
+          "Tony Tony Chopper",
+          "Usopp",
+          "Hippo Gentleman",
+          "Perona",
+          "Roronoa Zoro",
+          "Gecko Moria",
+          "Sanji (K.O.)",
+          "Jigoro",
+          "Tararan"
+        ],
+        "rating": "4.3",
+        "_version_": 1817439266271133697,
+        "_root_": "Episode 346",
+        "score": 2.0766413
+      },
+      {
+        "id": "Episode 355",
+        "title": [
+          "Food, Nami and Shadows!! Luffy's Angry Counterattack"
+        ],
+        "air_date": "May 25, 2008",
+        "short_summary": [
+          "Having decided to help Brook and recruit him into their crew, the Straw Hat Pirates split up to help him recover his shadow, rescue Nami, and defeat Gecko Moria. Hogback, frustrated with Absalom holding a wedding with the General Zombies as guests, becomes the second commander of the zombie forces. An enraged Luffy and Sanji decimate most of the zombies but are stopped by Perona's Negative Hollow attack. When Oars jumps from the mast onto the stairs, Luffy, Chopper, and Robin are cut off from Usopp and Sanji and fall down below to where Zoro and Franky are."
+        ],
+        "long_summary": [
+          "Oars plays with the mast of Thriller Bark and doesn't seem to extend his arm. His legs also fail to stretch. Hogback admires Oars' strength with Moria laughing with sadistic pleasure. Oars then decides to climb up by hand. Zoro tells of the plan to get back their shadows while Luffy wishes to see how cool Oars is using Luffy's shadow. Then, he becomes determined to bring down Moria who's waiting at the top of his castle. Sanji announces his intentions to rescue Nami from Absalom who had spied on Nami naked igniting the cook's rage. Usopp blames himself for letting the navigator get kidnapped and goes with Sanji. Franky hopes to back up Brook and Zoro volunteers. Robin also decides to go save Nami. Usopp then provides a set of anti-zombie salt balls so they can purify the zombies. There's no guarantee the forest will keep the crew safe from UV lights as they need to get their shadows back before the sun comes up.\nThe spying Hildon flies off to warn Moria while Oars is surprised on how big the Thriller Bark ship is and nearly falls off. Perona learns that Oars is not in their control and Moria needs to break the giant so he can be controlled. Hogback promises a massive set of marios to stuff the shadows into. Hildon warns that the Straw Hat Pirates are awake and are coming towards Moria and are in cohorts with Brook and about the weaknesses. The zombie soldiers are in a panic as Luffy fights through many of them. Hogback learns that Absalom is about to get married to Nami with the Zombie Generals in attendance. Absalom also wishes to use the dance hall for dancing, but the doctor wants the wedding cancelled.\nPerona plans to weaken the Straw Hats with her ghosts to make them feel negative yet again. With Absalom occupied, Hogback volunteers to be second-in-command and has managed to tame Inuppe and Jigoro. Meanwhile, the zombie soldiers are at a disadvantage with the Straw Hats splitting up. Just then, Luffy's party begins to have negative thoughts thanks to Perona's ghosts hitting them. As the group tries to outrun the ghosts, Oars jumps down from the mast announcing a setting of sail, but breaks part of the castle, sending Sanji and Usopp falling down, Zoro and Franky find themselves facing Oars and are unable to break through. The four are horrified to meet this zombie."
+        ],
+        "characters": [
+          "Oars",
+          "Hogback",
+          "Perona",
+          "Kumashi",
+          "Gecko Moria",
+          "Roronoa Zoro",
+          "Sanji",
+          "Franky",
+          "Usopp",
+          "Monkey D. Luffy",
+          "Tony Tony Chopper",
+          "Nico Robin",
+          "Kashii (fantasy)",
+          "Oimo (fantasy)",
+          "Spoil (flashback)",
+          "Hildon",
+          "Victoria Cindry",
+          "Jigoro",
+          "John",
+          "Inuppe (fantasy)"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439266281619456,
+        "_root_": "Episode 355",
+        "score": 2.0758212
+      },
+      {
+        "id": "Episode 537",
+        "title": [
+          "Protect Shirahoshi - Decken's Pursuit"
+        ],
+        "air_date": "February 26, 2012",
+        "short_summary": [
+          "Chopper tries to persuade Sanji to not turn around, or else he will see Shirahoshi and die. But Sanji turns around and after seeing the princess, turns into stone. While Luffy is tied up with the others, Vander Decken IX arrives and threatens Shirahoshi to marry him. Luffy, who is still tied up, fights Decken, and smashes him into the ground. Sanji turns back to normal and Shirahoshi unties Luffy. Decken calls forth Wadatsumi and Luffy easily beats him. Camie and Nami escape the palace while Zoro continues to fight Hody Jones."
+        ],
+        "characters": [
+          "Vander Decken IX",
+          "Shirahoshi",
+          "Megalo",
+          "Monkey D. Luffy",
+          "Hatchan",
+          "Sanji",
+          "Tony Tony Chopper",
+          "Splash and Splatter (flashback)",
+          "Pandaman",
+          "Wadatsumi",
+          "Hody Jones",
+          "Roronoa Zoro",
+          "Camie",
+          "Nami",
+          "Neptune",
+          "Usopp",
+          "Brook"
+        ],
+        "rating": "4.7",
+        "long_summary": [
+          "The episode starts with everyone exclaiming that the Mermaid Princess has been kidnapped. Luffy asks Shirahoshi why she got out of Megalo's mouth, she apologizes and asks him not to get mad at her as she starts to cry. As someone calls Luffy filthy and heartless, Chopper urges Sanji not to turn around. Sanji realizes that Chopper's warning can only mean that the Mermaid Princess is right behind him. Chopper tells him he is correct, but seeing the princess would without a doubt kill him if a normal mermaid made him lose so much blood before.\nAs Sanji begins to get lost in thought, he remembers hearing that even the most beautiful woman in the world, the pirate empress, would pale in comparison, and realizes that his dream is now in his grasp. He then tells Chopper that for the sake of his dreams, he chooses death \u2013 Chopper retorts by exclaiming that he thought that his dream was to find the All Blue. He turns around and looks at her. He realizes that he is gazing upon something that his imagination could never fathom, that no painting could ever capture. He then turns to stone, much to Chopper's shock.\nLuffy is examining Hatchan, trying to get Hachi to tell him who attacked him. Chopper wonders if Sanji turning to stone could be from a side effect of receiving okama blood. Shirahoshi cries and asks Luffy what she should do, but all of a sudden, the locals take action and tie up Luffy, Chopper, Hatchan, and the still petrified Sanji. Luffy asks them what they are doing, and the locals tell him not to underestimate the warriors of Fish-Man Island. One of the locals identifies Hatchan as a former member of Arlong's gang. Shirahoshi tries to explain to everyone that Luffy was only helping her, but the locals will not listen and promise to behead the pirates. Luffy then notices something and tells them that something is flying toward them from behind the crowd, but a local asks Luffy if he really thinks they are dumb enough to fall for that.\nSomeone then notices that Luffy is not lying, and everyone is shocked to see it is none other than Vander Decken IX. Decken yells that he found her, this time saying \"Of course I did\" instead of \"I think\". The locals are shocked that after hiding out for ten years, he now suddenly appeared on the island, and someone yells for Shirahoshi to run for it. Decken tells Shirahoshi to give him an answer, saying she will escape death if she says yes, telling her to run away with him and marry him. The locals are shocked to hear him ask for marriage after constantly attempting to take her life. Shirahoshi tells him she is sorry, but he is not her type.\nThe locals are comically stunned to find out that is why she will not marry him, and not his violent tendencies. Decken is crushed, and actually looks emotionally hurt. He tells her she should be ashamed of herself, because he has had feelings for her for the past ten years and then she steps all over them. He then asks her who she is planning to be with. He goes on to say that now that he knows her feelings toward him, her existence is now an eyesore. He gets ready to attack her as a local tells her to run, but Luffy tells her to wait, having now dubbed her 'scaredy cat'.\nA local grabs him by the collar, and asks him if he is working for Decken, and if he wants the princess to die. Luffy shouts that if she gets too far away from him, then he cannot protect her, so Shirahoshi tells Luffy she will remain with him. Decken then attacks Shirahoshi with another axe with a rose painted on it. Luffy tries to help, but is blocked by locals who still think he is trying to harm the princess. Luffy apologizes, saying he has nothing against them, then knocks them out with a burst of Haoshoku Haki because they are in his way. He then kicks off from the ground, flying toward Decken who is still on the coral. He does a flip in the air and brings his legs down on the coral, sending it crashing to the ground and knocking Decken off. The locals are amazed at Luffy's abilities, even when he is tied up.\nDecken asks Luffy why he is interfering with his and Shirahoshi's love, and figures that Luffy was the one who brought Shirahoshi out of the palace. And Luffy realizes that Decken was the one who had been throwing things at Shirahoshi as he gets ready to do an attack. Decken tells him he will take both of their lives, saying they would not be a pair, as they would be cut into a set of four. Luffy then uses a new technique, Gomu Gomu no Jet Hammer, plowing Vander Decken IX into the ground head first. The locals are shocked to see that Luffy beat Vander Decken.\nThey then realize that Decken was still moving, despite being planted head first into the ground, and decide to capture him. Luffy headbutts Megalo, telling him to wake up and asks Sanji if he is alright. Chopper tells Luffy that Sanji had turned to stone earlier, but now he seems happy, and most importantly, conscious. Luffy tells Shirahoshi they need to go. Shirahoshi asks Luffy not to yell at her, as all the excitement has gotten her quite worked up. Luffy tells her that for some reason the island hates them, and they need to get out of here.\nShirahoshi unties Luffy, making the locals wonder why she is helping him. She apologizes to them, and tells them she will be home in time for dinner, which confuses them. The Straw Hats get on Megalo's back, and Shirahoshi grabs on to his jaws (much to his discomfort), as they get away. Just as they get away, Vander Decken IX gets his head out of the ground and swats away the people trying to capture him. Yelling that they will not get away, he calls on Wadatsumi and tells him to pound them into the ground. Wadatsumi gets ready to punch them, but Luffy beats him to it, and hits him in the face with a Gomu Gomu no Jet Pistol, breaking one of his teeth. Decken seems upset that they got away.\nThe scene changes to the Ryugu Palace, where someone informs Jones that Nami and Camie had escaped. Jones tells him to ignore it. Nami and Camie are then seen escaping, with the former holding onto the latter's back with an air bubble around her head. Camie asks if it was ok for them to leave the others behind but Nami tells her to relax, as nothing good could come by worrying. Camie tells her she knows that they are all strong, but that Hatchan told her that Jones's mind is more dangerous than his strength. Nami then asks her what kind of person Jinbe is. Camie replies that he is a pirate who is popular at the Ryugu Palace and can come and go as he pleases. Nami remembers that he was also in the same crew as Arlong, and that Jones is the successor to Arlong's will.\nShe then mentions one of Jinbe's messages to Luffy, \"Don't fight Hody\". Nami adds that she thinks she has figured out what the message means. Camie tells her she thought it only meant that Jones is dangerous. Nami adds that it is okay for Zoro and the others to get Jones angry. She then tells Camie she wants to meet Jinbe, and remembers he is waiting at the Sea Forest. Nami says that the situation seems to have a long and deep-rooted history, and has a feeling that Jinbe knows all about it. She then asks Camie to head to the sea forest.\nBack in the palace, Neptune is giving orders to his guards. The soldiers tell him they will take care of Jones and the pirates. Neptune tells them not to. He tells them that even though he did not get a chance to fight, they all ended up as victims. He orders them to surrender the castle for now, reunite with Fukaboshi, and get ready for the rematch.\nThe guards are shocked at the orders. Usopp and Brook are in the water. Usopp wonders what Zoro can do to fight a fish-man in the water as Brook tells Usopp he is not going to make it. The episode ends with Zoro seemingly defeating Jones with a single slash, and the New Fish-Man Pirates astounded at what happened to their captain, with Usopp looking on in shock."
+        ],
+        "_version_": 1817439266481897472,
+        "_root_": "Episode 537",
+        "score": 2.073668
+      },
+      {
+        "id": "Episode 577",
+        "title": [
+          "Z's Ambition Arc - A Desperate Big Escape Strategy!"
+        ],
+        "air_date": "December 16, 2012",
+        "short_summary": [
+          "Luffy and Zoro face off against Shuzo and Momonga. The Straw Hats, Lily, and her father manage to escape with a Coup de Burst and the anchor connected to the Thousand Sunny. Shuzo defeats Momonga and the Marines before going after the Straw Hats. He prepares to fire his own men as torpedoes at the island the Straw Hats are on."
+        ],
+        "long_summary": [
+          "Several of Shuzo's men appear and fight against the Marines and easily begin to overwhelm them. Luffy continues to fight Shuzo while Zoro fights Momonga. The vice admiral states that they should not interfere with their business like this. Zoro uses his 360 pound cannon, sending Momonga flying back and destroying a Marine ship. From the sidelines, Nami notices the wave changes in the ocean and realizes a Thrust-up Stream is coming. When Usopp asks what that is and asks if it is similar to the Knock-up Stream like the one that took them to Sky Island, Nami says it is, but smaller, but still has enough power to destroy a Marine ship. She has Franky fire the anchors to the raft Panz Fry and the others are on and lets Sanji and Lily know in advance. Luffy has a hard time against Shuzo's fighting style due to his long arms, but then starts using Haki to overwhelm Shuzo again.\nAs Robin, Chopper, and Brook make their way back to the Sunny, several Thrust-up Streams take out some ships, and one of the streams has Usopp in the Shark Submerge flying back to the ship. As Nami has everyone get on the ship she has Franky use a Coup de Burst after the raft everyone is one get close to the thrust and they fly away. However, Luffy and Zoro fall off due to the raft breaking and Luffy uses his arms to grab the raft while Shuzo uses a knife with a Vivre Card attached to it on the raft.\nAfter they get away, Momonga gathers his men on a broken ship and laments them having gotten away again while Shuzo goes to finish the Marines off with an attack and defeats Momonga. He then travels to the Straw Hats location, recalling his past fight with Ain. Their fight lasted for over five hours until she won, prompting their leader Z to give her the win and the title of next in command. Shuzo is determined to become the new next in command and destroy the pirates.\nThe Straw Hats land in a location around some rocks and Robin notes they will be safe for now while Nami is happy that the plan worked and that they finally got out of the sea. Chopper works on Panz Fry, noting he had some bad injuries and that he will be fine if he rests. Lily thanks Chopper for helping her father and the rest of the crew. Luffy is excited that he can try Panz Fry's cooking and Lily reveals she took some food from the Marines and while Zoro notes that that is odd, he changes his tone after seeing she took some sake also. As Luffy asks Panz Fry to make some food, Sanji kicks him stating he needs to rest and Chopper says that Luffy did not listen. However, Panz Fry says he will cook for them, despite Lily's protest stating that as a chef and giant, he was saved by the crew and would shame himself if he refused a request. He then thanks Luffy for saving him and says that he will cook the food.\nShuzo arrives at the location and notes they are out of torpedoes. Several of his men offer their lives to be used as kamikaze torpedoes, prompting Shuzo to acknowledge their sacrifice and say that they are true men. He then states that he will not let their deaths be for nothing. The ships then prepare to attack the Straw Hats."
+        ],
+        "characters": [
+          "Panz Fry",
+          "Alpacacino",
+          "Shuzo",
+          "Monkey D. Luffy",
+          "Roronoa Zoro",
+          "Momonga",
+          "Sanji",
+          "Lily Enstomach",
+          "Nico Robin",
+          "Usopp",
+          "Nami",
+          "Brook",
+          "Franky",
+          "Tony Tony Chopper",
+          "Ain (flashback)",
+          "Z (flashback",
+          "unclearly seen)"
+        ],
+        "rating": "4.1",
+        "_version_": 1817439266536423424,
+        "_root_": "Episode 577",
+        "score": 2.067636
+      },
+      {
+        "id": "Episode 53",
+        "title": [
+          "The Legend Has Begun! Head to the Grand Line"
+        ],
+        "air_date": "January 10, 2001",
+        "short_summary": [
+          "Miraculously saved from death by an unnatural green gust and a lightning bolt to Buggy, the Straw Hats rush out of Loguetown. Then Smoker catches Buggy and Alvida and gets on a Dune Buggy to follow Luffy. Meanwhile Luffy, Zoro, and Sanji run into Tashigi whom Zoro fights and beats quickly. Then Smoker catches up and tells Luffy that if he beats him he can go to the Grand Line. Just when Smoker is about to finish Luffy, a mysterious man named Dragon saves him. And a green gust of wind lets Buggy and Alvida escape. Then Luffy and company get away and head to the Grand Line! Smoker, Tashigi, Alvida, and Buggy also decide to go to the Grand Line!"
+        ],
+        "long_summary": [
+          "After, escaping death by luck, Luffy, Zoro, and Sanji head for the Going Merry, but Buggy and Alvida are in pursuit. Before the duo can take off they are captured by the Marines, but the duo later escape. On the way Tashigi appears and challenges Zoro to a duel for lying to her, Zoro points out that he didn't lie, he just didn't tell her. Nevertheless, Zoro and Tashigi clash swords.\nMeanwhile, Nami and Usopp reach the Going Merry as Mohji was about to burn it down. Before Mohji can properly fight Nami, the Marines catch up and shoot at Mohji. Nami and Usopp take this opportunity board the Going Merry and set sail.\nAt the same time, Luffy and Sanji run into Smoker, who plans to catch Luffy. Sanji goes on, while Luffy and Smoker engage in battle. Luffy's efforts to defeat Smoker are knocked back however and Smoker seemingly defeats him, but a mysterious figure stops Smoker and releases a strong gust of wind, thus giving Luffy time to escape. As Zoro also flees, Sanji reaches the shore, but is surrounded by the marines. After this, Usopp uncharacteristically risks his life by diving into the sea, shooting down the marines with his slingshot, and finally swimming to Sanji. Luffy and Zoro catch up. Luffy then uses his Gomu Gomu Rocket to propel Sanji, Usopp, and Zoro to the Going Merry.\nSmoker, Tashigi, Buggy and Alvida decide to chase them to the Grand Line as they gather up in different teams. The Straw Hat crew is ecstatic to go to the Grand Line as they all make their vows before setting sail."
+        ],
+        "characters": [
+          "A mysterious man called Dragon",
+          "Monkey D. Luffy",
+          "Sanji",
+          "Roronoa Zoro",
+          "Cabaji",
+          "Alvida",
+          "Buggy",
+          "Smoker",
+          "Nami",
+          "Usopp",
+          "Mohji",
+          "Richie",
+          "Tashigi",
+          "Kuina (flashback)"
+        ],
+        "rating": "4.4",
+        "_version_": 1817439265871626240,
+        "_root_": "Episode 53",
+        "score": 2.0460742
+      }
+    ]
+  }
+}

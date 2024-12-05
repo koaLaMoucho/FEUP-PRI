@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Solr Documents</title>
+</head>
+<body>
+    <h1>Search Solr Documents</h1>
+    <div>
+        <input type="text" id="query-input" placeholder="Enter query (e.g., title:luffy)">
+        <button onclick="fetchDocuments()">Fetch Documents</button>
+    </div>
+    <pre id="response-output" style="background-color: #f4f4f4; padding: 1em;"></pre>
+
+    <script>
+        async function fetchDocuments() {
+            const queryInput = document.getElementById('query-input').value;
+            const output = document.getElementById('response-output');
+            output.textContent = "Fetching...";
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/fetch_documents', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: queryInput }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.statusText}`);
+                }
+                console.log(response)
+
+                const data = await response.json();
+                output.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                output.textContent = `Error fetching documents: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
