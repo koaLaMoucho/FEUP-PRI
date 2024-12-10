@@ -7,6 +7,10 @@ app = Flask(__name__)
 # Enable CORS for all routes
 CORS(app)
 
+@app.route('/', methods=['GET'])
+def index():
+    # return a html with css and js
+    return 
 
 
 @app.route('/fetch_documents', methods=['POST'])

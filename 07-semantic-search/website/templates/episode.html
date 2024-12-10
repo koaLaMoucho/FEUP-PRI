@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episode Details - Finding One Piece</title>
+    <link rel="stylesheet" href="episode-style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Episode Details</h1>
+            <p>{{ id }}</p>
+            <p>{{ episode }}</p>
+        </div>
+    </header>
+
+    <section id="episode-detail" class="episode-detail">
+        <!-- Episode details will be dynamically added here -->
+    </section>
+
+    <script>
+        // Episode data
+        const episodes = [
+            {
+                id: "Episode 1",
+                title: "I'm Luffy! The Man Who Will Become the Pirate King!",
+                air_date: "October 20, 1999",
+                short_summary: "Luffy is found floating at sea by a cruise ship. After repelling an invasion by the Alvida Pirates, he meets a new ally, their chore boy Koby.",
+                long_summary: "Luffy is cast at sea in a barrel. Sailors on a passing cruise ship retrieve the barrel, but the ship is attacked with cannon fire by a nearby pirate ship, led by Alvida. The barrel is sent rolling into the kitchen. Once the cruise ship's sails have been destroyed, the Alvida Pirates board the ship to plunder its goods, and Alvida also forces one of her chore boys, Koby, to board the ship. Meanwhile, a girl takes advantage of the opportunity and sneaks aboard the Alvida Pirates' ship to steal its treasures.",
+                characters: ["Nami", "Alvida", "Koby", "Heppoko", "Peppoko", "Poppoko", "Monkey D. Luffy", "Roronoa Zoro"],
+                fruits: [""],
+                rating: "4.1"
+            },
+            {
+                id: "Episode 2",
+                title: "The Great Swordsman Appears! Pirate Hunter Roronoa Zoro",
+                air_date: "November 17, 1999",
+                short_summary: "Luffy and Koby find Zoro captured in Shells Town's Marine base, with the Marines intending to execute him. Luffy and Koby work together to retrieve Zoro's katanas, as well as confront the tyrannical Marine Captain Morgan and his son Helmeppo.",
+                long_summary: "Luffy and Koby arrive at Shells Town, a town where a Marine base is stationed. They find their target, Roronoa Zoro, crucified at the base. A small girl, Rika, sneaks into the base to offer Zoro onigiri, but she is stopped by Helmeppo, a snobbish man who destroys the onigiri. However, Zoro later eats the dirt-stained rice.",
+                characters: ["Monkey D. Luffy", "Koby", "Roronoa Zoro", "Rika", "Helmeppo", "Soro", "Ririka", "Nami", "Morgan"],
+                fruits: [""],
+                rating: "4.2"
+            },
+            {
+                id: "Episode 3",
+                title: "Morgan vs. Luffy! Who's This Mysterious Beautiful Young Girl?",
+                air_date: "November 24, 1999",
+                short_summary: "Luffy and Zoro battle and defeat Morgan, Helmeppo, and the Marines. Koby parts ways with Luffy to join the Marines, and Zoro joins Luffy's crew as a permanent crew member.",
+                long_summary: "Luffy returns the katana to Zoro, who uses them to free himself and repel the Marines' attacks. He agrees to join Luffy's crew should he survive. Despite being clearly overpowered by Luffy's Devil Fruit power and Zoro's Three Sword Style, Morgan orders his men to attack them.",
+                characters: ["Roronoa Zoro", "Monkey D. Luffy", "Morgan", "Koby", "Helmeppo", "Nami", "Buggy"],
+                fruits: [""],
+                rating: "4.2"
+            }
+        ];
+
+        // Get episode ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const episodeId = urlParams.get('id');
+
+        // Find the episode by ID
+        const episode = episodes.find(ep => ep.id === episodeId);
+
+        if (episode) {
+            // Display episode details
+            const episodeDetailContainer = document.getElementById('episode-detail');
+            episodeDetailContainer.innerHTML = `
+                <h2>${episode.title}</h2>
+                <p><strong>Air Date:</strong> ${episode.air_date}</p>
+                <p><strong>Rating:</strong> ${episode.rating}</p>
+                <p><strong>Short Summary:</strong> ${episode.short_summary}</p>
+                <p><strong>Long Summary:</strong> ${episode.long_summary}</p>
+                <p><strong>Characters:</strong> ${episode.characters.join(', ')}</p>
+                <p><strong>Fruits:</strong> ${episode.fruits.join(', ')}</p>
+            `;
+        } else {
+            document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
+        }
+    </script>
+</body>
+</html>

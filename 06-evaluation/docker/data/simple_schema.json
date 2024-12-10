@@ -1,43 +1,71 @@
 {
-	"add-field-type": [
-        {
-            "name":"courseTitle",
-            "class":"solr.TextField",
-            "indexAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
-                ]
-            },
-            "queryAnalyzer":{
-                "tokenizer":{
-                    "class":"solr.StandardTokenizerFactory"
-                },
-                "filters":[
-                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
-                ]
-            }
-        },
-        {
-            "name": "numStudents",
-            "class": "solr.IntPointField"
-        }
+    "add-field-type": [
+      {
+        "name": "mystring",
+        "class": "solr.StrField",
+        "sortMissingLast": true,
+        "omitNorms": true
+      },
+      {
+        "name": "date",
+        "class": "solr.DatePointField",
+        "docValues": true
+      },
+      {
+        "name": "float",
+        "class": "solr.FloatPointField",
+        "docValues": true
+      },
+      {
+        "name": "textfield",
+        "class": "solr.TextField"
+      }
     ],
     "add-field": [
-        {
-            "name": "title",
-            "type": "courseTitle",
-            "indexed": true
-        },
-        {
-            "name": "students",
-            "type": "numStudents",
-            "indexed": true,
-            "multiValued": false
-        }
+      
+      {
+        "name": "title",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "air_date",
+        "type": "mystring",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "short_summary",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "long_summary",
+        "type": "text_general",
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "characters",
+        "type": "text_general",
+        "multiValued": true,
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "fruits",
+        "type": "text_general",
+        "multiValued": true,
+        "indexed": true,
+        "stored": true
+      },
+      {
+        "name": "rating",
+        "type": "mystring",
+        "indexed": true,
+        "stored": true
+      }
     ]
-}
+  }

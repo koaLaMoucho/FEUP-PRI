@@ -1,6 +1,6 @@
 services:
   solr:
-    container_name: solr_pri
+    container_name: one_piece_solr
 
     image: solr:9.7
 
@@ -12,7 +12,7 @@ services:
 
     command:
       - solr-precreate
-      - courses
+      - simpleSchemaColl
 
 volumes:
   solr_data:
