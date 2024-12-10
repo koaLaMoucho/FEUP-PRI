@@ -70,6 +70,7 @@ body {
     margin-bottom: 10px;
     color: #555; /* Slightly lighter color for body text */
     line-height: 1.6;
+    text-align: left;
 }
 
 /* Bold for section headers */

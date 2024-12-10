@@ -12,7 +12,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 0 20px;
-    text-align: center; /* Center-align the entire content */
+    text-align: left; /* Center-align the entire content */
 }
 
 /* Header section */
@@ -34,6 +34,24 @@ h1 {
     font-size: 2.5rem;
     font-family: 'Lucida Sans', sans-serif;
 }
+
+/*Searchbar*/
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search_bar h1 {
+    margin: 0; /* Ensures no extra space around the header */
+}
+
+.search_bar input {
+    flex: 1; /* Input stretches to take up available space */
+}
+
+
 
 /* Search container */
 .search-container {
@@ -72,31 +90,34 @@ button {
 
 button:hover {
     background-color: #e65c00;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 /* Episode list */
 .episode-list {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 800px; /* Controls the total width of the list */
+    margin: 0 auto;   /* Center the list on the page */
     padding: 20px;
+    width: 75%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center-align episode list content */
+    display: flex;
+    flex-direction: column; /* Stacks episodes vertically */
+    gap: 10px;
 }
 
-.episode {
-    margin: 10px 0; /* Spacing between episodes */
-    display: block; /* Ensures each episode is on a new line */
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+#episode-list button {
+    display: block; /* Stack buttons vertically */
+    width: 100%; /* Make buttons span the full width of the container */
+    margin: 10px 0; /* Add space between buttons */
+    padding: 15px; /* Add padding for a comfortable click area */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    cursor: pointer; /* Indicate buttons are clickable */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
 }
 
 .episode:hover {
