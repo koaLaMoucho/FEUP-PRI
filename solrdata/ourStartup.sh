@@ -36,6 +36,7 @@ docker exec -it meic_solr bin/post -c priProj /data/semantic_courses.json
 # python ./scripts/query_solr.py --query config/query_sys1.json --uri http://localhost:8983/solr --collection courses > config/query_sys1_response.json
 
 
+
 # convert it to TREC 
 # cat config/query_sys1_response.json | python ./scripts/solr2trec.py > results_sys1_trec.txt
 # from the git root folder
