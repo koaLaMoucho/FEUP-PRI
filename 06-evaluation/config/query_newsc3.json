@@ -1,15 +1,15 @@
 {
-    "query": "Luffy loses battle",
-    "fields": "*,score",
+    "query": "Straw Hat crew reunion",
+    "fields": "id,score",
     "params": {
         "defType": "edismax",
         "q.op": "AND",
         "sort": "score desc",
-        "fl": "*,score",
+        "fl": "id,score",
         "qf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
         "pf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
         "ps": 1,
         "qs": 1,
-        "rows": 20
+        "rows": 40
     }
 }

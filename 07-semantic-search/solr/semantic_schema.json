@@ -58,9 +58,6 @@
 			  "expand": "false"
 			},
 			{
-			  "class": "solr.StopFilterFactory"
-			},
-			{
 			  "class": "solr.EnglishMinimalStemFilterFactory"
 			},
 			{

@@ -33,7 +33,7 @@ docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json
 # curl -X GET http://localhost:8983/solr/courses/schema/fieldtypes/<fieldType>
 
 # get query response
-# python3 ./query_solr.py --query config/query_newsc1.json --uri http://localhost:8983/solr --collection priProj > config/query_newsch1_response.json
+# python3 ./query_solr.py --query config/query_newsc3.json --uri http://localhost:8983/solr --collection priProj > config/query_newsch3_response.json
 
 
 

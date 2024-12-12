@@ -1,5 +1,5 @@
 #!/bin/bash
-# u might need to run "sed -i -e 's/\r$//' ourStartup.sh" to remove windows line endings and execute the script
+# u might need to run "sed -i -e 's/\r$//' start_semantic.sh" to remove windows line endings and execute the script
 
 # This script expects a container started with the following command.
 # docker run -p 8983:8983 --name meic_solr -v ${PWD}:/data -d solr:9 solr-precreate priProj

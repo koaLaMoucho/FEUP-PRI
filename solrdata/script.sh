@@ -21,4 +21,4 @@ curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.jso
 
 #sair do cd solrData
 # Populate collection using mapped path inside container.
-docker exec -it meic_solr bin/post -c priProj /data/semantic_one_piece.json
+docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json

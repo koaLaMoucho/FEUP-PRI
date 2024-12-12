@@ -1,0 +1,99 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 550,
+    "params": {
+      "json": "{\"query\": \"Straw Hat crew reunion\", \"fields\": \"id,score\", \"params\": {\"defType\": \"edismax\", \"q.op\": \"AND\", \"sort\": \"score desc\", \"fl\": \"id,score\", \"qf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"pf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"ps\": 1, \"qs\": 1, \"rows\": 40}}"
+    }
+  },
+  "response": {
+    "numFound": 199,
+    "start": 0,
+    "maxScore": 434.0904,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "Episode 755",
+        "score": 434.0904
+      },
+      {
+        "id": "Episode 517",
+        "score": 426.56842
+      },
+      {
+        "id": "Episode 422",
+        "score": 20.155182
+      },
+      {
+        "id": "Episode 321",
+        "score": 17.896152
+      },
+      {
+        "id": "Episode 523",
+        "score": 17.869204
+      },
+      {
+        "id": "Episode 543",
+        "score": 17.753828
+      },
+      {
+        "id": "Episode 581",
+        "score": 17.579763
+      },
+      {
+        "id": "Episode 511",
+        "score": 17.478619
+      },
+      {
+        "id": "Episode 310",
+        "score": 17.440777
+      },
+      {
+        "id": "Episode 480",
+        "score": 17.440777
+      },
+      {
+        "id": "Episode 302",
+        "score": 17.372704
+      },
+      {
+        "id": "Episode 541",
+        "score": 17.372704
+      },
+      {
+        "id": "Episode 544",
+        "score": 17.30516
+      },
+      {
+        "id": "Episode 306",
+        "score": 17.171635
+      },
+      {
+        "id": "Episode 666",
+        "score": 17.114126
+      },
+      {
+        "id": "Episode 475",
+        "score": 16.846666
+      },
+      {
+        "id": "Episode 489",
+        "score": 16.713737
+      },
+      {
+        "id": "Episode 95",
+        "score": 16.498419
+      },
+      {
+        "id": "Episode 522",
+        "score": 16.325127
+      },
+      {
+        "id": "Episode 462",
+        "score": 16.056616
+      }
+      
+      
+    ]
+  }
+}

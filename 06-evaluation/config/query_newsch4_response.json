@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 303,
+    "params": {
+      "json": "{\"query\": \"Luffy loses battle\", \"fields\": \"id,score\", \"params\": {\"defType\": \"edismax\", \"q.op\": \"AND\", \"sort\": \"score desc\", \"fl\": \"id,score\", \"qf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"pf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"ps\": 1, \"qs\": 1, \"rows\": 40}}"
+    }
+  },
+  "response": {
+    "numFound": 1078,
+    "start": 0,
+    "maxScore": 117.70801,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "Episode 17",
+        "score": 117.70801
+      },
+      {
+        "id": "Episode 854",
+        "score": 116.09248
+      },
+      {
+        "id": "Episode 171",
+        "score": 115.034874
+      },
+      {
+        "id": "Episode 593",
+        "score": 96.8297
+      },
+      {
+        "id": "Episode 750",
+        "score": 96.17915
+      },
+      {
+        "id": "Episode 996",
+        "score": 93.27758
+      },
+      {
+        "id": "Episode 308",
+        "score": 93.18056
+      },
+      {
+        "id": "Episode 467",
+        "score": 40.05044
+      },
+      {
+        "id": "Episode 798",
+        "score": 32.559345
+      },
+      {
+        "id": "Episode 727",
+        "score": 29.781208
+      },
+      {
+        "id": "Episode 372",
+        "score": 28.925617
+      },
+      {
+        "id": "Episode 754",
+        "score": 27.505634
+      },
+      {
+        "id": "Episode 71",
+        "score": 26.316832
+      },
+      {
+        "id": "Episode 218",
+        "score": 26.307188
+      },
+      {
+        "id": "Episode 3",
+        "score": 26.232141
+      },
+      {
+        "id": "Episode 898",
+        "score": 26.219349
+      },
+      {
+        "id": "Episode 7",
+        "score": 25.987715
+      },
+      {
+        "id": "Episode 718",
+        "score": 25.95058
+      },
+      {
+        "id": "Episode 711",
+        "score": 25.860748
+      },
+      {
+        "id": "Episode 714",
+        "score": 25.816086
+      }
+    ]
+  }
+}
