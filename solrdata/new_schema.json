@@ -127,12 +127,6 @@
 		"type": "text_general",
 		"indexed": false,
 		"stored": true
-	  },
-	  {
-		  "name": "vector",
-		  "type": "courseVector",
-		  "indexed": true,
-		  "stored": true
 	  }
 	]
 }

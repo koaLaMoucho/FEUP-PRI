@@ -21,7 +21,7 @@ curl -X POST -H 'Content-type:application/json' --data-binary "@./new_schema.jso
 
 #sair do cd solrData
 # Populate collection using mapped path inside container.
-docker exec -it meic_solr bin/post -c priProj /data/semantic_courses.json
+docker exec -it meic_solr bin/post -c priProj /data/one_piece_data.json
 
 
 ## unrelated commands
@@ -33,7 +33,7 @@ docker exec -it meic_solr bin/post -c priProj /data/semantic_courses.json
 # curl -X GET http://localhost:8983/solr/courses/schema/fieldtypes/<fieldType>
 
 # get query response
-# python ./scripts/query_solr.py --query config/query_sys1.json --uri http://localhost:8983/solr --collection courses > config/query_sys1_response.json
+# python3 ./query_solr.py --query config/query_newsc1.json --uri http://localhost:8983/solr --collection priProj > config/query_newsch1_response.json
 
 
 

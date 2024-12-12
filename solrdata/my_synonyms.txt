@@ -10,7 +10,7 @@ crew, team, alliance
 yonko, emperor
 grandline, searoute
 shichibukai, warlord, lord
-tresure, loot, plunder
+treasure, loot, plunder
 navigator, helmsman, sailor
 doctor, physician, healer
 shipwright, carpenter, builder
@@ -28,8 +28,8 @@ sabo, revolutionary, brother
 shanks, red haired, yonko
 kaido, yonko
 mom, mama, yonko
-blackbeard, marshall, pirate
-whitebeard, edward, pirate_lord
+blackbeard, marshall
+whitebeard, edward
 kaido, beast_king, yonko
 marineford, war, battle
 existence,being,entity,ens,esse,subsistence
@@ -3759,7 +3759,7 @@ peaceable,peaceful,calm,tranquil,untroubled,halcyon,bloodless,neutral
 tactics,strategy,castrametation,generalship,soldiership,logistics,ballistics,gunnery,chivalry
 gunpowder,shot
 battle,campaigning,kriegspiel,Kriegsspiel,trumpet,clarion,bugle,pibroch,slogan,war,cry,war,whoop,rappel,tom,tom,password,watchword,armes
-obs,war
+obs,war, fight
 campaign,warpath
 pie,embattled,battled
 unpacific,unpeaceful,belligerent,combative,armigerous,bellicose,martial,warlike,military,militant,soldier
