@@ -1,0 +1,354 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "json": "{\"query\": \"Straw Hat crew new location\", \"fields\": \"*,score\", \"params\": {\"defType\": \"edismax\", \"q.op\": \"AND\", \"sort\": \"score desc\", \"fl\": \"*,score\", \"qf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"pf\": \"title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1\", \"ps\": 3, \"qs\": 3, \"rows\": 40}}"
+    }
+  },
+  "response": {
+    "numFound": 6,
+    "start": 0,
+    "maxScore": 18.328783,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "Episode 1089",
+        "title": [
+          "Entering a New Chapter! Luffy and Sabo's Paths!"
+        ],
+        "air_date": "January 7, 2024",
+        "short_summary": [
+          "The World Government destroys Lulusia Kingdom before Sabo could divulge information about Imu over the Den Den Mushi. Several days later, the Straw Hat Pirates come across a young girl trapped in a Warm Eddy."
+        ],
+        "long_summary": [
+          "The Straw Hats are en route to the next island, reflecting on Luffy's dream to become the King of the Pirates. The crew needs the elusive last Road Poneglyph, but Robin warns that finding it is exceptionally challenging due to the absence of any clues leading to it.\nSimultaneously, the Marines intercept Sabo's call to the Revolutionary Army at the Kamabakka Kingdom. The Five Elders at Mary Geoise learn of Sabo's location at Lulusia, a kingdom in upheaval during the Levely. Sabo contacts the Revolutionary Army, reassuring them he did not assassinate King Cobra, contrary to the news reports circulating. When he is about to tell them what he actually witnessed that day at the Empty Throne inside the Pangaea Castle, one of the Five Elders orders the Marines' Communication Department to cut off communications and to forget that they ever traced or heard Sabo's call.\nElsewhere, Imu crosses off Lulusia on a map. The sky over Lulusia darkens and starts glowing with an eerie green light. Suddenly, rays of red light come raining down on the island, destroying everything and everyone they hit. Sabo's call to the Revolutionary Army is abruptly cut off. In a matter of seconds, the island is obliterated, resulting in a huge seaquake originating from where the island used to be.\nA few days later, the Straw Hats enter the climate range of a harsh winter island nearby, encountering a massive Warm Eddy. Luffy spots someone inside the water column so Zoro cuts the water in half to rescue her. Chopper emerges from inside the cabins to investigate the commotion outside, but he is swept away by the strong wind. Luffy, swept away by the wind along with Chopper, manages to rescue both the reindeer and the girl, grabbing hold of her while airborne. The girl starts screaming to those on the ship to warn them of what's lurking below the waters. Usopp senses two glowing eyes and tells everyone to run. The two glowing eyes belong to a giant shark, threatening to devour their ship."
+        ],
+        "characters": [
+          "Jinbe",
+          "Monkey D. Luffy",
+          "Tony Tony Chopper",
+          "Brook",
+          "Usopp",
+          "Nico Robin",
+          "Sanji",
+          "Roronoa Zoro",
+          "Nami",
+          "Franky",
+          "Pedro (flashback)",
+          "Carrot (flashback)",
+          "Charlotte Br\u00fbl\u00e9e (flashback)",
+          "Diesel (flashback)",
+          "Trafalgar D. Water Law (flashback)",
+          "Kouzuki Sukiyaki (flashback)",
+          "Morgans",
+          "Marshall D. Teach (fantasy)",
+          "Shanks (fantasy)",
+          "Buggy (fantasy)",
+          "Dracule Mihawk (fantasy)",
+          "Crocodile (fantasy)",
+          "Boa Hancock (fantasy)",
+          "Koby (fantasy)",
+          "Nefertari Cobra (image & fantasy)",
+          "Nefertari Vivi (image & fantasy)",
+          "Marcus Mars",
+          "Jaygarcia Saturn",
+          "Topman Warcury",
+          "Ethanbaron V. Nusjuro",
+          "Shepherd Ju Peter",
+          "Karoo (fantasy)",
+          "Pell (fantasy)",
+          "Chaka (fantasy)",
+          "Igaram (fantasy)",
+          "Neptune (fantasy)",
+          "Fukaboshi (fantasy)",
+          "Ryuboshi (fantasy)",
+          "Manboshi (fantasy)",
+          "Shirahoshi (fantasy)",
+          "Sterry (fantasy)",
+          "Sarie Nantokanette (fantasy)",
+          "Wapol (fantasy)",
+          "Kinderella (fantasy)",
+          "Hakowan (fantasy)",
+          "Rebecca (fantasy)",
+          "Kabu (fantasy)",
+          "Bian (fantasy)",
+          "Mansherry (fantasy)",
+          "Leo (fantasy)",
+          "Riku Doldo III (fantasy)",
+          "Viola (fantasy)",
+          "Sai (fantasy)",
+          "Kureha (fantasy)",
+          "Dalton (fantasy)",
+          "Ramen (fantasy)",
+          "Tacos (fantasy)",
+          "Matryosaka (fantasy)",
+          "Beer VI (fantasy)",
+          "Ham Burger (fantasy)",
+          "Mororon (fantasy)",
+          "Seki",
+          "Komane",
+          "Imu",
+          "Emporio Ivankov",
+          "Hack",
+          "Koala",
+          "Lindbergh",
+          "Karasu",
+          "Morley",
+          "Belo Betty",
+          "Inazuma",
+          "Monkey D. Dragon",
+          "Sabo",
+          "Jewelry Bonney",
+          "Mecha-Shark"
+        ],
+        "rating": "4.7",
+        "_version_": 1818087923933773824,
+        "_root_": "Episode 1089",
+        "score": 18.328783
+      },
+      {
+        "id": "Episode 315",
+        "title": [
+          "Its Name is The New World!\nThe Whereabouts of the Great Grand Line!"
+        ],
+        "air_date": "June 24, 2007",
+        "short_summary": [
+          "Koby explains to Luffy how he got his training and how he got on the Grand Line. He also talked about the New World and how the pirate who conquers it will become the Pirate King. Garp leaves the Straw Hat Pirates free. While everybody is busy celebrating their huge victory at Enies Lobby, Robin is confronted by Aokiji."
+        ],
+        "characters": [
+          "Monkey D. Garp",
+          "Bogard",
+          "Monkey D. Luffy",
+          "Tony Tony Chopper",
+          "Sanji",
+          "Nami",
+          "Nico Robin",
+          "Roronoa Zoro",
+          "Koby",
+          "Helmeppo",
+          "Chimney",
+          "Gonbe",
+          "Kokoro",
+          "Spandam (flashback)",
+          "Yokozuna",
+          "Sogeking",
+          "Schollzo",
+          "Zambai",
+          "Kiev",
+          "Kop",
+          "Sodom",
+          "Gomorrah",
+          "Kashii",
+          "Oimo",
+          "Tilestone",
+          "Peepley Lulu",
+          "Paulie",
+          "Iceburg",
+          "Tyrannosaurus",
+          "Mozu",
+          "Kiwi",
+          "Franky",
+          "Kairiki Destroyers",
+          "Aokiji",
+          "Jaguar D. Saul (flashback)"
+        ],
+        "rating": "4.7",
+        "long_summary": [
+          "Garp reveals that he won't capture his own grandson. He more or less came to make sure he was okay and to let Koby and Helmeppo see him. While the Marines repair the damage to Iceburg's building, he lets the three take some time to catch up and chat, though he does slug Luffy once more when Luffy doesn't show some reluctance. Nami, Chopper, and Sanji come to realize just where Luffy gets his stubborn and stupid streaks.\nAfter Garp leaves, the rest of the Straw Hats discuss Garp's revelations. Robin in particular is amazed at the connection to Dragon, not realizing Luffy would be connected to something even more dangerous than the scholars of her home island, Ohara. Zoro isn't with Luffy because his association with Koby was tenuous; his history is more with Luffy than with anyone else. Nami is notably absent; Chopper notes she'd wanted to seek out some Marine intel while they were here but instead went to the pool with Kokoro and Chimney. Hearing that, Sanji rushes off to the pool.\nOutside, Luffy learns to his surprise that the Marines have found a way to safely cross the Calm Belt, meaning they don't have to go through Reverse Mountain to reach the Grand Line. Thanks to the work of a scientist named Dr. Vegapunk, Marines have covered the bottoms of their ships with seastone. Because of Kairoseki's natural sea energy emissions, this hides their presence from the Sea Kings meaning as long as they can address the issue of power, they can come and go more or less freely, giving them a huge maneuverability advantage.\nUnknown to them, a Baby Den Den Mushi is hidden near their location. Nami was actually at the pool and listening in on Koby through a Black Den Den Mushi. She files the knowledge of the Kairoseki trick away for future reference. She also learns that it was Vegapunk who found the way to infuse Devil Fruits into inanimate objects\u2014resulting in things like Spandam's Elephant Sword Funkfreed\u2014as well as more insight as to how Devil Fruits actually work. The conversation then turns to Garp, revealing that all three admit he's an advocate of \"tough love\": he may test you to the verge of death, but in the end you become stronger for it. Plus Koby and Helmeppo are grateful for him taking them in after the incident of Axe-Hand Morgan's escape. Nami finally decides she'll learn no more secrets and finally goes for a swim, but she almost inhales water when she passes under Kokoro in mermaid form: some things will just never cease to shock.\nRegretfully, Luffy, Koby, and Helmeppo's reunion is brief, as they have to go back to Headquarters and resume training. But before going, Koby leaves a tantalizing fact: the back half of the Grand Line is known as \"The New World\". It's becoming a focal point for both pirates and Marines, and the next Pirate King will likely be crowned there. Luffy realizes he needs to be part of this action. Koby's hope is that one day, even as opponents, they can meet there and vie to see who's dream is realized first: Luffy being the next Pirate King or he becoming the next Admiral. Luffy acknowledges this and without a hint of ridicule challenges him to realize that dream and meet him in The New World as a worthy rival. Encouraged, Koby rushes off with a confused Helmeppo following.\nBack on Garp's ship, Koby wonders if the Straw Hats are fully aware of just how the World Government is depicting the Enies Lobby incident. Helmeppo points out that Koby's seeing the darker side of the World Government: one determined to maintain its stranglehold on power by hook or crook. Cover-ups like this are to be expected. Just then Garp stops their reminiscing and gets them back to training.\nBack at the pool, Sanji is cooking up a barbecue. Everyone agrees it's delicious, and the taste is enough to even overlook Kokoro in mermaid form for the time being. Just then, Zambai and the Franky Family join them, encouraged by the news that Luffy was awake. Luffy invites them to the meal, starting off a comical cavalcade of other new arrivals: Oimo and Kashii, Sodom and Gomorrah, Iceburg and the Galley-La Company shipwrights, Franky, Mozu, and Kiwi. Even Usopp manages to join in his Sogeking disguise. What had started as a friendly little barbecue among the crew soon turns into a gigantic celebration.\nAs the sun begins to set, Robin finds a little peace and quiet against a wall. Just then, a familiar voice addresses her from the other side of the wall. It's Aokiji. He starts by asking why Robin didn't run away like she had for 20 years. Robin replies that she can't run away anymore: not when she now has finally found her friends. Then Aokiji drops a bombshell: Jaguar D. Saul, whom he'd been forced to kill 20 years ago, was a close friend of his. But while he'd been compelled by duty that day, he also allowed him one boon: that being to make sure Robin was safe. So for 20 years he'd kept tabs on the homeless, friendless Robin. By the time of their encounter prior to Water 7, Aokiji was prepared to believe Robin was becoming too dangerous. Then Enies Lobby happened and complicated the matter. No one had really thought the Straw Hats would go through CP9 and a Buster Call to rescue her. So he asks one more time, \"Have you finally found a tree to call home?\" Robin finally answers, \"Yes.\" And Aokiji is finally relieved. With true friends, Robin can stop running away from her past and stand tall as the last survivor of Ohara. He tells Robin to live her life with resolve and then leaves. By the time Robin reaches the spot where Aokiji had been, all that's there is an icy \"X\". She's finally drawn back to the party by Luffy. As Aokiji calmly bikes away, Robin realizes that Saul's greatest wish has indeed been granted; she is homeless and friendless no more."
+        ],
+        "_version_": 1818087923413680128,
+        "_root_": "Episode 315",
+        "score": 14.435325
+      },
+      {
+        "id": "Episode 569",
+        "title": [
+          "Revealed Secret - The Truth of Ancient Weapons"
+        ],
+        "air_date": "October 21, 2012",
+        "short_summary": [
+          "As the whole Fish-Man Island celebrates the capture and defeat of Hody and the New Fish-Man Pirates by the Straw Hat Pirates, who make their own plans to leave Fish-Man Island soon while Jinbe reluctantly tells Luffy that he cannot join his crew at the moment but he will in the future when he is finished his own tasks and obligations. They are all soon called to celebrate their victory at the Ryugu Palace with the banquet that was originally planned.\nAs the party begins to wind down, Robin asks and discusses a troubling and dangerous secret with King Neptune surrounding his daughter, Shirahoshi, the ship Noah, and the mysterious Joy Boy. Robin reveals the location of the ancient weapon from Skypiea she read two years ago being on Fish-Man Island and that Poseidon is on the island and deduces that the Mermaid Princess during the Void Century name was Poseidon and discovers that Shirahoshi is the now current ancient weapon, Poseidon."
+        ],
+        "characters": [
+          "Hody Jones (K.O.)",
+          "Vander Decken IX (K.O.)",
+          "Dosun (K.O.)",
+          "Zeo (K.O.)",
+          "Minister of the Right",
+          "Minister of the Left",
+          "Neptune",
+          "Wadatsumi (K.O.)",
+          "Fukaboshi",
+          "Ryuboshi",
+          "Manboshi",
+          "Monkey D. Luffy",
+          "Sanji",
+          "Nami",
+          "Shirahoshi",
+          "Brook",
+          "Roronoa Zoro",
+          "Usopp",
+          "Jinbe",
+          "Nico Robin",
+          "Tony Tony Chopper",
+          "Ikaros Much (K.O.)",
+          "Hyouzou (K.O.)",
+          "Daruma (K.O.)",
+          "Surume",
+          "Camie",
+          "Medaka Mermaid Quintuplets",
+          "Hatchan",
+          "Pappag",
+          "Maria Napole",
+          "Hoe",
+          "Megalo",
+          "Hiramera",
+          "Sora",
+          "Mero",
+          "Adele",
+          "Ishilly",
+          "Fillonce",
+          "Otohime (flashback)"
+        ],
+        "rating": "4.3",
+        "long_summary": [
+          "The royal family have made a decision to release the human slaves that were under Hody's control as they were only on this island for resting and traveling like other pirates. The rest of the New Fish-Man Pirates have also been released however they cannot go back to the Fish-Man District. They are ordered to live on the main island working for the king, under the supervision of the Neptune army stating they will not let the Fish-Man District get out of control again. From this day forward, the Fish-Man District will be sealed off and nobody will be allowed to enter. Neptune then asks Fukaboshi where Luffy is and he says Luffy ran away with the others.\nThe scene changes to the Straw Hats, who are flying above the island on the Thousand Sunny, still toting its bubble balloon. Shirahoshi is following along side the ship, and asks why they left in such a hurry. Zoro is mad at himself for fighting in that big of an open area. He tells Shirahoshi if they had stayed any longer, the people would have lifted them up like heroes, shivering at the thought. Zoro tells Shirahoshi that heroes have to share their alcohol, something which he does not want to do. Nami is appalled to hear Zoro reciting the same reason Luffy told Jinbe. Looking over her shoulder, Nami sees Luffy trying to convince Jinbe to join the crew. Jinbe replies that he cannot join, but is very happy to be asked. He tells them that he has some business that he has been putting off for a long time. After he has taken care of it, he promises he will come back to them and asked them to promise to invite him again, should they still see him fit to join. Sanji tells Luffy not to back Jinbe into a corner. Robin remarks that he has taken a liking to the crew. And Franky remarks that of course they would wait for a man who captivated Luffy as much as Jinbe did. Zoro then asks if they should head to the New World now. Shirahoshi is upset by their departure and asks them to stay so she can thank them all. Sanji uses this opportunity to propose staying at the Mermaid Cafe for a whole week. Usopp slaps him, saying there is only one reason Sanji would go there, but he does agree with him.\nAn Ammo Knight calls out to them, and then informs Neptune via baby Den Den Mushi that they caught up to the Straw Hats' ship. Through the Den Den Mushi, Neptune tells Luffy he wants to pick up where he left off with the banquet he initially promised. Luffy agrees, and tells Neptune he will get Hatchan and Camie as well.\nThe scene changes briefly to the Fish-Man District, where all the buildings have been wrapped in yellow tape. It then goes to Ryugu Palace, where Hody, his officers, and Vander Decken IX are all in a prison cell, still unconscious. At the main entrance to the island, guards are telling Surume to carry Wadatsumi to the far ends of the earth, telling the giant fish-man that they do not have a cell that can hold him, and that he is banished from the island. In Coral Hill, people are preparing food to bring to the palace banquet. They are carrying large racks of Sea King meat, boxes of seaweed cakes and other sweets, and alcohol by the cartload, enough to bathe in, as one fish-man put it.\nAt the palace, the Straw Hats and their guests are being carried on two large flounders to the banquet hall, a completely inundated room, which makes some of the Straw Hats nervous. Below them on the floor packed with soldiers, guards cheer and say the heroes have arrived. Luffy tells not to call them heroes as he is going to eat all the meat. Shirahoshi points out a stage in the front of the room to Luffy, and they notice someone standing on it. The woman on stage is introduced as Maria Napole, a singer called the diva of the ocean floor and the pride of the island. Maria Napole begins to sing, and her voice completely entrances Nami and Usopp, who feel as if they could melt from hearing it. Brook gets excited, as he notices Maria Napole's accompaniment, a jazz quintet. The music starts up, and then it is Sanji's turn to be in awe, as the Mermaid Cafe dancers are introduced. More mermaids come in carrying trays of food that they take to the Straw Hats and the rest of the people in attendance. Everyone is singing, dancing, cheering, and enjoying the festivities. Pappag is dancing with the Medaka Mermaid Quintuplets. Luffy and Jinbe are eating and laughing with two other mermaids. Zoro, Franky, and Hatchan toast gourds of alcohol. Sanji turns to stone in the arms of two mermaids, while another one grabs Brook and starts kissing him on the cheek. Luffy is then seen having a toast with Usopp, Neptune, Shirahoshi, Camie, Jinbe, and the Minister of the Right. All the soldiers raise their glasses high. Robin is seen laughing and drinking with the Minister of the Left. Brook is playing his guitar on stage with Maria Napole. Nami is seen celebrating her victory against Fukaboshi in a drinking contest, while Ryuboshi and Manboshi dance together.\nRobin is then seen standing just outside the banquet hall, when Neptune, a bit tipsy from drinking, stumbles out. He asks Robin what she wanted to talk to him about. Robin apologizes, saying she thought they would be able to be alone. Neptune, thinking she was coming on to him, starts telling Robin he could never betray the love he has for his wife, dead though she may be. Before he can go on, Robin cuts him off, asking who Joy Boy is. Neptune drops his gourd in surprise. Robin goes on to tell him that she read the poneglyph in the Sea Forest, and then asks Neptune who he was and what he was apologizing for. Neptune, instantly sobering up, is surprised Robin can read poneglyphs. Robin explains she is from Ohara and Neptune does not have to tell her anything he does not want to. Neptune says he will tell her what he knows stating he knows he can trust her.\nNeptune explains that Joy Boy was a person from the surface who lived during the Void Century. His message was for the Mermaid Princess living on the island at that time. It is an apology for breaking his side of a promise he made with the island. Neptune tells her he does not know the details of the promise, only that some day someone is supposed to come and carry out the promise made by Joy Boy. He explains it is a legend passed down in the royal family. Neptune says that their promise to Joy Boy was to watch Noah and keep it safe. Only when the promised time comes will Noah's purpose be known. Robin tells Neptune that she heard that Noah, after the events in and above Gyoncorde Plaza, was carried to the Sea Forest by Sea Kings. Robin asks Neptune if Joy Boy could control Sea Kings. Neptune tells her that ability belongs to the Mermaid Princess from then and now. Robin then concludes that Shirahoshi has the ability, confirming her theory. Neptune says she is right, and today that ability was fully awakened, which is not a good thing. Robin agrees. She then tells Neptune about the Poneglyph she read while in Skypiea two years ago. It gave the location of one of the ancient weapons, and said it was located on Fish-Man Island. She then asks Neptune if the Mermaid Princess from Joy Boy's time went by another name. Neptune starts to understand and begins to become fearful of what he's about to listen to. Robin tells him that Shirahoshi, by having the same ability, also inherited the same name as that princess. Her other name is the ancient weapon, Poseidon."
+        ],
+        "_version_": 1818087923530072064,
+        "_root_": "Episode 569",
+        "score": 10.988628
+      },
+      {
+        "id": "Episode 644",
+        "title": [
+          "A Blow of Anger! A Giant vs. Lucy"
+        ],
+        "air_date": "May 11, 2014",
+        "short_summary": [
+          "The Straw Hat Pirates onboard the Thousand Sunny find themselves in a predicament as they are under attack by the Donquixote Pirates lead by Giolla who transformed the crew as well as the ship into abstract art. Giolla reveals that their goal is to capture Momonosuke and since the ship is deformed, the Straw Hat Pirates have no way of leaving Dressrosa.\nIn the Colosseum, Bellamy receives a second chance to earn Doflamingo's favor by assassinating Luffy. Ricky refuses to be treated with the injured but gives in when he meets Rebecca who he seems to remember as a child. Luffy is becoming a crowd favorite when he tamed Ucy and is riding the beast all around the ring. Unfortunately, they bump into Hajrudin, a giant from Elbaf who proceeds to crush Lucy as well as the Bull. Though Luffy is not harmed, his new friend is not as fortunate to avoid injury, and with anger, Luffy delivers a Haki infused punch on the giant's face, knocking him out of the tournament."
+        ],
+        "long_summary": [
+          "Off the coast of Dressrosa on the Thousand Sunny, Nami, Brook, Chopper, and Momonosuke are inspecting what has happened inside of the ship. Suddenly, someone appears and uses a strange power to redesign the door shocking the others. The women walks out of the room and Nami askes who she is. Two men appear and they introduce her as Giolla of the Donquixote Family under Trebol's Army. Giolla then says she has an idea and uses her strange powers to redesign Nami, Brook, Chopper, and Momonosuke into odd-looking characters. The four are shocked at their appearances and Giolla laughs saying they are a piece of art. Nami demands Giolla to turn them back and Giolla says she will only if they hand over Momonosuke. Nami urges Momonosuke that they won't do that and Giolla, hearing Nami, flings another cloud of art at them. Fortunately, Nami opens the hatch to block the attack and she and the others escape after the smoke clears away. Giolla and the two men wonder where they went and Chopper sneaks by and opens the lower doors allowing Nami, Momonosuke, and Brook to escape.\nGiolla is angry that they managed to escape and Nami and the others taunt Giolla to chase after them. Brook comments to Nami on how to get the interior of the Thousand Sunny back to normal but Nami doesn't know but says they need to prevent it from getting more messed up. Chopper still hopes that Giolla will go after them but is surprised that she has turned in the opposite direction. Giolla suddenly calls out for more of her troops and they arrive on Donquixote Doflamingo's submarine. Giolla tells the troops to chase after the Straw Hat Pirates and get Momonosuke. Giolla then starts to get another vibe preparing to use another art attack and the Straw Hats urge Giolla to send the attack their way. Giolla, not falling for the trick, unleashes her powers onto the Thousand Sunny completely redesigning it. Giolla is pleased at her work while Nami, Brook, Chopper, and Momonosuke looked on horrified. Giolla then says that the Straw Hats will never leave Dressrosa and urges them to surrender.\nAt the Corrida Colosseum, Ricky does not want to be treated by the employee. The employee urges Rick to take off his helment but Ricky angrily rejects. Suddenly, Rebecca walks over to him and Ricky remember her from when she was younger. Rebecca tells Ricky that he needs to get treated and Ricky agrees. At a different location, Diamante is seen giving a note to Bellamy telling him to kill Luffy. Bellamy is reluctant to do so as he remembers that Luffy cheered for him during his match. Diamante tells Bellamy that if he does so, then he'll be promoted to an higher member of the Donquixote Family. Meanwhile, Bartolomeo can be seen walking with a suitcase and walks beside Cavendish who congradulates him on his win. Bartolomeo heard that Cavendish wanted to kill \"Lucy\" knowning it's Luffy in disguise and Cavendish, thinking that Bartolomeo also wants to kill Luffy, tells him not to get in his way. However, Bartolomeo says that his connection with Luffy is \"much deeper\".\nOn the stage, many competitors are seen battling it out in Block C. The announcer Gatz informs everyone that there is literally one Giant sticking out of the group. This giant is revealed to be Hajrudin who easily knocks away numerous of competitors without much effort. Hajrudin then announces he will wield the Mera Mera no Mi and will become the king of the Giants. Suddenly, a Fighting Bull known as Grim Reaper can be seen knocking away competitors and the rider is none other than Lucy (Luffy). Luffy quickly becomes popular with the crowd much to Cavendish's annoyance. However, Luffy and Ucy run into Hajrudin and the giant crushes them both with his giant fist. Hajrudin celebrates but Luffy gets up unharmed (due to his ability) and tends to his fallen bull friend. Angry, Luffy uses Gear 2 to boost his speed and hardens his arm with Armament Haki to punch Hajrdin and takes the giant down with one hit. The entire crowd looks on shocked on how Luffy easily took down a giant."
+        ],
+        "characters": [
+          "Brook",
+          "Tony Tony Chopper",
+          "Nami",
+          "Momonosuke",
+          "Giolla",
+          "Ricky",
+          "Rebecca",
+          "Diamante",
+          "Bellamy",
+          "Bartolomeo",
+          "Cavendish",
+          "Sai",
+          "Boo",
+          "Ideo",
+          "Kelly Funk",
+          "Gatz",
+          "Hajrudin",
+          "Ucy",
+          "Monkey D. Luffy",
+          "Aremo Ganmi"
+        ],
+        "fruits": [
+          "Mera Mera no Mi"
+        ],
+        "rating": "4.4",
+        "_version_": 1818087923603472384,
+        "_root_": "Episode 644",
+        "score": 10.217771
+      },
+      {
+        "id": "Episode 511",
+        "title": [
+          "An Unexpected Return! Luffy, to Marineford!"
+        ],
+        "air_date": "August 21, 2011",
+        "short_summary": [
+          "The Marine Headquarters have started rebuilding, and the Marines had a meeting about Monkey D. Luffy. A Marine ship returned, but does not stop at the bay; instead, it shot at the island and began to circle it. The Marines began firing back, and discovered the ship to be carrying Jinbe, Luffy, and Rayleigh. After completing one circle around Marineford, the three disembark onto the island, with Jinbe and Rayleigh distracting the Marines while Luffy runs to the Ox Bell. While news reporters and other bystanders watch him, Luffy rings the bell sixteen times. He then dropped a bouquet of flowers into the largest crack in the ground, put his straw hat to his chest, and closed his eyes. The reporters excitedly photographed the incident, before Luffy, Rayleigh, and Jinbe leave the island.\nIn a meeting between Fleet Admiral Sengoku and Commander-in-Chief Kong at an unknown location, Sengoku tells his superior that he wants to retire from the Marines, and nominates Aokiji as his replacement. Koby wakes up in hospital, and learns that he now possesses the skill of Haki. Captain Smoker decided to go to the New World to go after Luffy, and asks Aokiji for a transfer to G-5. In the New World, Hawkins is seen being challenged by the pirate Brownbeard, and Eustass Kid is shown killing another pirate crew for displaying weakness and wishing to return to Paradise."
+        ],
+        "long_summary": [
+          "The episode started with a view of Marineford being rebuilt. It showed a room full of vice-admirals as Lieutenant Commander Brannew talked about how Luffy is revealed to have survived the Summit War of Marineford and caused trouble again. A flashback followed, showing what happened two days ago. Two reporters are seen talking about how the Marines will go after the pirates involved in the war. Suddenly, some Marines see the warship which Luffy, Jinbe and Rayleigh are on. They made a full circle around Marineford before entering the bay (which is done in a funeral). After that, all three of them got to the plaza. Luffy then ran toward the Ox Bell and rang it sixteen times. Afterwards, he went to the largest crack from the battle in the ground and dropped a bouquet of flower in it and held his hat to his chest in a manner of paying respect. Reporters who were at the scene excitedly took photographs of the incident. Soon afterwards, a huge whale-shark appeared in the bay as Luffy, Jinbe and Rayleigh escaped from Marineford. After that, the newspapers printed the story and delivered it to all around the world, including Water 7, Sabaody Archipelago, Arabasta, and Foosha Village. The flashback ends as Brannew stated that it is humiliating for them to have let Luffy go.\nAfter that there was a scene showing the Five Elders discussing who should fill the vacancies in the Shichibukai positions and that Blackbeard was turning out to be a lot of trouble. They also comment on how those with the \"D\" are beginning to stir up trouble at the same time.\nThe next scene showed World Government Commander-in-Chief Kong and former Fleet Admiral Sengoku discussing Sengoku's retirement. Sengoku also recommended Admiral Aokiji to be the next Fleet Admiral.\nThe scene changed to Koby, Helmeppo, and a doctor in the hospital, discussing how Koby has obtained Observation Haki. Koby, talking within himself states that he feels different with this new power and he has to train more to become stronger; as strong as \"him\" (\"him\" referring to Luffy).\nAfter that, Admiral Aokiji and Smoker talked about what Luffy did at Marineford and about Smoker's transfer to the Marine base G-5.\nIn the New World, Eustass Kid and his crew were talking about Luffy's actions. Kid asked what the Ox Bell is. Killer explained what it is and the reason he thinks why Luffy rang it sixteen times.\nThe scene changes to Capone Bege's ship, which was being pulled up to a huge black ball in the sky, and Urouge's ship, which was approaching an island that was constantly being hit by lightning. An old woman offered to sell the crew some umbrellas. It then goes back to Kid as he declared that he will defeat Luffy in the New World."
+        ],
+        "characters": [
+          "Brannew",
+          "Whitebeard (flashback)",
+          "Akainu (flashback)",
+          "Kizaru (flashback)",
+          "Aokiji",
+          "Monkey D. Luffy",
+          "Jinbe",
+          "Silvers Rayleigh",
+          "Woop Slap",
+          "Jaygarcia Saturn",
+          "Marcus Mars",
+          "Topman Warcury",
+          "Ethanbaron V. Nusjuro",
+          "Shepherd Ju Peter",
+          "Marshall D. Teach (imagination)",
+          "Kong",
+          "Sengoku",
+          "Avalo Pizarro (image)",
+          "Sanjuan Wolf (image)",
+          "Vasco Shot (image)",
+          "Catarina Devon (image)",
+          "Fishbonen",
+          "Koby",
+          "Helmeppo",
+          "Smoker",
+          "Eustass Kid",
+          "Heat",
+          "Wire",
+          "Killer",
+          "Haritsu Kendiyo",
+          "Capone Bege",
+          "Basil Hawkins",
+          "Faust",
+          "Brownbeard",
+          "Urouge",
+          "Kasa"
+        ],
+        "rating": "4.7",
+        "_version_": 1818087923481837569,
+        "_root_": "Episode 511",
+        "score": 9.480709
+      },
+      {
+        "id": "Episode 325",
+        "title": [
+          "The Most Evil Ability! Blackbeard's Darkness Attacks Ace"
+        ],
+        "air_date": "September 23, 2007",
+        "short_summary": [
+          "Three days before Luffy left Water 7, Ace finally catches up to Blackbeard on Banaro Island, but his attempt to fight him reveals Teach's darkest secret: the control of the Yami Yami no Mi, said to be the most evil of the Devil Fruits. As fire and darkness collide, the island is destroyed. The outcome is left unrevealed, but Ace's hat is shown lying on the ground. It is said that the fight between them is the trigger for a great event yet to come."
+        ],
+        "characters": [
+          "Marshall D. Teach",
+          "Laffitte",
+          "Van Augur",
+          "Doc Q",
+          "Stronger",
+          "Jesus Burgess",
+          "Portgas D. Ace",
+          "Thatch (flashback)"
+        ],
+        "fruits": [
+          "Mera Mera no Mi",
+          "Yami Yami no Mi",
+          "Yami Yami no Mi",
+          "Yami Yami no Mi"
+        ],
+        "rating": "4.7",
+        "long_summary": [
+          "While the rest of the world is finding out about the Straw Hats' new bounties and events at Enies Lobby, Blackbeard is seen reading an earlier account of the Straw Hat\u2019s activities at Enies Lobby, commenting that their bounties should rise afterwards. Lafitte wonders if the Straw Hats hijacked a Sea Train from Water 7 to get to Enies Lobby. Van Auger comments that Water 7 isn\u2019t too far from the Blackbeard Pirate\u2019s current location and thinks they\u2019ll cross paths again while Doc Q suggests that fate may allow them to meet again and take action when it happens. Jesus Burgess laughs while carrying a sack and asks what they\u2019re waiting for, and Blackbeard responds in agreement and announces his intent to stop the Straw Hats before the Marines can.\nMeanwhile, the townspeople are seen defeated and scattered around. As Blackbeard's crew walks ahead, they pass by an observing Ace, who is seen squatting in a roof near them. Ace calls out Blackbeard by referencing him as Teach, stating that they need to talk. The narration then plays, confirming that history-changing events are taking place in this small island called Banaro Island, three days before the Straw Hat\u2019s fate and bounties were revealed to the world.\nBlackbeard looks up in surprise and addresses him as Commander Ace, to which Ace responds by stating that he has no right to call him that anymore. Lafitte comments that this must be the famous pirate \u201cFire Fist\u201d Ace that they\u2019re witnessing. Ace confirms Lafitte\u2019s address and then notes that Blackbeard is a captain of his own crew now. Blackbeard responds that it\u2019s been a while since they interacted, and teases Ace if he\u2019s been looking for him. Ace responds to Blackbeard to cut his act and that there is only one reason for him to be here. In response, Blackbeard asks him to join his crew instead of fighting, claiming that he has the perfect plan to become the Pirate King while mentioning that Whitebeard\u2019s days are numbered. Blackbeard further mentions that he plans to head to Water 7 to kill Luffy and present it as a gift to the World Government.\nA surprised Ace then reveals to Blackbeard that he won\u2019t let him kill his younger brother. Upon refusing to join Blackbeard\u2019s crew, Auger shoots Ace with a bullet harmlessly piercing through his Mera Mera no Mi\u2019s Logia Devil Fruit abilities. Ace smirks and comments that Blackbeard\u2019s crew weren\u2019t taught manners, to which Ace retaliates at Auger with Fire Gun. From behind, Burgess launches a hotel towards Ace to which he burns up with Flame Commandment Fire Pillar. The rubble lands near Blackbeard who yells at Auger and Burgess, warning them that they\u2019re not strong enough to fight Ace by themselves. As Burgess apologizes, Ace launches Fire Fist at Blackbeard\u2019s crew, managing to hit their captain. Engulfed in flames, Blackbeard rolls around in pain while his unscathed crew runs to his aid. As Auger fans the flames out, Ace walks towards them. Blackbeard dismisses his crew\u2019s help and tells them to stand back. As Blackbeard recovers, he understands Ace\u2019s intent to finish him, before admitting to the crime of murdering their former crew mate, fourth division commander Thatch.\nBlackbeard reveals that he had no choice but to kill Thatch in order to obtain the Yami Yami no Mi, a Devil Fruit he\u2019s been chasing after for decades and so the rule goes in Whitebeard\u2019s ship: whoever finds a devil fruit can claim it as theirs to eat. Blackbeard emphasizes that he memorized the shapes and colors of many Devil Fruits until he recognized the Yami Yami no Mi sitting in Thatch\u2019s hand. He further states that by lying low in Whitebeard\u2019s crew, he would have the best shot at finding it someday. Blackbeard tells Ace to witness the power he gained, stating its power is unique among Logia types. With his right hand, Blackbeard forms a black pillar into the sky and tells Ace that just as he is made out of fire, his own body is made out of darkness. The townspeople catch sight of Blackbeard\u2019s dark pillar, describing it as the weird black smoke from before. Seeing no other options, the townspeople run away in fear.\nBlackbeard continues his fruit\u2019s display, stating that it is said to be the most powerful of them all. He tells Ace to witness his power, and Ace urges him on. Meanwhile, Blackbeard\u2019s crew is seen running away, with Burgess stating that their captain may kill them if they don\u2019t get away in time. Doc Q falls over and is dragged away by Burgess and Auger. Stronger subsequently collapses behind them, and Burgess proceeds to yell at him for also falling down.\nThe pillar descends into Blackbeard\u2019s position and then spreads out, engulfing the ground of the town. The remaining townspeople observe the darkness spreading further out, wondering if it\u2019ll suck them up as well. More of them run away, as Blackbeard continues his speech about his power: darkness is like gravity, and it swallows everything around it. Ace acknowledges his claims, but mentions its not surrounding him. Blackbeard tells him this is intentional, as he wants him to see the power of the Yami Yami no Mi. Blackbeard uses Black Hole, which destroys and sucks up the entire town. The townspeople watch in fear as Blackbeard continues his speech, stating his power crushes and compresses everything his darkness touches. Moments later, the townspeople see the vast emptiness that is left of their town. With his left hand swallowing the remnants of the dark hole, he uses Liberation, and a black pillar forms out of his back and throws out everything the dark hole had just swallowed up and destroyed.\nBlackbeard marvels at his power, stating that this was worth killing Thatch over before pausing to see green balls of light appear towards him, which is Ace\u2019s Firefly Fiery Doll. Blackbeard is engulfed in flames and withers in pain, to which Ace comments that he understands his darkness power, but not at his sensitivity to pain. Ace states that as a Logia type, the flames should not hurt, let alone hit Blackbeard. Blackbeard\u2019s power absorbs the flames and responds that his power absorbs everything around him including pain, stating that he is unable to simply turn into an element and dodge an attack. He claims the pain he then receives is much greater than what a normal human feels. Even so, he states the tradeoff is worth utilizing the power, stating that there is one more thing his power can swallow. With his left hand, he summons Black Vortex, which utilizes gravity to pull a Devil Fruit user into his grasp. Ace\u2019s hat flies away as he is being pulled in, and comments that the power is indeed strong. Blackbeard appears before him, being able to grab Ace\u2019s shoulder and both of them realize what had just happened. Blackbeard punches Ace and sends him flying towards the rubble, commenting that it must have been a while since the last time he was hurt like that. Blackbeard finally states that his power can even absorb Devil Fruit powers, so long as he is in contact with the user.\nWiping blood off his mouth, Ace states then all he has to do is avoid contact. Blackbeard reminds him that gravity is stronger than he thinks, and he summons Black Vortex. As Ace is pulled in, he uses St. Elmo\u2019s Fire, sending two pillars of fire through Blackbeard. Blackbeard manages to grab Ace anyways and punches him away, before dealing with his new damage again. His power absorbs the fire pillars away, and Ace realizes that Blackbeard\u2019s power will be more difficult to manage than he expected. Ace fires Cross Fire at Blackbeard and the impact falls a giant rock named Banana Rock which the townspeople observe. The townspeople fear that the ongoing combat may destroy their island in its entirety. Meanwhile, Auger and the rest of the crew are watching from afar, as he comments that unlike other users in combat, Ace isn\u2019t handicapped to only utilizing his Logia abilities.\nAfter some moments, both Blackbeard and Ace are seen in exhaustion, with Ace on his knees while Blackbeard stands tall. Blackbeard once more asks Ace to join his crew, stating that it would be a waste to finish him here. Ace struggles but stands up, stating that if he joined, he can never call himself a man again. Ace says no matter what happens, he won\u2019t submit and live a life of regrets. Blackbeard dismisses his morals, stating that they\u2019re meaningless if he is dead. Blackbeard understands that Ace won\u2019t change his mind, and summons a black pillar towards him. In response, Ace summons a giant fireball at the tip of his finger, the Great Flame Commandment Flame Emperor. Blackbeard remarks that this is the sun facing against darkness and that only one can win. Ace responds that he will make Whitebeard the King, or he will die trying. The two charge at each other with their massive attacks and from afar, the island is seen with their attacks colliding in the center, before the scene shines away into a view of Ace\u2019s hat lying on the ground. The narrator concludes that this clash would set off a chain of events that would change the world."
+        ],
+        "_version_": 1818087923418923009,
+        "_root_": "Episode 325",
+        "score": 7.1918592
+      }
+    ]
+  }
+}

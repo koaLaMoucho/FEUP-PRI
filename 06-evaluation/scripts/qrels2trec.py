@@ -12,6 +12,8 @@ def qrels_to_trec(qrels: list) -> None:
     """
     for line in qrels:
         doc_id = line.strip()
+        # remove space after "Episode" by replacing "Episode " with "Episode"
+        doc_id = doc_id.replace("Episode ", "Episode")
         print(f"0 0 {doc_id} 1")
 
 

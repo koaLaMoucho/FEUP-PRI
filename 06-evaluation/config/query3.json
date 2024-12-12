@@ -1,0 +1,15 @@
+{
+    "query": "Straw Hat crew reunion",
+    "fields": "*,score",
+    "params": {
+        "defType": "edismax",
+        "q.op": "AND",
+        "sort": "score desc",
+        "fl": "*,score",
+        "qf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
+        "pf": "title^6 short_summary^3 long_summary^2 characters^1 air_date^1 fruits^1",
+        "ps": 2,
+        "qs": 2,
+        "rows": 40
+    }
+}
