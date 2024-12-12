@@ -12,7 +12,7 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 0 20px;
-    text-align: left; /* Center-align the entire content */
+    text-align: left;
 }
 
 /* Header section */
@@ -108,21 +108,25 @@ button:hover {
 }
 
 #episode-list button {
-    display: block; /* Stack buttons vertically */
-    width: 100%; /* Make buttons span the full width of the container */
-    margin: 10px 0; /* Add space between buttons */
-    padding: 15px; /* Add padding for a comfortable click area */
-    text-align: left; /* Align text to the left */
-    border: 1px solid #ddd; /* Add a subtle border */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow */
-    cursor: pointer; /* Indicate buttons are clickable */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: black; /* Black text */
+    display: block; /* Ensure buttons stack vertically */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove extra margin */
+    padding: 15px; /* Comfortable click area */
+    text-align: left; /* Left-aligned text */
+    font-size: 16px; /* Default font size */
+    line-height: 1.5; /* Comfortable line spacing */
+    cursor: pointer; /* Indicate clickability */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Thin separating line */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: none; /* No shadow by default */
 }
 
-.episode:hover {
-    background-color: #f1f1f1;
-    transform: scale(1.02);
+#episode-list button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10); /* Add shadow on hover */
+    transform: scale(1.005); /* Slightly scale the button */
 }
 
 /* Episode title links */

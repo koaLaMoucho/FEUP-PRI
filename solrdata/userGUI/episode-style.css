@@ -20,7 +20,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #ff9900;
+    background: linear-gradient(to bottom, #444444, #333333);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -41,7 +41,7 @@ header {
 
 /* Space below the header */
 body {
-    padding-top: 100px; /* Create space below fixed header */
+    padding-top: 100px;
 }
 
 /* Episode Detail Section */
@@ -91,32 +91,53 @@ a:hover {
     color: #1abc9c; /* Green hover effect for links */
 }
 
-/* Stylized Back Button */
-#back-button {
-    position: fixed; /* Place at the top-left corner */
-    top: 20px;
-    left: 20px;
-    padding: 10px 20px;
-    background-color: #3498db; /* Blue button color */
-    color: white; /* White text for contrast */
-    border: none;
-    border-radius: 8px; /* Rounded corners */
-    font-size: 1rem; /* Readable font size */
+/* Style for the main episode detail container */
+#episode-detail {
+    font-family: Arial, sans-serif; /* Clean font */
+    line-height: 1.6; /* Increase line height for readability */
+    color: #333; /* Slightly dark text for readability */
+}
+
+/* Section styling */
+.wiki-section {
+    margin-bottom: 20px; /* Add spacing between sections */
+    border-bottom: 1px solid #ccc; /* Add a line under each section */
+    padding-bottom: 10px; /* Space text above the line */
+}
+
+/* Header (e.g., title) styling */
+#episode-detail h2 {
+    font-size: 24px;
     font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover and click effects */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    z-index: 15; /* Ensure it's above other elements */
+    margin-bottom: 10px;
+    color: #222; /* Slightly darker text for emphasis */
+    border-bottom: 2px solid #444; /* Add bold line below title */
+    padding-bottom: 5px;
 }
 
-#back-button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
-    transform: scale(1.05); /* Slight enlargement on hover */
+/* Adjusting list alignment */
+#episode-detail ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 20px; /* Indent the list */
+    padding: 0; /* Ensure no extra padding */
+    text-align: left; /* Align list items to the left */
 }
 
-#back-button:active {
-    transform: scale(0.95); /* Slight compression on click */
+#episode-detail ul li {
+    margin-bottom: 5px; /* Add spacing between list items */
+}
+
+/* Styling for the "no Devil Fruits" message */
+#episode-detail ul p {
+    margin: 0; /* Remove margin for inline consistency */
+    font-style: italic; /* Optional: Italicize to distinguish */
+    color: #666; /* Optional: Lighter color to indicate it's a note */
+}
+
+.no-fruits {
+    font-style: italic; /* Italicize to differentiate */
+    color: #666; /* Use a lighter color for distinction */
+    margin-left: 20px; /* Indent the message to align with other list items */
 }
 
 

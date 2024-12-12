@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Episode Details - Finding One Piece</title>
     <link rel="stylesheet" href="episode-style.css">
 </head>
+
 <body>
     <header>
         <div class="header-container">
-            <button id="back-button" onclick="history.back()">← Back</button>
-
             <h1>Episode Details</h1>
         </div>
     </header>
@@ -62,18 +62,48 @@
         const episode = episodes.find(ep => ep.id === episodeId);
 
         if (episode) {
-            // Display episode details
             const episodeDetailContainer = document.getElementById('episode-detail');
+            const validFruits = episode.fruits.filter(fruit => fruit.trim() !== ''); // Filter out empty strings
+
             episodeDetailContainer.innerHTML = `
-                <h2>${episode.title}</h2>
-                <p><strong>Air Date:</strong> ${episode.air_date}</p>
-                <p><strong>Rating:</strong> ${episode.rating}</p>
-                <p><strong>Short Summary:</strong> ${episode.short_summary}</p>
-                <p><strong>Long Summary:</strong> ${episode.long_summary}</p>
-                <p><strong>Characters:</strong> ${episode.characters.join(', ')}</p>
-                <p><strong>Fruits:</strong> ${episode.fruits.join(', ')}</p>
-            `;
-        } else {
+        <h2>${episode.title}</h2>
+        <div class="wiki-section">
+            <p><strong>Air Date:</strong></p>
+            <p>${episode.air_date}</p>
+        </div>
+        <div class="wiki-section">
+            <p><strong>Rating:</strong></p>
+            <p>${episode.rating}</p>
+        </div>
+        <div class="wiki-section">
+            <p><strong>Short Summary:</strong></p>
+            <p>${episode.short_summary}</p>
+        </div>
+        <div class="wiki-section">
+            <p><strong>Long Summary:</strong></p>
+            <p>${episode.long_summary}</p>
+        </div>
+        <div class="wiki-section">
+            <p><strong>Characters:</strong></p>
+            <ul>
+                ${episode.characters.map(character => `<li>${character}</li>`).join('')}
+            </ul>
+        </div>
+        <div class="wiki-section">
+            <p><strong>Fruits:</strong></p>
+            <ul>
+                ${validFruits.length > 0
+                    ? validFruits.map(fruit => `<li>${fruit}</li>`).join('')
+                    : `<li class="no-fruits">This episode featured no Devil Fruits.</li>`
+                }
+            </ul>
+        </div>
+    `;
+        }
+
+
+
+        else {
             document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
         }
 
@@ -82,4 +112,5 @@
         }
     </script>
 </body>
+
 </html>
