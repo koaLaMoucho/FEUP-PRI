@@ -19,6 +19,13 @@
         <!-- Episode details will be dynamically added here -->
     </section>
 
+    <section id="more-like-this" style="margin-top: 20px;">
+        <h2>More like this:</h2>
+        <div id="recommendation-buttons" class="recommendation-buttons">
+            <!-- Buttons for recommendations will be added here -->
+        </div>
+    </section>
+
     <script>
         // Episode data
         const episodes = [
@@ -27,8 +34,8 @@
                 title: "I'm Luffy! The Man Who Will Become the Pirate King!",
                 air_date: "October 20, 1999",
                 short_summary: "Luffy is found floating at sea by a cruise ship. After repelling an invasion by the Alvida Pirates, he meets a new ally, their chore boy Koby.",
-                long_summary: "Luffy is cast at sea in a barrel. Sailors on a passing cruise ship retrieve the barrel, but the ship is attacked with cannon fire by a nearby pirate ship, led by Alvida. The barrel is sent rolling into the kitchen. Once the cruise ship's sails have been destroyed, the Alvida Pirates board the ship to plunder its goods, and Alvida also forces one of her chore boys, Koby, to board the ship. Meanwhile, a girl takes advantage of the opportunity and sneaks aboard the Alvida Pirates' ship to steal its treasures.",
-                characters: ["Nami", "Alvida", "Koby", "Heppoko", "Peppoko", "Poppoko", "Monkey D. Luffy", "Roronoa Zoro"],
+                long_summary: "Luffy is cast at sea in a barrel...",
+                characters: ["Nami", "Alvida", "Koby", "Monkey D. Luffy"],
                 fruits: [""],
                 rating: "4.1"
             },
@@ -36,9 +43,9 @@
                 id: "Episode 2",
                 title: "The Great Swordsman Appears! Pirate Hunter Roronoa Zoro",
                 air_date: "November 17, 1999",
-                short_summary: "Luffy and Koby find Zoro captured in Shells Town's Marine base, with the Marines intending to execute him. Luffy and Koby work together to retrieve Zoro's katanas, as well as confront the tyrannical Marine Captain Morgan and his son Helmeppo.",
-                long_summary: "Luffy and Koby arrive at Shells Town, a town where a Marine base is stationed. They find their target, Roronoa Zoro, crucified at the base. A small girl, Rika, sneaks into the base to offer Zoro onigiri, but she is stopped by Helmeppo, a snobbish man who destroys the onigiri. However, Zoro later eats the dirt-stained rice.",
-                characters: ["Monkey D. Luffy", "Koby", "Roronoa Zoro", "Rika", "Helmeppo", "Soro", "Ririka", "Nami", "Morgan"],
+                short_summary: "Luffy and Koby find Zoro captured in Shells Town's Marine base...",
+                long_summary: "Luffy and Koby arrive at Shells Town...",
+                characters: ["Monkey D. Luffy", "Koby", "Roronoa Zoro"],
                 fruits: [""],
                 rating: "4.2"
             },
@@ -46,9 +53,9 @@
                 id: "Episode 3",
                 title: "Morgan vs. Luffy! Who's This Mysterious Beautiful Young Girl?",
                 air_date: "November 24, 1999",
-                short_summary: "Luffy and Zoro battle and defeat Morgan, Helmeppo, and the Marines. Koby parts ways with Luffy to join the Marines, and Zoro joins Luffy's crew as a permanent crew member.",
-                long_summary: "Luffy returns the katana to Zoro, who uses them to free himself and repel the Marines' attacks. He agrees to join Luffy's crew should he survive. Despite being clearly overpowered by Luffy's Devil Fruit power and Zoro's Three Sword Style, Morgan orders his men to attack them.",
-                characters: ["Roronoa Zoro", "Monkey D. Luffy", "Morgan", "Koby", "Helmeppo", "Nami", "Buggy"],
+                short_summary: "Luffy and Zoro battle and defeat Morgan, Helmeppo, and the Marines...",
+                long_summary: "Luffy returns the katana to Zoro...",
+                characters: ["Roronoa Zoro", "Monkey D. Luffy", "Morgan"],
                 fruits: [""],
                 rating: "4.2"
             }
@@ -65,45 +72,59 @@
             const episodeDetailContainer = document.getElementById('episode-detail');
             const validFruits = episode.fruits.filter(fruit => fruit.trim() !== ''); // Filter out empty strings
 
+            // Display episode details
             episodeDetailContainer.innerHTML = `
-        <h2>${episode.title}</h2>
-        <div class="wiki-section">
-            <p><strong>Air Date:</strong></p>
-            <p>${episode.air_date}</p>
-        </div>
-        <div class="wiki-section">
-            <p><strong>Rating:</strong></p>
-            <p>${episode.rating}</p>
-        </div>
-        <div class="wiki-section">
-            <p><strong>Short Summary:</strong></p>
-            <p>${episode.short_summary}</p>
-        </div>
-        <div class="wiki-section">
-            <p><strong>Long Summary:</strong></p>
-            <p>${episode.long_summary}</p>
-        </div>
-        <div class="wiki-section">
-            <p><strong>Characters:</strong></p>
-            <ul>
-                ${episode.characters.map(character => `<li>${character}</li>`).join('')}
-            </ul>
-        </div>
-        <div class="wiki-section">
-            <p><strong>Fruits:</strong></p>
-            <ul>
-                ${validFruits.length > 0
+                <h2>${episode.title}</h2>
+                <div class="wiki-section">
+                    <p><strong>Air Date:</strong></p>
+                    <p>${episode.air_date}</p>
+                </div>
+                <div class="wiki-section">
+                    <p><strong>Rating:</strong></p>
+                    <p>${episode.rating}</p>
+                </div>
+                <div class="wiki-section">
+                    <p><strong>Short Summary:</strong></p>
+                    <p>${episode.short_summary}</p>
+                </div>
+                <div class="wiki-section">
+                    <p><strong>Long Summary:</strong></p>
+                    <p>${episode.long_summary}</p>
+                </div>
+                <div class="wiki-section">
+                    <p><strong>Characters:</strong></p>
+                    <ul>
+                        ${episode.characters.map(character => `<li>${character}</li>`).join('')}
+                    </ul>
+                </div>
+                <div class="wiki-section">
+                    <p><strong>Fruits:</strong></p>
+                    <ul>
+                        ${validFruits.length > 0
                     ? validFruits.map(fruit => `<li>${fruit}</li>`).join('')
-                    : `<li class="no-fruits">This episode featured no Devil Fruits.</li>`
-                }
-            </ul>
-        </div>
-    `;
-        }
+                    : `<li class="no-fruits">This episode featured no Devil Fruits.</li>`}
+                    </ul>
+                </div>
+            `;
 
+            // Generate "More like this" section
+            const otherEpisodes = episodes.filter(ep => ep.id !== episodeId); // Exclude current episode
+            const recommendations = otherEpisodes.slice(0, 3); // Pick first 3 (or you can randomize)
 
-
-        else {
+            const recommendationContainer = document.getElementById('recommendation-buttons');
+            recommendations.forEach(episode => {
+                const button = document.createElement('button');
+                button.innerHTML = `<h3 style="margin: 0;">
+                                        <b>${episode.id}</b> - ${episode.title}
+                                    </h3>
+                                    <br>${episode.short_summary}`;
+                button.style.margin = '5px';
+                button.onclick = () => {
+                    window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
+                };
+                recommendationContainer.appendChild(button);
+            });
+        } else {
             document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
         }
 
