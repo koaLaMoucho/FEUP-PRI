@@ -64,7 +64,7 @@ h1 {
    
     font-weight: 600; /* Slightly bold for emphasis */
     color: #ff9900; /* Gold-like orange */
-    letter-spacing: 2px; /* Elegant spacing */
+    letter-spacing: 1px; /* Elegant spacing */
 }
 
 /* Style for the first letters */
@@ -73,7 +73,7 @@ h1 {
     font-weight: bold; /* Strong emphasis */
     font-family: 'Georgia', serif; /* Contrasting serif font for a classy look */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    margin-right: 3px; /* Slight spacing after first letter */
+    margin-right: 1px; /* Slight spacing after first letter */
 }
 
 
