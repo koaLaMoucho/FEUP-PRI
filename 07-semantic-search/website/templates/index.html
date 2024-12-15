@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./templates/style.css">
     <title>Fetch Solr Documents</title>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
 </head>
+
 <body>
-    <h1>Search Solr Documents</h1>
-    <div>
+
+    <div class="search_bar">
+        <h1>One Database</h1>
         <input type="text" id="query-input" placeholder="Enter query (e.g., title:luffy)">
-        <button onclick="fetchDocuments()">Fetch Documents</button>
+        <button onclick="fetchDocuments()">Fetch Episodes</button>
     </div>
-    <pre id="response-output" style="background-color: #f4f4f4; padding: 1em;"></pre>
+    <div id="episode-list" style="margin-top: 20px; width: 60%;">
+        <!-- Episode buttons will be added here -->
+    </div>
 
     <script>
         async function fetchDocuments() {
-            const queryInput = document.getElementById('query-input').value;
-            const output = document.getElementById('response-output');
-            output.textContent = "Fetching...";
+            const queryInput = document.getElementById('query-input').value.toLowerCase();
+            const episodeListContainer = document.getElementById('episode-list');
+            episodeListContainer.innerHTML = "Loading...";
 
             try {
+                // Commented server-side fetch for testing purposes
+                
                 const response = await fetch('http://127.0.0.1:5000/fetch_documents', {
                     method: 'POST',
                     headers: {
@@ -28,18 +36,62 @@
                     },
                     body: JSON.stringify({ query: queryInput }),
                 });
+                
 
+                // Fetch data locally from the JSON file for testing purposes
+                
                 if (!response.ok) {
-                    throw new Error(`Error: ${response.statusText}`);
+                    throw new Error('Failed to load episode data');
                 }
-                console.log(response)
 
                 const data = await response.json();
-                output.textContent = JSON.stringify(data, null, 2);
+
+                // Filter the data based on the query input
+                const filteredData = data.filter(episode =>
+                    episode.title.toLowerCase().includes(queryInput)
+                );
+
+                if (filteredData.length === 0) {
+                    episodeListContainer.innerHTML = "<p>No episodes found.</p>";
+                    return;
+                }
+
+                // Create buttons for each episode
+                episodeListContainer.innerHTML = '';
+                filteredData.forEach(episode => {
+                    const button = document.createElement('button');
+                    button.innerHTML = `
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr>
+                                <th style="text-align: left;">
+                                    <h3 style="margin: 0;">
+                                        <b>${episode.id}</b> - ${episode.title}
+                                    </h3>
+                                </th>
+                                <th style="text-align: right; font-weight: normal;">
+                                    ${episode.rating} / 5.0
+                                </th>
+                            </tr>
+                        </table>
+                        <br>${episode.short_summary}`; button.style.margin = '5px';
+                    button.onclick = () => {
+                        window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
+                    };
+                    episodeListContainer.appendChild(button);
+                });
             } catch (error) {
-                output.textContent = `Error fetching documents: ${error.message}`;
+                episodeListContainer.innerHTML = `<p>Error: ${error.message}</p>`;
             }
         }
     </script>
 </body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-left"><b>PRI Project</b></div>
+        <div class="footer-right"><b>Made by: </b></div>
+        <div>Hugo Castro, Marcos Costa, Rodrigo Moucho</div>
+    </div>
+    </div>
+</footer>
+
 </html>

@@ -4,14 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Body and main background */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     background-color: #f7f7f7;
     color: #333;
     line-height: 1.6;
+    padding: 0 20px;
+    text-align: left;
+    
+   
 }
+
 
 /* Header section */
 header {
@@ -30,95 +37,205 @@ header {
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-family: 'Lucida Sans', sans-serif;
 }
 
+/*Searchbar*/
+
+.search_bar {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-text{
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+/* Main container styling */
+.search-bar-title {
+   
+    font-weight: 600; /* Slightly bold for emphasis */
+    color: #ff9900; /* Gold-like orange */
+    letter-spacing: 1px; /* Elegant spacing */
+}
+
+/* Style for the first letters */
+.search-bar-title .first-letter {
+    color: #e63946; /* Deep red */
+    font-weight: bold; /* Strong emphasis */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-right: 1px; /* Slight spacing after first letter */
+    font-size: 1.5rem;
+}
+
+
+.search_bar input {
+    flex: 1; /* Input stretches to take up available space */
+}
+
+.search-icon{
+    width: 15px;
+    height: 15px;
+}
+
+/* Search container */
 .search-container {
+    max-width: 600px;
+    margin: 20px auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 10px;
 }
 
-#search-box {
-    padding: 10px;
-    width: 300px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
+.search-bar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+.one-piece-logo{
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
+}
+
+#query-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     transition: all 0.3s ease;
 }
 
-#search-box:focus {
+#query-input:focus {
     outline: none;
-    border: 2px solid #ff6600;
+    border-color: #ff6600;
 }
 
 button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ff6600;
+    background-color: #ff9900;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
     background-color: #e65c00;
+    transform: scale(1.02);
 }
 
-/* Episode list section */
+/* Episode list */
 .episode-list {
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 800px; /* Controls the total width of the list */
+    margin: 0 auto;   /* Center the list on the page */
     padding: 20px;
+    width: 75%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stacks episodes vertically */
+    gap: 10px;
 }
 
-.episode {
-    border-bottom: 1px solid #e2e2e2;
-    padding: 20px;
-    transition: background-color 0.3s ease;
+#episode-list button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: black; /* Black text */
+    display: block; /* Ensure buttons stack vertically */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove extra margin */
+    padding: 15px; /* Comfortable click area */
+    text-align: left; /* Left-aligned text */
+    font-size: 16px; /* Default font size */
+    line-height: 1.5; /* Comfortable line spacing */
+    cursor: pointer; /* Indicate clickability */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Thin separating line */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: none; /* No shadow by default */
 }
 
-.episode:last-child {
-    border-bottom: none;
+#episode-list button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10); /* Add shadow on hover */
+    transform: scale(1.005); /* Slightly scale the button */
 }
 
-.episode:hover {
-    background-color: #f9f9f9;
-}
-
-/* Title and episode links */
+/* Episode title links */
 h2 {
-    font-size: 1.6rem;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin: 0;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 h2 a {
     text-decoration: none;
-    color: inherit;
+    color: #333;
+    transition: color 0.3s ease;
 }
 
 h2 a:hover {
     color: #ff6600;
 }
 
-p {
-    font-size: 1rem;
-    margin-bottom: 10px;
+/* Additional inline details */
+.episode-details {
+    font-size: 0.9rem;
     color: #555;
+    margin-top: 5px;
 }
 
-/* Air date and rating */
-strong {
-    color: #333;
+/* Footer Styling */
+footer {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 0.9rem;
+    text-align: center; /* Fallback alignment for small screens */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    text-align: left;
+    flex: 1; /* Left section occupies one side */
+}
+
+.footer-right {
+    text-align: right;
+    flex: 1; /* Right section occupies the other side */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center; /* Center-aligns on small screens */
+    }
+
+    .footer-left,
+    .footer-right {
+        margin: 5px 0; /* Adds spacing between lines on mobile */
+    }
 }
