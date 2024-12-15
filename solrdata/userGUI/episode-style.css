@@ -14,13 +14,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full height */
+    min-height: 100vh; /* Full height */
     flex-direction: column;
 }
 
 /* Header Styling */
 header {
-    background-color: #ff9900;
+    background: linear-gradient(to bottom, #444444, #333333);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -41,7 +41,7 @@ header {
 
 /* Space below the header */
 body {
-    padding-top: 100px; /* Create space below fixed header */
+    padding-top: 100px;
 }
 
 /* Episode Detail Section */
@@ -53,6 +53,7 @@ body {
     max-width: 900px;
     margin: 30px auto;
     width: 100%;
+    text-align: center; /* Center the details */
     position: relative;
 }
 
@@ -61,7 +62,6 @@ body {
     font-size: 2.5em;
     color: #2c3e50; /* Matching title color from header */
     margin-bottom: 20px;
-    text-align: center; /* Center the title */
 }
 
 /* Text styling for paragraph elements */
@@ -70,6 +70,7 @@ body {
     margin-bottom: 10px;
     color: #555; /* Slightly lighter color for body text */
     line-height: 1.6;
+    text-align: left;
 }
 
 /* Bold for section headers */
@@ -90,27 +91,82 @@ a:hover {
     color: #1abc9c; /* Green hover effect for links */
 }
 
-/* Back button style (optional, in case you want to provide a way to return to episode list) */
-.back-btn {
-    background-color: #3498db; /* Blue button */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
-    display: block;
-    width: 100%;
-    max-width: 200px; /* Limit button width */
-    margin: 20px auto;
-    text-align: center; /* Center button text */
+/* Style for the main episode detail container */
+#episode-detail {
+    font-family: Arial, sans-serif; /* Clean font */
+    line-height: 1.6; /* Increase line height for readability */
+    color: #333; /* Slightly dark text for readability */
 }
 
-.back-btn:hover {
-    background-color: #2980b9; /* Darker blue when hovering */
+/* Section styling */
+.wiki-section {
+    margin-bottom: 20px; /* Add spacing between sections */
+    border-bottom: 1px solid #ccc; /* Add a line under each section */
+    padding-bottom: 10px; /* Space text above the line */
+    
 }
+
+/* Header (e.g., title) styling */
+#episode-detail h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222; /* Slightly darker text for emphasis */
+    border-bottom: 2px solid #444; /* Add bold line below title */
+    padding-bottom: 5px;
+}
+
+/* Adjusting list alignment */
+#episode-detail ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 20px; /* Indent the list */
+    padding: 0; /* Ensure no extra padding */
+    text-align: left; /* Align list items to the left */
+}
+
+#episode-detail ul li {
+    margin-bottom: 5px; /* Add spacing between list items */
+}
+
+/* Styling for the "no Devil Fruits" message */
+#episode-detail ul p {
+    margin: 0; /* Remove margin for inline consistency */
+    font-style: italic; /* Optional: Italicize to distinguish */
+    color: #666; /* Optional: Lighter color to indicate it's a note */
+}
+
+.no-fruits {
+    font-style: italic; /* Italicize to differentiate */
+    color: #666; /* Use a lighter color for distinction */
+    margin-left: 20px; /* Indent the message to align with other list items */
+}
+
+#recommendation-buttons{
+    max-width: 900px;
+}
+
+button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: black; /* Black text */
+    display: block; /* Ensure buttons stack vertically */
+    width: 100%; /* Full width */
+    margin: 0; /* Remove extra margin */
+    padding: 15px; /* Comfortable click area */
+    text-align: left; /* Left-aligned text */
+    font-size: 16px; /* Default font size */
+    line-height: 1.5; /* Comfortable line spacing */
+    cursor: pointer; /* Indicate clickability */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Thin separating line */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: none; /* No shadow by default */
+}
+
+button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10); /* Add shadow on hover */
+    transform: scale(1.005); /* Slightly scale the button */
+}
+
 
 /* Footer Styling */
 footer {
@@ -139,9 +195,5 @@ footer {
     /* Text styling for smaller screens */
     .episode-detail p {
         font-size: 1em;
-    }
-
-    .back-btn {
-        width: 100%;
     }
 }
