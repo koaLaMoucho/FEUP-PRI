@@ -11,10 +11,11 @@ body {
     font-weight: 600;
     font-style: normal;
     background-color: #f7f7f7;
-    color: #333;
+   color: #333;
     line-height: 1.6;
     padding: 0 20px;
     text-align: left;
+
     
    
 }
@@ -139,43 +140,59 @@ button:hover {
     transform: scale(1.02);
 }
 
-/* Episode list */
-.episode-list {
-    max-width: 800px; /* Controls the total width of the list */
-    margin: 0 auto;   /* Center the list on the page */
-    padding: 20px;
-    width: 75%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column; /* Stacks episodes vertically */
-    gap: 10px;
-}
-
-#episode-list button {
-    background-color: transparent; /* Transparent background */
-    border: none; /* No border */
-    color: black; /* Black text */
-    display: block; /* Ensure buttons stack vertically */
-    width: 100%; /* Full width */
-    margin: 0; /* Remove extra margin */
-    padding: 15px; /* Comfortable click area */
-    text-align: left; /* Left-aligned text */
-    font-size: 16px; /* Default font size */
-    line-height: 1.5; /* Comfortable line spacing */
-    cursor: pointer; /* Indicate clickability */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Thin separating line */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: none; /* No shadow by default */
-}
-
-#episode-list button:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10); /* Add shadow on hover */
-    transform: scale(1.005); /* Slightly scale the button */
-}
 
 /* Episode title links */
+.episode-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1A0DAB;
+    transition: color 0.3s ease;
+    
+}
+
+.episode-name:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.episode-summary {
+    font-size: 1rem;
+    color: #474747;
+}
+
+#episode-list {
+    width: 80%;
+}
+
+.body-container {
+    display: flex;
+    
+}
+
+.vertical-div {
+    margin: 0px 80px;
+    padding: 20px;
+    border: 2px groove #ff9900;/* Border with your color scheme */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f7f7f7; /* Light background color */
+}
+
+.one-piece-vertical {
+    width: 400px;
+    height: 800px;
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 2px solid #ff9900; /* Border with your color scheme */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+.episode-details {
+    display: flex;
+    font-size: 0.9rem;
+    color: #474747;
+    margin-top: 5px;
+    gap: 10px; /* Optional: Adds space between the items */
+}
 h2 {
     font-size: 1.5rem;
     margin: 0;
@@ -197,6 +214,19 @@ h2 a:hover {
     font-size: 0.9rem;
     color: #555;
     margin-top: 5px;
+}
+
+.episode-div{
+    margin: 20px 0;
+    padding: 20px;
+    border-bottom: groove;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+#episode-list{
+    margin-left: 30px;
 }
 
 /* Footer Styling */
@@ -227,15 +257,3 @@ footer {
     flex: 1; /* Right section occupies the other side */
 }
 
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center; /* Center-aligns on small screens */
-    }
-
-    .footer-left,
-    .footer-right {
-        margin: 5px 0; /* Adds spacing between lines on mobile */
-    }
-}

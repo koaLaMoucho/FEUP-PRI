@@ -9,22 +9,19 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <h1>Episode Details</h1>
-        </div>
-    </header>
+    <div class="body-container">
+        
+        <section id="episode-detail" class="episode-detail">
+            <!-- Episode details will be dynamically added here -->
+        </section>
 
-    <section id="episode-detail" class="episode-detail">
-        <!-- Episode details will be dynamically added here -->
-    </section>
-
-    <section id="more-like-this" style="margin-top: 20px;">
-        <h2>More like this:</h2>
-        <div id="recommendation-buttons" class="recommendation-buttons">
-            <!-- Buttons for recommendations will be added here -->
-        </div>
-    </section>
+        <section id="more-like-this">
+            <h2> <span class="first-letter">N</span>ext <span class="first-letter">E</span>pisodes:</h2>
+            <div id="recommendation-buttons" class="recommendation-buttons">
+                <!-- Buttons for recommendations will be added here -->
+            </div>
+        </section>
+    </div>
 
     <script>
         async function loadEpisodeData() {
@@ -51,31 +48,37 @@
                 const validFruits = episode.fruits.filter(fruit => fruit.trim() !== ''); // Filter out empty strings
 
                 episodeDetailContainer.innerHTML = `
-                    <h2>${episode.title}</h2>
+                <div class="search-bar-logo">
+                    <h3 class="search-bar-title">
+                        <span class="first-letter">F</span>inding <span class="first-letter">O</span>ne <span class="first-letter">P</span>iece
+                    </h3>
+                    <img src="logo.png" alt="One Piece Logo" class="one-piece-logo">
+                </div>
+                    <h2>${episode.id} - ${episode.title}</h2>
                     <div class="wiki-section">
-                        <p><strong>Air Date:</strong></p>
-                        <p>${episode.air_date}</p>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Rating:</strong></p>
-                        <p>${episode.rating}</p>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Short Summary:</strong></p>
+                        <h3><strong>Short Summary:</strong></h3>
                         <p>${episode.short_summary}</p>
                     </div>
                     <div class="wiki-section">
-                        <p><strong>Long Summary:</strong></p>
+                        <h3><strong>Long Summary:</strong></h3>
                         <p>${episode.long_summary}</p>
                     </div>
                     <div class="wiki-section">
-                        <p><strong>Characters:</strong></p>
+                        <h3><strong>Air Date:</strong></h3>
+                        <p>${episode.air_date}</p>
+                    </div>
+                    <div class="wiki-section">
+                        <h3><strong>Rating:</strong></h3>
+                        <p>${episode.rating}</p>
+                    </div>
+                    <div class="wiki-section">
+                        <h3><strong>Characters:</strong></h3>
                         <ul>
                             ${episode.characters.map(character => `<li>${character}</li>`).join('')}
                         </ul>
                     </div>
                     <div class="wiki-section">
-                        <p><strong>Fruits:</strong></p>
+                        <h3><strong>Fruits:</strong></h3>
                         <ul>
                             ${validFruits.length > 0
                                 ? validFruits.map(fruit => `<li>${fruit}</li>`).join('')
