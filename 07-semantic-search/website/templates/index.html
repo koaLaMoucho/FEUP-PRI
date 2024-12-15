@@ -12,13 +12,35 @@
 <body>
 
     <div class="search_bar">
-        <h1>One Database</h1>
-        <input type="text" id="query-input" placeholder="Enter query (e.g., title:luffy)">
-        <button onclick="fetchDocuments()">Fetch Episodes</button>
+        <div class="search-bar-logo">
+            <h3 class="search-bar-title">
+                <span class="first-letter">F</span>inding <span class="first-letter">O</span>ne <span class="first-letter">P</span>iece
+            </h3>
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="One Piece Logo" class="one-piece-logo">
+        </div>
+        <input type="text" id="query-input" placeholder="Luffy loses battle">
+        <button onclick="fetchDocuments()">
+            <span class="search-text">Search</span>
+        </button>
     </div>
-    <div id="episode-list" style="margin-top: 20px; width: 60%;">
-        <!-- Episode buttons will be added here -->
+    <div class="body-container">
+        
+        <div id="episode-list">
+            <!-- Episode buttons will be added here -->
+        </div>
+
+        <div class="vertical-div">
+            <img src="{{ url_for('static', filename='images/vertical.jpg') }}" alt="One Piece Characters" class="one-piece-vertical">
+        </div>
     </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left"><b>PRI Project</b></div>
+            <div class="footer-right"><b>Made by: </b></div>
+            <div>Hugo Castro, Marcos Costa, Rodrigo Moucho</div>
+        </div>
+        </div>
+    </footer>
 
     <script>
         async function fetchDocuments() {
@@ -29,7 +51,7 @@
             try {
                 // Commented server-side fetch for testing purposes
                 
-                const response = await fetch('http://127.0.0.1:5000/fetch_documents', {
+                const response = await fetch('/fetch_documents', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -37,17 +59,17 @@
                     body: JSON.stringify({ query: queryInput }),
                 });
                 
-
-                // Fetch data locally from the JSON file for testing purposes
-                
                 if (!response.ok) {
                     throw new Error('Failed to load episode data');
                 }
+                console.log(response)
 
                 const data = await response.json();
 
+                console.log(data)
+
                 // Filter the data based on the query input
-                const filteredData = data.filter(episode =>
+                const filteredData = data.response.docs.filter(episode =>
                     episode.title.toLowerCase().includes(queryInput)
                 );
 
@@ -59,25 +81,20 @@
                 // Create buttons for each episode
                 episodeListContainer.innerHTML = '';
                 filteredData.forEach(episode => {
-                    const button = document.createElement('button');
-                    button.innerHTML = `
-                        <table style="width: 100%; border-collapse: collapse;">
-                            <tr>
-                                <th style="text-align: left;">
-                                    <h3 style="margin: 0;">
-                                        <b>${episode.id}</b> - ${episode.title}
-                                    </h3>
-                                </th>
-                                <th style="text-align: right; font-weight: normal;">
-                                    ${episode.rating} / 5.0
-                                </th>
-                            </tr>
-                        </table>
-                        <br>${episode.short_summary}`; button.style.margin = '5px';
-                    button.onclick = () => {
+                    const div = document.createElement('div');
+                    div.className = 'episode-div';
+                    div.innerHTML = `
+                        <p class="episode-name">${episode.id}</b> - ${episode.title}</p>
+                        <p class="episode-summary">${episode.short_summary}            
+                        <div class="episode-details">
+                        <p>${episode.rating} ☆ </p>
+                        <p>${episode.air_date}</p>
+                        </div>
+                        `; 
+                    div.onclick = () => {
                         window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
                     };
-                    episodeListContainer.appendChild(button);
+                    episodeListContainer.appendChild(div);
                 });
             } catch (error) {
                 episodeListContainer.innerHTML = `<p>Error: ${error.message}</p>`;
@@ -85,13 +102,5 @@
         }
     </script>
 </body>
-<footer>
-    <div class="footer-container">
-        <div class="footer-left"><b>PRI Project</b></div>
-        <div class="footer-right"><b>Made by: </b></div>
-        <div>Hugo Castro, Marcos Costa, Rodrigo Moucho</div>
-    </div>
-    </div>
-</footer>
 
 </html>
