@@ -27,110 +27,87 @@
     </section>
 
     <script>
-        // Episode data
-        const episodes = [
-            {
-                id: "Episode 1",
-                title: "I'm Luffy! The Man Who Will Become the Pirate King!",
-                air_date: "October 20, 1999",
-                short_summary: "Luffy is found floating at sea by a cruise ship. After repelling an invasion by the Alvida Pirates, he meets a new ally, their chore boy Koby.",
-                long_summary: "Luffy is cast at sea in a barrel...",
-                characters: ["Nami", "Alvida", "Koby", "Monkey D. Luffy"],
-                fruits: [""],
-                rating: "4.1"
-            },
-            {
-                id: "Episode 2",
-                title: "The Great Swordsman Appears! Pirate Hunter Roronoa Zoro",
-                air_date: "November 17, 1999",
-                short_summary: "Luffy and Koby find Zoro captured in Shells Town's Marine base...",
-                long_summary: "Luffy and Koby arrive at Shells Town...",
-                characters: ["Monkey D. Luffy", "Koby", "Roronoa Zoro"],
-                fruits: [""],
-                rating: "4.2"
-            },
-            {
-                id: "Episode 3",
-                title: "Morgan vs. Luffy! Who's This Mysterious Beautiful Young Girl?",
-                air_date: "November 24, 1999",
-                short_summary: "Luffy and Zoro battle and defeat Morgan, Helmeppo, and the Marines...",
-                long_summary: "Luffy returns the katana to Zoro...",
-                characters: ["Roronoa Zoro", "Monkey D. Luffy", "Morgan"],
-                fruits: [""],
-                rating: "4.2"
+        async function loadEpisodeData() {
+            try {
+                // Fetch the episode data from testdata.json
+                const response = await fetch('./testdata.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load episode data');
+                }
+
+                const episodes = await response.json();
+                const urlParams = new URLSearchParams(window.location.search);
+                const episodeId = urlParams.get('id');
+
+                // Find the current episode by ID
+                const episode = episodes.find(ep => ep.id === episodeId);
+                if (!episode) {
+                    document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
+                    return;
+                }
+
+                // Render episode details
+                const episodeDetailContainer = document.getElementById('episode-detail');
+                const validFruits = episode.fruits.filter(fruit => fruit.trim() !== ''); // Filter out empty strings
+
+                episodeDetailContainer.innerHTML = `
+                    <h2>${episode.title}</h2>
+                    <div class="wiki-section">
+                        <p><strong>Air Date:</strong></p>
+                        <p>${episode.air_date}</p>
+                    </div>
+                    <div class="wiki-section">
+                        <p><strong>Rating:</strong></p>
+                        <p>${episode.rating}</p>
+                    </div>
+                    <div class="wiki-section">
+                        <p><strong>Short Summary:</strong></p>
+                        <p>${episode.short_summary}</p>
+                    </div>
+                    <div class="wiki-section">
+                        <p><strong>Long Summary:</strong></p>
+                        <p>${episode.long_summary}</p>
+                    </div>
+                    <div class="wiki-section">
+                        <p><strong>Characters:</strong></p>
+                        <ul>
+                            ${episode.characters.map(character => `<li>${character}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="wiki-section">
+                        <p><strong>Fruits:</strong></p>
+                        <ul>
+                            ${validFruits.length > 0
+                                ? validFruits.map(fruit => `<li>${fruit}</li>`).join('')
+                                : `<li class="no-fruits">This episode featured no Devil Fruits.</li>`}
+                        </ul>
+                    </div>
+                `;
+
+                // Render "More like this" section
+                const otherEpisodes = episodes.filter(ep => ep.id !== episodeId); // Exclude current episode
+                const recommendations = otherEpisodes.slice(0, 3); // Select up to 3 other episodes
+
+                const recommendationContainer = document.getElementById('recommendation-buttons');
+                recommendations.forEach(episode => {
+                    const button = document.createElement('button');
+                    button.innerHTML = `<h3 style="margin: 0;">
+                                            <b>${episode.id}</b> - ${episode.title}
+                                        </h3>
+                                        <br>${episode.short_summary}`;
+                    button.style.margin = '5px';
+                    button.onclick = () => {
+                        window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
+                    };
+                    recommendationContainer.appendChild(button);
+                });
+            } catch (error) {
+                document.getElementById('episode-detail').innerHTML = `<p>Error: ${error.message}</p>`;
             }
-        ];
-
-        // Get episode ID from URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const episodeId = urlParams.get('id');
-
-        // Find the episode by ID
-        const episode = episodes.find(ep => ep.id === episodeId);
-
-        if (episode) {
-            const episodeDetailContainer = document.getElementById('episode-detail');
-            const validFruits = episode.fruits.filter(fruit => fruit.trim() !== ''); // Filter out empty strings
-
-            // Display episode details
-            episodeDetailContainer.innerHTML = `
-                <h2>${episode.title}</h2>
-                <div class="wiki-section">
-                    <p><strong>Air Date:</strong></p>
-                    <p>${episode.air_date}</p>
-                </div>
-                <div class="wiki-section">
-                    <p><strong>Rating:</strong></p>
-                    <p>${episode.rating}</p>
-                </div>
-                <div class="wiki-section">
-                    <p><strong>Short Summary:</strong></p>
-                    <p>${episode.short_summary}</p>
-                </div>
-                <div class="wiki-section">
-                    <p><strong>Long Summary:</strong></p>
-                    <p>${episode.long_summary}</p>
-                </div>
-                <div class="wiki-section">
-                    <p><strong>Characters:</strong></p>
-                    <ul>
-                        ${episode.characters.map(character => `<li>${character}</li>`).join('')}
-                    </ul>
-                </div>
-                <div class="wiki-section">
-                    <p><strong>Fruits:</strong></p>
-                    <ul>
-                        ${validFruits.length > 0
-                    ? validFruits.map(fruit => `<li>${fruit}</li>`).join('')
-                    : `<li class="no-fruits">This episode featured no Devil Fruits.</li>`}
-                    </ul>
-                </div>
-            `;
-
-            // Generate "More like this" section
-            const otherEpisodes = episodes.filter(ep => ep.id !== episodeId); // Exclude current episode
-            const recommendations = otherEpisodes.slice(0, 3); // Pick first 3 (or you can randomize)
-
-            const recommendationContainer = document.getElementById('recommendation-buttons');
-            recommendations.forEach(episode => {
-                const button = document.createElement('button');
-                button.innerHTML = `<h3 style="margin: 0;">
-                                        <b>${episode.id}</b> - ${episode.title}
-                                    </h3>
-                                    <br>${episode.short_summary}`;
-                button.style.margin = '5px';
-                button.onclick = () => {
-                    window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
-                };
-                recommendationContainer.appendChild(button);
-            });
-        } else {
-            document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
         }
 
-        function goBack() {
-            window.history.back();
-        }
+        // Load episode data when the page loads
+        loadEpisodeData();
     </script>
 </body>
 

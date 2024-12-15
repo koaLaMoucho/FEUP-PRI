@@ -103,6 +103,7 @@ a:hover {
     margin-bottom: 20px; /* Add spacing between sections */
     border-bottom: 1px solid #ccc; /* Add a line under each section */
     padding-bottom: 10px; /* Space text above the line */
+    
 }
 
 /* Header (e.g., title) styling */
@@ -138,6 +139,10 @@ a:hover {
     font-style: italic; /* Italicize to differentiate */
     color: #666; /* Use a lighter color for distinction */
     margin-left: 20px; /* Indent the message to align with other list items */
+}
+
+#recommendation-buttons{
+    max-width: 900px;
 }
 
 button {
