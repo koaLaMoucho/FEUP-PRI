@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS  # Import Flask-CORS
 import requests
 from urllib.parse import quote
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 # Enable CORS for all routes
 CORS(app)
