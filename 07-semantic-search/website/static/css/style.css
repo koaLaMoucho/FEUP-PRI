@@ -64,6 +64,7 @@ h1 {
 /* Main container styling */
 /* Filter Button */
 #filter-btn,.hide-filter-btn {
+    margin-left: 30px;
     padding: 8px 12px;
     background-color: #ff9800;
     color: white;
@@ -80,25 +81,14 @@ h1 {
 /* Filter Popup */
 .filter-popup {
     display: none;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 15px;
-    border-radius: 8px;
-    z-index: 100;
-    width: 200px;
-}
-
-.filter-popup label {
-    font-size: 14px;
-    margin-bottom: 5px;
-    display: block;
+    justify-content: center;
+    width: 150px;
+    padding: 6px 10px;
 }
 
 .filter-popup input {
     width: 100%;
     padding: 6px 10px;
-    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -136,6 +126,11 @@ h1 {
     font-size: 1.5rem;
 }
 
+.filter-div{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
 
 .search_bar input {
     flex: 1; /* Input stretches to take up available space */
