@@ -1,3 +1,37 @@
+pirate, corsair, buccaneer
+marine, navy, soldier
+bounty, reward, price
+log pose, compass, navigation
+haki, will power, spiritual energy
+seastone, marine stone, petrification
+cabin, room, quarters
+sword, blade, katana
+crew, team, alliance
+yonko, emperor
+grandline, searoute
+shichibukai, warlord, lord
+treasure, loot, plunder
+navigator, helmsman, sailor
+doctor, physician, healer
+shipwright, carpenter, builder
+luffy, rubber man
+zoro
+nami, navigator
+sanji, cook, chef
+usopp, sharpshooter, sniper
+chopper, doctor, reindeer
+robin, archaeologist, scholar
+franky, cyborg, shipwright
+brook, musician, skeleton
+jinbe, helmsman, fishman
+sabo, revolutionary, brother
+shanks, red haired, yonko
+kaido, yonko
+mom, mama, yonko
+blackbeard, marshall
+whitebeard, edward
+kaido, beast_king, yonko
+marineford, war, battle
 existence,being,entity,ens,esse,subsistence
 reality,actuality,positiveness,fact,existence
 essence,principle
@@ -3725,7 +3759,7 @@ peaceable,peaceful,calm,tranquil,untroubled,halcyon,bloodless,neutral
 tactics,strategy,castrametation,generalship,soldiership,logistics,ballistics,gunnery,chivalry
 gunpowder,shot
 battle,campaigning,kriegspiel,Kriegsspiel,trumpet,clarion,bugle,pibroch,slogan,war,cry,war,whoop,rappel,tom,tom,password,watchword,armes
-obs,war
+obs,war, fight
 campaign,warpath
 pie,embattled,battled
 unpacific,unpeaceful,belligerent,combative,armigerous,bellicose,martial,warlike,military,militant,soldier

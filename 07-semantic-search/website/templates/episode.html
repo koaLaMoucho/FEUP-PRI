@@ -33,7 +33,11 @@
             </div>
             <div class="wiki-section">
                 <h3><strong>Rating:</strong></h3>
-                <p>{{ episode.rating }}</p>
+                {% if episode.rating and episode.rating[0] %}
+                    <p>{{ episode.rating[0] }}</p>
+                {% else %}
+                    <p>No rating available</p>
+                {% endif %}
             </div>
             <div class="wiki-section">
                 <h3><strong>Characters:</strong></h3>
@@ -46,16 +50,17 @@
             <div class="wiki-section">
                 <h3><strong>Fruits:</strong></h3>
                 <ul>
-                    {% set fruits_printed = false %}
+                    {% set ns = namespace(fruits_printed=false) %}
                     {% if episode.fruits %}
                         {% for fruit in episode.fruits %}
                             {% if fruit %}
                                 <li>{{ fruit }}</li>
-                                {% set fruits_printed = true %}
+                                {% set ns.fruits_printed = true %}
                             {% endif %}
                         {% endfor %}
-                    {% endif %} 
-                    {% if not fruits_printed %}
+                    {% endif %}
+
+                    {% if not ns.fruits_printed %}
                         <li class="no-fruits">This episode featured no Devil Fruits.</li>
                     {% endif %}
                 </ul>
