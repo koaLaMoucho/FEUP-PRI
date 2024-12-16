@@ -92,7 +92,7 @@
                         </div>
                         `; 
                     div.onclick = () => {
-                        window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
+                        window.location.href = `episode/${encodeURIComponent(episode.id)}`;
                     };
                     episodeListContainer.appendChild(div);
                 });

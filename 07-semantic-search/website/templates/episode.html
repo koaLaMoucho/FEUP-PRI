@@ -5,109 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Episode Details - Finding One Piece</title>
-    <link rel="stylesheet" href="episode-style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/episode-style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <h1>Episode Details</h1>
-        </div>
-    </header>
+    <div class="body-container">
+        <section id="episode-detail" class="episode-detail">
+            <div class="search-bar-logo">
+                <h3 class="search-bar-title">
+                    <span class="first-letter">F</span>inding <span class="first-letter">O</span>ne <span class="first-letter">P</span>iece
+                </h3>
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="One Piece Logo" class="one-piece-logo">
+            </div>
+            <h2>{{ episode.id }} - {{ episode.title }}</h2>
+            <div class="wiki-section">
+                <h3><strong>Short Summary:</strong></h3>
+                <p>{{ episode.short_summary }}</p>
+            </div>
+            <div class="wiki-section">
+                <h3><strong>Long Summary:</strong></h3>
+                <p>{{ episode.long_summary }}</p>
+            </div>
+            <div class="wiki-section">
+                <h3><strong>Air Date:</strong></h3>
+                <p>{{ episode.air_date }}</p>
+            </div>
+            <div class="wiki-section">
+                <h3><strong>Rating:</strong></h3>
+                <p>{{ episode.rating }}</p>
+            </div>
+            <div class="wiki-section">
+                <h3><strong>Characters:</strong></h3>
+                <ul>
+                    {% for character in episode.characters %}
+                        <li>{{ character }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="wiki-section">
+                <h3><strong>Fruits:</strong></h3>
+                <ul>
+                    {% set fruits_printed = false %}
+                    {% if episode.fruits %}
+                        {% for fruit in episode.fruits %}
+                            {% if fruit %}
+                                <li>{{ fruit }}</li>
+                                {% set fruits_printed = true %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %} 
+                    {% if not fruits_printed %}
+                        <li class="no-fruits">This episode featured no Devil Fruits.</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </section>
 
-    <section id="episode-detail" class="episode-detail">
-        <!-- Episode details will be dynamically added here -->
-    </section>
-
-    <section id="more-like-this" style="margin-top: 20px;">
-        <h2>More like this:</h2>
-        <div id="recommendation-buttons" class="recommendation-buttons">
-            <!-- Buttons for recommendations will be added here -->
-        </div>
-    </section>
+        <section id="more-like-this">
+            <h2> <span class="first-letter">N</span>ext <span class="first-letter">E</span>pisodes:</h2>
+            <div id="recommendation-buttons" class="recommendation-buttons">
+                <!-- Buttons for recommendations will be added here -->
+            </div>
+        </section>
+    </div>
 
     <script>
-        async function loadEpisodeData() {
-            try {
-                // Fetch the episode data from testdata.json
-                const response = await fetch('./testdata.json');
-                if (!response.ok) {
-                    throw new Error('Failed to load episode data');
-                }
-
-                const episodes = await response.json();
-                const urlParams = new URLSearchParams(window.location.search);
-                const episodeId = urlParams.get('id');
-
-                // Find the current episode by ID
-                const episode = episodes.find(ep => ep.id === episodeId);
-                if (!episode) {
-                    document.getElementById('episode-detail').innerHTML = '<p>Episode not found.</p>';
-                    return;
-                }
-
-                // Render episode details
-                const episodeDetailContainer = document.getElementById('episode-detail');
-                const validFruits = episode.fruits.filter(fruit => fruit.trim() !== ''); // Filter out empty strings
-
-                episodeDetailContainer.innerHTML = `
-                    <h2>${episode.title}</h2>
-                    <div class="wiki-section">
-                        <p><strong>Air Date:</strong></p>
-                        <p>${episode.air_date}</p>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Rating:</strong></p>
-                        <p>${episode.rating}</p>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Short Summary:</strong></p>
-                        <p>${episode.short_summary}</p>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Long Summary:</strong></p>
-                        <p>${episode.long_summary}</p>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Characters:</strong></p>
-                        <ul>
-                            ${episode.characters.map(character => `<li>${character}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <div class="wiki-section">
-                        <p><strong>Fruits:</strong></p>
-                        <ul>
-                            ${validFruits.length > 0
-                                ? validFruits.map(fruit => `<li>${fruit}</li>`).join('')
-                                : `<li class="no-fruits">This episode featured no Devil Fruits.</li>`}
-                        </ul>
-                    </div>
-                `;
-
-                // Render "More like this" section
-                const otherEpisodes = episodes.filter(ep => ep.id !== episodeId); // Exclude current episode
-                const recommendations = otherEpisodes.slice(0, 3); // Select up to 3 other episodes
-
-                const recommendationContainer = document.getElementById('recommendation-buttons');
-                recommendations.forEach(episode => {
-                    const button = document.createElement('button');
-                    button.innerHTML = `<h3 style="margin: 0;">
-                                            <b>${episode.id}</b> - ${episode.title}
-                                        </h3>
-                                        <br>${episode.short_summary}`;
-                    button.style.margin = '5px';
-                    button.onclick = () => {
-                        window.location.href = `episode.html?id=${encodeURIComponent(episode.id)}`;
-                    };
-                    recommendationContainer.appendChild(button);
-                });
-            } catch (error) {
-                document.getElementById('episode-detail').innerHTML = `<p>Error: ${error.message}</p>`;
-            }
-        }
 
         // Load episode data when the page loads
-        loadEpisodeData();
+        //loadEpisodeData();
+
+        async function loadMoreLikeThis(){
+            // do something or move this to the backend
+        }
+
+        loadMoreLikeThis()
     </script>
 </body>
 
