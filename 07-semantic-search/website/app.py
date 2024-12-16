@@ -45,10 +45,11 @@ def fetch_documents():
     try:
         data = request.json
         query = data.get("query", "*:*")  # Default to match all if no query
+        min_rating = data.get("min_rating", None)  # Minimum rating filter
         solr_uri = "http://localhost:8983/solr"  # Solr URI
         collection = "priProj"  # Solr collection name
 
-        # Query parameters for Solr
+        # Base Solr query parameters
         query_params = {
             "query": query,
             "fields": "*,score",
@@ -65,11 +66,17 @@ def fetch_documents():
             }
         }
 
+        if (min_rating):
+            # Add filter query for minimum rating
+            query_params["params"]["fq"] = f"rating:[{min_rating} TO *]"
+        
+
         # Construct Solr request URL
         uri = f"{solr_uri}/{collection}/select"
 
         # Fetch results from Solr
         response = requests.post(uri, json=query_params)
+
         response.raise_for_status()
 
         # Return Solr response

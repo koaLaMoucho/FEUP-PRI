@@ -6,6 +6,8 @@
 }
 
 /* Body Styling */
+
+
 body {
     font-family: 'Arial', sans-serif;
     color: #333; /* Dark text color */
@@ -56,6 +58,8 @@ body {
       height: 50px;
   }
 /* Episode Detail Section */
+
+
 .episode-detail {
     background-color: #ffffff; /* White background for the episode detail */
     border-radius: 8px;

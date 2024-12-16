@@ -62,6 +62,63 @@ h1 {
 }
 
 /* Main container styling */
+/* Filter Button */
+#filter-btn,.hide-filter-btn {
+    padding: 8px 12px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#filter-btn:hover,.hide-filter-btn:hover {
+    background-color: #e68900;
+}
+
+/* Filter Popup */
+.filter-popup {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 100;
+    width: 200px;
+}
+
+.filter-popup label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.filter-popup input {
+    width: 100%;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-popup button {
+    width: 100%;
+    padding: 8px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-popup button:hover {
+    background-color: #e68900;
+}
+
+
 .search-bar-title {
    
     font-weight: 600; /* Slightly bold for emphasis */
