@@ -19,10 +19,21 @@
             <img src="{{ url_for('static', filename='images/logo.png') }}" alt="One Piece Logo" class="one-piece-logo">
         </div>
         <input type="text" id="query-input" placeholder="Luffy loses battle">
+        
         <button onclick="fetchDocuments()">
             <span class="search-text">Search</span>
         </button>
+
     </div>
+
+    <button id="filter-btn" onclick="toggleFilterPopup()">Filter</button>
+    <button onclick="hideFilterPopup()" id="hide-filter-btn" class="hide-filter-btn" style="display: none;">Hide Filter</button>
+
+    <div id="filter-popup" class="filter-popup">
+        <label for="min-rating-input">Min Rating:</label>
+        <input type="number" id="min-rating-input" placeholder="Min Rating" min="0" max="5" step="0.1">
+    </div>
+
     <div class="body-container">
         
         <div id="episode-list">
@@ -43,20 +54,44 @@
     </footer>
 
     <script>
+        // Function to toggle the visibility of the filter popup
+        function toggleFilterPopup() {
+            const filterPopup = document.getElementById('filter-popup');
+            const filterBtn = document.getElementById('filter-btn');
+            const hideFilterBtn = document.getElementById('hide-filter-btn');
+            filterPopup.style.display = "block";
+            filterBtn.style.display = "none";
+            hideFilterBtn.style.display = "block";
+        }
+
+        // Function to hide the filter popup
+        function hideFilterPopup() {
+            const filterPopup = document.getElementById('filter-popup');
+            const hideFilterBtn = document.getElementById('hide-filter-btn');
+            const filterBtn = document.getElementById('filter-btn');
+            filterPopup.style.display = "none";
+            hideFilterBtn.style.display = "none";
+            filterBtn.style.display = "block";
+        }
         async function fetchDocuments() {
             const queryInput = document.getElementById('query-input').value.toLowerCase();
+            const minRatingInput = document.getElementById('min-rating-input').value;
             const episodeListContainer = document.getElementById('episode-list');
             episodeListContainer.innerHTML = "Loading...";
 
-            try {
-                // Commented server-side fetch for testing purposes
-                
+                    try {
+                // Include query and min_rating in the POST body
+                const requestBody = {
+                    query: queryInput,
+                    min_rating: minRatingInput ? parseFloat(minRatingInput) : null
+                };
+
                 const response = await fetch('/fetch_documents', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ query: queryInput }),
+                    body: JSON.stringify(requestBody),
                 });
                 
                 if (!response.ok) {

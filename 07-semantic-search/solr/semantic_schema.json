@@ -121,7 +121,7 @@
 	  },
 	  {
 		"name": "rating",
-		"type": "text_general",
+		"type": "pfloat",
 		"indexed": false,
 		"stored": true
 	  },
